@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<title>照片墙</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<style>
+		@import url("https://fonts.googleapis.com/css?family=Rajdhani:300&display=swap");
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 'Rajdhani', sans-serif;
+		}
+
+		body, .name1::before, .name2::before, .name3::before, .name4::before, .name5::before {
+			background: url("images/Oranges pattern.jpeg") 0 / cover fixed;
+		}
+
+		.wall {
+			width: 1630px;
+			height: 800px;;
+			margin: 30px auto;
+			position: relative;
+			overflow: hidden;
+			font-size: 50px;
+			font-weight: bolder;
+			text-align: center;
+			line-height: 80px;
+			color: white;
+		}
+
+		.name1, .name2, .name3, .name4, .name5 {
+			width: 300px;
+			height: 500px;
+			float: left;
+			margin-right: 20px;
+			margin-top: 150px;
+			border-radius: 25px;
+			box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+			overflow: hidden;
+			position: relative;
+		}
+
+		.name1::before, .name2::before, .name3::before, .name4::before, .name5::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			filter: blur(4px);
+			z-index: -1;
+			margin: -30px;
+		}
+
+		.name1 {
+			margin-left: 30px;
+		}
+
+		.name5 img {
+			margin-right: 0;
+		}
+
+		img {
+			width: 280px;
+			height: 340px;
+			object-fit: cover;
+			border-radius: 25px;
+			box-shadow: 1px 1px 10px black;
+			margin: 10px 0 0 0;
+		}
+
+		h2 {
+			height: 2rem;
+			width: 100px;
+			text-align: center;
+			background-color: tomato;
+			color: white;
+			position: absolute;
+			top: 50px;
+			left: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class = "wall" >
+		<div class = "name1 animate__animated animate__shakeY">
+			<img src = "images/1.jpeg" class="animate__animated animate__shakeX" alt = "">
+			G L A S S
+		</div>
+		<div class = "name2 animate__animated animate__shakeY">
+			<img src = "images/Image_in.jpeg" class="animate__animated animate__shakeX" alt = "">
+			B O T T L E
+		</div>
+		<div class = "name3 animate__animated animate__shakeY">
+			<img src = "images/Aesthetic%20Pict.jpeg" class="animate__animated animate__shakeX" alt = "">
+			F O L I G A
+		</div>
+		<div class = "name4 animate__animated animate__shakeY">
+			<img src = "images/4.jpeg" class="animate__animated animate__shakeX" alt = "">
+			O R A N G E
+		</div>
+		<div class = "name5 animate__animated animate__shakeY">
+			<img src = "images/5.jpeg" class="animate__animated animate__shakeX" alt = "">
+			Z A T U R A
+		</div>
+	</div>
+	<h2 class="animate headShake">F R U I T</h2>
+</body>
+</html>

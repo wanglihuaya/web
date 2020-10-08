@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 180px;
+            height: 200px;
+            background: pink;
+            position: relative;
+        }
+
+        p {
+            margin: 0;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            text-align: center;
+        }
+
+        .box1 {
+            background: red;
+            /* position: absolute;
+            left: 0;
+            top:0;
+            z-index: 1; */
+        }
+
+        .box2 {
+            background: green;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+        选择符 ：
+            标签名 eg:div{},p{}...
+            类名/class名 eg :  <p class="box1">盒子1</p> 
+            ...  
+
+        定位 ：
+            绝对定位 ：position: absolute;  
+              配合方向关键字 ： left right   top   bottom
+            如果绝对定位了，要选择参照物改变方向， 参照物的设置：在父标签上加  position: relative;（相对定位）
+
+            改变定位的层级关系 ：z-index ,默认值是auto,z-index一般是整数，值越大层级越高
+
+            格式化代码 : shift + alt + f
+    -->
+    <div>
+        <p class="box1">盒子1</p>
+        <p class="box2">盒子2</p>
+    </div>
+</body>
+
+</html>

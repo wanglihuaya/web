@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heart{
+            width:180px;
+            height: 200px;
+            position: relative;
+            animation: move 0.5s linear  infinite alternate ;
+        }
+
+        .circle1{
+            width:100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+        }
+
+        .circle2{
+            width:100px;
+            height: 100px;
+            background: red;
+            border-radius: 50%;
+            position: absolute;
+            right: 0;
+            top:0;
+        }
+
+        .square{
+            width:100px;
+            height: 100px;
+            background: red;
+            border-radius: 50% 0 0;
+            transform: rotate(45deg);
+            position: absolute;
+            left:40px;
+            bottom: 61px;
+           
+
+        }
+
+        @keyframes move{
+            from{
+                transform: scale(1);
+            }
+
+            to{
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="square"></div>
+    </div>
+</body>
+</html>

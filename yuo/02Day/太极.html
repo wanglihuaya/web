@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>taiji</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.taiji {
+		width: 500px;
+		height: 500px;
+		margin: 30px auto;
+		overflow: hidden;
+		border-radius: 50%;
+		background-color: #000;
+		border: 2px tomato solid;
+		animation: whirl 1s linear infinite /*alternate*/;
+	}
+
+	.box_red {
+		width: 500px;
+		height: 250px;
+		position: relative;
+		background-color: tomato;
+	}
+
+	.circle_red {
+		width: 250px;
+		height: 250px;
+		background-color: tomato;
+		position: absolute;
+		border-radius: 50%;
+		top: 125px;
+		right: 0;
+		z-index: 1;
+	}
+
+	.dot_red {
+		width: 50px;
+		height: 50px;
+		background-color: royalblue;
+		position: absolute;
+		border-radius: 50%;
+		top: 100px;
+		left: 100px;
+	}
+
+	.box_blue {
+		width: 500px;
+		height: 250px;
+		position: relative;
+		background-color: royalblue;
+	}
+
+	.circle_blue {
+		width: 250px;
+		height: 250px;
+		background-color: royalblue;
+		position: absolute;
+		border-radius: 50%;
+		top: -125px;
+		left: 0;
+		z-index: 1;
+	}
+
+	.dot_blue {
+		width: 50px;
+		height: 50px;
+		background-color: tomato;
+		position: absolute;
+		border-radius: 50%;
+		top: 100px;
+		left: 100px;
+	}
+
+	@keyframes whirl {
+		0% {
+			transform: rotate(0);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+</style>
+<body>
+	<div class="taiji">
+		<div class="box_red">
+			<div class="circle_red">
+				<div class="dot_red"></div>
+			</div>
+		</div>
+		<div class="box_blue">
+			<div class="circle_blue">
+				<div class="dot_blue"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+        }
+
+        .box{
+            width:1300px;
+            height: 600px;
+            background: lightblue;
+            /*加边框 ：border: 线粗细  线型  线的颜色 */
+            border:2px solid black;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mountain1{
+            width:400px;
+            height: 400px;
+            background: green;
+            border-radius: 100px 0 0 0;
+            transform: rotate(60deg);
+            position: absolute;
+            left: 0;
+            bottom: -170px;
+        }
+
+        .mountain2{
+            width:600px;
+            height: 600px;
+            background: green;
+            border-radius: 200px 0 0 0;
+            transform: rotate(45deg);
+            position: relative;
+            left: 390px;
+            bottom: -220px;
+        }
+
+        .mountain3{
+            width:350px;
+            height: 350px;
+            background: green;
+            border-radius: 200px 0 0 0;
+            transform: rotate(50deg);
+            position: absolute;
+            right: -50px;
+            bottom: -70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="mountain1"></div>
+        <div class="mountain2"></div>
+        <div class="mountain3"></div>
+    </div>
+</body>
+</html>

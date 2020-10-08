@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        .box{
+            width:300px;
+            height: 200px;
+            background: pink;
+            padding-left:50px;
+            box-sizing: border-box;
+        }
+
+        .con1,.con2{
+            width: 100px;
+            height: 100px;
+        }
+
+        .con1{
+            background: red;
+            float: left;
+            margin-right: 50px;   
+        }
+
+        .con2{
+            background: green;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        margin : 控制盒子周围的间距
+            单方向控制:margin-left/margin-right/margin-bottom/margin-top
+            复合写法 ：
+            margin :10px    一个值  上右下左
+            margin:10px 20px 两个值 上下  右左
+            margin:10px 20px 20px;三个值  上   右左  下
+            margin:10px 20px 30px 40px 四个值： 上 右 下 左  
+    -->
+    <div class="box">
+        <div class="con1"></div>
+        <div class="con2"></div>
+    </div>
+
+   
+
+
+</body>
+</html>

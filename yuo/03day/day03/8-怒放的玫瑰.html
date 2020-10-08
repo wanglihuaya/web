@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+           margin:0;
+           padding:0; 
+        }
+
+        div{
+            width:300px;
+            height: 285px;
+            position: relative;
+            margin:220px auto;
+            text-align: center;
+            line-height: 285px;
+            font-size: 30px;
+            color:red;
+        }
+
+        img{
+            position: absolute;
+            left: 0;
+            top:0;
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        @keyframes move{
+            0%{
+                opacity: 0;
+                transform: scale(0); 
+            }
+
+            25%{
+                opacity: 0.5;
+                transform: scale(1);
+            }
+
+            50%{
+                opacity: 1;  
+                transform: scale(2); 
+            }
+
+            75%{
+                opacity: 0.5;
+                transform: scale(3); 
+            }
+
+            100%{
+                opacity: 0;
+                transform: scale(4); 
+            }
+        }
+
+        .pic1{
+            animation: move 8s linear  infinite ;
+        }
+
+        .pic2{
+            animation: move 8s linear 2s infinite ;
+        }
+
+        .pic3{
+            animation: move 8s linear 4s infinite ;
+        }
+
+        .pic4{
+            animation: move 8s linear 6s infinite ;
+        }
+
+        .pic5{
+            animation: move 8s linear 8s infinite ;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        帧动画 ： 不需要任何触发条件 ，只要页面加载，就会立马执行 
+    -->
+    <div>
+        <img class="pic1" src="images/hua2.png" alt="">
+        <img class="pic2" src="images/hua2.png" alt="">
+        <img class="pic3" src="images/hua2.png" alt="">
+        <img class="pic4" src="images/hua2.png" alt="">
+        <img class="pic5" src="images/hua2.png" alt="">
+        国庆快乐
+    </div>
+</body>
+</html>

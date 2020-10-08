@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .box{
+            width:1400px;
+            height: 530px;
+            background: grey;
+            margin:0 auto;
+        }
+
+        .item{
+            width:240px;
+            height: 360px;
+            background: white;
+            float: left;
+            margin:50px 0 0 32px;
+            transition: 1s;
+        }
+
+        img{
+           width:220px;
+           height: 200px;
+           margin-left: 10px;
+        }
+
+        h2{
+            font-size:18px;
+            text-align: center;
+            margin-top:30px;
+        }
+
+        .con1{
+            transform: scale(.65) rotate(20deg) ;
+        }
+
+        .con2{
+            transform: scale(.75) rotate(-15deg) ;
+        }
+
+        .con3{
+            transform: scale(.68) rotate(30deg) ;
+        }
+
+        .con4{
+            transform: scale(.65) rotate(-20deg) ;
+        }
+
+        .con5{
+            transform: scale(.7) rotate(20deg) ;
+        }
+
+        .item:hover{
+            transform: scale(1) rotate(0deg) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="item con1">
+            <img src="images/lichen.png" alt="">
+            <h2>李晨</h2>
+        </div>
+        <div class="item con2">
+            <img src="images/liguangzhu.png" alt="">
+            <h2>李光株</h2>
+        </div>
+        <div class="item con3">
+            <img src="images/luhan.png" alt="">
+            <h2>鹿晗</h2>
+        </div>
+        <div class="item con4">
+            <img src="images/dilireba.png" alt="">
+            <h2>迪丽热巴</h2>
+        </div>
+        <div class="item con5">
+            <img src="images/chenhe.png" alt="">
+            <h2>陈赫</h2>
+        </div>
+    </div>
+</body>
+</html>

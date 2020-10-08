@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消失</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    div {
+        width: 800px;
+        height: 600px;
+        position: relative;
+        margin: 50px auto;
+        background-color: #eee;
+        overflow: hidden;
+    }
+
+    span {
+        height: 200px;
+        line-height: 200px;
+        width: 500px;
+        text-align: center;
+        font-size: 30px;
+        display: block;
+        margin: 200px auto;
+        font: red;
+    }
+
+    img {
+        width: 200px;
+        position: absolute;
+        /* opacity: 0; */
+        /* margin: 20px auto; */
+        top: 50%;
+        left: 50%;
+        transform: scale(1) translateX(-50%) translateY(-50%);
+        border-radius: 20%;
+        transform-origin: center center;
+    }
+
+    .p1 {
+        animation: move 2s linear 1s infinite;
+    }
+
+    .p2 {
+        animation: move 2s linear 1s infinite;
+    }
+
+    .p3 {
+        animation: move 2s linear 1.2s infinite;
+    }
+
+    .p4 {
+        animation: move 2s linear 1.4s infinite;
+    }
+
+    .p5 {
+        animation: move 2s linear 1.6s infinite;
+    }
+
+    @keyframes move {
+        0% {
+            opacity: 0;
+            transform: scale(1) translateX(-50%) translateY(-50%);
+        }
+
+        25% {
+            opacity: 0.5;
+            transform: scale(2) translateX(-50%) translateY(-50%);
+        }
+
+        50% {
+            opacity: 1;
+            transform: rotate(3) translateX(-50%) translateY(-50%);
+        }
+
+        75% {
+            opacity: 0.5;
+            transform: rotate(2) translateX(-50%) translateY(-50%);
+        }
+
+        100% {
+            opacity: 0;
+            transform: rotate(1) translateX(-50%) translateY(-50%);
+        }
+    }
+</style>
+
+<body>
+    <div>
+        <span>安静，打扰到我用TNT了🥳</span>
+        <img class="p1" src="d009b3de9c82d15860079c6a8c0a19d8bd3e4260.gif" alt="">
+        <img class="p2" src="d009b3de9c82d15860079c6a8c0a19d8bd3e4260.gif" alt="">
+        <img class="p3" src="d009b3de9c82d15860079c6a8c0a19d8bd3e4260.gif" alt="">
+        <img class="p4" src="d009b3de9c82d15860079c6a8c0a19d8bd3e4260.gif" alt="">
+        <img class="p5" src="d009b3de9c82d15860079c6a8c0a19d8bd3e4260.gif" alt="">
+    </div>
+</body>
+
+</html>

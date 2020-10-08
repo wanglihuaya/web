@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: red;
+            position: relative;
+            /*第二步 ： 调用制作好的动画*/
+            animation: move 1s linear infinite alternate;
+            /* animation: 动画的名字 动画所需的时间 动画运动的方式（linear匀速） 延迟时间 动画运动的次数（infinite无限次运动/number） 动画的方向（alternate：方向运动也有动画） 动画结束保持最后一帧（forwords ）; */
+           
+        }
+
+        /*第一步制作动画的轨迹*/
+        @keyframes move{
+            0%{
+                left: 0;
+            }
+
+            100%{
+                left: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

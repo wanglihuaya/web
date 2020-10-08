@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>homework2</title>
+</head>
+<style>
+	* {
+		padding: 0;
+		margin: 0;
+		font-weight: normal;
+	}
+
+	.flex-container {
+		height: 600px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+.first,
+.second,
+.third {
+	height: 300px;
+	padding: 20px;
+}
+
+.first {
+	width: 500px;
+}
+
+.first ul li {
+	list-style-position: inside;
+}
+
+.first h2,
+.second h2,
+.third h2 {
+	padding: 0 0 20px 0;
+}
+
+.first ul li .q {
+	width: 360px;
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+	.first .h {
+		float:right;
+		overflow: hidden;
+	}
+
+	.second {
+		background-color: #eee;
+	}
+</style>
+<body>
+	<div class="flex-container">
+			<div class="first">
+				<h2>公司新闻</h2>
+				<ul>
+					<li><span class="q">陈建成董事长出席ATB集团召开年度销售大会</span><span class="h">2013-07-30</span></li>
+					<li><span class="q">中国电器工业协会分马力电机分会在卧龙召开理事长hhh</span><span class="h">2013-07-30</span></li>
+					<li><span class="q">陈建成董事长访问中国驻德大使馆</span><span class="h">2013-07-30</span></li>
+					<li><span class="q">企业文化是企业持续经营的关键要素</span><span class="h">2013-07-30</span></li>
+					<li><span class="q">陈建成监事长在ATB集团2013年销售会议上发表重要yyy</span><span class="h">2013-07-30</span></li>
+					<li><span class="q">喜迎七一唱响唱响年轻力量激发企业持久活力唱响举hhh</span><span class="h">2013-07-30</span></li>
+				</ul>
+			</div>
+
+			<div class="second">
+				<h2>公司介绍</h2>
+				<p>公司成立于1984年，</p>
+				<p>经过近30年的发展</p>
+				<p>已成为电器制造，房地产开发和金融投资商业并举的综合性跨国</p>
+			</div>
+
+			<div class="third">
+				<h2>人才招聘</h2>
+				<p>培养一流的人才，铸造一流的工程实现员工与企业的共同发展</p>
+				<button>MORE</button>
+			</div>
+	</div>
+
+
+</body>
+</html>

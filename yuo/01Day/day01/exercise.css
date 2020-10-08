@@ -1,0 +1,49 @@
+body {
+	width: 1000px;
+}
+
+header {
+	overflow: hidden;
+}
+
+header img {
+	width: 257px;
+	height: 50px;
+	padding: 20px 28px;
+	display: inline-block;
+}
+
+.search {
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0 0 0 ;
+}
+
+.search .input {
+	min-height: 1.5rem;
+	background-color: #eeeeee;
+	border: 1px;
+	width: 228px;
+}
+
+.search .icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	font-size: 25px;
+	position: relative;
+	right: 30px;
+}
+
+nav {
+	overflow: hidden;
+}
+
+nav ul li {
+	float: right
+
+}

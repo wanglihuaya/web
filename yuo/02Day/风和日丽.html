@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<title>风和日丽</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	.sky {
+		width: 1000px;
+		height: 500px;
+		background-color: lightblue;
+		position: relative;
+		overflow: hidden;
+		z-index: -2;
+	}
+
+	.mount1 {
+		width: 30%;
+		height: 60%;
+		transform: rotate(45deg);
+		position: absolute;
+		background-color: forestgreen;
+		border-radius: 40%;
+		top: 350px;
+		left: -50px;
+	}
+
+	.mount2 {
+		width: 70%;
+		height: 90%;
+		transform: rotate(45deg);
+		position: absolute;
+		background-color: forestgreen;
+		border-radius: 20%;
+		top: 300px;
+		left: 200px;
+	}
+
+	.mount3 {
+		width: 60%;
+		height: 70%;
+		transform: rotate(60deg);
+		position: absolute;
+		background-color: forestgreen;
+		border-radius: 25%;
+		top: 400px;
+		left: 600px;
+	}
+
+	.cloud {
+		animation: yun 2s infinite alternate linear;
+	}
+
+	@keyframes yun {
+		0% {
+			transform: translateX(50px);
+		}
+		100% {
+			transform: translateX(750px);
+		}
+	}
+
+	.cloud1 {
+		background-color: #fff;
+		border-radius: 60% 80%;
+		height: 101px;
+		width: 180px;
+		position: absolute;
+	}
+
+	.cloud2 {
+		background-color: #fff;
+		border-radius: 90% 80%;
+		height: 50px;
+		width: 90px;
+		position: absolute;
+		top: 50px;
+		left: -20px;
+	}
+
+	.cloud3 {
+		background-color: #fff;
+		border-radius: 90% 80%;
+		height: 70px;
+		width: 100px;
+		position: absolute;
+		top: 25px;
+		left: 115px;
+	}
+
+	.gan {
+		width: 6px;
+		height: 150px;
+		position: absolute;
+		background-color: #dfb78d;
+		top: 200px;
+		right: 202px;
+		z-index: -1;
+	}
+
+	.tou {
+		animation: wind 1s linear infinite;
+		position: absolute;
+		height: 60px;
+		width: 60px;
+		top: 168px;
+		right: 175px;
+		/*background-color: red;*/
+		/*opacity: .5;*/
+	}
+
+	.tou1 {
+		position: absolute;
+		left: 26px;
+		width: 8px;
+		height: 60px;
+		background-color: #fff;
+		/*display: flex;*/
+		/*justify-content: center;*/
+		/*align-items: center;*/
+		border-radius: 40%;
+	}
+
+	.tou2 {
+		position: absolute;
+		left: 26px;
+		width: 8px;
+		height: 60px;
+		background-color: #fff;
+		/*display: flex;*/
+		/*justify-content: center;*/
+		/*align-items: center;*/
+		border-radius: 40%;
+		transform: rotate(90deg);
+	}
+
+	@keyframes wind {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+
+	.sun {
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		background-color: orangered;
+		border-radius: 50%;
+		top: 240px;
+		z-index: -3;
+		animation: sun 3s linear infinite alternate;
+	}
+
+	@keyframes sun {
+		0% {
+			top: 240px;
+		}
+		100% {
+			transform: translateX(800px) translateY(-180px);
+		}
+	}
+</style>
+<body>
+	<div class = "sky">
+		<div class = "cloud">
+			<div class = "cloud1"></div>
+			<div class = "cloud2"></div>
+			<div class = "cloud3"></div>
+		</div>
+		<div class = "mountain">
+			<div class = "mount1"></div>
+			<div class = "mount2"></div>
+			<div class = "mount3"></div>
+		</div>
+		<div class = "wind">
+			<div class = "gan"></div>
+			<div class = "tou">
+				<div class = "tou1"></div>
+				<div class = "tou2"></div>
+			</div>
+		</div>
+		<div class = "sun"></div>
+	</div>
+</body>
+</html>

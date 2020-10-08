@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width:200px;
+            height: 100px;
+            background: pink;
+            /* transform: scale(1,0.5); */
+            transform:scale(1.2);
+            /* transform:scale(0); */
+        }
+
+        .box2{
+            width:100px;
+            height: 50px;
+            background: green;
+            /* transform: rotate(45deg); */
+            /*旋转和缩放*/
+            transform: scale(1.2) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <!--
+        缩放： 
+        transform : scale(x,y); x,y代表的是倍数
+        备注 ： 如果只有只有一个值，说明x,y缩放的倍数一样 
+
+        旋转 ：
+          transform ：rotate(ndeg); deg表示的是度数
+        
+        旋转和缩放同时设置 ：
+            多个值之间用空格隔开
+           transform: scale(1.2) rotate(45deg);
+    -->
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+</html>
