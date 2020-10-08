@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:100px;
+            height: 100px;
+            background: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <button id="btn1">变宽</button>
+    <button id="btn2">变高</button>
+    <button id="btn3">变色</button>
+    <script>
+        //js操作谁就要获取谁 
+        //第一步 ：js通过id获取元素 
+        //获取id名为box的元素，存在变量con中
+        var con = document.getElementById("box");
+        var button1 =  document.getElementById("btn1");
+        var button2 =  document.getElementById("btn2");
+        var button3 =  document.getElementById("btn3");
+        //console.log(con,button1,button2,button3)
+        //第二步 ： 给按钮加事件
+        button1.onclick = function(){
+            //第三步：做什么事
+            con.style.width = "300px";
+        }
+
+        button2.onclick = function(){
+            con.style.height  = "300px";
+        }
+
+        button3.onclick = function(){
+            con.style.background = "red";
+        }
+
+    </script>
+</body>
+</html>

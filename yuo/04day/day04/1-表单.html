@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            width:200px;
+            height: 100px;
+         
+        }
+        #text1 {
+            float: left;
+        }
+      
+    </style>
+</head>
+<body>
+    <!--
+        表单作用 ：
+          用于收录用户的信息
+        语法：<form></form>  表单域，里面包含表单元素 
+            属性   action ： 表单提交的路径 
+
+        常见的表单的元素 
+            input系列   
+                文本框  type="text"
+                密码框 ：type="password"
+                单选按钮 ：type="radio" 
+                          注意 ： 要加name属性，值必须一样，代表它们是一组
+                复选框 : type="checkbox",注意 ： 要加name属性，值必须一样，代表它们是一组
+                提交按钮 ： type="submit",默认的按钮文本是提交，如果想按钮文本，用属性value=""
+            下拉列表 
+                select > option
+            文本域
+                 <textarea></textarea>
+            信息提示标签 ： label 
+                实现点击label，将光标聚焦到关联的表单元素上：
+                    第一步 ：给label 加属性for
+                    第二步 ：给关联的表单元素加属性id
+                    要求for和id的值必须一样
+    -->
+    <form action="">
+        <p>
+            <label for="user"> 用户名 ：</label>
+            <input id="user" type="text">
+        </p>
+        <p> 
+            <label for="pwd">密码 ：</label>
+            <input id="pwd" type="password">
+        </p>
+        <p>
+            <label>性别：</label>
+            
+            <input type="radio" name="sex">男 
+            <input type="radio" name="sex">女
+        </p>
+        <p>
+           <label> 兴趣爱好 ： </label>
+            <input type="checkbox" name="hobby">吃饭
+            <input type="checkbox" name="hobby">睡觉
+            <input type="checkbox" name="hobby">打豆豆  
+        </p>
+        <p>
+            城市 ：
+            <select>
+                <option>北京</option>
+                <option>上海</option>
+                <option>武汉</option>
+            </select>
+        </p>
+        <p>
+            <label for="" id="text1">自我介绍 ：</label>
+            
+            <textarea></textarea>
+        </p>
+        <input type="submit" value="注册">
+    </form>
+
+</body>
+</html

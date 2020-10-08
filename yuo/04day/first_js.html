@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>first_js</title>
+	<style>
+		div {
+			width: 500px;
+			height: 500px;
+			background-color: pink;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="box"></div>
+	<button id="bt1">显示</button>
+	<button id="bt2">隐藏</button>
+</body>
+<script>
+	var box = document.getElementById('box'),
+			bt1 = document.getElementById('bt1'),
+			bt2 = document.getElementById('bt2');
+	bt1.onclick = function() {
+		box.style.opacity = "1";
+	}
+	bt2.onclick = function() {
+		box.style.opacity = "0";
+	}
+	console.log(box,bt1,bt2);
+
+</script>
+
+</html>
