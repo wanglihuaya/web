@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>换图</title>
   <style>
     .con {
-      height: ;
-      width: ;
-      margin: ;
+      width: 380px;
+      height: 440px;
+      object-fit: cover;
+      border-radius: 25px;
+      box-shadow: 1px 1px 10px black, 1px 1px 20px 5px tomato, 1px 1px 30px 10px rgb(255, 224, 214), 1px 1px 40px 15px royalblue;
+      margin: 90px auto;
       border: 100px auto 0;
       position: relative;
+      overflow: hidden;
+    }
+
+    button {
+      background-color: rgba(243, 113, 81, 0.1);
+      border: none;
     }
 
     #left {
       position: absolute;
       left: 0;
-      top: 240px;
+      top: 190px;
+    }
+
+    #right {
+      position: absolute;
+      right: 0;
+      top: 190px;
     }
   </style>
 </head>
+
 <body>
   <div class="con">
-    <img src="" alt="pic1" id="">
-    <img src="" alt="pic2" id="">
-    <img src="" alt="pic3" id="">
+    <img src="../03day/03day/images/Image_in.jpeg" alt="" id="pic">
+    <button id="left">left</button>
+    <button id="right">right</button>
   </div>
-<script>
+  <script>
+    var pic = document.getElementById('pic');
+    var left = document.getElementById('left');
+    var right = document.getElementById('right');
 
-</script>
+    var i = 0;
+    var arr = ['../03day/03day/images/Image_in.jpeg', '../03day/03day/images/2.png', '../03day/03day/images/3.jpeg', '../03day/03day/images/4.jpeg', '../03day/03day/images/5.jpeg'];
+
+    right.onclick = function () {
+      i++;
+      if (i > 4) {
+        alert('到头啦');
+      }
+      pic.src = arr[i];
+    }
+
+    left.onclick = function () {
+      i--;
+      if (i < 0) {
+        alert('又到头啦');
+      }
+      pic.src = arr[i];
+    }
+  </script>
 </body>
+
 </html>
