@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>light</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #000;
+    }
+
+    .con {
+      margin: 50px 200px;
+    }
+
+    #lamp {
+      width: 100px;
+      height: 100px;
+      background-color: #eee;
+      border-radius: 50%;
+      margin-left: 30px;
+    }
+
+    #line {
+      width: 10px;
+      height: 500px;
+      background-color: steelblue;
+      margin-left: 75px;
+    }
+
+    button {
+      background-color: green;
+      border: none;
+      width: 150px;
+      height: 35px;
+      border-radius: 3px;
+      color: white;
+      margin: 20px 0 0 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <div class="con">
+    <div class="lamp" id="lamp"></div>
+    <div class="line" id="line"></div>
+    <button id="btn">S W I T C H</button>
+  </div>
+
+  <script>
+    var body = document.getElementById('body');
+    var lamp = document.getElementById('lamp');
+    var btn = document.getElementById('btn');
+
+    console.log(body, lamp, btn);
+
+    btn.onclick = function () {
+      if (btn.innerHTML == 'S W I T C H') {
+        btn.innerHTML = '亮';
+        body.style.backgroundImage = "url(../03day/03day/images/6.jpg)";
+        lamp.style.background = "yellow";
+        lamp.style.boxShadow = "1px 1px 100px yellow,1px 1px 50px tomato,1px 1px 200px red";
+
+      } else {
+        btn.innerHTML = 'S W I T C H';
+        body.style.background = "black";
+        lamp.style.background = "white";
+        lamp.style.boxShadow = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
