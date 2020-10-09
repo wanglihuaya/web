@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>c
+  <meta charset="UTF-8">
+
+  <title>homework1</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    div {
+      width: 400px;
+      height: 400px;
+      margin: 50px auto;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 20px;
+      background-color: grey;
+      box-shadow: 0 0 100px 1px black;
+    }
+
+    button {
+      width: 100px;
+      display: block;
+      height: 50px;
+      color: gold;
+      font-size: 26px;
+      margin: 0 auto;
+      position: relative;
+      border-radius: 5px;
+      border: none;
+      background-color: tomato;
+      z-index: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <img src="../03day/03day/images/1.jpeg" alt="" id="img">
+    <button id="btn">
+      淦
+    </button>
+  </div>
+<script>
+  var img = document.getElementById('img');
+  var btn = document.getElementById('btn');
+  btn.onclick = function () {
+    if (btn.innerHTML == '淦') {
+      btn.innerHTML = '淦淦淦';
+      img.src = '../03day/03day/images/Farbenfrohe Stoffe digital gedruckt von Spoonflower.jpeg';
+    } else {
+      btn.innerHTML = '淦';
+      img.src = '../03day/03day/images/1.jpeg';
+    }
+  }
+  console.log(img, btn);
+</script>
+</body>
+
+</html>

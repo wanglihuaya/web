@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #dg {
+      width: 300px;
+      height: 400px;
+      background-color: pink;
+      margin: 30px auto;
+      padding: 1px 0 0 0;
+      border-radius: 20px;
+    }
+
+    #val {
+      display: block;
+      margin: 20px auto;
+      border-radius: 20px;
+      border: none;
+      background-color: tomato;
+      color: gold;
+      text-align: center;
+      font-size: 16px;
+      font-family: Helvetica, sans-serif;
+      line-height: 1.5rem;
+      box-shadow: 0 0 5px 2px black;
+    }
+
+    #sub {
+      display: block;
+      margin: 20px auto;
+      height: 2rem;
+      width: 50px;
+      /* border: none; */
+      border-radius: 5px;
+      background-color: tomato;
+      color: gold;
+      text-align: center;
+      font-size: 16px;
+      font-family: Helvetica, sans-serif;
+      box-shadow: 0 0 5px 2px black;
+    }
+
+    #img {
+      display: block;
+      border-radius: 10px;
+      height: 60%;
+      width: 80%;
+      margin: 0 auto;
+      background: url('../03day/03day/images/2.png') 0 / cover fixed;
+      background-size: 50%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="dg">
+    <input type="text" id="val">
+    <input type="submit" id="sub">
+    <div id="img"></div>
+  </div>
+
+  <script>
+
+    var val = document.getElementById('val');
+    var sub = document.getElementById('sub');
+    var img = document.getElementById('img');
+
+    var arr = ['../03day/03day/images/Image_in.jpeg', '../03day/03day/images/2.png', '../03day/03day/images/3.jpeg', '../03day/03day/images/4.jpeg', '../03day/03day/images/5.jpeg'];
+    sub.onclick = function () {
+      img.style.background = "url(" + arr[val.value] + ") 0 / cover fixed";
+      img.style.backgroundSize = '50%';
+    };
+  </script>
+</body>
+
+</html>
