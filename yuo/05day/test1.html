@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>换图</title>
+</head>
+
+<body>
+  <img id="pic" src="../03day/03day/images/Image_in.jpeg" alt="" style="width: 200px;">
+  <button id="btn">换图</button>
+  <script>
+    var
+      pic = document.getElementById('pic'),
+      btn = document.getElementById('btn');
+    var a = 0;
+    btn.onclick = function () {
+      a++;
+      if (a == 1) {
+        pic.src = '../03day/03day/images/Oranges pattern.jpeg';
+      } else if (a == 2) {
+        pic.src = '../03day/03day/images/FONDOS BELLOS PARA EL CELU.jpeg';
+      };
+      
+    }
+
+  </script>
+</body>
+
+</html>
