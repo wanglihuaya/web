@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <img id="pic" src="images/03.jpg" alt="">
+    <button id="btn">隐藏</button>
+    <script>
+       
+        //方式一
+        // btn.onclick = function(){
+        //     if(btn.innerHTML == "隐藏"){
+        //         pic.style.opacity = 0;
+        //         btn.innerHTML = "显示";
+        //     }else{
+        //         pic.style.opacity = 1;
+        //         btn.innerHTML = "隐藏";
+        //     }
+        // }
+
+        var pic = document.getElementById("pic");
+        var btn = document.getElementById("btn");
+        //方式二  ： 给一个开关变量
+        var  flag = true;
+        btn.onclick = function(){
+            if(flag){
+                pic.style.opacity = 0;
+                btn.innerHTML = "显示";
+                flag = false;
+            }else{
+                pic.style.opacity = 1;
+                btn.innerHTML = "隐藏";
+                flag  = true;
+            }
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

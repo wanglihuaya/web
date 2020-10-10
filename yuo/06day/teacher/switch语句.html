@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        if    
+            if(){}
+            if(){}else{} 
+        switch  
+            switch(表达式){
+                case 常量表达式1 : 语句1;
+                case 常量表达式1 : 语句2;
+                ...
+                
+                default : 语句 n;
+            }
+        用法 ；
+            1.()中的表达式是一个变量 
+            2.常量表达式是一个常量，一般是一个具体的数值或某个字符
+            3.表达式和常见表达式之间的比较是===比较 （数据类型一样，并且值一样）
+            4.如果没有break，会出现穿透现象
+            5.default 一般放在末尾
+        
+        if 和 switch是可以互换使用的，但是在开发过程中，一般if用于范围的判段，而 switch用于具体点的判断 
+
+        prompt()输入对话框，我们可以用变量接受输入的值，如果按的确定 ，接受的值就是输入的值，如果按了取消，  接受的值是null 
+    -->
+    <script>
+        var num = prompt("请输入一个数"); //字符串型
+        //console.log(num); //如果没输入点击确定是""，点击取消是null 
+        if(num != "" && num != null){ //num不是""并且也不是null
+            num = Number(num);//将字符串型转为数值型
+        }
+       
+        // 输入0-6之间的整数 ，0代表星期日，1-6代表的是周一到周六
+        switch(num){
+            case 0 :  alert("星期日");break;
+            case 1 :  alert("星期一");break;
+            case 2 :  alert("星期二");break;
+            case 3 :  alert("星期三");break;
+            case 4 :  alert("星期四");break;
+            case 5 :  alert("星期五");break;
+            case 6 :  alert("星期六");break;
+            default : alert("输入的有误");
+        }
+
+        
+
+
+      
+       
+
+  
+    </script>
+</body>
+</html>

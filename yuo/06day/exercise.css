@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
+}
+body {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header {
+	overflow: hidden;
+}
+
+header img {
+	width: 257px;
+	height: 50px;
+	padding: 20px 28px;
+	display: inline-block;
+}
+
+.search {
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0 0 0 ;
+
+}
+
+.search .input {
+	min-height: 1.5rem;
+	background-color: #eeeeee;
+	border: 1px;
+	width: 228px;
+	box-shadow: 0 0 5px black;
+	border-radius: 2px;
+}
+
+.search .icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	font-size: 25px;
+	position: relative;
+	right: 30px;
+}
+
+nav {
+	overflow: hidden;
+	width: 1000px;
+	background-color: rgb(45,46,47);
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	justify-self: center;
+	height: 3rem;
+	line-height: 3rem;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	width: 12.4%;
+	text-align: center;
+	border-right: 1px royalblue solid;
+	
+}
+
+nav ul li:last-child {
+	border-right: none;
+}
+
+.leader	{
+	height: 562px;
+	background-image: url(../03day/03day/images/6.jpg);
+	object-fit: cover;
+	position: relative;
+}
+
+.leader h1 {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	color: whitesmoke;
+}
+
+.leader p {
+	position: absolute;
+	top: 350px;
+	left: 200px;
+	color: rgb(214, 214, 214);
+}
+
+.leader button {
+	position: absolute;
+	top: 400px;
+	left: 200px;
+	background-color: #B1001F;
+	border: none;
+	line-height: 2rem;
+	font-size: 16px;
+	width: 140px;
+	color: whitesmoke;
+}
+
+.leader div {
+	height: 2rem;
+	width: 2rem;
+	background-color: #930418;
+	position: absolute;
+	top: 400px;
+	left: 340px;
+}
+

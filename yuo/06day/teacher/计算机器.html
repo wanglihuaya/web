@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="num1">
+    <select id="operate">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="text" name="" id="num2">
+    <button id="btn">=</button>
+    <input type="text" name="" id="res">
+    <script>
+        var num1 = document.getElementById("num1");
+        var operate = document.getElementById("operate");
+        var num2 = document.getElementById("num2");
+        var btn = document.getElementById("btn");
+        var res = document.getElementById("res");
+        btn.onclick = function(){
+            var val1 =  Number(num1.value); //第一个数
+            var val2 = Number(num2.value);//第二个数
+            var sign = operate.value; //符号
+            var result;
+            switch(sign){
+               case "+" : result =  val1 + val2; break;
+               case "-" : result =  val1 - val2; break;
+               case "*" : result =  val1 * val2; break;
+               case "/" : result =  val1 / val2; break;
+            }
+            res.value = result;
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+   
+  
+</body>
+</html>

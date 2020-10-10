@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>quickSort</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  // Math.floor 向下取整，一个表示小于或等于指定数字的最大整数的数字。
+  // Math.floor(45.95); 
+  // 45 
+
+  //splice() 方法通过删除或替换现有元素或者原地添加新的元素来修改数组,并以数组形式返回被修改的内容。此方法会改变原数组。
+  //   const months = ['Jan', 'March', 'April', 'June'];
+  // months.splice(1, 0, 'Feb');
+  // // inserts at index 1
+  // console.log(months);
+  // // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+
+
+  var arr = [8, 0, 3, 1, 56, 34, 234, 674, 234, 4325];
+  console.log(arr.length);
+  function quickSort(arr) {
+    if (arr.length <= 1) {
+      return arr;
+    }
+    var num = Math.floor(arr.length / 2);
+    var numValue = arr.splice(num, 1);
+    var left = [];
+    var right = [];
+
+    for (var i = 0; i < arr.length; i++) {
+      var cur = arr[i];
+      if (cur < numValue) {
+        left.push(cur);
+      } else {
+        right.push(cur);
+      }
+    }
+
+    return quickSort(left).concat([numValue], quickSort(right));
+  }
+  document.write(quickSort(arr))
+</script>
+
+</html>
