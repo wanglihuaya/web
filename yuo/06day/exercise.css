@@ -4,8 +4,24 @@
 	font-family: Helvetica, sans-serif;
 }
 body {
-	width: 1000px;
+	width: 1400px;
 	margin: 0 auto;
+	background-color: #ECECEC;
+}
+
+.icon {
+	width: 1em;
+	height: 1em;
+	vertical-align: -0.15em;
+	fill: currentColor;
+	overflow: hidden;
+	font-size: 25px;
+	position: relative;
+	color: #ADAEAF;
+}
+
+.body_1 {
+	background-color: #fff;
 }
 
 header {
@@ -50,7 +66,7 @@ header img {
 
 nav {
 	overflow: hidden;
-	width: 1000px;
+	width: 1400px;
 	background-color: rgb(45,46,47);
 	color: white;
 }
@@ -77,7 +93,7 @@ nav ul li:last-child {
 
 .leader	{
 	height: 562px;
-	background-image: url(../03day/03day/images/6.jpg);
+	background-image: url(http://source.unsplash.com/1400x600/?nature,water,5);
 	object-fit: cover;
 	position: relative;
 }
@@ -115,5 +131,264 @@ nav ul li:last-child {
 	position: absolute;
 	top: 400px;
 	left: 340px;
+}
+
+.leader .icon {
+	position: absolute;
+	top: 4px;
+	left: 3px;
+}
+.flex-container {
+	/* height: 600px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.first,
+.second,
+.third {
+height: 240px;
+padding: 20px;
+margin: 0 20px;
+}
+
+.first {
+width: 700px;
+}
+
+.first ul li {
+list-style-position: inside;
+line-height: 2rem;
+}
+
+.first h2,
+.second h2,
+.third h2 {
+padding: 0 0 20px 0;
+margin-top: 10px 0;
+}
+
+.first ul li .q {
+width: 360px;
+display: inline-block;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+.first .h {
+	float:right;
+	overflow: hidden;
+}
+
+.second {
+	background-color: #eee;
+	width: 280px;
+}
+
+.second .second_1 {
+	font-size: 1.2rem;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.second .second_3 {
+	margin-top: 30px;
+	line-height: 2rem;
+
+}
+
+.third {
+	width: 320px;
+	position: relative;
+}
+
+.third p {
+	line-height: 2rem;
+
+}
+
+.third button {
+	background-color: #ADAEAF;
+	border: none;
+	color: white;
+	height: 2rem;
+	font-size: 1rem;
+	width: 100px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	position: absolute;
+	top: 200px;
+	left: 20px;
+}
+
+ .projecr_h2 {
+	margin-left: 40px;
+}
+
+.project {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.project .one,
+.project .two,
+.project .three,
+.project .four {
+	margin: 20px 20px;
+}
+
+.project img {
+	width: 310px;
+	height: 270px;
+	background-color: tomato;
+}
+.project p {
+	line-height: 2rem;
+}
+
+footer {
+	background-color: #E4E5E6;
+	padding-top: 40px;
+	/* display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; */
+	
+}
+
+footer .footer_h2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .footer_h2 .h2_1 {
+	flex: 2;
+	margin: 0 20px;
+	border-bottom: 2px solid rgb(94, 94, 94);
+	padding: 10px 20px;
+}
+
+footer .footer_h2 .h2_2 {
+	flex: 1;
+	border-bottom: 2px solid rgb(94, 94, 94);
+	margin: 0 20px;
+	padding: 10px 20px;
+}
+
+footer .footer_h2 .h2_3 {
+	flex: 1;
+	border-bottom: 2px solid rgb(94, 94, 94);
+	margin: 0 20px;
+	padding: 10px 20px;
+}
+
+
+footer li {
+	list-style: none;
+	line-height: 2rem;
+}
+
+footer li:before {
+
+}
+
+footer .sort {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 40px;
+	/* align-items: center; */
+}
+
+footer .flex_1 {
+	flex: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 30px 0 0 40px;
+	/* align-items: center; */
+}
+
+footer .flex_1 .ul_1 {
+	flex: 1;
+}
+
+footer .flex_1 .ul_2 {
+	flex: 1;
+}
+
+footer .flex_1 .ul_3 {
+	flex: 1;
+}
+
+footer .ul_4 {
+	margin: 30px 0 0 -30px;
+	flex: 1;
+}
+
+footer .icon {
+	flex: 1;
+	font-size: 300px;
+	margin-top: -40px;
+}
+
+footer .footer_bottom {
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	padding: 20px 0;
+}
+
+footer .footer_bottom ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-self: center;
+	line-height: 14px;
+	height: 14px;
+	font-size: 14px;
+}
+
+footer .footer_bottom .word {
+	margin: 0 100px 0 -20px;
+}
+
+footer .footer_bottom p {
+	font-size: 14px;
+}
+
+footer .footer_bottom .word li {
+	flex:1 1 1 1;
+	margin: 0 10px 0 0;
+	border-right: 1px solid black;
+	line-height: 14px;
+	height: 14px;
+	font-size: 14px;
+	text-align: center;
+	width: 100px;
+}
+
+footer .footer_bottom .word li:last-child {
+	border-right: none;
+}
+
+footer .footer_bottom .pic li{
+	margin: -5px 8px 0 0;
+}
+
+footer .footer_bottom .icon {
+	font-size: 25px;
 }
 
