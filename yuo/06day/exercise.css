@@ -257,11 +257,6 @@ text-overflow: ellipsis;
 footer {
 	background-color: #E4E5E6;
 	padding-top: 40px;
-	/* display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center; */
-	
 }
 
 footer .footer_h2 {

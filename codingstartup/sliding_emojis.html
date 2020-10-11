@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>soliding_word</title>
+</head>
+
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  svg {
+    width: 600px;
+  }
+
+  .word {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+
+    color: goldenrod;
+  }
+
+  .word li {
+    flex: 1;
+    font-size: 60px;
+    text-align: center;
+    transition: .2s all ease-in-out;
+  }
+
+  .word li:hover {
+    transform: scale(1.6);
+  }
+
+  .word+svg #pop {
+    r: 20px;
+    transition: .2s r ease-in-out;
+  }
+
+  .word:hover+svg #pop {
+    r: 40px;
+  }
+</style>
+
+<body>
+  <ul class="word">
+    <li>淦</li>
+    <li>肝</li>
+    <li>赣</li>
+    <li>澉</li>
+    <li>甘</li>
+  </ul>
+
+  <svg viewBox="0 0 300 162">
+    <filter id="mix">
+      <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="5" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 60 -36" />
+    </filter>
+
+    <g filter="url(#mix)">
+      <rect width="300" height="50" x="0" y="50" rx="25" fill="#000" />
+      <circle cx="40" cy="75" fill="#000" id="pop" />
+    </g>
+  </svg>
+
+  <script>
+    const pop = document.querySelector('#pop')
+
+    document.querySelector('.word').addEventListener('mousemove', (e) => {
+      let offset = (e.clientX - e.currentTarget.getBoundingClientRect().left) / 2
+
+      if (offset <= 40) offset = 40
+      if (offset >= 260) offset = 260
+
+      pop.setAttribute('cx', offset)
+    })
+  </script>
+</body>
+
+</html>
