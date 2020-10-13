@@ -5,7 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="alter" />
+    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="alter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/wanglihuaya/web" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1ioQv5g4W9YQ9OMNdNVfFjikNDH" />
   <component name="ProjectViewState">
@@ -44,7 +53,7 @@
       <updated>1602571693133</updated>
       <workItem from="1602571695424" duration="13000" />
       <workItem from="1602571718760" duration="1030000" />
-      <workItem from="1602572762651" duration="800000" />
+      <workItem from="1602572762651" duration="1199000" />
     </task>
     <task id="LOCAL-00001" summary="alter">
       <created>1602573449652</created>
@@ -122,14 +131,14 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="358" y="102" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602572826075" />
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602573276922">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602573926785">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573276922" />
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602573271787">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573926785" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602573881784">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573271787" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573881784" />
     <state x="1020" y="119" key="run.anything.popup" timestamp="1602572341850">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
