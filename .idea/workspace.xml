@@ -25,12 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="alter">
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_word4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work2.html" afterDir="false" />
+    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="WangJiawei_day02_work">
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_word4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_word4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +112,7 @@
       <workItem from="1602571718760" duration="1030000" />
       <workItem from="1602572762651" duration="1199000" />
       <workItem from="1602574000586" duration="11224000" />
-      <workItem from="1602592951264" duration="2035000" />
+      <workItem from="1602592951264" duration="6448000" />
     </task>
     <task id="LOCAL-00001" summary="alter">
       <created>1602573449652</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602573455836</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="WangJiawei_day02_work">
+      <created>1602595314396</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602595314396</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +198,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="alter" />
-    <option name="LAST_COMMIT_MESSAGE" value="alter" />
+    <MESSAGE value="WangJiawei_day02_work" />
+    <option name="LAST_COMMIT_MESSAGE" value="WangJiawei_day02_work" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1025" y="57" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1602582068177">
@@ -268,18 +274,22 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="931" height="342" key="GridCell.Tab.3.right/0.23.1920.1057@0.23.1920.1057" timestamp="1602588509314" />
+    <state x="1169" y="112" key="RollbackChangesDialog" timestamp="1602595417732">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1169" y="112" key="RollbackChangesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1602595417732" />
     <state x="599" y="126" key="SettingsEditor" timestamp="1602593370063">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="599" y="126" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602593370063" />
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602573926785">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602595341540">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573926785" />
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602573881784">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602595341540" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602595368986">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573881784" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602595368986" />
     <state x="1056" y="33" width="756" height="1047" key="find.popup" timestamp="1602581312822">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
