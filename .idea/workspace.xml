@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/table_practice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/WangJiawei_work05.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_oneday/first_web.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/first_web.html" afterDir="false" />
-    </list>
+    <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="alter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,8 +44,23 @@
       <updated>1602571693133</updated>
       <workItem from="1602571695424" duration="13000" />
       <workItem from="1602571718760" duration="1030000" />
-      <workItem from="1602572762651" duration="387000" />
+      <workItem from="1602572762651" duration="800000" />
     </task>
+    <task id="LOCAL-00001" summary="alter">
+      <created>1602573449652</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602573449652</updated>
+    </task>
+    <task id="LOCAL-00002" summary="alter">
+      <created>1602573455836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602573455836</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,6 +69,31 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -87,21 +101,35 @@
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <MESSAGE value="alter" />
+    <option name="LAST_COMMIT_MESSAGE" value="alter" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="665" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602573306253">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="665" y="376" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1920.1057@0.23.1920.1057" timestamp="1602573306253" />
     <state x="358" y="102" key="SettingsEditor" timestamp="1602572826075">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="358" y="102" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602572826075" />
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602572318638">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602573276922">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602572318638" />
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602571900709">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573276922" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602573271787">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602571900709" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602573271787" />
     <state x="1020" y="119" key="run.anything.popup" timestamp="1602572341850">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
