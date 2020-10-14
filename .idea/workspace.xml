@@ -25,13 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/list.html" afterDir="false" />
-    </list>
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +86,7 @@
       <updated>1602666056049</updated>
       <workItem from="1602666057653" duration="6181000" />
       <workItem from="1602674864895" duration="49000" />
+      <workItem from="1602678815622" duration="1000" />
     </task>
     <servers />
   </component>
