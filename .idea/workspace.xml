@@ -26,7 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f841ffe-30de-429a-bfd3-40d54323dafc" name="Default Changelist" comment="WangJiawei_day02_work">
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/set.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +65,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Angular2Html" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -74,15 +80,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3" />
+      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript 调试.WangJiawei_work2.html">
@@ -111,7 +118,8 @@
       <workItem from="1602571718760" duration="1030000" />
       <workItem from="1602572762651" duration="1199000" />
       <workItem from="1602574000586" duration="11224000" />
-      <workItem from="1602592951264" duration="8296000" />
+      <workItem from="1602592951264" duration="8821000" />
+      <workItem from="1602646129077" duration="9759000" />
     </task>
     <task id="LOCAL-00001" summary="alter">
       <created>1602573449652</created>
@@ -141,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602599588237</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WangJiawei_day02_work">
+      <created>1602601571490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602601571490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,18 +299,18 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1169" y="112" key="RollbackChangesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1602595417732" />
-    <state x="599" y="126" key="SettingsEditor" timestamp="1602593370063">
+    <state x="599" y="164" key="SettingsEditor" timestamp="1602656095115">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="599" y="126" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602593370063" />
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602599593423">
+    <state x="599" y="164" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1602656095115" />
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2" timestamp="1602601584036">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602599593423" />
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602599567951">
+    <state x="756" y="119" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602601584036" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602601544934">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602599567951" />
+    <state x="1218" y="190" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1602601544934" />
     <state x="1056" y="33" width="756" height="1047" key="find.popup" timestamp="1602581312822">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
