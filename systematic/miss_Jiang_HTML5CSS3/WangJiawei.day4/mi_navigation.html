@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mi_navigation</title>
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg {
+    width: 300px;
+    background-color: #999;
+    margin: 100px auto;
+    border: 1px solid transparent;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px 10px darkcyan, 0px 0px 20px 10px darkcyan;
+    overflow: hidden;
+    padding: 20px 30px;
+    opacity: .5;
+  }
+
+  ul {
+    list-style: none;
+    color: #000;
+  }
+
+  li {
+    line-height: 3;
+    width: 300px;
+  }
+
+  li::after {
+    content: ">";
+    position: absolute;
+    right: 10px;
+  }
+
+  li::after:hover {
+    transform: scale(3);
+    background-color: red;
+    right: 30px;
+  }
+
+  li:hover {
+    background-color: mediumslateblue;
+    box-shadow: 0px 0px 20px 10px mediumslateblue;
+    border-radius: 20px;
+    opacity: .5;
+    margin: 0 30px;
+  }
+</style>
+
+<body>
+  <div class="bg">
+    <ul>
+      <li>手机 电话卡</li>
+      <li>电视 盒子</li>
+      <li>笔记本 显示器</li>
+      <li>家电 插线板</li>
+      <li>出行 穿戴</li>
+      <li>智能 路由器</li>
+      <li>电源 配件</li>
+      <li>健康 儿童</li>
+      <li>耳机 音箱</li>
+      <li>生活 箱包</li>
+    </ul>
+  </div>
+</body>
+
+</html>
