@@ -19,12 +19,196 @@
 
   .bg {
     width: 75px;
-    border-right-color: #fff;
     margin: 0 auto;
   }
+
+  .head {
+    width: 75px;
+    height: 60px;
+    background-image: url(http://www.ujiuye.com/statics/images/images/daikuan2.png);
+    margin: 0 auto;
+  }
+
+  ul {
+    width: 75px;
+
+    list-style: none;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+  }
+
+  li {
+    height: 70px;
+    border-top: 1px solid black;
+    padding: 12px 0 0 0;
+    background-color: #F87336;
+  }
+
+  li:first-child,
+  li:last-child {
+    border-top: none;
+  }
+
+  p {
+    margin: 12px 0 0 0;
+  }
+
+  ul .one,
+  .two,
+  .three,
+  .four {
+    background-color: #fff;
+  }
+
+  ul .five {
+    background-color: #F87336;
+  }
+
+  .pic1 {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-position: -30px 0;
+    background-image: url(http://www.ujiuye.com/statics/images/images/flex.png);
+  }
+
+  ul .one:hover .pic1 {
+    background-position: -30px -38px;
+  }
+
+  ul .one:hover {
+    background-color: #F87336;
+  }
+
+  ul .one:hover p {
+    color: white;
+  }
+
+
+  .pic2 {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-position: -63px 0;
+    background-image: url(http://www.ujiuye.com/statics/images/images/flex.png);
+  }
+
+  ul .two:hover .pic2 {
+    background-position: -63px -38px;
+  }
+
+  ul .two:hover {
+    background-color: #F87336;
+  }
+
+  ul .two:hover p {
+    color: white;
+  }
+
+  .pic3 {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-position: 1px 0;
+    background-image: url(http://www.ujiuye.com/statics/images/images/flex.png);
+  }
+
+  ul .three:hover .pic3 {
+    background-position: 1px -38px;
+  }
+
+  ul .three:hover {
+    background-color: #F87336;
+  }
+
+  ul .three:hover p {
+    color: white;
+  }
+
+  .pic4 {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-position: -94px 0;
+    background-image: url(http://www.ujiuye.com/statics/images/images/flex.png);
+  } 
+  
+  ul .four:hover {
+    background-color: #F87336;
+  }
+
+  ul .four:hover .pic4 {
+    background-position: -94px -38px;
+  }
+
+  ul .four:hover p {
+    color: white;
+  }
+
+  .pic5 {
+    width: 28px;
+    height: 28px;
+    margin: 0 auto;
+    background-position: -127px -38px;
+    background-image: url(http://www.ujiuye.com/statics/images/images/flex.png);
+  }
+
+  ul .five p {
+    color: white;
+  }
+
+  ul .one:hover ~ .five .pic5,
+  .two:hover ~ .five .pic5,
+  .three:hover ~ .five .pic5,
+  .four:hover ~ .five .pic5 {
+    background-position: -127px 0;
+  }
+
+  ul .one:hover ~ .five p,
+  .two:hover ~ .five p,
+  .three:hover ~ .five p,
+  .four:hover ~ .five p {
+    color: black;
+    
+  }
+
+  ul .one:hover ~ .five,
+  .two:hover ~ .five,
+  .three:hover ~ .five,
+  .four:hover ~ .five {
+    background-color: #fff;;
+  }
+
 </style>
 
 <body>
+  <div class="bg">
+    <div class="head">
+    </div>
+    <ul>
+      <li class="one">
+        <div class="pic1"></div>
+        <p>申请试听</p>
+      </li>
+      <li class="two">
+        <div class="pic2"></div>
+        <p>免费试听</p>
+      </li>
+      <li class="three">
+        <div class="pic3"></div>
+        <p>网课咨询</p>
+      </li>
+      <li class="four">
+        <div class="pic4"></div>
+        <p>学习交流群</p>
+      </li>
+      <li class="five">
+        <div class="pic5"></div>
+        <p>返回顶部</p>
+      </li>
+    </ul>
+  </div>
 
 </body>
 

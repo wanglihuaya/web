@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work5</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: salmon;
+    padding: 60px 0 0 0;
+  }
+
+  .bg {
+    width: 800px;
+    height: 80px;
+    background-color: #424242;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: red;
+    position: absolute;
+    top: 66px;
+    left: 60px;
+    position: absolute;
+  }
+
+  ul {
+    list-style: none;
+    line-height: 80px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom: 4px solid red;
+  }
+
+  li:first-child {
+    background-color: #000;
+  }
+
+  li {
+    text-align: center;
+    flex: 1;
+  }
+
+  .w1:hover,
+  .w2:hover,
+  .w3:hover,
+  .w4:hover,
+  .w5:hover,
+  .w6:hover {
+    background-color: #000;
+  }
+
+  ul:hover .w1 {
+    background-color: #424242;
+  }
+
+  #q1:hover {
+    background-color: #000;
+  }
+
+  .w2:hover~svg {
+    left: 190px;
+  }
+
+  .w3:hover~svg {
+    left: 330px;
+  }
+
+  .w4:hover~svg {
+    left: 460px;
+  }
+
+  .w5:hover~svg {
+    left: 590px;
+  }
+
+  .w6:hover~svg {
+    left: 720px;
+  }
+</style>
+
+<body>
+  <div class="bg">
+    <ul>
+      <li class="w1" id="q1">发现音乐</li>
+      <li class="w2">我的音乐</li>
+      <li class="w3">朋友</li>
+      <li class="w4">商城</li>
+      <li class="w5">音乐人</li>
+      <li class="w6">下载客户端</li>
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-sanjiaoxing"></use>
+      </svg>
+    </ul>
+  </div>
+</body>
+<script src="//at.alicdn.com/t/font_2113883_dt6cqpd8x2.js"></script>
+
+</html>
