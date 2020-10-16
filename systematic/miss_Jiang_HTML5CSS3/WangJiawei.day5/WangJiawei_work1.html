@@ -5,26 +5,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>work1</title>
+  <link href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng:regular" rel="stylesheet" />
 </head>
 <style>
   * {
     margin: 0;
     padding: 0;
+
   }
 
   body {
     background-color: lightsalmon;
     padding-top: 100px;
+    text-align: center;
   }
 
   .bg {
     background-color: #fff;
-    margin: 0 auto;
+    display: inline-block;
   }
+
+  .bg .pic1 {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #E86828;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: "Liu Jian Mao Cao", serif;
+    font-size: 60px;
+    float: left;
+    padding-bottom: 20px;
+  }
+
+  .bg .pic2 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    background-color: #D83E4C;
+    display: block;
+    text-align: center;
+    font-family: "Zhi Mang Xing", serif;
+    font-size: 60px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+
+  .bg .pic3 {
+    float: left;
+    width: 200px;
+    height: 100px;
+    color: white;
+    line-height: 100px;
+    background-color: #FF4E1E;
+    display: block;
+    text-align: center;
+    font-family: "Ma Shan Zheng", serif;
+    font-size: 45px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+
+  .bg .pic3 p{
+    font-size: 18px;
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    
+  }
+
+  .bg .pic2 p {
+    font-size: 18px;
+    position: absolute;
+    top: 35px;
+    left: 30px;
+  }
+  
 </style>
 
 <body>
-
+  <div class="bg">
+    <div class="pic1">淘宝网</div>
+    <div class="pic2">
+      爱淘宝
+      <p>淘宝网购物分享平台</p>
+    </div>
+    <div class="pic3">
+      淘宝特卖
+      <p>每日特卖汇集</p>
+    </div>
+  </div>
 </body>
 
 </html>

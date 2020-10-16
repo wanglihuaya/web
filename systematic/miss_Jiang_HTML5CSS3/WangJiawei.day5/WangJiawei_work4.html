@@ -18,12 +18,117 @@
   }
 
   .bg {
+    width: 1040px;
+    height: 490px;
     background-color: #fff;
     margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .bg .head,
+  .bg .navigation,
+  .bg .pic {
+    margin: 10px 20px;
+  }
+
+  .bg .head {
+    border-bottom: 3px solid #35B1CD;
+  }
+
+  .bg .head h2 {
+    color: #35B1CD;
+    font-weight: normal;
+    margin: 10px 0;
+  }
+
+  .bg .head h2 span {
+    color: #666;
+    font-size: 16px;
+    margin: 0 0 0 40px;
+    font-weight: normal;
+  }
+
+  .bg .navigation ul {
+    list-style: none;
+    color: #666;
+    font-size: 0; 
+    line-height: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .bg .navigation ul li {
+    float: left;
+    margin: 0 40px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 10px;
+  }
+
+  .bg .navigation ul li:last-child {
+    margin: 0 0 0 440px;
+  }
+
+  .bg .navigation ul li:hover {
+    background-color: #35B1CD;
+    color: white;
+  }
+
+  .bg .foot {
+    font-size: 0; 
+    line-height: 0;
+    text-align: center;
+  }
+
+  .bg .pic {
+    display: inline-block;
+    vertical-align: middle;
+    
+  }
+
+  body .pic img {
+    float: left;
+    width: 240px;
+    height: 340px;
+    margin: 0 10px 0 0;
+    border-radius: 10px;
+    box-shadow: 5px 2px 15px black;
   }
 </style>
 
 <body>
+  <div class="bg">
+    <div class="head">
+      <h2>骆驼书<span>读骆驼书，行万里路</span>
+      </h2>
+    </div>
+    <div class="navigation">
+      <ul class="clearfix">
+        <li>专题</li>
+        <li>亚洲</li>
+        <li>欧洲</li>
+        <li>北美洲</li>
+        <li>大洋洲</li>
+        <li>更多 ></li>
+      </ul>
+    </div>
+    <div class="foot">
+      <div class="pic">
+        <img class="pic1" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjrih8yq0hj31900u0tf9.jpg" alt="">
+        <img class="pic2" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig777nxj31900u0grr.jpg" alt="">
+        <img class="pic3" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig7f2bnj31900u00wa.jpg" alt="">
+        <img class="pic4" src="https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig6y69xj31900u0qas.jpg" alt="">
+      </div>
+    </div>
+
+  </div>
 
 </body>
 
