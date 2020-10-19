@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>banner</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg {
+    width: 1226px;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .clearfix {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .bg .navigation {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .bg .navigation ul {
+    width: 234px;
+    height: 420px;
+    background-color: rgba(131, 131, 131, 0.3);
+    padding: 20px 0;
+    list-style: none;
+    color: white;
+  }
+
+  .bg .navigation ul li {
+    padding: 0 0 0 30px;
+    line-height: 42px;
+    cursor: pointer;
+  }
+
+  .bg .navigation ul li:hover {
+    background-color: #FF5C01;
+  }
+
+  .bg .pic {
+    position: relative;
+  }
+
+  .bg .pic img {
+    display: block;
+    width: 1226px;
+    height: 460px;
+    position: absolute;
+  }
+
+  .bg .pic span {
+    float: left;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    right: 30px;
+    background-color: #333;
+    cursor: pointer;
+    margin: 0 10px;
+    display: block;
+  }
+
+  .bg .pic .left,
+  .bg .pic .right {
+    width: 50px;
+    height: 80px;
+    background-color: #999;
+  }
+</style>
+
+<body>
+  <div class="bg">
+    <div class="navigation">
+      <ul>
+        <li>手机 电话卡</li>
+        <li>电视 盒子</li>
+        <li>笔记本 显示器</li>
+        <li>家电 插线板</li>
+        <li>出行 穿戴</li>
+        <li>智能 路由器</li>
+        <li>电源 配件</li>
+        <li>健康 儿童</li>
+        <li>耳机 音响</li>
+        <li>生活 箱包</li>
+      </ul>
+
+    </div>
+    <div class="pic">
+      <img
+        src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/84cec825f1cd04ea6554fece8ecbc236.jpg?thumb=1&w=2452&h=920&f=webp&q=90"
+        alt="">
+      <img
+        src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5996037f1186354a680dfd7c050d32d6.jpg?thumb=1&w=2452&h=920&f=webp&q=90"
+        alt="">
+      <img
+        src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9ebff5f5c1f52f2dbdd611897adbefd4.jpg?thumb=1&w=2452&h=920&f=webp&q=90"
+        alt="">
+      <img
+        src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/499c6a806572dab61c794dd9ae4c7617.jpg?thumb=1&w=2452&h=920&f=webp&q=90"
+        alt="">
+      <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d9f8cf47b5eeb286a83e6e95a60105a.jpg?w=2452&h=920" alt="">
+      <div class="focus">
+        <span>1</span>
+        <span>1</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </div>
+</body>
+
+</html>
