@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work1</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bg {
+    width: 240px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .bg .teacher{
+    width: 240px;
+    height: 335px;
+    background-image: url(http://www.ujiuye.com/uploadfile/2019/0520/20190520111443306.jpg);
+  }
+  .intro {
+    /* background-color: #eee; */
+    width: 240px;
+  }
+
+  .bg .intro h4 {
+    font-size: 16px;
+    line-height: 60px;
+    height: 60px;
+    padding: 0 0 0 15px;
+  }
+
+  .bg .intro span {
+    font-size: 14px;
+    margin: 0 0 0 26px;
+    font-weight: normal;
+    color: #999;
+  }
+
+  .bg .pic {
+    width: 240px;
+    height: 335px;
+    background-color: rgba(0,0,0,.4);
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .bg .pic p {
+    color: white;
+    padding: 200px 20px 10px 20px;
+  }
+
+  .bg:hover .pic {
+    visibility: visible;
+  }
+  .bg:hover .intro h4 {
+    box-shadow: 5px 5px 10px rgb(165, 165, 165);
+  }
+</style>
+
+<body>
+  <div class="bg">
+    <div class="teacher">
+    </div>
+    <div class="intro">
+      <h4>江老师<span>优就业大前端高级讲师</span></h4>
+    </div>
+    <div class="pic">
+      <p>某科技公司高级前端开发工程师，参与开发过的项目有大型金融业务类网站,从事多年教学工作，富有亲和力，深受学员喜爱。</p>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -59,24 +59,37 @@
     position: absolute;
   }
 
-  .bg .pic span {
-    float: left;
+  .bg .focus {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+  }
+
+  .bg .focus span {
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    bottom: 10px;
-    right: 30px;
+    float: left;
     background-color: #333;
     cursor: pointer;
     margin: 0 10px;
-    display: block;
   }
 
-  .bg .pic .left,
-  .bg .pic .right {
-    width: 50px;
+  .bg .btn {
+    position: absolute;
+    top: 195px;
+    width: 40px;
     height: 80px;
     background-color: #999;
+  }
+
+  .bg .left {
+    left: 234px;
+  }
+
+  .bg .right {
+    right: 0;
+
   }
 </style>
 
@@ -111,17 +124,21 @@
         src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/499c6a806572dab61c794dd9ae4c7617.jpg?thumb=1&w=2452&h=920&f=webp&q=90"
         alt="">
       <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3d9f8cf47b5eeb286a83e6e95a60105a.jpg?w=2452&h=920" alt="">
-      <div class="focus">
-        <span>1</span>
-        <span>1</span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
 
+    </div>
+    <div class="focus">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="btn">
       <div class="left"></div>
       <div class="right"></div>
     </div>
+
+
   </div>
 </body>
 

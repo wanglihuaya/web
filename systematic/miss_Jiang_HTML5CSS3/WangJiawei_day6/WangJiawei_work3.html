@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work3</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  body {
+    background-color: lightpink;
+    padding-top: 200px;
+  }
+
+  .bg {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+  .bg ul li {
+    float: left;
+    font-size: 12px;
+    width: 225px;
+    height: 96px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .bg ul .li1,
+  .bg ul .li2,
+  .bg ul .li3 {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .bg ul .li4 {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .bg ul .li7,
+  .bg ul .li5,
+  .bg ul .li6 {
+    border-right: 1px solid #ccc;
+  }
+  
+  .bg ul .li1:hover .top {
+    display: block;
+  }
+  .bg ul .li2:hover .top {
+    display: block;
+  }
+  .bg ul .li3:hover .top {
+    display: block;
+  }
+  .bg ul .li4:hover .top {
+    display: block;
+  }
+  .bg ul .li5:hover .top {
+    display: block;
+  }
+  .bg ul .li6:hover .top {
+    display: block;
+  }
+  .bg ul .li7:hover .top {
+    display: block;
+  }
+  .bg ul .li8:hover .top {
+    display: block;
+  }
+
+  .bg ul li img {
+    width: 57px;
+    height: 60px;
+    margin: 23px 0 0 40px;
+    vertical-align: middle;
+  }
+
+  .bg ul li span {
+    width: 65px;
+    height: 20px;
+    margin: 40px 30px 0 0;
+    font-size: 16px;
+    text-align: center;
+    float: right;
+    font-weight: bolder;
+  }
+
+  .bg ul li .long {
+    margin: 30px 30px 0 0;
+  }
+
+  .bg ul li .top {
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    font-weight: normal;
+    width: 225px;
+    height: 96px;
+    color: white;
+    background-color: rgba(255, 114, 32, 0.85);
+    top: -40px;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .bg ul li .top em {
+    font-style: normal;
+    margin: 100px 0;
+  }
+
+  .bg ul li .top em a {
+    width: 100px;
+    margin: 15px auto;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 1px solid white;
+    border-radius: 20px;
+  }
+
+  .bg ul li .no em a {
+    margin: 0 auto;
+  }
+</style>
+
+<body>
+  <div class="bg clearfix">
+    <ul>
+      <li class="li1">
+        <img src="http://www.ujiuye.com/statics/images/images/jiuye.png" alt="">
+        <span>推荐就业</span>
+        <span class="top">
+          <em>一地学习全国就业
+            <a href="http://www.ujiuye.com/zt/jytx/" target="_blank">
+              查看详情 </a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li2">
+        <img src="http://www.ujiuye.com/statics/images/images/baoxian.png" width="57" height="60" alt="">
+        <span>全程面授</span>
+        <span class="top no">
+          <em>一线讲师手把手教学<br>全程面授
+            <a href="http://tb.53kf.com/code/client/10155271/1">查看详情
+            </a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li3">
+        <img src="http://www.ujiuye.com/statics/images/images/shisu.png">
+        <span>免费住宿</span>
+        <span class="top">
+          <em>自建教学基地包住宿
+            <a href="http://www.ujiuye.com/zt/jxhj/">查看详情</a>
+          </em>
+        </span>
+      </li>
+
+      <li  class="li4">
+        <img src="http://www.ujiuye.com/statics/images/images/daikuan.png">
+        <span>免息贷款</span>
+        <span class="top no">
+          <em>与百度合作提供<br>0息贷款服务
+            <a href="http://www.ujiuye.com/zt/bddk/">查看详情</a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li5">
+        <img src="http://www.ujiuye.com/statics/images/images/shixue.png">
+        <span>免费试学</span>
+        <span class="top">
+          <em>免费试学
+            <a href="http://tb.53kf.com/code/client/10155271/1" class="">查看详情</a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li6">
+        <img src="http://www.ujiuye.com/statics/images/images/jiaotong.png">
+        <span class="long">中公购书补助</span>
+        <span class="top no">
+          <em>购优就业图书领1000元<br>系统面授班报名补助金
+            <a href="http://tb.53kf.com/code/client/10155271/1">查看详情</a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li7"> <img src="http://www.ujiuye.com/statics/images/images/wangke.png">
+        <span>网课赠送</span>
+        <span class="top">
+          <em>免费赠送配套网课
+            <a href="http://tb.53kf.com/code/client/10155271/1">查看详情 </a>
+          </em>
+        </span>
+      </li>
+
+      <li class="li8"> <img src="http://www.ujiuye.com/statics/images/images/chongxiu.png" alt=""> <span>免费重修</span>
+        <span class="top">
+          <em>2年内可申请免费重学
+            <a href="http://tb.53kf.com/code/client/10155271/1">查看详情 </a>
+          </em>
+        </span>
+      </li>
+
+    </ul>
+  </div>
+</body>
+
+</html>
