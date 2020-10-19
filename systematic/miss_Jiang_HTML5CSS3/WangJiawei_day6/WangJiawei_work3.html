@@ -14,7 +14,7 @@
   }
 
   body {
-    background-color: lightpink;
+    background-color: lightskyblue;
     padding-top: 200px;
   }
 
@@ -38,6 +38,8 @@
     height: 96px;
     box-sizing: border-box;
     position: relative;
+    cursor: pointer;
+    overflow: hidden;
   }
 
   .bg ul .li1,
@@ -56,30 +58,53 @@
   .bg ul .li6 {
     border-right: 1px solid #ccc;
   }
-  
+
   .bg ul .li1:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li2:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li3:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li4:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li5:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li6:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li7:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
+
   .bg ul .li8:hover .top {
-    display: block;
+    /* display: block; */
+    transform: translateY(-100px);
+    box-shadow: 3px 2px 5px rgb(119, 119, 119);
   }
 
   .bg ul li img {
@@ -104,7 +129,7 @@
   }
 
   .bg ul li .top {
-    display: none;
+    /* display: none; */
     position: absolute;
     font-size: 16px;
     font-weight: normal;
@@ -112,10 +137,11 @@
     height: 96px;
     color: white;
     background-color: rgba(255, 114, 32, 0.85);
-    top: -40px;
+    top: 60px;
     left: 0;
     padding: 10px;
     box-sizing: border-box;
+    transition: all .2s linear;
   }
 
   .bg ul li .top em {
@@ -141,7 +167,7 @@
 <body>
   <div class="bg clearfix">
     <ul>
-      <li class="li1">
+      <li class="li1 clearfix">
         <img src="http://www.ujiuye.com/statics/images/images/jiuye.png" alt="">
         <span>推荐就业</span>
         <span class="top">
@@ -173,7 +199,7 @@
         </span>
       </li>
 
-      <li  class="li4">
+      <li class="li4">
         <img src="http://www.ujiuye.com/statics/images/images/daikuan.png">
         <span>免息贷款</span>
         <span class="top no">
