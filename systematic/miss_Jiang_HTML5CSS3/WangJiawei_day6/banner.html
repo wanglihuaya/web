@@ -49,23 +49,50 @@
   }
 
   .bg .pic {
+    width: 1226px;
+    height: 460px;
     position: relative;
+    overflow: hidden;
   }
 
   .bg .pic img {
     display: block;
     width: 1226px;
-    height: 460px;
+    top: 0;
+    left: 0;
     position: absolute;
+  }
+
+  .bg .pic img:nth-of-type(1) {
+    
+  }
+
+  .bg .pic img:nth-of-type(2) {
+    left: 100%;
+  }
+
+  .bg .pic img:nth-of-type(3) {
+    left: 200%;
+
+  }
+
+  .bg .pic img:nth-of-type(4) {
+    left: 300%;
+
+  }
+
+  .bg .pic img:nth-of-type(5) {
+    left: 400%;
+
   }
 
   .bg .focus {
     position: absolute;
-    bottom: 10px;
+    top: 420px;
     right: 30px;
   }
 
-  .bg .focus span {
+  .bg .focus input {
     border-radius: 50%;
     width: 10px;
     height: 10px;
@@ -76,20 +103,25 @@
   }
 
   .bg .btn {
+    position: relative;
+  }
+
+  .bg .btn .left {
     position: absolute;
     top: 195px;
     width: 40px;
     height: 80px;
-    background-color: #999;
-  }
-
-  .bg .left {
     left: 234px;
+    background-color: brown;
   }
 
-  .bg .right {
+  .bg .btn .right {
     right: 0;
-
+    background-color: brown;
+    position: absolute;
+    top: 195px;
+    width: 40px;
+    height: 80px;
   }
 </style>
 
@@ -127,11 +159,18 @@
 
     </div>
     <div class="focus">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+      <input type="radio" id="control-1" name="control" checked>
+      <input type="radio" id="control-2" name="control" >
+      <input type="radio" id="control-3" name="control" >
+      <input type="radio" id="control-4" name="control" >
+      <input type="radio" id="control-5" name="control" >
+    </div>
+    <div class="control-visible">
+      <label for="control-1"></label>
+      <label for="control-2"></label>
+      <label for="control-3"></label>
+      <label for="control-4"></label>
+      <label for="control-5"></label>
     </div>
     <div class="btn">
       <div class="left"></div>

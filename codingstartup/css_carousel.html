@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css carousel</title>
+</head>
+<style>
+  body {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  ul.slides {
+    position: relative;
+    width: 600px;
+    height: 280px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    overflow: hidden;
+  }
+
+  li.slide {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-family: "Helvetica now display";
+    color: #fff;
+  }
+
+  .slide:nth-of-type(1) {
+    background-color: tomato;
+
+  }
+
+  .slide:nth-of-type(2) {
+    background-color: gold;
+    left: 100%;
+  }
+
+  .slide:nth-of-type(3) {
+    background-color: lightseagreen;
+    left: 200%;
+  }
+</style>
+
+<body>
+  <ul class="slides">
+    <li class="slide">1</li>
+    <li class="slide">2</li>
+    <li class="slide">3</li>
+  </ul>
+</body>
+
+</html>
