@@ -61,7 +61,7 @@
 
 .bg .container .win>div>div>div {
   width: 35px;
-  border-right: 1px solid #F4692A;
+  border-right: 1px solid #D9D9D9;
   height: 34px;
   float: left;
   background-color: #f6f6f6;
@@ -90,15 +90,20 @@
   border: 1px solid #F4692A;
 }
 
-.bg .container .win .acc .accBox:hover .accImg {
-  background-position: -48px -4px;
+.bg .container .win .acc .accBox:hover .box1 {
+  border-right: 1px solid #F4692A;
+  height: 34px;
 }
 
-/* .bg .container .win .passw .passwBox .passwImg {
-  background: url(../images/sprite.png) no-repeat -4px -40px;
-  background-color: #333;
-  float: left;
-} */
+.bg .container .win .passw .passwBox:hover .box2 {
+  border-right: 1px solid #F4692A;
+  height: 34px;
+}
+
+.bg .container .win .acc .accBox:hover .accImg .box1:before {
+  background-position: -57px -17px;
+}
+
 
 .bg .container .win .passw .passwBox:hover {
   border: 1px solid #F4692A;
@@ -108,13 +113,35 @@
   background-position: -57px -51px;
 }
 
+.bg .container .win .ver .verBox input {
+  float: left;
+  width: 206px;
+  border-right: none;
+}
+
+.bg .container .win .ver .verBox {
+  border-right: none;
+}
+.bg .container .win .ver .verBox .ver_img {
+  float: right;
+  width: 85px;
+  border-left: 1px solid #D9D9D9;
+  background: url(../images/sprite.png) no-repeat -1px -125px;
+}
+
 .bg .container .win .ver .verBox:hover {
   border: 1px solid #F4692A;
+  border-right: none;
+}
+
+.bg .container .win .ver .verBox:hover .ver_img {
+  border-left: 1px solid #F4692A;
+  border-right: 1px solid #F4692A;
 }
 
 .bg .container .win>div>div input {
   border: none;
-  width: 329px;
+  width: 328px;
   height: 34px;
   float: right;
   padding: 0 0 0 10px;
@@ -135,6 +162,7 @@
   font-size: 20px;
   border: none;
   display: block;
+  cursor: pointer;
 }
 
 .bg .container .win>p:last-child {
@@ -142,7 +170,7 @@
   margin: 0 auto 47px;
 }
 
-.bg .container .win>p:last-child span {
+.bg .container .win>p:last-child a {
   color: #F4692A;
 
 }
