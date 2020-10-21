@@ -55,19 +55,34 @@
 }
 
 .bg .container .win>div>div {
-  height: 36px;
+  height: 34px;
   border: 1px solid #D9D9D9;
 }
 
 .bg .container .win>div>div>div {
-  width: 34px;
+  width: 35px;
+  border-right: 1px solid #F4692A;
   height: 34px;
+  float: left;
+  background-color: #f6f6f6;
 }
 
-.bg .container .win .acc .accBox .accImg {
-  background: url(../images/sprite.png) no-repeat -4px -4px;
-  background-color: #333;
+.bg .container .win .acc .accBox .accImg .box1:before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  background: url(../images/sprite.png) no-repeat -13px -17px;
   float: left;
+  margin: 12px 10px;
+}
+
+.bg .container .win .passw .passwBox .passwImg .box2:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: url(../images/sprite.png) no-repeat -13px -51px;
+  float: left;
+  margin: 12px 10px;
 }
 
 
@@ -79,18 +94,18 @@
   background-position: -48px -4px;
 }
 
-.bg .container .win .passw .passwBox .passwImg {
+/* .bg .container .win .passw .passwBox .passwImg {
   background: url(../images/sprite.png) no-repeat -4px -40px;
   background-color: #333;
   float: left;
-}
+} */
 
 .bg .container .win .passw .passwBox:hover {
   border: 1px solid #F4692A;
 }
 
-.bg .container .win .passw .passwBox:hover .passwImg {
-  background-position: -48px -40px;
+.bg .container .win .passw .passwBox:hover .passwImg .box2:before {
+  background-position: -57px -51px;
 }
 
 .bg .container .win .ver .verBox:hover {
@@ -99,8 +114,8 @@
 
 .bg .container .win>div>div input {
   border: none;
-  width: 331px;
-  height: 36px;
+  width: 329px;
+  height: 34px;
   float: right;
   padding: 0 0 0 10px;
 }

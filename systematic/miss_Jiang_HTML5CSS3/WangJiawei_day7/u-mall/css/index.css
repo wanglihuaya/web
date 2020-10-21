@@ -1,0 +1,291 @@
+.bg {}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.wrap {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+
+/* top */
+
+
+.top {
+  height: 34px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #e0e0e0;
+  line-height: 34px;
+}
+
+
+
+.top .wrap .left {
+  float: left;
+}
+
+.top .wrap .right {
+  float: right;
+}
+
+.top .wrap li {
+  float: left;
+  margin: 0 18px 0 0;
+}
+
+.top .wrap li a {
+  color: #666;
+}
+
+.top .wrap li svg {
+  color: rgb(201, 199, 199);
+  vertical-align: middle;
+}
+
+.orange {
+  color: #F26A2A;
+}
+
+.top .wrap li .gouwuche {
+  vertical-align: -4px;
+  font-size: 16px;
+}
+
+
+.top .wrap li .zuobiao {
+  vertical-align: -4px;
+  font-size: 20px;
+}
+
+.top .wrap li .trangle {
+  vertical-align: -4px;
+  font-size: 16px;
+}
+
+
+/* header */
+
+.bg .header {
+  margin-top: 30px;
+  height: 60px;
+}
+
+.bg .header h1 a {
+  width: 205px;
+  display: block;
+  height: 45px;
+  background: url(../images/cart_logo.jpg);
+  float: left;
+  margin-right: 164px;
+}
+
+.bg .header .searchBox1 {
+  background-color: #F26A2A;
+  width: 540px;
+  height: 40px;
+  float: left;
+}
+
+.bg .header .searchBox1 h2 {
+  float: right;
+  margin: 12px 41px;
+  color: white;
+}
+
+.bg .header .searchBox1 .searchBox2 {
+  width: 418px;
+  height: 36px;
+  line-height: 36px;
+  border: 2px solid #F26A2A;
+  background-color: #fff;
+}
+
+.bg .header .searchBox1 .searchBox2 i svg {
+  font-size: 16px;
+  margin: 12px 8px 12px 10px;
+  color: #666;
+}
+
+.bg .header .searchBox1 .searchBox2 input {
+  float: right;
+  border: none;
+  height: 36px;
+  line-height: 36px;
+  width: 380px;
+}
+
+.bg .header .searchBox1 .searchList {
+  margin-top: 9px;
+}
+
+.bg .header .searchBox1 .searchList ul li {
+  float: left;
+  color: #666;
+}
+
+.bg .header .searchBox1 .searchList ul li span {
+  margin: 0 9px;
+}
+
+.bg .header .searchBox1 .searchList ul .orange {
+  color: #F26A2A;
+}
+
+.bg .header .searchBox1 .searchList ul .orange span {
+  color: #666;
+}
+
+
+
+
+
+/* classify */
+
+.bg .classify {
+  margin-top: 19px;
+  height: 38px;
+}
+
+.bg .classify .classLeft {
+  width: 190px;
+  height: 38px;
+  float: left;
+  background-color: #F26A2A;
+  margin-right: 22px;
+}
+
+.bg .classify .classLeft i {
+  width: 12px;
+  height: 10px;
+  float: left;
+  background: url(../images/sprite1.png) no-repeat 0 0;
+  margin: 14px 6px 14px 9px;
+}
+
+.bg .classify .classLeft p {
+  float: left;
+  color: white;
+  margin: 13px 0;
+  font-weight: bold;
+}
+
+.bg .classify .classList ul {
+  height: 38px;
+}
+
+.bg .classify .classList ul li {
+  float: left;
+  margin: 13px 26px 13px 0;
+  font-weight: bold;
+}
+
+
+/* slide */
+
+.bg .slide {
+  height: 482px;
+}
+
+.bg .slide .slideListBg {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.bg .slide .slideList {
+  width: 190px;
+  float: left;
+  background-color: rgba(48, 47, 47, 0.6);
+}
+
+.bg .slide .slideList ul {
+  margin: 13px 0 0 10px;
+}
+
+.bg .slide .slideList ul li {
+  margin-bottom: 20px;
+}
+
+.bg .slide .slideList ul li a {
+  color: white;
+}
+
+.bg .slide .slideList ul li a span {
+  color: #666;
+  margin: 0 8px;
+}
+
+.bg .slide .slideBg {
+  background-color: #F63451;
+}
+
+.bg .slide .slideBg .slideImg {
+  width: 1190px;
+  background: url(../images/banner.jpg);
+  height: 482px;
+  margin: 0 auto;
+}
+
+.bg .slide .slideBg .slideImg .leftGo {
+  float: left;
+  font-size: 40px;
+  margin: 201px 0;
+  cursor: pointer;
+}
+
+.bg .slide .slideBg .slideImg .rightGo {
+  margin: 201px 0;
+  font-size: 40px;
+  float: right;
+  cursor: pointer;
+}
+
+.bg .slide .slideBg .slideImg .dot ul {
+  height: 20px;
+  margin: 430px 335px;
+  float: left;
+  overflow: hidden;
+}
+
+.bg .slide .slideBg .slideImg .dot ul li {
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: white;
+  margin: 0 10px 0 0;
+}
+
+.bg .slide .slideBg .slideImg .dot ul li:nth-of-type(7) {
+  background-color: orange;
+}
+
+
+/* content */
+
+.bg .contentOne {
+  height: 330px;
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+.bg .contentOne .conOleft {
+  width: 790px;
+  height: 330px;
+  margin-right: 10px;
+  float: left;
+  background-color: #999;
+}
+
+.bg .contentOne .conOright {
+  height: 330px;
+  width:  390px;
+  float: right;
+  background-color: #999;
+}
