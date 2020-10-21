@@ -1,0 +1,143 @@
+.bg {
+  height: 678px;
+  /* margin: 0 auto; */
+}
+
+.bg .header {
+
+  width: 1200px;
+  height: 558px;
+  margin: 0 auto 28px;
+  padding-top: 38px;
+  height: 41px;
+  line-height: 41px;
+}
+
+.bg .header h1 img {
+  width: 206px;
+  height: 41px;
+  float: left;
+  border-right: 1px solid #e9e9e9;
+  padding: 0 39px 0 0;
+  margin: 0 21px 0 0;
+}
+
+.bg .header h1 p {
+  font-size: 24px;
+  color: #666;
+  float: left;
+}
+
+.bg .container {
+  height: 554px;
+  background-color: rgb(245, 245, 245);
+  padding-top: 34px;
+}
+
+.bg .container .win {
+  width: 750px;
+  height: 496px;
+  background-color: #fff;
+  border-top: 3px solid #F4692A;
+  margin: 0 auto 41px;
+}
+
+.bg .container .win p:first-child {
+  text-align: center;
+  font-size: 24px;
+  margin: 32px auto 35px;
+}
+
+.bg .container .win>div {
+  width: 377px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.bg .container .win>div>div {
+  height: 36px;
+  border: 1px solid #D9D9D9;
+}
+
+.bg .container .win>div>div>div {
+  width: 34px;
+  height: 34px;
+}
+
+.bg .container .win .acc .accBox .accImg {
+  background: url(../images/sprite.png) no-repeat -4px -4px;
+  background-color: #333;
+  float: left;
+}
+
+
+.bg .container .win .acc .accBox:hover {
+  border: 1px solid #F4692A;
+}
+
+.bg .container .win .acc .accBox:hover .accImg {
+  background-position: -48px -4px;
+}
+
+.bg .container .win .passw .passwBox .passwImg {
+  background: url(../images/sprite.png) no-repeat -4px -40px;
+  background-color: #333;
+  float: left;
+}
+
+.bg .container .win .passw .passwBox:hover {
+  border: 1px solid #F4692A;
+}
+
+.bg .container .win .passw .passwBox:hover .passwImg {
+  background-position: -48px -40px;
+}
+
+.bg .container .win .ver .verBox:hover {
+  border: 1px solid #F4692A;
+}
+
+.bg .container .win>div>div input {
+  border: none;
+  width: 331px;
+  height: 36px;
+  float: right;
+  padding: 0 0 0 10px;
+}
+
+.bg .container .win>div p {
+  margin: 10px 0 0 0;
+  font-size: 12px;
+  color: #F4692A;
+}
+
+.bg .container .win button {
+  width: 384px;
+  height: 44px;
+  margin: 9px auto 36px;
+  background-color: #F4692A;
+  color: white;
+  font-size: 20px;
+  border: none;
+  display: block;
+}
+
+.bg .container .win>p:last-child {
+  text-align: center;
+  margin: 0 auto 47px;
+}
+
+.bg .container .win>p:last-child span {
+  color: #F4692A;
+
+}
+
+.bg .footer {
+
+  font-size: 12px;
+  text-align: center;
+  line-height: 28px;
+  margin: 43px 0 0 17px;
+  color: #636363;
+
+}
