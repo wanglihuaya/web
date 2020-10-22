@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="">
+  <title>form</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    .text1 {
+      border: 1px solid red;
+      height: 20px;
+      float: left;
+    }
+    .button {
+      background-color: #fff;
+      border: 1px solid #000;
+      height: 24px;
+    }
+  </style>
+</head>
+  
+<body>
+
+  <form action="">
+    <input type="text" class="text1">
+    <input type="submit" class="button" value="提交">
+  </form>
+  <form action="" method>
+    <!-- 
+      常见的表单元素
+      input
+      select
+      textarea
+
+      - name: 用来标记输入的字段名，如果没有定义 name 属性，这个输入框的内容就不能被提交
+      - type: 用来定义输入框的类型
+      - value: 用来定义表单元素的值
+                - 单选按钮和复选框必须设置 value 属性指定这个选项所代表的值
+                - 给普通舒服矿定义初始值
+                - 给按钮设置文字
+
+          text: 普通文本框
+          password: 密码框
+          submit: 提交按钮
+          radio: 单选
+          checkbox: 复选
+          buttom: 普通按钮
+          image: 图片提交按钮
+          file: 文件提交
+          hidden: 隐藏域
+
+          checked: 设置单选按钮和复选框为选中状态
+          selected: 设置下拉列表的默认选中项
+          readonly: 设置表单元素只读状态 不可以编辑 可以提交
+          disabled: 设置表单元素为禁用状态 不可以编辑 不可提交
+          maxlength: 设置输入框允许输入的最大的字符个数
+          size:  下拉列表可见选项的数目 值>=2 配合高度属性可以把选项全部显示出来 
+    -->
+    <input type="text" name="username"> <br>
+    <input type="password" name="password"> <br>
+    <input type="submit" name="submit" value="submit"> <br>
+    <input type="reset" name="submit" value="reset"> <br>
+    <input type="radio" name="gender" checked="checked">Boy <br>
+    <input type="radio" name="gender">Girl <br>
+    <input type="checkbox" name="hobby" value="study" checked="checked"> 学习🌞 <br>
+    <input type="checkbox" name="hobby" value="study"> 学习👀 <br>
+    <input type="checkbox" name="hobby" value="study"> 学习🕺 <br>
+    <input type="checkbox" name="hobby" value="study"> 学习📚 <br>
+    <input type="button" value="button">
+    <input type="image" src=""> <br>
+    <input type="file" src=""> <br>
+
+    <!-- 下拉列表 -->
+    <select name="" id="">
+      <option value="沃柑">蜗杆</option>
+      <option value="沃柑">蜗杆</option>
+      <option value="沃柑">蜗杆</option>
+      <option value="沃柑">蜗杆</option>  
+      <option>蜗杆</option>
+    </select>
+    
+    <!--
+       多行文本 文本域 
+       resize: 不允许改变尺寸
+    -->
+    <textarea name="" id="" cols="30" rows="10" style="resize: none;">
+
+    </textarea>
+
+    <!-- button -->
+    <button type="submit">阿萨德</button> <!-- 默认提交 -->
+    <button type="reset">爱思的</button> <!--重置 --> <br>
+
+    <!-- label -->
+    <label for="user">haha:</label>  <!-- 通过 for 快速键入 input -->
+    <input type="text" id="user">
+  </form>
+  <script src=""></script>
+</body>
+  
+</html>

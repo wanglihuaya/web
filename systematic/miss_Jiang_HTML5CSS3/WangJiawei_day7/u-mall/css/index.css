@@ -200,11 +200,12 @@
 .bg .slide .slideList {
   width: 190px;
   float: left;
+  height: 482px;
   background-color: rgba(48, 47, 47, 0.6);
 }
 
 .bg .slide .slideList ul {
-  margin: 13px 0 0 10px;
+  margin: 17px 0 10px 10px;
 }
 
 .bg .slide .slideList ul li {
@@ -245,24 +246,24 @@
   cursor: pointer;
 }
 
-.bg .slide .slideBg .slideImg .dot ul {
-  height: 20px;
-  margin: 430px 335px;
-  float: left;
-  overflow: hidden;
+.bg .slide .slideBg .slideImg .dot {
+  width: 1000px;
+  height: 18px;
+  text-align: center;
+  display: inline-block;
 }
 
-.bg .slide .slideBg .slideImg .dot ul li {
-  float: left;
-  width: 20px;
-  height: 20px;
+.bg .slide .slideBg .slideImg .dot span {
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
   cursor: pointer;
   background-color: white;
-  margin: 0 10px 0 0;
+  margin: 0 5px;
+  display: inline-block;
 }
 
-.bg .slide .slideBg .slideImg .dot ul li:nth-of-type(7) {
+.bg .slide .slideBg .slideImg .dot span:nth-of-type(7) {
   background-color: orange;
 }
 
@@ -281,6 +282,16 @@
   margin-right: 10px;
   float: left;
   background-color: #999;
+}
+
+.bg .contentOne .conOleft .conOLtop {
+  height: 46px;
+  background-color: #888;
+}
+
+.bg .contentOne .conOleft .conOLbottom {
+  height: 284px;
+  background-color: #777;
 }
 
 .bg .contentOne .conOright {
