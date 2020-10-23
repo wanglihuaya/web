@@ -727,6 +727,7 @@
   text-align: center;
 }
 
+
 .bg .contentTwo .wrap .right .rightBox td {
   border-bottom: 1px solid #eee;
   border-right: 1px solid #eee;
@@ -829,13 +830,13 @@
   text-align: center;
 }
 
-.bg .contentFour .wrap .right div p:nth-of-type(1),
-.bg .contentFour .wrap .right div p:nth-of-type(3),
-.bg .contentFour .wrap .right div p:nth-of-type(5) {
+.bg .contentFour .wrap .right div:nth-of-type(1) p,
+.bg .contentFour .wrap .right div:nth-of-type(3) p,
+.bg .contentFour .wrap .right div:nth-of-type(5) p {
   padding: 50px 0 0 0;
 }
 
-.bg .contentFour .wrap .right div:nth-of-type(2),
+/* .bg .contentFour .wrap .right div:nth-of-type(2),
 .bg .contentFour .wrap .right div:nth-of-type(4)
  {
   position: relative;
@@ -846,7 +847,7 @@
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 
 .bg .contentFour .wrap .right div p:nth-of-type(3) {
   margin: 10px 0 0 0;
