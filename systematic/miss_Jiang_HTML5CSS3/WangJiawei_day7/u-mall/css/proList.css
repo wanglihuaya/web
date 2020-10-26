@@ -221,7 +221,9 @@
   color: red;
   font-weight: bold;
 }
-
+.bg .bottomX .wrap .right .bottomOne>div>div {
+  margin-top: 5px;
+}
 .bg .bottomX .wrap .right .bottomOne>div .shop {
   width: 198px;
   height: 30px;
@@ -236,10 +238,11 @@
   color: #888;
 }
 .bg .bottomX .wrap .right .bottomOne>div .shop .icon {
-  color: #F26A2A;
-  font-size: 20px;
+  color: #888;
+  font-size: 18px;
   vertical-align: bottom;
   display: inline-block;
+  margin: 6px;
 }
 
 .bg .bottomX .wrap .right .bottomOne>div .shop .heart {

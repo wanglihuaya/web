@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="">
+  <title>practice</title>
+  <style>
+  
+  </style>
+</head>
+  
+<body>
+  <table class="standard-table">
+    <colgroup>
+     <col>
+     <col style="width: 50%;">
+     <col>
+    </colgroup>
+    <thead>
+     <tr>
+      <th>Type</th>
+      <th>描述</th>
+      <th>基础例子</th>
+      <th>Spec</th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/button" title="元素<input type=&quot;button&quot;>&nbsp;是&nbsp;&nbsp;<input> 元素的特殊版本，被用来创建一个没有默认值的可点击按钮。&nbsp;它已经在HTML5被&nbsp;<button>元素取代">button</a></td>
+      <td>没有默认行为的按钮，上面显示 <a href="#value">value</a> 属性的值，默认为空。</td>
+      <td id="examplebutton">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplebutton" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplebutton?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/checkbox" title="HTML input元素&nbsp;<input type=&quot;checkbox&quot;> 允许你为表单中（或不在表单中）的提交项选择一个单一值。">checkbox</a></td>
+      <td>复选框，可设为选中或未选中。</td>
+      <td id="examplecheckbox">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>checkbox<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplecheckbox" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplecheckbox?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/color" title="<input type=&quot;color&quot;>元素是<input>元素中的一个特定种类，用来创建一个允许用户使用颜色选择器，或输入兼容CSS语法的颜色代码的区域。（不支持Alpha通道）">color</a></td>
+      <td>用于指定颜色的控件；在支持的浏览器中，激活时会打开取色器。</td>
+      <td id="examplecolor">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>color<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>color<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplecolor" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplecolor?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/date" title="日期类<input>元素会创建一个让用户输入一个日期的输入区域，可以使用自动验证内容的文本框，也可以使用特殊的日期选择器界面。结果值包括年份，月份和日期，但不包括时间。time 和 datetime-local输入类支持time 和 date/time&nbsp;输入。">date</a></td>
+      <td>输入日期的控件（年、月、日，不包括时间）。在支持的浏览器激活时打开日期选择器或年月日的数字滚轮。</td>
+      <td id="exampledate">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>date<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>date<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampledate" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampledate?revision=1612291" width="200"></iframe></td>
+      <td>&nbsp; <span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/datetime-local" title="<input> 元素的&nbsp;datetime-local&nbsp;类型创建让用户便捷输入日期和时间的输入控件，包括“年”、“月”、“日”，以及“时”和“分”。">datetime-local</a></td>
+      <td>输入日期和时间的控件，不包括时区。在支持的浏览器激活时打开日期选择器或年月日的数字滚轮。</td>
+      <td id="exampledtl">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>datetime-local<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>datetime-local<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampledtl" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampledtl?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/email" title="带有&nbsp;&quot;email&quot;&nbsp;(电子邮箱)类型标记的输入框元素(<input>)能够让用户输入或编辑一个电子邮箱地址，此外，如果指定了multiple属性，用户还可以输入多个电子邮箱地址。在表单提交前，输入框会自动验证输入值是否是一个或多个合法的电子邮箱地址(非空值且符合电子邮箱地址格式).">email</a></td>
+      <td>编辑邮箱地址的区域。类似&nbsp;<code>text</code>&nbsp;输入，但在支持的浏览器和带有动态键盘的设备上会有确认参数和相应的键盘。</td>
+      <td id="exampleemail">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampleemail" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampleemail?revision=1612291" width="200"></iframe></td>
+   <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/file" title="使用&nbsp;type=&quot;file&quot;&nbsp;的 <input>&nbsp;元素使得用户可以选择一个或多个元素以提交表单的方式上传到服务器上，或者通过 Javascript 的 File API 对文件进行操作。">file</a></td>
+      <td>让用户选择文件的控件。使用<a href="#accept">accept</a>属性规定控件能选择的文件类型。</td>
+      <td id="examplefile">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file<span class="token punctuation">"</span></span> <span class="token attr-name">accept</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>image/*, text/*<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>file<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplefile" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplefile?revision=1612291" width="100%"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/hidden" title="&quot;hidden&quot; 类型的 <input> 元素允许 Web 开发者存放一些用户不可见、不可改的数据，在用户提交表单时，这些数据会一并发送出。比如，正被请求或编辑的内容的 ID，或是一个唯一的安全令牌。这些隐藏的 元素在渲染完成的页面中完全不可见，而且没有方法可以使它重新变为可见。">hidden</a></td>
+      <td>不显示的控件，其值仍会提交到服务器。举个例子，右边就是一个隐形的控件。</td>
+      <td></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/image" title="The <input type=&quot;image&quot;> is a graphical submit button. You must use the src attribute to define the source of the image and the alt attribute to define alternative text. The height and width attributes are used to define the size of the image in pixels.">image</a></td>
+      <td>带图像的&nbsp;<code>submit</code> 按钮。显示的图像由 <code>src</code>&nbsp;属性规定。如果 <a href="#src">src</a> 缺失，<a href="#alt">alt</a> 属性就会显示。</td>
+      <td id="exampleimage">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>image<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>image<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span><span class="token punctuation">"</span></span> <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>image input<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampleimage" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampleimage?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a class="new" href="/zh-CN/docs/Web/HTML/Element/input/month" rel="nofollow" title="此页面仍未被本地化, 期待您的翻译!">month</a></td>
+      <td>输入年和月的控件，没有时区。</td>
+      <td id="examplemonth">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>month<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>month<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplemonth" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplemonth?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/number" title="&quot;number&quot;类型的 <input> 元素用于让用户输入一个数字。其包括内置验证以拒绝非数字输入。浏览器可能会选择提供步进箭头，让用户可以使用鼠标增加和减少输入的值，或者只需用指尖敲击即可。">number</a></td>
+      <td>用于输入数字的控件。如果支持的话，会显示滚动按钮并提供缺省验证（即只能输入数字）。拥有动态键盘的设备上会显示数字键盘。</td>
+      <td id="examplenumber">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>number<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>number<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplenumber" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplenumber?revision=1612291" width="200"></iframe></td>
+   <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/password" title="<input> 元素 里有一种叫做&nbsp;&quot;password&quot;&nbsp;的值，给我们一个方法让用户更加安全的输入密码。">password</a></td>
+      <td>单行的文本区域，其值会被遮盖。如果站点不安全，会警告用户。</td>
+      <td id="examplepassword">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplepassword" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplepassword?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/radio" title="<input> 的&nbsp;radio&nbsp;类型元素默认渲染为小型圆圈图表，填充即为激活，类似于之前描述额复选框（checkbox）类型。单选按钮允许你选择单一的值来提交表单。">radio</a></td>
+      <td>单选按钮，允许在多个拥有相同 <a href="#name">name</a> 值的选项中选中其中一个。</td>
+      <td id="exampleradio">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>radio<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampleradio" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampleradio?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a class="new" href="/zh-CN/docs/Web/HTML/Element/input/range" rel="nofollow" title="此页面仍未被本地化, 期待您的翻译!">range</a></td>
+      <td>此控件用于输入不需要精确的数字。控件是一个范围组件，默认值为正中间的值。同时使用<a href="#htmlattrdefmin">htmlattrdefmin</a>&nbsp; &nbsp;和 <a href="#htmlattrdefmax">htmlattrdefmax</a>来规定值的范围。</td>
+      <td id="examplerange">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>range<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>range<span class="token punctuation">"</span></span> <span class="token attr-name">min</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>0<span class="token punctuation">"</span></span> <span class="token attr-name">max</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>25<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplerange" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplerange?revision=1612291" width="200"></iframe></td>
+      <td>&nbsp; <span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/reset" title="<input>&nbsp;type 类型为 &quot;reset&quot;&nbsp;元素呈现为按钮，且带有默认的&nbsp;click&nbsp;事件，用于将表单中的所有输入重置为其初始值。">reset</a></td>
+      <td>此按钮将表单的所有内容重置为默认值。不推荐。</td>
+      <td id="examplereset">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>reset<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>reset<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplereset" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplereset?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/search" title="<input> 元素的&nbsp;search&nbsp;类型是&nbsp;&nbsp;text&nbsp;输入相同, 但是可以通过&nbsp;user agent 进行不同样式的设置。">search</a></td>
+      <td>用于搜索字符串的单行文字区域。输入文本中的换行会被自动去除。在支持的浏览器中可能有一个删除按钮，用于清除整个区域。拥有动态键盘的设备上的回车图标会变成搜索图标。</td>
+      <td id="examplesearch">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>search<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplesearch" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplesearch?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/submit" title="submit 类型的 <input>&nbsp; 元素被渲染成按钮. 当&nbsp;click 事件发生时(用户点击按钮是一个典型的点击事件),&nbsp; 用户代理 试图提交表单到服务器.">submit</a></td>
+      <td>用于提交表单的按钮。</td>
+      <td id="examplesubmit">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_examplesubmit" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/examplesubmit?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/tel" title="<input>&nbsp;&nbsp;&quot;tel&quot; 类型的元素用于让用户输入和编辑电话号码。 Unli不同于<input type=&quot;email&quot;>&nbsp;和&nbsp;<input type=&quot;url&quot;> , 在提交表格之前，输入值不会被自动验证为特定格式，因为世界各地的电话号码格式差别很大。">tel</a></td>
+      <td>用于输入电话号码的控件。拥有动态键盘的设备上会显示电话数字键盘。</td>
+      <td id="exampletel">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>tel<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampletel" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampletel?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/text" title="<input> 元素的text 类型创建基础的单行文本框.">text</a></td>
+      <td>默认值。单行的文本区域，输入中的换行会被自动去除。</td>
+      <td id="exampletext">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampletext" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampletext?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/time" title="类型为time的输入元素<input> ，旨在让用户轻松输入时间（小时和分钟，以及可选的秒）。">time</a></td>
+      <td>用于输入时间的控件，不包括时区。</td>
+      <td id="exampletime">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span>  <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>time<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>time<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampletime" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampletime?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a class="new" href="/zh-CN/docs/Web/HTML/Element/input/url" rel="nofollow" title="此页面仍未被本地化, 期待您的翻译!">url</a></td>
+      <td>
+       <p>用于输入 URL 的控件。类似 <code>text</code>&nbsp;输入，但有验证参数，在支持动态键盘的设备上有相应的键盘。</p>
+      </td>
+      <td id="exampleurl">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>url<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>url<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampleurl" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampleurl?revision=1612291" width="200"></iframe></td>
+      <td><span class="inlineIndicator htmlVer htmlVerInline"><a href="/zh-CN/docs/HTML/HTML5">HTML5</a></span></td>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/week" title="<input> 类型为&nbsp;week&nbsp;的元素会创建输入字段，以便轻松输入年份以及该年（即第1周到52 or 53周）的ISO 8601 week number&nbsp;">week</a></td>
+      <td>用于输入以年和周数组成的日期，不带时区。</td>
+      <td id="exampleweek">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>week<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>week<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="55" id="frame_exampleweek" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampleweek?revision=1612291" width="200"></iframe></td>
+   <td></td>
+     </tr>
+     <tr>
+      <th colspan="4">废弃的值</th>
+     </tr>
+     <tr>
+      <td><a href="/zh-CN/docs/Web/HTML/Element/input/datetime" title="HTML <input type=&quot;datetime&quot;>&nbsp;是一个控件，用于输入日期和时间（小时、分钟、秒和秒的小数）以及时区。这个特性已经 从 WHATWG HTML 中移除，并且不再受浏览器支持。">datetime</a></td>
+      <td><span class="icon-only-inline" title="This deprecated API should no longer be used, but will probably still work."><i class="icon-thumbs-down-alt"> </i></span> <span class="icon-only-inline" title="This is an obsolete API and is no longer guaranteed to work."><i class="icon-trash"> </i></span> 用于输入基于UTC时区的日期和时间（时、分、秒及秒的小数部分）。</td>
+      <td id="exampledatetime">
+       <pre class="brush: html hidden line-numbers language-html"><code class=" language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>datetime<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>datetime<span class="token punctuation">"</span></span><span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+      <iframe class="live-sample-frame nobutton" frameborder="0" height="75" id="frame_exampledatetime" src="https://mdn.mozillademos.org/en-US/docs/Web/HTML/Element/input$samples/exampledatetime?revision=1612291" width="200"></iframe></td>
+      <td></td>
+     </tr>
+    </tbody>
+   </table>
+  <script src=""></script>
+</body>
+  
+</html>
