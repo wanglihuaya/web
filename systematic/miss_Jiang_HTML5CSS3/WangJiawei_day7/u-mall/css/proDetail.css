@@ -1,0 +1,432 @@
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.bg .classify {
+  margin-top: 19px;
+  height: 38px;
+}
+
+.bg .classify .classLeft {
+  width: 190px;
+  height: 38px;
+  float: left;
+  background-color: #F26A2A;
+  margin-right: 22px;
+}
+
+.bg .classify .classLeft i {
+  width: 12px;
+  height: 10px;
+  float: left;
+  background: url(../images/sprite1.png) no-repeat 0 0;
+  margin: 14px 6px 14px 9px;
+}
+
+.bg .classify .classLeft p {
+  float: left;
+  color: white;
+  margin: 13px 0;
+  font-weight: bold;
+}
+
+.bg .classify .classList ul {
+  height: 38px;
+}
+
+.bg .classify .classList ul li {
+  float: left;
+  margin: 13px 26px 13px 0;
+  font-weight: bold;
+}
+
+.bg .contentFirst .wrap {
+  height: 563px;
+}
+
+.bg .contentFirst .wrap .left {
+  float: left;
+}
+
+.bg .contentFirst .wrap .right {
+  float: left;
+}
+
+.bg .contentFirst .wrap .firstOne {
+  height: 12px;
+  width: 420px;
+  margin-top: 25px;
+}
+
+.bg .contentFirst .wrap .firstTwo {
+  width: 420px;
+  height: 411px;
+  background: url(../images/tv1.jpg);
+}
+
+.bg .contentFirst .wrap .firstThree {
+  width: 420px;
+  height: 30px;
+  margin: 7px 0 10px 0;
+}
+
+.bg .contentFirst .wrap .firstThree .icon {
+  float: right;
+  background-color: #eee;
+  font-size: 28px;
+}
+
+.bg .contentFirst .wrap .firstFour {
+  width: 420 px;
+  height: 67px;
+}
+
+.bg .contentFirst .wrap .firstFour .firstFourLeft {
+  background: url(../images/left1.png);
+  float: left;
+  width: 20px;
+  height: 66px;
+}
+
+.bg .contentFirst .wrap .firstFour .firstFourRight {
+  background: url(../images/right.png);
+  float: right;
+  width: 20px;
+  height: 66px;
+}
+
+.bg .contentFirst .wrap .firstFour img {
+  width: 66px;
+  height: 66px;
+  margin: 0 3px;
+  object-fit: scale-down;
+}
+
+.bg .contentFirst .wrap .firstFive {
+  width: 628px;
+  height: 41px;
+  font-size: 16px;
+  margin-top: 73px;
+  margin-left: 21px;
+  line-height: 1.5em;
+}
+
+.bg .contentFirst .wrap .firstSix {
+  width: 682px;
+  height: 43px;
+  margin-top: 16px;
+  margin-left: 21px;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5em;
+}
+
+.bg .contentFirst .wrap .firstSev {
+  width: 730px;
+  height: 130px;
+  margin-top: 12px;
+  padding-left: 20px;
+  margin-left: 20px;
+  padding-top: 22px;
+  color: #666;
+  background-color: rgba(242, 106, 42, 0.2);
+  box-sizing: border-box;
+}
+
+.bg .contentFirst .wrap .firstSev p:first-of-type span {
+  color: #F26A2A;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.bg .contentFirst .wrap .firstSev p:first-of-type span::after {
+  content: "";
+  background: url(../images/not.jpg);
+  width: 67px;
+  height: 20px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.bg .contentFirst .wrap .firstSev p:nth-of-type(2) {
+  margin-top: 22px;
+}
+
+.bg .contentFirst .wrap .firstSev p:nth-of-type(2) span {
+  color: #F26A2A;
+  margin-left: 18px;
+}
+
+.bg .contentFirst .wrap .firstSev p:nth-of-type(3) {
+  margin-top: 22px;
+}
+
+.bg .contentFirst .wrap .firstSev p:nth-of-type(3) span {
+  color: black;
+  margin-left: 18px;
+}
+
+.bg .contentFirst .wrap .firstEig {
+  width: 580px;
+  height: 70px;
+  margin-top: 24px;
+  margin-left: 40px;
+
+}
+
+.bg .contentFirst .wrap .firstEig p:first-of-type {
+  width: 50px;
+  font-size: 12px;
+}
+
+.bg .contentFirst .wrap .firstEig p {
+  float: left;
+  margin-right: 22px;
+  width: 236px;
+  height: 26px;
+  border: 1px solid #7F7F7F;
+  line-height: 26px;
+  font-size: 14px;
+  color: #7F7F7F;
+  text-align: center;
+}
+
+.bg .contentFirst .wrap .firstEig p:hover {
+  border: 1px solid #F26A2A;
+  color: #F26A2A;
+}
+
+.bg .contentFirst .wrap .firstEig p:first-of-type {
+  border: none
+}
+
+.bg .contentFirst .wrap .firstEig p:first-of-type:hover {
+  border: none;
+  color: #7F7F7F;zzzz
+}
+
+
+.bg .contentFirst .wrap .firstEig p:nth-of-type(3),
+.bg .contentFirst .wrap .firstEig p:nth-of-type(5) {
+  margin: 0;
+}
+
+.bg .contentFirst .wrap .firstEig p:nth-of-type(4) {
+  margin-left: 74px;
+}
+
+.bg .contentFirst .wrap .firstEig p:nth-of-type(4),
+.bg .contentFirst .wrap .firstEig p:nth-of-type(5) {
+  margin-top: 17px;
+}
+
+.bg .contentFirst .wrap .firstNin {
+  width: 172px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.bg .wrap .firstNin p {
+  float: left;
+  line-height: 30px;
+}
+
+.bg .wrap .firstNin .box1 input {
+  border: none;
+  width: 18px;
+  display: inline-block;
+  text-align: center;
+}
+
+.bg .wrap .firstNin .box1 {
+  border: 1px solid #7F7F7F;
+  float: right;
+  margin-right: 32px;
+}
+
+.bg .wrap .firstNin .box1 span {
+  display: inline-block;
+  width: 18px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bg .wrap .firstNin .box1 span:first-of-type {
+  border-right: 1px solid #7F7F7F;
+}
+
+.bg .wrap .firstNin .box1 span:nth-of-type(2) {
+  border-left: 1px solid #7F7F7F;
+}
+
+.bg .contentFirst .wrap .firstTen {
+  margin-top: 27px;
+  height: 46px;
+  margin-left: 110px;
+}
+
+.icon {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.bg .contentFirst .wrap .firstTen button:first-of-type {
+  width: 186px;
+  height: 46px;
+  color: white;
+  background-color: #F26A2A;
+  margin-right: 17px;
+  float: left;
+  border: none;
+  font-size: 18px;
+}
+
+.bg .contentFirst .wrap .firstTen button:last-of-type {
+  width: 186px;
+  height: 46px;
+  color: #F26A2A;
+  border: 1px solid #F26A2A;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.bg .container .wrap .left {
+  width: 208px;
+  border: 1px solid #E4E4E4;
+  border-top: 1px solid #F26A2A;
+  margin-right: 10px;
+  float: left;
+}
+
+.bg .container .wrap .left>p {
+  color: #F26A2A;
+  font-size: 16px;
+  margin: 14px 0 17px 17px;
+}
+
+.bg .container .wrap .left .list {
+  width: 159px;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bg .container .wrap .left .list img {
+  width: 159px;
+  height: 130px;
+}
+
+.bg .container .wrap .left .list p:first-of-type {
+  margin-top: 18px;
+}
+
+.bg .container .wrap .left .list p {
+  line-height: 1.5em;
+}
+
+.bg .container .wrap .left .list p:last-of-type {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.bg .container .wrap .right {
+  width: 966px;
+  float: left;
+}
+
+.bg .container .wrap .right .top {
+  height: 265px;
+  padding-bottom: 33px;
+  border: 1px solid #E4E4E4;
+  background-color: #fff;
+}
+
+.bg .container .wrap .right .top1 {
+  height: 38px;
+  line-height: 38px;
+  border-bottom: 1px solid #E4E4E4;
+}
+
+.bg .container .wrap .right .top1 ul li {
+  float: left;
+  margin: 0 24px;
+}
+
+.bg .container .wrap .right .top1 ul li:nth-of-type(1),
+.bg .container .wrap .right .top1 ul li:nth-of-type(2),
+.bg .container .wrap .right .top1 ul li:nth-of-type(3) {
+  border-top: 2px solid transparent;
+}
+
+.bg .container .wrap .right .top1 ul li:nth-of-type(1):hover,
+.bg .container .wrap .right .top1 ul li:nth-of-type(2):hover,
+.bg .container .wrap .right .top1 ul li:nth-of-type(3):hover {
+  border-top: 2px solid #F26A2A;
+  color: #F26A2A;
+  font-weight: bold;
+}
+
+.bg .container .wrap .right .top1 ul li:last-of-type {
+  float: right;
+  font-size: 18px;
+  background-color: #F26A2A;
+  margin-right: 17px;
+  color: white;
+  margin-right: 0;
+  width: 167px;
+  text-align: center;
+}
+
+.bg .container .wrap .right .top table {
+  margin-left: 40px;
+  margin-top: 30px;
+  color: #555;
+}
+
+.bg .container .wrap .right .top table tr td {
+  width: 300px;
+}
+
+.bg .container .wrap .right .top table tr:first-of-type td:first-of-type {
+  font-weight: bold;
+}
+
+.bg .container .wrap .right .bottom {
+  margin: 0 0 32px 0;
+}
+
+.bg .container .wrap .right .bottom .rightOne {
+  width: 148px;
+  height: 1174px;
+  background-color: #eee;
+  float: right;
+  padding-top: 40px;
+}
+
+.bg .container .wrap .right .bottom .rightOne ul {
+  width: 85px;
+  margin: 0 auto;
+}
+
+.bg .container .wrap .right .bottom .rightOne ul li {
+  margin-bottom: 26px;
+}
+
+.bg .container .wrap .right .bottom .rightOne ul li .dot {
+  vertical-align: middle;
+  float: left;
+}
+
+.bg .container .wrap .right .bottom .rightOne ul li:hover {
+  color: #F26A2A;
+}

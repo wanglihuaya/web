@@ -1,0 +1,163 @@
+.orange {
+  color: orangered;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+.bg .header .searchBox1 {
+  margin: 0 0 0 250px;
+}
+
+.bg .container .wrap table thead th {
+  height: 43px;
+  background-color: #F5F5F5;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.bg .container .wrap table thead tr th:first-of-type {
+  padding: 0 0 0 36px;
+}
+
+.bg .container .wrap table tbody tr {
+  height: 111px;
+  border-bottom: 1px solid #7F7F7F;
+}
+
+.bg .container .wrap table tr td {
+  text-align: center;
+}
+
+.bg .container .wrap table tbody tr img,
+.bg .container .wrap table tbody tr p:first-of-type {
+  float: left;
+}
+
+.bg .container .wrap table tbody tr:first-of-type img {
+  margin: 10px 0 0 -5px;
+}
+
+.bg .container .wrap table tbody tr p:first-of-type {
+  margin: 5px 20px 0 30px;
+}
+
+.bg .container .wrap table tbody tr:first-of-type p {
+  margin: 10px 20px 0 18px;
+}
+
+.bg .container .wrap table tbody tr:first-of-type p:nth-of-type(2) {
+  text-align: left;
+  padding: 50px 0 0 60px;
+}
+
+.bg .container .wrap table tbody tr p:nth-of-type(2) {
+  padding: 50px 0 0 80px;
+  color: #7F7F7F;
+  text-align: left;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(2) {
+  width: 460px;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(3) {
+  font-size: 14px;
+  width: 180px;
+}
+
+
+
+/* .bg .container .wrap table tbody td:nth-of-type(4) {
+  width: 120px;
+}  */
+
+.bg .container .wrap table tbody td:nth-of-type(4) input {
+  border: none;
+  width: 28px;
+}
+
+.bg .container .wrap table tbody .box1 {
+  border: 1px solid #7F7F7F;
+}
+
+.bg .container .wrap table tbody .box1 span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bg .container .wrap table tbody .box1 span:first-of-type {
+  border-right: 1px solid #7F7F7F;
+}
+
+.bg .container .wrap table tbody .box1 span:nth-of-type(2) {
+  border-left: 1px solid #7F7F7F;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(5) {
+  font-size: 14px;
+  width: 180px;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(5) {
+  width: 240px;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(6) {
+  padding-left: 30px;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(6) a {
+  color: orangered;
+  text-decoration: underline;
+  float: left;
+}
+
+.bg .container .wrap table tbody td:nth-of-type(6) p {
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.bg .container tfoot tr input.orange {
+  border: none;
+  margin: 0 370px 0 0;
+}
+
+.bg .container tfoot td:last-of-type .word {
+  margin: 0 40px 0 0;
+  text-align: center;
+  float: right;
+  height: 100px;
+  width: 250px;
+}
+
+.bg .container tfoot td:last-of-type .word p {
+  line-height: 2em;
+}
+
+.bg .container tfoot td:last-of-type .word .pri {
+  font-size: 18px;
+}
+.bg .container .wrap .box {
+float: right;
+}
+.bg .container .wrap .box input {
+  width: 185px;
+  height: 45px;
+  border: none;
+  float: right;
+  margin: 36px 0;
+  font-size: 16px;
+  border: 1px solid orangered;
+  box-sizing: border-box;
+}
+.bg .container .wrap .box input:first-of-type {
+  margin: 36px 0 0 28px;
+  background-color: orangered;
+  color: white;
+}
