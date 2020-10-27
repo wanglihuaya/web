@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="">
+  <title>work2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .bg {
+      width: 1500px;
+      margin: 100px auto;
+    }
+
+    .bg h2 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 0 auto 39px;
+      white-space: nowrap;
+      width: 1300px;
+      background-image: linear-gradient(75deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 33.33%, rgba(0, 0, 0, 0) 66.67%, rgba(0, 0, 0, 0) 100%);
+      background-size: 300% 100%;
+      background-position-x: 100%;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+
+      transition: 2s background-position-x ease-in-out ;
+    }
+
+    .bg:hover h2 {
+      background-position-x: 0%;
+    }
+
+    .bg .line h3 {
+      border-right: 5px solid #000;
+      white-space: nowrap;
+      margin: 0 auto 32px;
+      overflow: hidden;
+      width: 50px;
+      animation: broders 0.8s infinite normal,
+        widths 2s steps(11) infinite;
+      font-size: 2rem;
+    }
+
+    @keyframes broders {
+      from {
+        border-right-color: #000;
+      }
+
+      to {
+        border-right-color: transparent;
+      }
+
+    }
+
+    @keyframes widths {
+      from {
+        width: 0;
+      }
+
+      to {
+        width: 12%;
+      }
+
+    }
+
+    .bg article {
+      column-count: 4;
+      column-rule: 1px dashed black;
+      column-gap: 20px;
+      text-indent: 2rem;
+      font-size: 1.5rem;
+      letter-spacing: 0.05rem;
+    }
+
+    mark {
+      background-color: transparent;
+      color: inherit;
+      box-shadow: inset 0 -0.75rem 0 #73FFA0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg">
+
+    <h2>Commencement address, 2005, Stanford University (excerpt)</h2>
+
+    <div class="line">
+      <h3>Steve Jobs</h3>
+    </div>
+    <article>
+
+      <p>I am honored to be with you today at your commencement from one of the finest universities in the world. I
+        never graduated from college. To be honest, this is the closest I've ever gotten to a college graduation.
+        <mark>Today I want to tell you three stories from my life. </mark>No big deal, just three stories.</p>
+      <p>The first story is about connecting the dots.</p>
+      <p>I dropped out of Reed College after the first 6 months, but then stayed around as a drop-in for another 18
+        months or so before I really quit. Why did I drop out?</p>
+      <p>The story begins when I was born. <mark>My biological mother was a young, unmarried college graduate. She
+          decided to put me up for adoption. </mark>She really wanted me to be adopted by college graduates. So when I
+        was born,she had made all the preparations. So my parents got a call in the middle of the night asking:
+        <mark>"We have an unexpected baby boy; do you want him?"</mark> They replied: </p>
+      <p>"Of course!" My biological mother later found out that my mother had never graduated from college and that my
+        father had never graduated from high school. She refused to sign the adoption contract. <mark>She only
+          reluctantly
+          agreed a few months later when my parents promised that I would go to college.</mark></p>
+      <p>At seventeen, I did go to college. But I foolishly chose a college that was almost as expensive as Stanford. My
+        working-class parents spent almost all of their savings on my college tuition. After six months, I couldn't see
+        the value in it. I had no idea what I really wanted to do and no idea how college was going to help me figure it
+        out. <mark>But here I was spending almost all of my parents' life savings. So I decided to drop out. I thought
+          it was
+          the right decision. I can't deny that I was scared, but looking back it was one of the best decisions of my
+          life.</mark> The minute I dropped out I could stop taking the classes that didn't interest me. Then I can
+        start taking
+        courses that look interesting.</p>
+    </article>
+  </div>
+</body>
+
+</html>
