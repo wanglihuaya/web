@@ -14,8 +14,10 @@
 
   .bg {
     width: 240px;
-    margin: 0 auto;
+    margin: 500px auto;
     position: relative;
+    transition: all 1s ease-in-out;
+
   }
 
   .bg .teacher{
@@ -26,6 +28,8 @@
   .intro {
     /* background-color: #eee; */
     width: 240px;
+    transform: scale(1);
+
   }
 
   .bg .intro h4 {
@@ -33,6 +37,7 @@
     line-height: 60px;
     height: 60px;
     padding: 0 0 0 15px;
+
   }
 
   .bg .intro span {
@@ -60,8 +65,9 @@
   .bg:hover .pic {
     visibility: visible;
   }
-  .bg:hover .intro h4 {
-    box-shadow: 5px 5px 10px rgb(165, 165, 165);
+  .bg:hover {
+    box-shadow: 5px 5px 10px 10px rgb(165, 165, 165);
+    transform: scale(3);
   }
 </style>
 
