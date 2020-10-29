@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="">
+  <title>practivce</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .bg {
+      width: 1080px;
+      height: 250px;
+      margin: 100px auto;
+      display: flex;
+      background-color: #eee;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+    body .bg .box1 {
+      width: 450px;
+      height: 220px;
+      background-color: teal;
+    }
+
+    body .bg .box2 {
+      width: 400px;
+      height: 220px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+    }
+
+    body .bg .box21,
+    body .bg .box22 {
+      width: 400px;
+      height: 100px;
+      background-color: lightskyblue;
+    }
+
+    body .bg .box3 {
+      width: 150px;
+      height: 220px;
+      background-color: lightpink;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg">
+    <div class="box1"></div>
+    <div class="box2">
+      <div class="box21"></div>
+      <div class="box22"></div>
+    </div>
+    <div class="box3"></div>
+  </div>
+  <script src=""></script>
+</body>
+
+</html>
