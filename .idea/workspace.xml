@@ -28,26 +28,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work1.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="day14">
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +142,7 @@
       <workItem from="1603958221688" duration="1587000" />
       <workItem from="1603959868220" duration="2312000" />
       <workItem from="1603962210387" duration="5638000" />
-      <workItem from="1603971758812" duration="12086000" />
+      <workItem from="1603971758812" duration="13765000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
@@ -178,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603964760579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="day14">
+      <created>1603984124730</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603984124730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="b" />
-    <option name="LAST_COMMIT_MESSAGE" value="b" />
+    <MESSAGE value="day14" />
+    <option name="LAST_COMMIT_MESSAGE" value="day14" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -344,10 +339,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1602674071012" />
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1603964780193">
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1603984145127">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603964780193" />
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603984145127" />
     <state x="100" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603977445988">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

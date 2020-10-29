@@ -2,3 +2,74 @@
 	padding: 0;
 	margin: 0;
 }
+
+.bg {
+	width: 1200px;
+	height: 650px;
+	background-color: orangered;
+	margin: 100px auto;
+	padding: 20px 0 0 0;
+	border-radius: 10px;
+
+	nav ul {
+		margin: 0 auto;
+		width: 1150px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		list-style-type: none;
+		color: #fff;
+		font-size: 24px;
+
+		li:first-of-type {
+			color: yellow;
+		}
+	}
+
+	section ul {
+		display: flex;
+		justify-content: space-around;
+		align-content: space-around;
+		flex-wrap: wrap;
+		height: 553px;
+		list-style-type: none;
+		padding: 30px 80px;
+
+		li {
+			background-color: #fff;
+			border-radius: 10px;
+			width: 188px;
+			height: 270px;
+
+			a {
+				text-decoration: none;
+				color: #000;
+				font-size: 16px;
+				text-align: center;
+
+				img {
+					padding: 5px 10px;
+				}
+
+				div {
+					display: flex;
+					justify-content: space-around;
+
+					span {
+						color: red;
+						font-size: 20px;
+						margin: 7px 0 0 0;
+
+					}
+
+				}
+			}
+		}
+
+
+	}
+}
+
+
+
+
