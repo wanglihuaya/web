@@ -1,0 +1,13 @@
+$nav-color: #f90;
+nav {
+  $width: 100px;
+  width: $width;
+  color: $nav-color;
+}
+// 1.2 变量引用
+$highlight_color: red;
+
+.box {
+  border: 1px dashed $highlight_color;
+}
+
