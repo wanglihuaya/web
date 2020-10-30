@@ -28,58 +28,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="day14">
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work1.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work2.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/index.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/reset.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_detail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/mine.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shop_confirm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shopcar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/mine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shop_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shopcar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web.iml" afterDir="false" />
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="day15">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work1.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/WangJiawei_work2.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/images/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +143,9 @@
       <workItem from="1604025910408" duration="668000" />
       <workItem from="1604026590737" duration="1685000" />
       <workItem from="1604028280710" duration="5560000" />
-      <workItem from="1604040504034" duration="11603000" />
+      <workItem from="1604040504034" duration="11649000" />
+      <workItem from="1604055096276" duration="59000" />
+      <workItem from="1604065569539" duration="9276000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
@@ -225,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603986070639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day15">
+      <created>1604055059493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604055059493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +223,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="b" />
     <MESSAGE value="day14" />
-    <option name="LAST_COMMIT_MESSAGE" value="day14" />
+    <MESSAGE value="day15" />
+    <option name="LAST_COMMIT_MESSAGE" value="day15" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -316,65 +281,65 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="637" y="297" key="EnvironmentVariablesDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603962484038" />
-    <state width="1891" height="341" key="GridCell.Tab.0.bottom" timestamp="1604041227571">
+    <state width="1891" height="341" key="GridCell.Tab.0.bottom" timestamp="1604065720184">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227571" />
-    <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246168" />
-    <state width="1891" height="341" key="GridCell.Tab.0.center" timestamp="1604041227570">
+    <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720184" />
+    <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604065625413" />
+    <state width="1891" height="341" key="GridCell.Tab.0.center" timestamp="1604065720183">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.0.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227570" />
-    <state width="1891" height="341" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246168" />
-    <state width="1891" height="341" key="GridCell.Tab.0.left" timestamp="1604041227569">
+    <state width="1891" height="341" key="GridCell.Tab.0.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720183" />
+    <state width="1891" height="341" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604065625412" />
+    <state width="1891" height="341" key="GridCell.Tab.0.left" timestamp="1604065720183">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.0.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227569" />
-    <state width="1891" height="341" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246168" />
-    <state width="1891" height="341" key="GridCell.Tab.0.right" timestamp="1604041227571">
+    <state width="1891" height="341" key="GridCell.Tab.0.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720183" />
+    <state width="1891" height="341" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604065625410" />
+    <state width="1891" height="341" key="GridCell.Tab.0.right" timestamp="1604065720184">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.0.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227571" />
-    <state width="1891" height="341" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246168" />
-    <state width="1891" height="341" key="GridCell.Tab.1.bottom" timestamp="1604041227572">
+    <state width="1891" height="341" key="GridCell.Tab.0.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720184" />
+    <state width="1891" height="341" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604065625412" />
+    <state width="1891" height="341" key="GridCell.Tab.1.bottom" timestamp="1604065720186">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.1.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227572" />
+    <state width="1891" height="341" key="GridCell.Tab.1.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720186" />
     <state width="1891" height="341" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246170" />
-    <state width="1891" height="341" key="GridCell.Tab.1.center" timestamp="1604041227572">
+    <state width="1891" height="341" key="GridCell.Tab.1.center" timestamp="1604065720185">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.1.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227572" />
+    <state width="1891" height="341" key="GridCell.Tab.1.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720185" />
     <state width="1891" height="341" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246169" />
-    <state width="1891" height="341" key="GridCell.Tab.1.left" timestamp="1604041227571">
+    <state width="1891" height="341" key="GridCell.Tab.1.left" timestamp="1604065720185">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.1.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227571" />
+    <state width="1891" height="341" key="GridCell.Tab.1.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720185" />
     <state width="1891" height="341" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246169" />
-    <state width="1891" height="341" key="GridCell.Tab.1.right" timestamp="1604041227572">
+    <state width="1891" height="341" key="GridCell.Tab.1.right" timestamp="1604065720186">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.1.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227572" />
+    <state width="1891" height="341" key="GridCell.Tab.1.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720186" />
     <state width="1891" height="341" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246169" />
-    <state width="1891" height="341" key="GridCell.Tab.2.bottom" timestamp="1604041227573">
+    <state width="1891" height="341" key="GridCell.Tab.2.bottom" timestamp="1604065720188">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.2.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227573" />
+    <state width="1891" height="341" key="GridCell.Tab.2.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720188" />
     <state width="1891" height="341" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246171" />
-    <state width="1891" height="341" key="GridCell.Tab.2.center" timestamp="1604041227572">
+    <state width="1891" height="341" key="GridCell.Tab.2.center" timestamp="1604065720187">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.2.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227572" />
+    <state width="1891" height="341" key="GridCell.Tab.2.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720187" />
     <state width="1891" height="341" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246170" />
-    <state width="1891" height="341" key="GridCell.Tab.2.left" timestamp="1604041227572">
+    <state width="1891" height="341" key="GridCell.Tab.2.left" timestamp="1604065720187">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.2.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227572" />
+    <state width="1891" height="341" key="GridCell.Tab.2.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720187" />
     <state width="1891" height="341" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246170" />
-    <state width="1891" height="341" key="GridCell.Tab.2.right" timestamp="1604041227573">
+    <state width="1891" height="341" key="GridCell.Tab.2.right" timestamp="1604065720187">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1891" height="341" key="GridCell.Tab.2.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041227573" />
+    <state width="1891" height="341" key="GridCell.Tab.2.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604065720187" />
     <state width="1891" height="341" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604037246170" />
     <state width="1891" height="341" key="GridCell.Tab.3.bottom" timestamp="1604022800975">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -413,10 +378,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1602674071012" />
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1603986073610">
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1604055068427">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603986073610" />
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604055068427" />
     <state x="756" y="283" key="any.rule" timestamp="1604013843745">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
