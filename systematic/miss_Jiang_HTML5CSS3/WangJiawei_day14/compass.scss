@@ -127,8 +127,9 @@ article {
   }
 
   nav + & {
-    margin-top: 0
-  }
+		margin-top: 0;
+		color: #000;
+	}
 }
 
 /*2-4. 嵌套属性;*/

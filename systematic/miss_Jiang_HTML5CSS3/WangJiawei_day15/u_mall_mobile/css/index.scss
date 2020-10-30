@@ -1,0 +1,164 @@
+@import "reset";
+
+$color_hui: #6B6B6B;
+@mixin bg {
+	background-color: #fff;
+}
+
+.container {
+	width: 7.5rem;
+	margin: 0 auto;
+	height: 5rem;
+	background-color: #eee;
+}
+
+.wrap {
+	width: 7.1rem;
+	margin: 0 auto;
+}
+
+header {
+	@include bg;
+
+	.wrap {
+		height: .88rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		a {
+			display: block;
+			width: 1.47rem;
+			height: .33rem;
+
+			img {
+				width: 1.47rem;
+			}
+		}
+
+		label {
+			height: 0.39rem;
+
+			input {
+				width: 3.03rem;
+				text-align: center;
+				line-height: 0.39rem;
+				border-radius: 10px;
+				background-color: #EEEEEE;
+				font-size: .17rem;
+			}
+		}
+
+		.more {
+			height: .12rem;
+
+			span {
+				float: left;
+				width: .12rem;
+				height: .12rem;
+				margin: 0 .12rem 0 0;
+				border-radius: 50%;
+				background-color: #000;
+			}
+		}
+	}
+}
+
+hr {
+	padding: 0;
+	margin: 0;
+}
+
+.nav {
+	@include bg;
+
+	.wrap {
+		height: .78rem;
+		line-height: .74rem;
+		position: relative;
+
+		ul {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: nowrap;
+			font-size: 0.28rem;
+			color: $color_hui;
+
+			li {
+				$color_line: #D40948;
+				border-bottom: 4px solid transparent;
+
+				box-sizing: border-box;
+
+				&:hover {
+					border-bottom: 4px solid $color_line;
+				}
+
+				&:first-of-type {
+					color: $color_line;
+				}
+			}
+		}
+
+		a {
+			display: block;
+			position: absolute;
+			top: .18rem;
+			right: 0;
+			height: .4rem;
+			line-height: .4rem;
+			padding: 0 0 0 .1rem;
+			background-color: #fff;
+
+			img {
+				width: .35rem;
+			}
+		}
+	}
+}
+
+.banner {
+	position: relative;
+	height: 2.9rem;
+	width: 7.5rem;
+	@include bg;
+
+	img {
+		position: absolute;
+		width: 7.5rem;
+	}
+}
+
+.menu {
+	@include bg;
+
+	.wrap {
+		height: 1.8rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		img {
+			width: .64rem;
+			height: .62rem;
+		}
+
+		a {
+			font-size: .18rem;
+			color: $color_hui;
+			margin-top: .28rem;
+			display: block;
+		}
+	}
+
+}
+
+.floorOne {
+	@include bg;
+	margin: 30px 0;
+
+	.wrap {
+
+	}
+}
