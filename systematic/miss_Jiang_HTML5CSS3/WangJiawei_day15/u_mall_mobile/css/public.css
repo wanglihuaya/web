@@ -1,0 +1,23 @@
+.footer {
+	background-color: #fff;
+	border-top: 1px solid #EEEEEE;
+}
+
+.footer .wrap ul {
+	height: 1.2rem;
+	margin: 0 .5rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer .wrap ul p {
+	margin-top: .12rem;
+	font-size: .2rem;
+	color: #888;
+}
+
+.footer .wrap ul li:first-of-type p {
+	color: orangered;
+}

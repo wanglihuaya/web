@@ -1,0 +1,132 @@
+@import "reset", "public";
+
+.mine {
+	background-color: $color_or;
+
+	.wrap {
+		height: 2.02rem;
+		display: flex;
+		justify-content: start;
+		align-items: center;
+
+		img {
+			width: 1.42rem;
+			height: 1.42rem;
+			border-radius: 50%;
+			border: .05rem solid #fff;
+			margin-right: .26rem;
+		}
+
+		p {
+			&:first-of-type {
+				font-size: .28rem;
+				color: #fff;
+				margin-bottom: .24rem;
+			}
+
+			&:nth-of-type(2) {
+				font-size: .2rem;
+				color: #000;
+				margin-left: .05rem;
+			}
+		}
+
+		button {
+			width: 1.59rem;
+			height: .71rem;
+			background-color: #fff;
+			color: $color_or;
+			font-size: .23rem;
+			border-radius: .15rem;
+			margin-left: 2.86rem;
+		}
+	}
+}
+
+.floor1 {
+	@include bg;
+
+	.wrap {
+		ul {
+			display: flex;
+			height: 1.42rem;
+			justify-content: space-around;
+			align-items: center;
+
+			li {
+				text-align: center;
+
+				img {
+					width: .34rem;
+					height: .34rem;
+				}
+
+				p {
+					font-size: .23rem;
+					margin-top: .22rem;
+				}
+			}
+
+		}
+	}
+}
+
+.floor2 {
+	@include bg;
+
+
+	div {
+		height: 1.1rem;
+		line-height: 1.1rem;
+		border-bottom: .01rem solid #eee;
+
+		&:first-of-type {
+			border-top: .01rem solid #eee;
+		}
+
+		img:first-of-type {
+			float: left;
+			width: .36rem;
+			height: .4rem;
+			display: inline-block;
+			margin: .35rem .4rem;
+		}
+
+		span {
+			font-size: .26rem;
+			margin-left: .25rem;
+		}
+
+		img:last-of-type {
+			float: right;
+			width: .19rem;
+			height: .26rem;
+			margin: .35rem .4rem;
+		}
+
+	}
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 7.5rem;
+
+	.wrap {
+		ul {
+			li {
+				&:first-of-type {
+					p {
+						color: #888;
+					}
+				}
+
+				&:last-of-type {
+					p {
+						color: orangered;
+					}
+				}
+			}
+		}
+	}
+}

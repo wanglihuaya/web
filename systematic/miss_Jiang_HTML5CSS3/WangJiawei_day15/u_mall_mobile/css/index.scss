@@ -9,7 +9,6 @@ $color_line: #D40948;
 
 .container {
 	width: 7.5rem;
-	height: 20rem;
 	margin: 0 auto;
 	background-color: #eee;
 }
@@ -378,7 +377,6 @@ hr {
 						height: .88rem;
 						margin-left: .12rem;
 					}
-
 				}
 			}
 		}
@@ -386,15 +384,22 @@ hr {
 }
 
 .floorTwo {
-	width: 7.5rem;
-	height: 1.87rem;
+	img {
+		width: 7.5rem;
+		height: 1.87rem;
+	}
+
 	margin-bottom: .3rem;
 }
 
 .floorThree {
 	@include bg;
+	padding-bottom: 1.2rem;
 
 	.wrap {
+		padding-top: .2rem;
+		padding-bottom: .28rem;
+
 		.fltNav {
 			ul {
 				display: flex;
@@ -410,7 +415,9 @@ hr {
 					line-height: .68rem;
 					text-align: center;
 
-					&:nth-of-type(3-n) {
+					&:nth-of-type(3),
+					&:nth-of-type(2),
+					&:nth-of-type(1) {
 						border-right: .01rem solid $color_hui;
 					}
 
@@ -421,6 +428,104 @@ hr {
 				}
 			}
 
+		}
+
+		.fltN {
+			box-shadow: 0 0 .2rem #bbb;
+			margin-top: .2rem;
+			margin-bottom: .34rem;
+			border-radius: .1rem;
+			height: 3rem;
+			display: flex;
+			justify-content: start;
+			align-items: center;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			.fltNl {
+				margin-left: .37rem;
+
+				img {
+					width: 2.16rem;
+					height: 2.2rem;
+				}
+			}
+
+			.fltNr {
+				margin-left: .5rem;
+
+				p {
+					&:first-of-type {
+						font-size: .3rem;
+					}
+
+					&:nth-of-type(2) {
+						margin: .27rem 0 .32rem 0;
+						font-size: .23rem;
+						color: orangered;
+
+						&:first-letter {
+							font-size: .18rem;
+						}
+					}
+
+					&:last-of-type {
+						color: $color_hui;
+						font-size: .2rem;
+						margin-bottom: .31rem;
+					}
+				}
+
+				button {
+					width: 1.64rem;
+					height: .52rem;
+					background-color: orangered;
+					color: #fff;
+					border-radius: .1rem;
+					font-size: .22rem;
+				}
+			}
+		}
+	}
+}
+
+.footer {
+	background-color: #fff;
+	border-top: 1px solid #EEEEEE;
+	position: fixed;
+	bottom: 0;
+	width: 7.5rem;
+
+	.wrap {
+
+
+		ul {
+			height: 1.2rem;
+			margin: 0 .5rem;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				margin-top: .12rem;
+				font-size: .2rem;
+				color: $color_hui;
+			}
+
+			img {
+				width: .51rem;
+				height: .51rem;
+
+			}
+
+			li:first-of-type {
+				p {
+					color: orangered;
+				}
+			}
 		}
 	}
 }

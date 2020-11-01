@@ -1,0 +1,408 @@
+@charset "UTF-8";
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #eee;
+}
+
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F46929;
+}
+.header .wrap {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .wrap .left img {
+  width: .178rem;
+  height: .29rem;
+}
+.header .wrap .center {
+  color: #FFFFFF;
+  font-size: .32rem;
+}
+.header .wrap .right {
+  height: .12rem;
+}
+.header .wrap .right span {
+  float: left;
+  width: .12rem;
+  height: .12rem;
+  margin: 0 .12rem 0 0;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header .wrap .right span:last-of-type {
+  margin: 0;
+}
+
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #EEEEEE;
+}
+.footer .wrap ul {
+  height: 1.2rem;
+  margin: 0 .5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .wrap ul p {
+  margin-top: .12rem;
+  font-size: .2rem;
+  color: #888;
+}
+.footer .wrap ul img {
+  width: .51rem;
+  height: .51rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: orangered;
+}
+
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container {
+  color: #555;
+}
+.container .dress {
+  font-size: .22rem;
+  background-color: #fff;
+  height: 1.5rem;
+  margin-bottom: .12rem;
+}
+.container .dress .wrap {
+  padding-top: .3rem;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
+.container .dress .wrap .left {
+  float: left;
+  padding-top: .11rem;
+}
+.container .dress .wrap .left .man {
+  width: 6.2rem;
+  margin: 0 0 0 .1rem;
+  height: .22rem;
+}
+.container .dress .wrap .left .man .man1 {
+  float: left;
+}
+.container .dress .wrap .left .man .man2 {
+  float: right;
+}
+.container .dress .wrap .left .dress1 {
+  margin: .25rem 0 .25rem .1rem;
+  height: .22rem;
+}
+.container .dress .wrap .left .dress1 p {
+  float: left;
+}
+.container .dress .wrap .left .dress1 p:last-of-type {
+  width: 5.1rem;
+}
+.container .dress .wrap a {
+  display: block;
+  width: .19rem;
+  height: .26rem;
+  float: right;
+  margin-right: .2rem;
+  margin-top: .3rem;
+  background: url(../images/order/arrow.jpg) no-repeat;
+  background-size: .19rem .26rem;
+}
+.container .con1 {
+  font-size: .22rem;
+  background-color: #fff;
+  margin-bottom: .12rem;
+}
+.container .con1 .wrap {
+  height: 3.61rem;
+  padding: .22rem .3rem;
+  box-sizing: border-box;
+}
+.container .con1 .wrap .con11 {
+  height: 1.02rem;
+  margin-bottom: .36rem;
+}
+.container .con1 .wrap .con11 img {
+  width: 1.02rem;
+  height: 1.02rem;
+  float: left;
+}
+.container .con1 .wrap .con11 .word {
+  float: left;
+  margin-left: .3rem;
+}
+.container .con1 .wrap .con11 .word p {
+  margin: .24rem 0;
+}
+.container .con1 .wrap .con11 .word p:last-of-type {
+  color: #888;
+}
+.container .con1 .wrap .con11 .conPri {
+  float: right;
+  height: 1.02rem;
+  line-height: 1.02rem;
+  font-size: .3rem;
+  color: #E23838;
+}
+.container .con1 .wrap .con11 .conPri::first-letter {
+  font-size: .22rem;
+}
+.container .con1 .wrap .con12 {
+  height: .66rem;
+  margin-bottom: .36rem;
+}
+.container .con1 .wrap .con12 p {
+  float: left;
+  margin: .22rem 0;
+}
+.container .con1 .wrap .con12 .amount {
+  float: right;
+  width: 2.88rem;
+  height: .64rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.container .con1 .wrap .con12 .amount span {
+  display: block;
+  height: .64rem;
+  line-height: .64rem;
+  border-right: 1px solid #777;
+  border-radius: .1rem;
+}
+.container .con1 .wrap .con12 .amount span:nth-of-type(2) {
+  width: 1.17rem;
+  border: 0.01rem solid #777;
+}
+.container .con1 .wrap .con12 .amount span:nth-of-type(2n+1) {
+  width: .73rem;
+  border: .01rem solid #777;
+}
+.container .con1 .wrap .con13 {
+  margin-top: .77rem;
+}
+.container .con1 .wrap .con13 p:first-of-type {
+  float: left;
+}
+.container .con1 .wrap .con13 p:last-of-type {
+  float: right;
+}
+.container .con2 {
+  background-color: #fff;
+  font-size: .22rem;
+  margin-bottom: .12rem;
+}
+.container .con2 .wrap {
+  padding: 0 .3rem;
+  box-sizing: border-box;
+}
+.container .con2 .wrap div {
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+.container .con2 .wrap .con21 {
+  border-bottom: 1px solid #777;
+}
+.container .con2 .wrap .con21 p:first-of-type {
+  float: left;
+}
+.container .con2 .wrap .con21 p:last-of-type {
+  float: right;
+}
+.container .con2 .wrap .con22 {
+  text-align: center;
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+.container .con2 .wrap .con22 .con22p1 {
+  float: left;
+  margin-right: 2.2rem;
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+.container .con2 .wrap .con22 label {
+  float: left;
+  display: inline-block;
+  height: 1.06rem;
+  line-height: 1.06rem;
+}
+.container .con2 .wrap .con22 label input:first-of-type {
+  width: 1.4rem;
+  height: .7rem;
+  background-color: #eee;
+  text-align: center;
+  border-radius: .1rem;
+  margin-right: .1rem;
+  font-size: .22rem;
+}
+.container .con2 .wrap .con22 label input:last-of-type {
+  border-radius: .1rem;
+  height: .7rem;
+  width: .7rem;
+  color: #fff;
+  font-size: .22rem;
+  background-color: #F46929;
+}
+.container .con2 .wrap .con22 .con22p2 {
+  float: right;
+  margin: 0;
+}
+.container .con2 .wrap .con22 .con22p2 span {
+  color: red;
+}
+.container .con3 {
+  background-color: #fff;
+  font-size: .22rem;
+}
+.container .con3 .wrap {
+  padding: .34rem 0;
+}
+.container .con3 .wrap .con31 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .con3 .wrap .con31 p {
+  margin-bottom: .2rem;
+}
+.container .con3 .wrap .con31 p:last-of-type {
+  margin: 0;
+  color: red;
+}
+.container .con4 {
+  background-color: #fff;
+}
+.container .con4 .wrap p {
+  height: .35rem;
+  font-size: .35rem;
+  float: right;
+  margin: .53rem 0 .45rem 0;
+}
+.container .con4 .wrap p span {
+  color: red;
+}
+.container .con5 {
+  background-color: #fff;
+  margin-bottom: 1.6rem;
+}
+.container .con5 .wrap {
+  text-align: center;
+  width: 3.35rem;
+  height: 1.12rem;
+  border-radius: .1rem;
+  background-color: #F46929;
+  line-height: 1.12rem;
+}
+.container .con5 .wrap button {
+  font-size: .3rem;
+  color: #fff;
+}
+.container .footer {
+  position: fixed;
+  bottom: 0;
+  width: 7.5rem;
+}
+.container .footer .wrap ul li:first-of-type p {
+  color: #888;
+}
+.container .footer .wrap ul li:nth-of-type(2) p {
+  color: orangered;
+}
+.container .footer .wrap ul li:last-of-type p {
+  color: #888;
+}
