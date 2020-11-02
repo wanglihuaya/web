@@ -195,6 +195,9 @@ hr {
 				a span {
 					font-size: .21rem;
 					color: $color_hui;
+					white-space: nowrap; /* 文本不换行 */
+					overflow: hidden; /* 盒子内容溢出隐藏 */
+					text-overflow: ellipsis; /* 文本溢出显示省略号 */
 				}
 			}
 
@@ -347,6 +350,9 @@ hr {
 						font-size: .21rem;
 						color: $color_hui;
 						margin: .09rem 0 .1rem 0;
+						white-space: nowrap; /* 文本不换行 */
+						overflow: hidden; /* 盒子内容溢出隐藏 */
+						text-overflow: ellipsis; /* 文本溢出显示省略号 */
 
 					}
 
@@ -369,6 +375,9 @@ hr {
 					p:nth-of-type(2) {
 						font-size: .21rem;
 						color: $color_hui;
+						white-space: nowrap; /* 文本不换行 */
+						overflow: hidden; /* 盒子内容溢出隐藏 */
+						text-overflow: ellipsis; /* 文本溢出显示省略号 */
 						margin: .09rem 0 .16rem 0;
 					}
 
