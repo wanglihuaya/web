@@ -979,7 +979,7 @@
 
 .bg .contentFive .wrap .left .bottom .bottomR div h2 {
   font-size: 16px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .bg .contentFive .wrap .left .bottom .bottomR div p {
@@ -1064,7 +1064,7 @@
 
 .bg .contentFive .wrap .right .bottom .bottomL div h2 {
   font-size: 16px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .bg .contentFive .wrap .right .bottom .bottomL div p {
@@ -1161,7 +1161,7 @@
 
 .bg .contentSix .wrap .left .bottom .bottomR div h2 {
   font-size: 16px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .bg .contentSix .wrap .left .bottom .bottomR div p {
@@ -1237,7 +1237,7 @@
   float: right;
   background-color: white;
   width: 400px;
-  padding-top: 15px;
+  /*padding-top: 5px;*/
 }
 
 .bg .contentSix .wrap .right .bottom .bottomR div {
@@ -1247,9 +1247,9 @@
   text-align: center;
 }
 
-.bg .contentSix .wrap .right .bottom .bottomL div h2 {
+.bg .contentSix .wrap .right .bottom .bottomR div h2 {
   font-size: 16px;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .bg .contentSix .wrap .right .bottom .bottomR div p {
@@ -1337,10 +1337,6 @@
   color: white;
   background-color: #F03D19;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   padding: 0 0 0 2px;
 }
 
@@ -1349,10 +1345,6 @@
   background-color: #fff;
   padding: 1px 3px;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
 }
 
 .contentEig .wrap div>.word>div:last-of-type p {
@@ -1364,10 +1356,6 @@
   background-color: #F03D19;
   padding: 1px 2px;
   border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
   margin-left: 5px;
 }
 
@@ -1422,6 +1410,5 @@
 
 .bg .bottom {
   text-align: center;
-  margin-top: 50px;
   line-height: 2em;
 }
