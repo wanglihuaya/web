@@ -1,4 +1,6 @@
 @import "public", "reset";
+html {
+}
 
 .container {
 	.sideBar {
@@ -6,12 +8,13 @@
 		padding-top: .54rem;
 		float: left;
 		border-right: .01rem solid #666;
+		overflow: auto;
+		height: calc(100vh - .88rem);
 
 		ul {
 			width: 1.63rem;
 
 			li {
-
 				font-size: .25rem;
 				margin-bottom: .88rem;
 
@@ -21,8 +24,6 @@
 					height: .52rem;
 					float: left;
 					background-color: transparent;
-
-
 				}
 
 				&:hover a {
@@ -40,13 +41,13 @@
 					color: #777;
 					padding-left: .3rem;
 				}
-
 			}
-
 		}
 	}
 
 	.section {
+		overflow: auto;
+		height: calc(100vh - .88rem);
 		width: calc(100% - 1.66rem);
 		float: left;
 		@include bg;
@@ -67,6 +68,7 @@
 				.right {
 					float: right;
 					background: url("../images/order/arrow.jpg") no-repeat;
+					background-size: .19rem .26rem;
 					width: .19rem;
 					height: .26rem;
 				}
