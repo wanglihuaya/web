@@ -1,0 +1,339 @@
+@import "reset", "public";
+
+.container {
+	.figure {
+		@include bg;
+		margin: 0;
+		padding: 0;
+
+		img {
+			width: 7.5rem;
+			height: 4.2rem;
+		}
+
+		figcaption {
+			.wrap {
+				p {
+					&:first-of-type {
+						font-size: .28rem;
+						margin-top: .32rem;
+						margin-left: .15rem;
+						margin-right: .15rem;
+						line-height: 1.5em;
+					}
+
+					&:last-of-type {
+						display: block;
+						font-size: .24rem;
+						margin: .37rem 0 0 .15rem;
+						padding-bottom: .34rem;
+						color: red;
+
+						i {
+							margin-left: .2rem;
+							color: #777;
+							font-size: .22rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.sel {
+		margin: .17rem 0 .21rem 0;
+		@include bg;
+
+		.wrap {
+			.sel1 {
+				margin-left: .05rem;
+				position: relative;
+
+				p {
+					height: .98rem;
+					line-height: .98rem;
+					font-size: .24rem;
+
+					span {
+						border: 1px solid red;
+						padding: .05rem;
+						border-radius: .05rem;
+						color: red;
+						font-size: .20rem;
+					}
+				}
+
+				.down {
+					background: url("../images/detail_/arrow.jpg");
+					background-size: .35rem .21rem;
+					width: .35rem;
+					height: .21rem;
+					position: absolute;
+					top: .4rem;
+					right: .1rem;
+				}
+			}
+
+			.sel2 {
+				position: relative;
+
+				p {
+					height: 1.08rem;
+					line-height: 1.08rem;
+				}
+
+				font-size: .24rem;
+
+				.num {
+					position: absolute;
+					top: .25rem;
+					right: .1rem;
+					width: 2.1rem;
+					height: .57rem;
+					border: .01rem solid #666;
+					display: inline-flex;
+					justify-content: space-between;
+					align-items: center;
+					border-radius: .08rem;
+					font-size: .22rem;
+
+					span {
+						&:nth-of-type(2n+1) {
+							width: .62rem;
+						}
+
+						&:nth-of-type(2n) {
+							width: .86rem;
+						}
+
+						&:last-of-type {
+							border: none;
+						}
+
+						border-right: .01rem solid #666;
+						height: .57rem;
+						text-align: center;
+						line-height: .57rem;
+					}
+				}
+			}
+
+			.sel3 {
+				font-size: .24rem;
+
+				.attr {
+					height: .92rem;
+					line-height: .92rem;
+					position: relative;
+
+					.down {
+						background: url("../images/detail_/arrow.jpg");
+						background-size: .35rem .21rem;
+						width: .35rem;
+						height: .21rem;
+						position: absolute;
+						top: .4rem;
+						right: .1rem;
+					}
+				}
+
+				.spec {
+					padding-bottom: .38rem;
+					height: .6rem;
+					line-height: .6rem;
+
+					p {
+						color: #777;
+						float: left;
+						margin-right: .7rem;
+					}
+
+					button {
+
+						height: .6rem;
+						width: 1.5rem;
+						color: #FFFFFF;
+						background-color: #E6373F;
+						font-size: .24rem;
+						border-radius: .1rem;
+
+
+						&:last-of-type {
+							background-color: #bbb;
+							margin-left: .2rem;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.detail {
+		background-color: #fff;
+		margin-bottom: .3rem;
+
+		h2 {
+			font-size: .28rem;
+			height: 1rem;
+			line-height: 1rem;
+			margin-left: .2rem;
+		}
+
+		img {
+			&:nth-of-type(1) {
+				width: 7.5rem;
+				height: 4.58rem;
+			}
+
+			&:nth-of-type(2) {
+				width: 7.5rem;
+				height: 6.48rem;
+			}
+
+			&:nth-of-type(3) {
+				width: 7.5rem;
+				height: 5.92rem;
+			}
+
+			&:nth-of-type(4) {
+				width: 7.5rem;
+				height: 3.5rem;
+			}
+
+			&:nth-of-type(5) {
+				width: 7.5rem;
+				height: 3.31rem;
+			}
+		}
+	}
+
+	.eval {
+		@include bg;
+
+		.wrap {
+			.eval1 {
+				h2 {
+					font-size: .28rem;
+					line-height: .93rem;
+					height: .93rem;
+				}
+			}
+
+			.eval2 {
+				p {
+					height: .65rem;
+					line-height: .65rem;
+					font-size: .2rem;
+
+					&:nth-of-type(2) {
+						font-size: .25rem;
+					}
+
+					&:last-of-type {
+						font-size: .2rem;
+					}
+				}
+
+				.pic {
+					display: flex;
+					justify-content: start;
+					align-items: center;
+
+					img {
+						margin-right: .4rem;
+
+						&:first-of-type {
+							width: 1.54rem;
+							height: 1.51rem;
+
+							& + img {
+								width: 1.54rem;
+								height: 1.51rem;
+
+								& + img {
+									width: 1.54rem;
+									height: 1.51rem;
+								}
+							}
+						}
+
+					}
+				}
+			}
+
+			.eval3 {
+				.word {
+					& > p {
+						height: .92rem;
+						line-height: .92rem;
+						font-size: .22rem;
+						color: #777;
+						float: left;
+					}
+
+					.more {
+						float: right;
+						height: .92rem;
+						line-height: .92rem;
+						font-size: .22rem;
+						color: #777;
+
+						p {
+							float: left;
+						}
+
+						.right {
+							background: url("../images/order/arrow.jpg");
+							background-size: .19rem .26rem;
+							width: .19rem;
+							height: .26rem;
+							float: right;
+							margin-top: .32rem;
+						}
+					}
+				}
+
+
+			}
+
+
+		}
+
+		.buy {
+			height: 1.14rem;
+
+			.shopCar {
+				width: 1.72rem;
+				text-align: center;
+				font-size: .22rem;
+				float: left;
+				margin-top: .15rem;
+
+				img {
+					width: .55rem;
+					height: .5rem;
+				}
+
+				p {
+					margin-top: .1rem;
+				}
+			}
+
+			a {
+				float: right;
+				display: block;
+				text-align: center;
+				width: 2.88rem;
+				line-height: 1.14rem;
+				background-color: #F3692A;
+				color: #fff;
+				font-size: .28rem;
+
+				&:last-of-type {
+					background-color: #E6373F;
+				}
+			}
+		}
+	}
+
+}
