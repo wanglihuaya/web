@@ -311,10 +311,10 @@ strong {
   line-height: 1.06rem;
 }
 .container .con2 .wrap .con22 .con22p1 {
-  float: left;
-  margin-right: 2.2rem;
-  height: 1.06rem;
-  line-height: 1.06rem;
+	float: left;
+	margin-right: 1.6rem;
+	height: 1.06rem;
+	line-height: 1.06rem;
 }
 .container .con2 .wrap .con22 label {
   float: left;

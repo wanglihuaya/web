@@ -3,10 +3,15 @@ html {
 }
 
 .container {
+	.box {
+		display: flex;
+		justify-content: space-between;
+	}
+
 	.sideBar {
 		@include bg;
 		padding-top: .54rem;
-		float: left;
+		//float: left;
 		border-right: .01rem solid #666;
 		overflow: auto;
 		height: calc(100vh - .88rem);
@@ -49,7 +54,7 @@ html {
 		overflow: auto;
 		height: calc(100vh - .88rem);
 		width: calc(100% - 1.66rem);
-		float: left;
+		//float: left;
 		@include bg;
 
 		.title {

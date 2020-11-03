@@ -209,6 +209,7 @@
 
 	.eval {
 		@include bg;
+		margin-bottom: 1rem;
 
 		.wrap {
 			.eval1 {
@@ -295,45 +296,47 @@
 
 
 			}
-
-
-		}
-
-		.buy {
-			height: 1.14rem;
-
-			.shopCar {
-				width: 1.72rem;
-				text-align: center;
-				font-size: .22rem;
-				float: left;
-				margin-top: .15rem;
-
-				img {
-					width: .55rem;
-					height: .5rem;
-				}
-
-				p {
-					margin-top: .1rem;
-				}
-			}
-
-			a {
-				float: right;
-				display: block;
-				text-align: center;
-				width: 2.88rem;
-				line-height: 1.14rem;
-				background-color: #F3692A;
-				color: #fff;
-				font-size: .28rem;
-
-				&:last-of-type {
-					background-color: #E6373F;
-				}
-			}
 		}
 	}
 
+	.buy {
+		@include bg;
+		width: 7.5rem;
+		position: fixed;
+		bottom: 0;
+		height: 1.14rem;
+		z-index: 2;
+
+		.shopCar {
+			width: 1.72rem;
+			text-align: center;
+			font-size: .22rem;
+			float: left;
+			margin-top: .15rem;
+
+			img {
+				width: .55rem;
+				height: .5rem;
+			}
+
+			p {
+				margin-top: .1rem;
+			}
+		}
+
+		a {
+			float: right;
+			display: block;
+			text-align: center;
+			width: 2.88rem;
+			line-height: 1.14rem;
+			background-color: #F3692A;
+			color: #fff;
+			font-size: .28rem;
+
+			&:last-of-type {
+				background-color: #E6373F;
+			}
+		}
+	}
 }
