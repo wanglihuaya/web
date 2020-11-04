@@ -1,0 +1,64 @@
+@import "reset";
+
+.container {
+	background-color: #eee;
+
+	.header {
+		h2 {
+			font-size: 20px;
+			background-color: #EA957E;
+			height: 3em;
+			line-height: 3em;
+			color: #fff;
+			padding: 0 40px;
+		}
+	}
+
+	.content {
+		padding: 20px;
+
+		form {
+			input {
+				background-color: #fff;
+				border: 1px solid #aaa;
+				color: #999999;
+				padding: 4px;
+			}
+
+			h2 {
+				margin-bottom: 20px;
+			}
+
+			.bi {
+
+			}
+
+			.bi:before {
+				content: "*\00A0";
+				color: #FF0000;
+				vertical-align: middle;
+			}
+
+			.high {
+				line-height: 36px;
+			}
+
+			.width {
+				width: 500px;
+			}
+
+			.classify {
+				label:first-of-type {
+					float: left;
+				}
+
+				& > div > div {
+					float: left;
+					border: 1px solid #999;
+
+				}
+			}
+		}
+
+	}
+}

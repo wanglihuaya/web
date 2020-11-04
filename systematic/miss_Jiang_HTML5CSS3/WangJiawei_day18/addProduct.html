@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<link rel = "stylesheet" href = "css/addProduct.css">
+	<title>添加产品</title>
+</head>
+
+<body>
+	<div class = "container">
+		<div class = "header">
+			<h2>小U商城后台管理系统</h2>
+		</div>
+		<div class = "content">
+			<form action = "">
+				<h2 class = "addPro">
+					添加产品
+				</h2>
+				<div class = "name bi high">
+					<label for = "name">商品名称：</label>
+					<input type = "text" id = "name" class = "width">
+				</div>
+
+				<div class = "describe bi high">
+					<label for = "describe">简单描述：</label>
+					<input type = "text" id = "describe" class = "width">
+				</div>
+
+				<div class = "keyword bi high">
+					<label for = "keyword">关键字：&nbsp;&nbsp;&nbsp;</label>
+					<input type = "text" id = "keyword" placeholder = "&nbsp;请用,分割关键字" class = "width">
+				</div>
+
+				<div class = "classify high">
+					<label for = "" class = "bi"> 产品分类：</label>
+					<div class = "classSel">
+
+						<div class = "classSel1">
+							<label for = "classSel1">
+								<input type = "checkbox" value = "one" id = "classSel1">
+								新品发布
+							</label>
+						</div>
+
+						<div class = "classSel2">
+							<label for = "classSel2">
+								<input type = "checkbox" value = "two" id = "classSel2"> 限时促销
+							</label>
+						</div>
+
+						<div class = "classSel3">
+							<label for = "classSel3">
+								<input type = "checkbox" value = "three" id = "classSel3">特价处理
+							</label>
+						</div>
+
+						<input type = "button" value = "添加分类">
+					</div>
+				</div>
+
+				<div class = "bNn">
+					<div class = "before">
+						<p class = "bi">商品原价：</p>
+						<input type = "text">元
+					</div>
+					<div class = "now">
+						<p class = "bi">商品现价：</p>
+						<input type = "text">元
+					</div>
+					<div class = "num">
+						<p class = "bi">商品数量：</p>
+						<input type = "text">个
+					</div>
+				</div>
+
+				<div class = "specification high">
+					<label for = "specification">设置规格：&nbsp;&nbsp;&nbsp;&nbsp;</label>
+					<input type = "text" id = "specification" class = "width"><span> 如“颜色,尺寸,型号”中间以英文逗号隔开</span>
+				</div>
+
+				<div class = "putaway high">
+					<span>是否上架：</span>
+					<input type = "checkbox" value = "是" name = "putaway"> 是&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type = "checkbox" value = "否" name = "putaway"> 否
+				</div>
+
+				<div class = "comment high">
+					<span>允许评论：</span>
+					<input type = "checkbox" value = "是" name = "comment"> 是&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type = "checkbox" value = "否" name = "comment"> 否
+				</div>
+
+				<div class = "pic high">
+					<span class = "bi">产品图片：</span>
+					<input type = "file">
+				</div>
+
+				<div class = "int">
+					<label for = "" class = "bi">
+						内容介绍：
+					</label>
+					<textarea name = "" id = "" cols = "30" rows = "10"></textarea>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
