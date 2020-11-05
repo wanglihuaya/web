@@ -1,0 +1,253 @@
+@charset "UTF-8";
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #eee;
+}
+
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F46929;
+}
+.header .wrap {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .wrap .left img {
+  width: .178rem;
+  height: .29rem;
+}
+.header .wrap .center {
+  color: #FFFFFF;
+  font-size: .32rem;
+}
+.header .wrap .right {
+  height: .12rem;
+}
+.header .wrap .right span {
+  float: left;
+  width: .12rem;
+  height: .12rem;
+  margin: 0 .12rem 0 0;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header .wrap .right span:last-of-type {
+  margin: 0;
+}
+
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #EEEEEE;
+}
+.footer .wrap ul {
+  height: 1.2rem;
+  margin: 0 .5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .wrap ul p {
+  margin-top: .12rem;
+  font-size: .2rem;
+  color: #888;
+}
+.footer .wrap ul img {
+  width: .51rem;
+  height: .51rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: orangered;
+}
+
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container .box {
+  display: flex;
+  justify-content: space-between;
+}
+.container .sideBar {
+  background-color: #fff;
+  padding-top: .54rem;
+  border-right: .01rem solid #666;
+  overflow: auto;
+  height: calc(100vh - .88rem);
+}
+.container .sideBar ul {
+  width: 1.63rem;
+}
+.container .sideBar ul li {
+  font-size: .25rem;
+  margin-bottom: .88rem;
+}
+.container .sideBar ul li::before {
+  content: "";
+  width: .08rem;
+  height: .52rem;
+  float: left;
+  background-color: transparent;
+}
+.container .sideBar ul li:hover a {
+  color: #EE763F;
+}
+.container .sideBar ul li:hover::before {
+  background-color: #EE763F;
+}
+.container .sideBar ul li a {
+  display: inline;
+  line-height: .52rem;
+  height: .52rem;
+  color: #777;
+  padding-left: .3rem;
+}
+.container .section {
+  overflow: auto;
+  height: calc(100vh - .88rem);
+  width: calc(100% - 1.66rem);
+  background-color: #fff;
+}
+.container .section .title {
+  height: .26rem;
+  margin: .66rem .56rem 0 .56rem;
+  font-size: .26rem;
+}
+.container .section .title p {
+  float: left;
+}
+.container .section .title .more {
+  float: right;
+  color: #777;
+}
+.container .section .title .more .right {
+  float: right;
+  background: url("../images/order/arrow.jpg") no-repeat;
+  background-size: .19rem .26rem;
+  width: .19rem;
+  height: .26rem;
+}
+.container .section .section1 .con ul {
+  color: #777;
+  margin-top: .1rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+  font-size: .22rem;
+}
+.container .section .section1 .con ul li img {
+  margin-top: .35rem;
+  margin-bottom: .24rem;
+  width: 1.54rem;
+  height: 1.52rem;
+}
+.container .section .section2 .con ul {
+  color: #777;
+  margin-top: .1rem;
+  margin-bottom: 1.15rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  font-size: .22rem;
+}
+.container .section .section2 .con ul li img {
+  margin-top: .35rem;
+  margin-bottom: .24rem;
+  width: .82rem;
+  height: 1.33rem;
+}

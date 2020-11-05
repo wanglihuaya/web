@@ -1,0 +1,285 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container {
+  background-color: #eee;
+}
+.container .header h2 {
+  font-size: 20px;
+  background-color: #EA957E;
+  height: 3em;
+  line-height: 3em;
+  color: #fff;
+  padding: 0 40px;
+}
+.container .content {
+  padding: 20px;
+}
+.container .content form input {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  color: #999999;
+  padding: 4px;
+}
+.container .content form h2 {
+  margin-bottom: 20px;
+}
+.container .content form .bi:before {
+  content: "*\00A0";
+  color: #FF0000;
+  vertical-align: middle;
+}
+.container .content form .width {
+  width: 60%;
+}
+.container .content form .name, .container .content form .keyword, .container .content form .describe {
+  line-height: 60px;
+}
+.container .content form .classify {
+  height: 60px;
+  line-height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+.container .content form .classify > div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .content form .classify > div > input {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #408FB5;
+  color: #fff;
+}
+.container .content form .classify > div > div {
+  border: 1px solid #999;
+  height: 22px;
+  line-height: 22px;
+  margin-left: 4px;
+  padding: 0 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .content form .classify > div > div > label {
+  vertical-align: -2px;
+}
+.container .content form .classify > div > div > label input {
+  margin-right: 4px;
+  vertical-align: -2px;
+}
+.container .content form .bNn {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 80px;
+  margin-top: 20px;
+}
+.container .content form .bNn > div {
+  margin-right: 10px;
+}
+.container .content form .bNn > div > p {
+  margin: 6px 0;
+}
+.container .content form .pic input {
+  background-color: transparent;
+  border: none;
+}
+.container .content form .specification span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container .content form .putaway, .container .content form .comment, .container .content form .pic {
+  margin: 20px 0;
+}
+.container .content form .int textarea {
+  border: 1px solid #aaa;
+  background-color: #fff;
+  width: 80%;
+  vertical-align: top;
+  resize: none;
+}
+.container .content form .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .content form .bottom input {
+  margin: 20px;
+  padding: 6px 10px;
+  color: #fff;
+}
+.container .content form .bottom input:first-of-type {
+  background-color: #408FB5;
+}
+.container .content form .bottom input:nth-of-type(2) {
+  background-color: #EA957E;
+}
+.container .content form .bottom input:last-of-type {
+  background-color: #BBBBBB;
+}
+
+/* 超小屏幕：< 768px */
+@media screen and (max-width: 768px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container .header h2 {
+    font-size: 14px;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+  }
+  .container .content form h2 {
+    font-size: 14px;
+  }
+  .container .content form .name, .container .content form .describe, .container .content form .keyword {
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .container .content form .name label, .container .content form .describe label, .container .content form .keyword label {
+    display: inline-block;
+  }
+  .container .content form .name input, .container .content form .describe input, .container .content form .keyword input {
+    display: block;
+  }
+  .container .content form .classify {
+    height: 100%;
+    display: block;
+  }
+  .container .content form .classify > div {
+    display: block;
+    position: relative;
+  }
+  .container .content form .classify > div > input {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+  }
+  .container .content form .classify > div > div {
+    display: block;
+    width: 30%;
+    height: 25px;
+    margin-bottom: 20px;
+  }
+  .container .content form .bNn {
+    margin: 0 0 30px 0;
+    height: 100%;
+    display: block;
+  }
+  .container .content form .bNn input {
+    width: 61%;
+  }
+  .container .content form .specification {
+    margin-bottom: 30px;
+  }
+  .container .content form .specification label {
+    display: block;
+    margin: 10px 0;
+  }
+  .container .content form .specification span {
+    display: block;
+    margin: 10px 0 0 0;
+  }
+  .container .content form .putaway, .container .content form .comment {
+    margin-top: 10px;
+  }
+  .container .content form .putaway span, .container .content form .comment span {
+    display: block;
+    margin: 10px 0;
+  }
+  .container .content form .int label {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,254 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #eee;
+}
+
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F46929;
+}
+.header .wrap {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .wrap .left img {
+  width: .178rem;
+  height: .29rem;
+}
+.header .wrap .center {
+  color: #FFFFFF;
+  font-size: .32rem;
+}
+.header .wrap .right {
+  height: .12rem;
+}
+.header .wrap .right span {
+  float: left;
+  width: .12rem;
+  height: .12rem;
+  margin: 0 .12rem 0 0;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header .wrap .right span:last-of-type {
+  margin: 0;
+}
+
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #EEEEEE;
+}
+.footer .wrap ul {
+  height: 1.2rem;
+  margin: 0 .5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .wrap ul p {
+  margin-top: .12rem;
+  font-size: .2rem;
+  color: #888;
+}
+.footer .wrap ul img {
+  width: .51rem;
+  height: .51rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: orangered;
+}
+
+.mine {
+  background-color: #F46929;
+}
+.mine .wrap {
+  height: 2.02rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.mine .wrap img {
+  width: 1.42rem;
+  height: 1.42rem;
+  border-radius: 50%;
+  border: .05rem solid #fff;
+  margin-right: .26rem;
+}
+.mine .wrap p:first-of-type {
+  font-size: .28rem;
+  color: #fff;
+  margin-bottom: .24rem;
+}
+.mine .wrap p:nth-of-type(2) {
+  font-size: .2rem;
+  color: #000;
+  margin-left: .05rem;
+}
+.mine .wrap button {
+  width: 1.59rem;
+  height: .71rem;
+  background-color: #fff;
+  color: #F46929;
+  font-size: .23rem;
+  border-radius: .15rem;
+  margin-left: 2.86rem;
+}
+
+.floor1 {
+  background-color: #fff;
+}
+.floor1 .wrap ul {
+  display: flex;
+  height: 1.42rem;
+  justify-content: space-around;
+  align-items: center;
+}
+.floor1 .wrap ul li {
+  text-align: center;
+}
+.floor1 .wrap ul li img {
+  width: .34rem;
+  height: .34rem;
+}
+.floor1 .wrap ul li p {
+  font-size: .23rem;
+  margin-top: .22rem;
+}
+
+.floor2 {
+  background-color: #fff;
+}
+.floor2 div {
+  height: 1.1rem;
+  line-height: 1.1rem;
+  border-bottom: .01rem solid #eee;
+}
+.floor2 div:first-of-type {
+  border-top: .01rem solid #eee;
+}
+.floor2 div img:first-of-type {
+  float: left;
+  width: .36rem;
+  height: .4rem;
+  display: inline-block;
+  margin: .35rem .4rem;
+}
+.floor2 div span {
+  font-size: .26rem;
+  margin-left: .25rem;
+}
+.floor2 div img:last-of-type {
+  float: right;
+  width: .19rem;
+  height: .26rem;
+  margin: .35rem .4rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 7.5rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: #888;
+}
+.footer .wrap ul li:last-of-type p {
+  color: orangered;
+}

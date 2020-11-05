@@ -1,0 +1,402 @@
+@charset "UTF-8";
+.container {
+  width: 7.5rem;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #eee;
+}
+
+.wrap {
+  width: 7.1rem;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F46929;
+}
+.header .wrap {
+  height: .88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .wrap .left img {
+  width: .178rem;
+  height: .29rem;
+}
+.header .wrap .center {
+  color: #FFFFFF;
+  font-size: .32rem;
+}
+.header .wrap .right {
+  height: .12rem;
+}
+.header .wrap .right span {
+  float: left;
+  width: .12rem;
+  height: .12rem;
+  margin: 0 .12rem 0 0;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.header .wrap .right span:last-of-type {
+  margin: 0;
+}
+
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #EEEEEE;
+}
+.footer .wrap ul {
+  height: 1.2rem;
+  margin: 0 .5rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .wrap ul p {
+  margin-top: .12rem;
+  font-size: .2rem;
+  color: #888;
+}
+.footer .wrap ul img {
+  width: .51rem;
+  height: .51rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: orangered;
+}
+
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.con {
+  background-color: #fff;
+  padding-top: .3rem;
+}
+.con > div {
+  width: 7.5rem;
+  height: 1.98rem;
+  margin-bottom: .3rem;
+  box-shadow: 0 0 10px #eee;
+}
+.con .one {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.con .one .sel {
+  width: .34rem;
+  height: .34rem;
+  background: url("../images/shoping_car_/1.jpg") no-repeat;
+  margin: 0 .36rem 0 .12rem;
+  background-size: .34rem .34rem;
+}
+.con .one img {
+  width: 1.13rem;
+  height: 1.10rem;
+}
+.con .one .word {
+  margin-left: .31rem;
+  margin-right: 1.41rem;
+}
+.con .one .word p:first-of-type {
+  font-size: .26rem;
+}
+.con .one .word p:nth-of-type(2) {
+  font-size: .22rem;
+  color: #888;
+  margin: .30rem 0 .3rem 0;
+}
+.con .one .word p:nth-of-type(3) {
+  font-size: .22rem;
+  color: #B3251D;
+}
+.con .one .num {
+  width: 2.1rem;
+  height: .57rem;
+  border: .01rem solid #666;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .08rem;
+  font-size: .22rem;
+}
+.con .one .num span {
+  border-right: .01rem solid #666;
+  height: .57rem;
+  text-align: center;
+  line-height: .57rem;
+}
+.con .one .num span:nth-of-type(2n+1) {
+  width: .62rem;
+}
+.con .one .num span:nth-of-type(2n) {
+  width: .86rem;
+}
+.con .one .num span:last-of-type {
+  border: none;
+}
+.con .two {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.con .two img {
+  width: 1.13rem;
+  height: 1.10rem;
+}
+.con .two .word {
+  margin-left: .31rem;
+  margin-right: .91rem;
+}
+.con .two .word p:first-of-type {
+  font-size: .26rem;
+}
+.con .two .word p:nth-of-type(2) {
+  font-size: .22rem;
+  color: #888;
+  margin: .30rem 0 .3rem 0;
+}
+.con .two .word p:nth-of-type(3) {
+  font-size: .22rem;
+  color: #B3251D;
+}
+.con .two .num {
+  width: 2.1rem;
+  height: .57rem;
+  border: .01rem solid #666;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .08rem;
+  font-size: .22rem;
+}
+.con .two .num span {
+  border-right: .01rem solid #666;
+  height: .57rem;
+  text-align: center;
+  line-height: .57rem;
+}
+.con .two .num span:nth-of-type(2n+1) {
+  width: .62rem;
+}
+.con .two .num span:nth-of-type(2n) {
+  width: .86rem;
+}
+.con .two .num span:last-of-type {
+  border: none;
+}
+.con .two .del {
+  margin-left: .31rem;
+  text-align: center;
+  width: .98rem;
+  font-size: .22rem;
+  color: #fff;
+  background-color: #E6373F;
+  height: 1.98rem;
+  line-height: 1.98rem;
+}
+.con .three {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 3.4rem;
+}
+.con .three .sel {
+  width: .34rem;
+  height: .34rem;
+  background: url("../images/shoping_car_/2.jpg") no-repeat;
+  margin: 0 .36rem 0 .12rem;
+  background-size: .34rem .34rem;
+}
+.con .three img {
+  width: 1.13rem;
+  height: 1.10rem;
+}
+.con .three .word {
+  margin-left: .31rem;
+  margin-right: .91rem;
+}
+.con .three .word p:first-of-type {
+  font-size: .26rem;
+}
+.con .three .word p:nth-of-type(2) {
+  font-size: .22rem;
+  color: #888;
+  margin: .30rem 0 .3rem 0;
+}
+.con .three .word p:nth-of-type(3) {
+  font-size: .22rem;
+  color: #B3251D;
+}
+.con .three .num {
+  width: 2.1rem;
+  height: .57rem;
+  border: .01rem solid #666;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: .08rem;
+  font-size: .22rem;
+}
+.con .three .num span {
+  border-right: .01rem solid #666;
+  height: .57rem;
+  text-align: center;
+  line-height: .57rem;
+}
+.con .three .num span:nth-of-type(2n+1) {
+  width: .62rem;
+}
+.con .three .num span:nth-of-type(2n) {
+  width: .86rem;
+}
+.con .three .num span:last-of-type {
+  border: none;
+}
+.con .sum {
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 1.48rem;
+  margin-bottom: 1.4rem;
+  position: fixed;
+  bottom: 0;
+}
+.con .sum .sel {
+  width: .34rem;
+  height: .34rem;
+  background: url("../images/shoping_car_/1.jpg") no-repeat;
+  background-size: .34rem .34rem;
+  margin: 0 .36rem 0 .12rem;
+}
+.con .sum .left {
+  font-size: .22rem;
+  margin-right: 0.47rem;
+  width: .57rem;
+}
+.con .sum .center {
+  text-align: center;
+  width: 2.92rem;
+}
+.con .sum .center p:first-of-type {
+  font-size: .26rem;
+  margin-bottom: .2rem;
+}
+.con .sum .center p:first-of-type span {
+  color: #E6373F;
+  font-size: .24rem;
+}
+.con .sum .center p:last-of-type {
+  font-size: .18rem;
+  color: #777;
+}
+.con .sum .right {
+  width: 2.47rem;
+  text-align: center;
+  font-size: .28rem;
+  background-color: #F46929;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  color: #fff;
+  margin-left: .3rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 7.5rem;
+}
+.footer .wrap ul li:first-of-type p {
+  color: #888;
+}
+.footer .wrap ul li:nth-of-type(2) p {
+  color: orangered;
+}

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+html {
+  width: 100%;
+}
+
+.bg {
+  background-image: linear-gradient(to bottom, white, #feafa1);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.bg .container {
+  width: 32%;
+  height: 76vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bg .container .logo {
+  width: 95.4px;
+  height: 90.2px;
+  margin: 0 auto;
+  background: url("../images/favicon.png") no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.bg .container .content {
+  margin-top: 24px;
+  height: calc(76vh - 200px);
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.bg .container .content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.bg .container .content form p {
+  margin: 2px 0;
+}
+.bg .container .content form input {
+  display: block;
+  width: 100%;
+  height: 1.5rem;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+}
+.bg .container .content form #rem {
+  display: inline;
+  text-align: left;
+  width: 16px;
+}
+.bg .container .content form #login {
+  height: 36px;
+  color: #fff;
+  background-color: orangered;
+  font-size: 16px;
+}
+.bg .container .content .zhu {
+  text-align: center;
+  margin: 10px;
+}
+.bg .container .content .zhu a {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: skyblue;
+}
+
+/* 中屏幕：992px ~ 1200px */
+/* 小屏幕：768px ~ 992ox */
+@media screen and (max-width: 992px) {
+  .bg .container {
+    width: 88%;
+    height: 76vh;
+  }
+  .bg .container .logo {
+    width: 150px;
+    height: 150px;
+  }
+  .bg .container .content input:nth-of-type(-3+n),
+  .bg .container .content input:last-of-type {
+    width: 150%;
+  }
+}
+/* 超小屏幕：< 768px */
+@media screen and (max-width: 768px) {
+  .bg .container .logo {
+    display: none;
+  }
+}
