@@ -29,36 +29,239 @@
 				margin-bottom: 20px;
 			}
 
-			.bi {
-
-			}
-
 			.bi:before {
 				content: "*\00A0";
 				color: #FF0000;
 				vertical-align: middle;
 			}
 
-			.high {
-				line-height: 36px;
+			.width {
+				width: 60%;
 			}
 
-			.width {
-				width: 500px;
+			.name, .keyword, .describe {
+				line-height: 60px;
 			}
 
 			.classify {
-				label:first-of-type {
-					float: left;
+				height: 60px;
+				line-height: 60px;
+				display: flex;
+				justify-content: flex-start;
+				align-content: center;
+
+				& > div {
+					display: flex;
+					justify-content: flex-start;
+					align-items: center;
+
+					& > input {
+						margin-left: 10px;
+						padding: 5px;
+						background-color: #408FB5;
+						color: #fff;
+					}
+
+					& > div {
+						border: 1px solid #999;
+						height: 22px;
+						line-height: 22px;
+						margin-left: 4px;
+						padding: 0 8px;
+						display: flex;
+						justify-content: flex-start;
+						align-items: center;
+
+						& > label {
+							vertical-align: -2px;
+
+							input {
+								margin-right: 4px;
+								vertical-align: -2px;
+							}
+						}
+					}
+				}
+			}
+
+			.bNn {
+				display: flex;
+				justify-content: space-between;
+				align-content: center;
+				height: 80px;
+				margin-top: 20px;
+
+				& > div {
+					margin-right: 10px;
+
+					& > p {
+						margin: 6px 0;
+					}
+				}
+			}
+
+			.pic {
+				input {
+					background-color: transparent;
+					border: none;
+				}
+			}
+
+			.specification {
+				span {
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+				}
+			}
+
+			.putaway, .comment, .pic {
+				margin: 20px 0;
+			}
+
+			.int {
+				label {
 				}
 
-				& > div > div {
-					float: left;
-					border: 1px solid #999;
+				textarea {
+					border: 1px solid #aaa;
+					background-color: #fff;
+					width: 80%;
+					vertical-align: top;
+					resize: none;
+				}
+			}
 
+			.bottom {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				input {
+					margin: 20px;
+					padding: 6px 10px;
+					color: #fff;
+
+					&:first-of-type {
+						background-color: #408FB5;
+					}
+
+					&:nth-of-type(2) {
+						background-color: #EA957E;
+					}
+
+					&:last-of-type {
+						background-color: #BBBBBB;
+					}
 				}
 			}
 		}
+	}
+}
 
+/* 超小屏幕：< 768px */
+@media screen and(max-width: 768px) {
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	.container {
+		.header {
+			h2 {
+				font-size: 14px;
+				height: 1.5rem;
+				line-height: 1.5rem;
+				padding: 10px 20px;
+			}
+		}
+
+		.content {
+			form {
+				.high {
+				}
+
+				h2 {
+					font-size: 14px;
+				}
+
+				.name, .describe, .keyword {
+					line-height: 20px;
+					margin-bottom: 20px;
+
+					label {
+						display: inline-block;
+					}
+
+					input {
+						display: block;
+					}
+				}
+
+				.classify {
+					height: 100%;
+					display: block;
+
+					& > div {
+						display: block;
+						position: relative;
+
+						& > input {
+							position: absolute;
+							top: -10px;
+							left: 50%;
+						}
+
+						& > div {
+							display: block;
+							width: 30%;
+							height: 25px;
+							margin-bottom: 20px;
+						}
+					}
+				}
+
+				.bNn {
+					margin: 0 0 30px 0;
+					height: 100%;
+					display: block;
+
+					input {
+						width: 61%;
+					}
+				}
+
+				.specification {
+					margin-bottom: 30px;
+
+					label {
+						display: block;
+						margin: 10px 0;
+					}
+
+					span {
+						display: block;
+						margin: 10px 0 0 0;
+					}
+				}
+
+				.putaway, .comment {
+					margin-top: 10px;
+
+					span {
+						display: block;
+						margin: 10px 0;
+					}
+
+				}
+
+				.int {
+					label {
+						display: block;
+						margin-bottom: 10px;
+					}
+				}
+			}
+
+		}
 	}
 }
