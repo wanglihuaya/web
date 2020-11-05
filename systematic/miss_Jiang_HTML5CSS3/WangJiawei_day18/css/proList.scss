@@ -122,57 +122,77 @@ header {
 
 	.content {
 		width: 82%;
-		background-color: #eee;
 		float: right;
+		//padding: 0 20px;
 
 		.top {
+			background-color: #eee;
+			padding: 0 20px;
 			display: flex;
 			justify-content: space-between;
 			line-height: 30px;
 			font-size: 10px;
-			padding: 0 10px;
 			color: $color_red;
 			border-bottom: 1px solid #aaa;
 		}
 
-		.bottom {
+		.add {
+			padding: 0 20px;
+			background-color: #fff;
 			display: flex;
+			line-height: 40px;
 			justify-content: space-between;
-			flex-wrap: wrap;
+			align-items: center;
+			border-bottom: 1px solid #999999;
+			//padding-bottom: 10px;
+			margin-bottom: 10px;
 
-			section {
-				width: 23%;
-				margin: 1% 1%;
-				height: 130px;
-				background-color: $color_red;
-				color: #fff;
-				border-radius: 10px;
-				overflow: hidden;
+			.left {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
 
-				.word {
-					height: 70%;
-					margin: 20px 15px -20px 15px;
-					box-sizing: border-box;
+				input {
+					border: 1px solid #aaa;
+					padding: 0 5px;
+					background-color: #eee;
+				}
+			}
 
-					h2 {
-						margin: 0 0 15px 0;
-						font-size: 26px;
-						box-sizing: border-box;
+			.right {
+				label {
+					span {
+						font-size: 16px;
+					}
+
+					input {
+						background-color: #fff;
+						border: 1px solid #777;
 					}
 				}
 
-				.tro {
-					position: relative;
-					height: 30%;
-					background-color: #D28671;
+				input {
+					border: 1px solid #aaa;
+					padding: 0 5px;
+					background-color: #eee;
+				}
+			}
+		}
 
-					a {
-						position: absolute;
-						top: 50%;
-						left: 50%;
-						transform: translateX(-50%) translateY(-50%);
-						color: #fff;
-					}
+		.bottom {
+			background-color: #fff;
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			padding: 0 20px;
+
+			table {
+				width: 100%;
+
+				td, th {
+					border: 1px solid #999999;
+					height: 30px;
+					text-align: center;
 				}
 			}
 		}
@@ -195,9 +215,7 @@ header {
 	}
 
 	.bottom {
-		section {
-			width: 48%;
-		}
+
 	}
 }
 
@@ -228,9 +246,7 @@ header {
 			width: 100%;
 
 			.bottom {
-				section {
-					width: 98%;
-				}
+
 			}
 		}
 	}

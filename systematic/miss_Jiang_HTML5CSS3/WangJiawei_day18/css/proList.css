@@ -175,53 +175,64 @@ header .right a i {
 }
 .main .content {
   width: 82%;
-  background-color: #eee;
   float: right;
 }
 .main .content .top {
+  background-color: #eee;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   line-height: 30px;
   font-size: 10px;
-  padding: 0 10px;
   color: #EA957E;
   border-bottom: 1px solid #aaa;
 }
+.main .content .add {
+  padding: 0 20px;
+  background-color: #fff;
+  display: flex;
+  line-height: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 10px;
+}
+.main .content .add .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .content .add .left input {
+  border: 1px solid #aaa;
+  padding: 0 5px;
+  background-color: #eee;
+}
+.main .content .add .right label span {
+  font-size: 16px;
+}
+.main .content .add .right label input {
+  background-color: #fff;
+  border: 1px solid #777;
+}
+.main .content .add .right input {
+  border: 1px solid #aaa;
+  padding: 0 5px;
+  background-color: #eee;
+}
 .main .content .bottom {
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 0 20px;
 }
-.main .content .bottom section {
-  width: 23%;
-  margin: 1% 1%;
-  height: 130px;
-  background-color: #EA957E;
-  color: #fff;
-  border-radius: 10px;
-  overflow: hidden;
+.main .content .bottom table {
+  width: 100%;
 }
-.main .content .bottom section .word {
-  height: 70%;
-  margin: 20px 15px -20px 15px;
-  box-sizing: border-box;
-}
-.main .content .bottom section .word h2 {
-  margin: 0 0 15px 0;
-  font-size: 26px;
-  box-sizing: border-box;
-}
-.main .content .bottom section .tro {
-  position: relative;
-  height: 30%;
-  background-color: #D28671;
-}
-.main .content .bottom section .tro a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  color: #fff;
+.main .content .bottom table td, .main .content .bottom table th {
+  border: 1px solid #999999;
+  height: 30px;
+  text-align: center;
 }
 
 /* 小屏幕：768px ~ 992ox */
@@ -231,10 +242,6 @@ header .right a i {
   }
   header .right a:last-of-type {
     display: none;
-  }
-
-  .bottom section {
-    width: 48%;
   }
 }
 /* 超小屏幕：< 768px */
@@ -254,8 +261,5 @@ header .right a i {
   }
   .main .content {
     width: 100%;
-  }
-  .main .content .bottom section {
-    width: 98%;
   }
 }
