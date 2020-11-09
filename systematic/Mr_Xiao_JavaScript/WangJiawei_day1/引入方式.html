@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>引入方式</title>
+	<style>
+		div {
+			width: 200px;
+			height: 200px;
+			background-color: #D83E4C;
+		}
+	</style>
+</head>
+
+<body>
+	<div id = "box" onclick = "alert('我叫 达拉崩吧斑得贝迪卜多比鲁翁1')"></div>
+	
+	<script>
+		document.getElementById("box").onclick = function () {
+			box.style.backgroundColor = "black";
+		};
+		alert("我叫 达拉崩吧斑得贝迪卜多比鲁翁2");
+	</script>
+	
+	<script src = "./js/name.js"></script>
+</body>
+</html>
