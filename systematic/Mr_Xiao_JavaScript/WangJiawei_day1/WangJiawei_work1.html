@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang = "zh-CN" xmlns = "">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.bg {
+			width: 800px;
+			margin: 0 auto;
+			background: #eee;
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "bg">
+		<input type = "text" id = "text">
+		<label for = "text">
+			<button id = "btn">OK</button>
+			<p>请输入任意尺寸，如100</p>
+		</label>
+		
+		<figure>
+			<img src = "https://via.placeholder.com/150/ff6347/fffff?text=Hello World!" alt = "Please enter the normal size"
+			     id = "img">
+			<figcaption>
+				<p id = "fig">图片的尺寸是</p>
+			</figcaption>
+		</figure>
+	</div>
+	
+	
+	<script>
+		var text = document.getElementById("text");
+		var btn = document.getElementById("btn");
+		var img = document.getElementById("img");
+		var fig = document.getElementById("fig");
+		
+		btn.onclick = function () {
+			var inputNum = text.value;
+			alert(inputNum);
+			img.src = "https://via.placeholder.com/" + inputNum + "/ff6347/fffff?text=Hello World!";
+			fig.innerHTML = "图片的尺寸是" + inputNum + "×" + inputNum;
+		};
+	
+	</script>
+</body>
+</html>

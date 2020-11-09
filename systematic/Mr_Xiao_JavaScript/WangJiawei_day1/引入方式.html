@@ -16,12 +16,36 @@
 
 <body>
 	<div id = "box" onclick = "alert('我叫 达拉崩吧斑得贝迪卜多比鲁翁1')"></div>
+	<h2 id = "liang">两股战战，几欲先走</h2>
+	
+	<!--显示密码-->
+	<input type = "password" id = "one">
+	<input type = "button" id = "two" value = "显示">
+	<input type = "text" name = "" id = "three">
+	<!--显示密码-->
 	
 	<script>
 		document.getElementById("box").onclick = function () {
 			box.style.backgroundColor = "black";
 		};
+		
 		alert("我叫 达拉崩吧斑得贝迪卜多比鲁翁2");
+		
+		let liang = document.getElementById("liang");
+		console.log(liang.innerHTML);
+		
+		/*显示密码*/
+		var btn = document.getElementById("two");
+		var one = document.getElementById("one");
+		var three = document.getElementById("three");
+		
+		btn.onclick = function () {
+			three.value = one.value;
+		};
+		/*显示密码*/
+		
+		
+		console.log(btn.type, btn.id, btn.value);
 	</script>
 	
 	<script src = "./js/name.js"></script>

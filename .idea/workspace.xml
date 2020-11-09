@@ -28,10 +28,417 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="响应式 19day">
-      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/js/name.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/引入方式.html" afterDir="false" />
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="Js 01day">
+      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/WangJiawei_work1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/WangJiawei_work2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/引入方式.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/引入方式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work5.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work6.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/WangJiawei_work6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day3/set.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day3/set.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work5.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work6.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/WangJiawei_work6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/float.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/float.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/inline-block.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/inline-block.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day4/mi_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day4/mi_navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work5.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work6.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/WangJiawei_work6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei.day5/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei.day5/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work05.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/WangJiawei_work4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day1/first_web.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day1/first_web.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day10/middle.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day10/middle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day10/双飞翼.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day10/双飞翼.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day10/圣杯布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day10/圣杯布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day10/等高布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day10/等高布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day11/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day11/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day11/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day12/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day13/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day13/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day13/cube.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day13/cube.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day13/practive.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day13/practive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work1.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work1.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/WangJiawei_work2.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/.sass-cache/8625a05f594ba87065562b696163c37626c9dc7e/compass.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/compass.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/practice1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/practice1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work1.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work1.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work2.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/.sass-cache/b9fac6d3fe6e036ee055a487301e30e9e586cbb4/WangJiawei_work2.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work2.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/images/29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/con_sort_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_detail.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_detail.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_sort.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_sort.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_sort_list.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/con_sort_list.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/mine.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/mine.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/public.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/public.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/reset.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/reset.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/shop_confirm.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/shop_confirm.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/shopcar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/.sass-cache/2dab07bd1e1e7ff796bc0f97eaaf02ae6f41de9b/shopcar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_detail.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort_list.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort_list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/con_sort_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/mine.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/mine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/mine.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/mine.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/public.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/public.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shop_confirm.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shop_confirm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shop_confirm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shop_confirm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shopcar.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shopcar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shopcar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css/shopcar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/ 7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/shop_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/shop_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/shop_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/classify/shop_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/arrow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/detail_/pic_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/arrow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/bar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/bar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/brand.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/brand.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/icon_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/shop_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/timer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_/timer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/arrow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/search.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/list_/search.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/head.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/head.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/mine_/icon_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/order/arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/order/arrow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/order/shop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/order/shop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/arrow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/arrow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/icon_9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/public/right.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/select.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/select.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/shop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/shoping_car_/shop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/js/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/js/remScale.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/js/remScale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/mine.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/mine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shop_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shop_confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shopcar.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/shopcar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day16/vw.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day16/vw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day17/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day17/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/addProduct.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/addProduct.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/addProduct.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/addProduct.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/login.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/login.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/proList.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/proList.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/reset.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/.sass-cache/efe7f3ecb25c570056f16cd999a26d906618a23a/reset.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/addProduct.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/addProduct.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/addProduct.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/addProduct.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/proList.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/proList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/proList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/proList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/css/reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/hah.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/hah.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/proList.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day18/proList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day19/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day19/grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work5.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work6.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei.work6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_word4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_word4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day2/table_practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day2/table_practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work1.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work2.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work3.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work4.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/WangJiawei_work4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/relative.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/relative.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day6/xiaomi.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day6/xiaomi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/trangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/trangle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/proDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/proDetail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/proList.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/proList.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/reset1.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/reset1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/shopCar.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/css/shopCar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/Limited-time.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/Limited-time.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/b_img4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/banner04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cai9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/car4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cart_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/cart_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code1.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code2.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code3.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code4.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/code4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/con9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/detail_pic05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/find01.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/find01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/find02.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/find02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/four9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good13.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good14.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/good16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/item8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k1.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k1.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k2.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k2.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k3.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k4.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k4.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k5.webp" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/k5.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/left.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/left1.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/left1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img07.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img08.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img09.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/list_img15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/login_banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/login_banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/login_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/login_bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/not.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/not.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/pic4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/san4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/sprite1.png" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/sprite1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/three9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/time3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/tv1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/tv1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/商品详情页.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/images/商品详情页.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/proDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/proDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/proList.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/proList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/shopCar.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day7/u-mall/shopCar.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +450,8 @@
       <list>
         <option value="Sass File" />
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,6 +471,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1irWBErty61q9bzYKuJuTwJb0UW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -82,7 +492,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -99,17 +509,17 @@
       <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/images/index_" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.proList.html">
+  <component name="RunManager" selected="JavaScript 调试.WangJiawei_work2.html">
+    <configuration name="WangJiawei_work1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/WangJiawei_work1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="WangJiawei_work2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/WangJiawei_work2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="引入方式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/WangJiawei_day1/引入方式.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="addProduct.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/addProduct.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="grid.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day19/grid.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="proList.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/proList.html" useBuiltInWebServerPort="true">
@@ -117,11 +527,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.WangJiawei_work2.html" />
+        <item itemvalue="JavaScript 调试.WangJiawei_work1.html" />
+        <item itemvalue="JavaScript 调试.引入方式.html" />
         <item itemvalue="JavaScript 调试.proList.html" />
         <item itemvalue="JavaScript 调试.addProduct.html" />
-        <item itemvalue="JavaScript 调试.grid.html" />
-        <item itemvalue="JavaScript 调试.login.html" />
-        <item itemvalue="JavaScript 调试.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +588,7 @@
       <workItem from="1604534849223" duration="134000" />
       <workItem from="1604534989658" duration="22636000" />
       <workItem from="1604618037024" duration="2427000" />
-      <workItem from="1604890235279" duration="1831000" />
+      <workItem from="1604890235279" duration="18220000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
@@ -292,7 +702,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604579124993</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Js 01day">
+      <created>1604892337231</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604892337231</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +759,8 @@
     <MESSAGE value="day15_u-mall_mobile 17day" />
     <MESSAGE value="响应式 18day" />
     <MESSAGE value="响应式 19day" />
-    <option name="LAST_COMMIT_MESSAGE" value="响应式 19day" />
+    <MESSAGE value="Js 01day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js 01day" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -362,6 +780,10 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="751" y="287" key="#Web_Browsers/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604020060701" />
+    <state x="901" y="360" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1604921039089">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="901" y="360" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1604921039089" />
     <state x="419" y="145" width="1081" height="842" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604038270481">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -391,14 +813,16 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="661" y="95" key="#xdebugger.evaluate/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603957864441" />
-    <state x="155" y="1138" width="802" height="776" key="#意图" timestamp="1603972876336">
-      <screen x="0" y="1103" width="1112" height="811" />
+    <state x="268" y="23" width="1385" height="1057" key="#意图" timestamp="1604920371093">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="155" y="1138" width="802" height="776" key="#意图/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603972876336" />
-    <state x="1060" y="123" width="760" height="857" key="DiffContextDialog" timestamp="1603968908256">
+    <state x="268" y="23" width="1385" height="1057" key="#意图/0.23.1920.1057@0.23.1920.1057" timestamp="1604920371093" />
+    <state x="1060" y="123" width="760" height="857" key="DiffContextDialog" timestamp="1604930666214">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1060" y="123" width="760" height="857" key="DiffContextDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603968908256" />
+    <state x="1060" y="123" width="760" height="857" key="DiffContextDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1604930666214" />
     <state x="394" y="251" width="787" height="760" key="EditFileWatcherDialog" timestamp="1604040616312">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -407,78 +831,78 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="637" y="297" key="EnvironmentVariablesDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603962484038" />
-    <state width="1890" height="340" key="GridCell.Tab.0.bottom" timestamp="1604579145261">
+    <state width="930" height="340" key="GridCell.Tab.0.bottom" timestamp="1604924478407">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685549" />
     <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590652" />
-    <state width="1890" height="340" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145261" />
-    <state width="1890" height="340" key="GridCell.Tab.0.center" timestamp="1604579145260">
+    <state width="930" height="340" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478407" />
+    <state width="930" height="340" key="GridCell.Tab.0.center" timestamp="1604924478406">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685548" />
     <state width="1891" height="341" key="GridCell.Tab.0.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590651" />
-    <state width="1890" height="340" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145260" />
-    <state width="1890" height="340" key="GridCell.Tab.0.left" timestamp="1604579145260">
+    <state width="930" height="340" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478406" />
+    <state width="930" height="340" key="GridCell.Tab.0.left" timestamp="1604924478406">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685547" />
     <state width="1891" height="341" key="GridCell.Tab.0.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590651" />
-    <state width="1890" height="340" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145260" />
-    <state width="1890" height="340" key="GridCell.Tab.0.right" timestamp="1604579145260">
+    <state width="930" height="340" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478406" />
+    <state width="930" height="340" key="GridCell.Tab.0.right" timestamp="1604924478407">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685548" />
     <state width="1891" height="341" key="GridCell.Tab.0.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590652" />
-    <state width="1890" height="340" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145260" />
-    <state width="1890" height="340" key="GridCell.Tab.1.bottom" timestamp="1604579145262">
+    <state width="930" height="340" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478407" />
+    <state width="930" height="340" key="GridCell.Tab.1.bottom" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685551" />
     <state width="1891" height="341" key="GridCell.Tab.1.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
-    <state width="1890" height="340" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145262" />
-    <state width="1890" height="340" key="GridCell.Tab.1.center" timestamp="1604579145262">
+    <state width="930" height="340" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.1.center" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685550" />
     <state width="1891" height="341" key="GridCell.Tab.1.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590653" />
-    <state width="1890" height="340" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145262" />
-    <state width="1890" height="340" key="GridCell.Tab.1.left" timestamp="1604579145261">
+    <state width="930" height="340" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.1.left" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685549" />
     <state width="1891" height="341" key="GridCell.Tab.1.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590653" />
-    <state width="1890" height="340" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145261" />
-    <state width="1890" height="340" key="GridCell.Tab.1.right" timestamp="1604579145262">
+    <state width="930" height="340" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.1.right" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685550" />
     <state width="1891" height="341" key="GridCell.Tab.1.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
-    <state width="1890" height="340" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145262" />
-    <state width="1890" height="340" key="GridCell.Tab.2.bottom" timestamp="1604579145263">
+    <state width="930" height="340" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.2.bottom" timestamp="1604924478409">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685553" />
     <state width="1891" height="341" key="GridCell.Tab.2.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590656" />
-    <state width="1890" height="340" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145263" />
-    <state width="1890" height="340" key="GridCell.Tab.2.center" timestamp="1604579145262">
+    <state width="930" height="340" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478409" />
+    <state width="930" height="340" key="GridCell.Tab.2.center" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685552" />
     <state width="1891" height="341" key="GridCell.Tab.2.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590655" />
-    <state width="1890" height="340" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145262" />
-    <state width="1890" height="340" key="GridCell.Tab.2.left" timestamp="1604579145262">
+    <state width="930" height="340" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.2.left" timestamp="1604924478408">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685552" />
     <state width="1891" height="341" key="GridCell.Tab.2.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
-    <state width="1890" height="340" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145262" />
-    <state width="1890" height="340" key="GridCell.Tab.2.right" timestamp="1604579145263">
+    <state width="930" height="340" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478408" />
+    <state width="930" height="340" key="GridCell.Tab.2.right" timestamp="1604924478409">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685553" />
     <state width="1891" height="341" key="GridCell.Tab.2.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590655" />
-    <state width="1890" height="340" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604579145263" />
+    <state width="930" height="340" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1604924478409" />
     <state width="1891" height="341" key="GridCell.Tab.3.bottom" timestamp="1604022800975">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -503,11 +927,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1086" y="89" key="RollbackChangesDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603971803871" />
-    <state x="659" y="138" key="SettingsEditor" timestamp="1604890458757">
+    <state x="659" y="138" key="SettingsEditor" timestamp="1604921084060">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="486" y="118" key="SettingsEditor/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041213786" />
-    <state x="659" y="138" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1604890458757" />
+    <state x="659" y="138" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1604921084060" />
     <state x="621" y="227" width="675" height="655" key="StructurePopup" timestamp="1603960431582">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -516,11 +940,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="623" height="498" key="SwitcherDM/0.23.1920.1057@0.23.1920.1057" timestamp="1602674071012" />
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1604579135486">
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2" timestamp="1604930437388">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604502557018" />
-    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1604579135486" />
+    <state x="890" y="230" key="Vcs.Push.Dialog.v2/0.23.1920.1057@0.23.1920.1057" timestamp="1604930437388" />
     <state x="756" y="283" key="any.rule" timestamp="1604013843745">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
