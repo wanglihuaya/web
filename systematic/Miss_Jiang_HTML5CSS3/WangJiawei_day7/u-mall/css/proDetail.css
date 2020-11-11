@@ -81,8 +81,8 @@
 }
 
 .bg .contentFirst .wrap .firstFour {
-  width: 420 px;
-  height: 67px;
+	width: 420px;
+	height: 67px;
 }
 
 .bg .contentFirst .wrap .firstFour .firstFourLeft {
@@ -205,8 +205,8 @@
 }
 
 .bg .contentFirst .wrap .firstEig p:first-of-type:hover {
-  border: none;
-  color: #7F7F7F;zzzz
+	border: none;
+	color: #7F7F7F;
 }
 
 

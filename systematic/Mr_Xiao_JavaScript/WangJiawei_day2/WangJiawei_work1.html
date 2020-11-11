@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		img {
+			width: 400px;
+			height: 400px;
+			object-fit: cover;
+			display: block;
+			margin: 60px auto;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px 5px #999;
+		}
+
+		.btn {
+			width: 400px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<img src = "https://tva1.sinaimg.cn/large/007S8ZIlgy1gjsr36zi4gj30hs0m8mz3.jpg" alt = "" id = "images">
+	<div class = "btn">
+		<button id = "btnB"> ←--</button>
+		<button id = "btnN"> --→</button>
+	</div>
+	
+	<script>
+		var images = document.getElementById("images");
+		var btnB = document.getElementById("btnB");
+		var btnN = document.getElementById("btnN");
+		var flag = 0;
+		var arr = ["https://tva1.sinaimg.cn/large/007S8ZIlgy1gjsr36zi4gj30hs0m8mz3.jpg", "https://tva1.sinaimg.cn/large/007S8ZIlgy1gjsr2zlzi4j30fa0ktjry.jpg", "https://tva1.sinaimg.cn/large/007S8ZIlgy1gjsr2lcndhj306k0bn3yh.jpg", "https://tva1.sinaimg.cn/large/007S8ZIlgy1gjsr2bjrw8j30hs0vmgmu.jpg"];
+		
+		btnB.onclick = function () {
+			flag++;
+			if (flag > 3) {
+				flag = 0;
+			}
+			images.src = arr[flag];
+		};
+		btnN.onclick = function () {
+			flag--;
+			if (flag < 0) {
+				flag = 3;
+			}
+			images.src = arr[flag];
+		};
+	
+	</script>
+</body>
+</html>

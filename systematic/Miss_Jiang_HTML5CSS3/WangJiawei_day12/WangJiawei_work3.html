@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<link rel = "icon" href = "favicon.ico" type = "image/x-icon">
+	<link rel = "stylesheet" href = "">
+	<title>work3</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			background-color: brown;
+		}
+
+		ul {
+			list-style: none;
+			padding-top: 100px;
+		}
+
+		ul > li {
+			font-size: 0;
+			text-align: center;
+		}
+
+		ul > li > span {
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			font-size: 200px;
+			line-height: 200px;
+			text-align: center;
+			font-weight: bolder;
+			position: relative;
+		}
+
+		ul > li > span::before,
+		ul > li > span::after {
+			content: attr(data);
+			display: inline-block;
+			width: 200px;
+			height: 200px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		ul > li > span::before {
+			color: rgba(0, 0, 0, 0.2);
+			transform: skew(5deg) translateX(10px);
+			transition: .2s;
+			border-radius: 5px;
+		}
+
+		ul > li > span::after {
+			color: brown;
+			text-shadow: 0 -2px 5px rgb(212, 93, 93);
+			transform-origin: 100% 0 0;
+			transform: rotateX(20deg);
+			transition: .2s;
+		}
+
+		ul > li > span:hover::before {
+			transform: skew(20deg) translateX(25px) scale(1, 1.1) translateY(10px);
+		}
+
+		ul > li > span:hover::after {
+			color: rgb(190, 60, 60);
+			transform: rotateX(40deg) translateY(5px);
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<span data = "H">H</span>
+			<span data = "T">T</span>
+			<span data = "M">M</span>
+			<span data = "L">L</span>
+			<span data = "5">5</span>
+		</li>
+		<li>
+			<span data = "+">+</span>
+		</li>
+		<li>
+			<span data = "C">C</span>
+			<span data = "S">S</span>
+			<span data = " S">S</span>
+			<span data = "3">3</span>
+		</li>
+	</ul>
+</body>
+
+</html>

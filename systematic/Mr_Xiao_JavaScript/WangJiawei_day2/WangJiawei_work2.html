@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			display: flex;
+			justify-content: center;
+			flex-wrap: nowrap;
+			align-items: center;
+			padding: 200px;
+		}
+
+		button {
+			background-color: tomato;
+			color: #fff;
+			font-size: 20px;
+			font-family: "Helvetica Now Display", sans-serif;
+			text-align: center;
+			width: 100px;
+			margin: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<label for = "num">
+		请输入一个三位数
+	</label>
+	<input type = "text" id = "num">
+	<button id = "btn">Go!</button>
+	<label for = "sum">
+		三位数之和
+	</label>
+	<input type = "text" id = "sum">
+	<script>
+		//用户在input中输入，三位数，点击GO!,计算三位数各个位之和，并展示出来。
+		
+		var num = document.getElementById("num");
+		var sum = document.getElementById("sum");
+		var btn = document.getElementById("btn");
+		
+		btn.onclick = function () {
+			var one = String(num.value).substring(0, 1);
+			var two = String(num.value).substring(1, 2);
+			var three = String(num.value).substring(2, 3);
+			
+			//如果不是三位数 弹窗提示。
+			
+			if (num.value > 999 || num.value < 100 || isNaN(Number(num.value))) {
+				alert("淦，请输入一个三位数！！！");
+				return;
+			}
+			sum.value = Number(one) + Number(two) + Number(three);
+		};
+	
+	</script>
+</body>
+</html>
