@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>三角形</title>
+</head>
+
+<body>
+	
+	<script>
+		/*		var body = document.body;
+				for (var i = 0; i < 5; i++) {
+					for (var j = 0; j <= i; j++) {
+						body.innerHTML += "#";
+					}
+					body.innerHTML += "<br>"
+				}*/
+		
+		var body = document.body;
+		for (var i = 1; i < 10; i++) {
+			for (var j = 1; j <= i; j++) {
+				body.innerHTML += j + "×" + i + "=" + (i * j) + " ";
+			}
+			body.innerHTML += "<br>";
+		}
+		
+		body.innerHTML += "<br>";
+		
+		for (var i = 9; i >= 1; i--) {
+			for (var j = 1; j <= i; j++) {
+				body.innerHTML += " " + i + "×" + j + "=" + (i * j) + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+			}
+			body.innerHTML += "<br>";
+		}
+	</script>
+</body>
+</html>

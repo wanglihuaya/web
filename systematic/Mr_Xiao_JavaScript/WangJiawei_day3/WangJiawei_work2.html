@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-size: 60px;
+			color: gold;
+			background-color: teal;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<script>
+		for (var i = 0; i < 5; i++) {
+			for (var j = 5; j > i + 1; j--) {
+				document.write("&nbsp;&nbsp;&nbsp;&nbsp;");
+			}
+			for (var k = 0; k <= 2 * i; k++) {
+				document.write("&nbsp;○");
+			}
+			document.write("</br>");
+		}
+	</script>
+</body>
+</html>
