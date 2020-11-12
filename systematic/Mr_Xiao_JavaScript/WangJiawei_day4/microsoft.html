@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>microsoft</title>
+	<style>
+		.box {
+			border: 5px dotted slateblue;
+			width: 400px;
+			height: 400px;
+			position: relative;
+		}
+
+		.box p {
+
+			position: absolute;
+			font-size: 800px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			top: 0;
+			margin: auto;
+			display: none;
+		}
+
+		button.active {
+			background-color: tomato;
+		}
+
+		p.active {
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<button class>🌕</button>
+	<button class>🌖</button>
+	<button class>🌗</button>
+	<button class>🌘</button>
+	<button class>🌑</button>
+	<button class>🌒</button>
+	<button class>🌓</button>
+	<button class>🌔</button>
+	
+	<div class = "box">
+		<p class>🌕</p>
+		<p class>🌖</p>
+		<p class>🌗</p>
+		<p class>🌘</p>
+		<p class>🌑</p>
+		<p class>🌒</p>
+		<p class>🌓</p>
+		<p class>🌔</p>
+	</div>
+	
+	<script>
+		var bTns = document.getElementsByTagName("button");
+		var ps = document.getElementsByTagName("p");
+		//获得每一个按钮
+		for (var i = 0; i < bTns.length; i++) {
+			//自定义索引
+			bTns[i].idx = i;
+			// console.log(bTns[1].className);
+			bTns[i].onclick = function () {
+				//排他
+				for (var k = 0; k < ps.length; k++) {
+					ps[k].className = "";
+				}
+				ps[this.idx].className = "active";
+				//排他
+				for (var j = 0; j < bTns.length; j++) {
+					bTns[j].className = "";
+				}
+				this.className = "active";
+				console.log(this.className);
+			};
+			
+		}
+	</script>
+</body>
+</html>

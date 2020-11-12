@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>网站换肤</title>
+	<style>
+		* {
+			vertical-align: middle;
+		}
+	</style>
+</head>
+
+<body>
+	<button>teal</button>
+	<button>tomato</button>
+	<button>lightblue</button>
+	<script>
+		var bTns = document.getElementsByTagName("button");
+		var body = document.body;
+		var Color = ["teal", "tomato", "lightskyblue"];
+		for (var i = 0; i < bTns.length; i++) {
+			bTns[i].bg = i;
+			bTns[i].onclick = function () {
+				body.style.background = Color[this.bg];
+				
+				//排他思想
+				//干掉所有人
+				for (var j = 0; j < bTns.length; j++) {
+					bTns[j].style.cssText = "";
+				}
+				this.style.background = "gold";
+			};
+		}
+	</script>
+</body>
+</html>

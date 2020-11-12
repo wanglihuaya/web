@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>自定义索引</title>
+</head>
+
+<body>
+	<button>按钮一</button>
+	<button>按钮二</button>
+	<button>按钮三</button>
+	<script>
+		var btns = document.getElementsByTagName("button");
+		var web = ["HTML", "CSS", "JavaScript"];
+		for (var i = 0; i < btns.length; i++) {
+			//自定义索引
+			btns[i].idx = i;
+			console.log(btns[i].idx);
+			btns[i].onclick = function () {
+				console.log(web[this.idx]);
+			};
+		}
+	</script>
+</body>
+</html>

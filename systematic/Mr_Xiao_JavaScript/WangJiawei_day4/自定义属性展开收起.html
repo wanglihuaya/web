@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>自定义样式展开收起</title>
+	<style>
+		div {
+			width: 400px;
+			height: 100px;
+			background-color: teal;
+			margin-bottom: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<script>
+		//获取每一个div
+		var btn = document.getElementsByTagName("div");
+		//循环每一个div
+		for (var i = 0; i < btn.length; i++) {
+			//自定义属性
+			btn[i].flag = true;
+			btn[i].onclick = function () {
+				//在事件处理函数中，循环变量i不能使用，所有使用this代替，谁调用函数就代表谁
+				if (this.flag) {
+					this.style.height = "200px";
+					this.style.background = "tomato";
+					//执行完，修改状态
+					this.flag = false;
+				} else {
+					this.style.height = "100px";
+					this.style.background = "teal";
+					//执行完，修改状态
+					this.flag = true;
+				}
+			};
+		}
+	
+	</script>
+</body>
+</html>

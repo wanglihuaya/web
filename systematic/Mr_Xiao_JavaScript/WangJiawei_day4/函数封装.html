@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>函数封装</title>
+</head>
+
+<body>
+	
+	<script>
+		var next = document.getElementsByTagName("button")[1];
+		var prev = document.getElementsByTagName("button")[0];
+		var lis = document.getElementsByTagName("li");
+		
+		var idx = 0;
+		
+		function nextLi() {
+			idx++;
+			if (idx > 3) {
+				idx = 0;
+			}
+			if (idx < 0) {
+				idx = 3;
+			}
+			for (var i = 0; i < lis.length; i++) {
+				lis[i].style.display = "none";
+			}
+			lis[idx].style.display = "block";
+		}
+		
+		next.onclick = nextLi();
+		
+		prev.onclick = function () {
+			idx -= 2;
+			nextLi();
+		};
+	</script>
+</body>
+</html>
