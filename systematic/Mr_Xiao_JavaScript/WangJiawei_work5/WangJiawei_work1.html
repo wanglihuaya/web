@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+	<style>
+
+		span {
+			display: inline-block;
+			width: 300px;
+			font-size: 16px;
+			white-space: nowrap; /* 文本不换行 */
+			overflow: hidden; /* 盒子内容溢出隐藏 */
+			text-overflow: ellipsis; /* 文本溢出显示省略号 */
+		}
+
+		input {
+			display: none;
+			width: 300px;
+			font-size: 16px;
+		}
+
+		i {
+			display: inline-block;
+			text-decoration: underline;
+			color: blue;
+			font-style: normal;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		em {
+			text-decoration: underline;
+			color: blue;
+			font-style: normal;
+			font-size: 20px;
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<span>我说算我笨 软不隆咚的耳根</span>
+			<input type = "text" value = "我说算我笨 软不隆咚的耳根">
+			<i>编辑</i>
+			<em class = "save">保存</em>
+			<em class = "cancel">取消</em>
+		</li>
+		<li>
+			<span>我说算我笨 软不隆咚的耳根</span>
+			<input type = "text" value = "我说算我笨 软不隆咚的耳根">
+			<i>编辑</i>
+			<em class = "save">保存</em>
+			<em class = "cancel">取消</em>
+		</li>
+		<li>
+			<span>我说算我笨 软不隆咚的耳根</span>
+			<input type = "text" value = "我说算我笨 软不隆咚的耳根">
+			<i>编辑</i>
+			<em class = "save">保存</em>
+			<em class = "cancel">取消</em>
+		</li>
+		<li>
+			<span>我说算我笨 软不隆咚的耳根</span>
+			<input type = "text" value = "我说算我笨 软不隆咚的耳根">
+			<i>编辑</i>
+			<em class = "save">保存</em>
+			<em class = "cancel">取消</em>
+		</li>
+		<li>
+			<span>我说算我笨 软不隆咚的耳根</span>
+			<input type = "text" value = "我说算我笨 软不隆咚的耳根">
+			<i>编辑</i>
+			<em class = "save">保存</em>
+			<em class = "cancel">取消</em>
+		</li>
+	</ul>
+
+</body>
+<script>
+	var span = document.getElementsByTagName("span");
+	var input = document.getElementsByTagName("input");
+	var edit = document.getElementsByTagName("i");
+	
+	for (var i = 0; i < span.length; i++) {
+		edit[i].idx = i;
+		edit[i].onclick = function () {
+			f(this.idx);
+		};
+	}
+	
+	function f(m) {
+		
+		var save = document.getElementsByClassName("save");
+		var cancel = document.getElementsByClassName("cancel");
+		
+		span[m].style.display = "none";
+		input[m].style.display = "inline-block";
+		edit[m].style.display = "none";
+		save[m].style.display = "inline-block";
+		cancel[m].style.display = "inline-block";
+		
+		save[m].onclick = function () {
+			span[m].innerHTML = input[m].value;
+			input[m].style.display = "none";
+			span[m].style.display = "inline-block";
+			save[m].style.display = "none";
+			cancel[m].style.display = "none";
+			edit[m].style.display = "inline-block";
+		};
+		
+		cancel[m].onclick = function () {
+			input[m].style.display = "none";
+			span[m].style.display = "inline-block";
+			save[m].style.display = "none";
+			cancel[m].style.display = "none";
+			edit[m].style.display = "inline-block";
+		};
+		
+	};
+</script>
+</html>
