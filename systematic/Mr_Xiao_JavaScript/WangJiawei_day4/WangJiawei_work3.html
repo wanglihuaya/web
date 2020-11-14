@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work3</title>
+	<style>
+		button {
+			/*background-color: transparent;*/
+			color: transparent;
+			border: none;
+			border-radius: 50%;
+			outline: none;
+			margin: 40px;
+			display: block;
+			font-size: 28px;
+			text-shadow: 100px 0 3px #FF3300, 150px 0 3px #FF7400, 200px 0 3px #FF9400, 250px 0 3px #FFB400, 300px 0 3px #FFFD00, 350px 0 3px #C8FF00, 400px 0 3px #68FF00, 450px 0 3px #00FF53, 500px 0 3px #00FFAC, 550px 0 3px #00FFD4, 600px 0 3px #00A8FF, 650px 0 3px #004FFF, 700px 0 3px #2300FF, 750px 0 3px #6C00FF, 800px 0 3px #BC00FF, 850px 0 3px #ED00FF, 900px 0 3px #FF0080, 950px 0 3px #FF004F, 1000px 0 3px #FF0006;
+			box-shadow: 0 10px 30px 2px darkgreen, 10px 0 30px 2px red, 0 -10px 30px 2px blue, -10px 0 30px 2px yellow;
+		}
+	</style>
+</head>
+
+<body>
+	<button>我</button>
+	<button>在</button>
+	<button>人</button>
+	<button>民</button>
+	<button>广</button>
+	<button>场</button>
+	<button>吃</button>
+	<button>着</button>
+	<button>炸</button>
+	<button>鸡</button>
+	<button>而</button>
+	<button>此</button>
+	<button>时</button>
+	<button>此</button>
+	<button>刻</button>
+	<button>你</button>
+	<button>在</button>
+	<button>哪</button>
+	<button>里</button>
+	<script>
+		var btn = document.getElementsByTagName("button");
+		var num = ["我", "在", "人", "民", "广", "场", "吃", "着", "炸", "鸡", "而", "此", "时", "此", "刻", "你", "在", "哪", "里"];
+		var n = 0;
+		for (var i = 0; i < btn.length; i++) {
+			btn[i].onclick = function () {
+				f();
+				this.innerHTML = num[n];
+			};
+		}
+		
+		function f() {
+			n++;
+			if (n > (num.length - 1)) {
+				n = 0;
+			}
+			
+		}
+	</script>
+</body>
+</html>

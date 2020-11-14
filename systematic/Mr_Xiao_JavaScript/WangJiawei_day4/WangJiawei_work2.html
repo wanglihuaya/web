@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+	<style>
+		* {
+			padding: 0;
+			margin: 0;
+		}
+
+		.bg {
+			width: 100vw;
+			margin: 100px 0;
+		}
+
+		.bg #num {
+			text-align: center;
+			background-color: rgba(255, 255, 255, .3);
+			font-size: 36px;
+			text-shadow: 0 0 8px red, 0 0 16px orange;
+		}
+
+		.bg .box {
+			margin: 0 auto;
+			position: relative;
+			width: 400px;
+			height: 400px;
+		}
+
+		.bg .box button {
+			position: absolute;
+			width: 60px;
+			height: 60px;
+			background-color: rgba(0, 0, 0, .3);
+			font-size: 25px;
+			color: #fff;
+			outline: none;
+			border-radius: 50%;
+		}
+
+		.bg .box button:first-of-type {
+			left: 10px;
+			top: 220px;
+		}
+
+		.bg .box button:last-of-type {
+			right: 10px;
+			top: 220px;
+		}
+
+		.bg .box img {
+			border-radius: 10px;
+			box-shadow: 0 0 20px 10px #888;
+			width: 400px;
+			height: 400px;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.bg ul {
+			display: flex;
+			justify-content: center;
+			margin: -30px auto 0;
+		}
+
+		.bg ul li {
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			background-color: white;
+			list-style-type: none;
+			display: block;
+			margin: 0 10px;
+		}
+
+		.bg ul li i {
+			width: 16px;
+			height: 16px;
+			line-height: 16px;
+			border-radius: 50%;
+			/*background-color: tomato;*/
+			cursor: pointer;
+			display: block;
+			margin: 2px auto;
+			text-align: center;
+		}
+
+		.bg ul li i.active {
+			background-color: tomato;
+		}
+
+		.bg #imgName {
+			text-align: center;
+			font-size: 36px;
+			text-shadow: 0 0 8px blue, 0 0 16px blueviolet;
+			margin: 10px 0;
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "bg">
+		
+		<div class = "box">
+			<p id = "num">1/4</p>
+			<img src = "https://tva1.sinaimg.cn/large/007S8ZIlly1gjrih8yq0hj31900u0tf9.jpg" alt = "">
+			<button> <</button>
+			<button> ></button>
+			<ul>
+				<li><i class></i></li>
+				<li><i class></i></li>
+				<li><i class></i></li>
+				<li><i class></i></li>
+			</ul>
+			<p id = "imgName">First image</p>
+		</div>
+	</div>
+	
+	<script>
+		
+		var images = [
+			"https://tva1.sinaimg.cn/large/007S8ZIlly1gjrih8yq0hj31900u0tf9.jpg",
+			"https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig7f2bnj31900u00wa.jpg",
+			"https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig777nxj31900u0grr.jpg",
+			"https://tva1.sinaimg.cn/large/007S8ZIlly1gjrig6y69xj31900u0qas.jpg"
+		];//把图片放入数组
+		
+		var imgNames = ["First image", "Second image", "Third image", "Fourthly image"];//把图片名字放入数组
+		
+		var num = document.getElementById("num");//找到 图片序号
+		
+		var imgName = document.getElementById("imgName");//找到图片名字
+		
+		var image = document.getElementsByTagName("img")[0];//找到图片标签
+		
+		var btnL = document.getElementsByTagName("button")[0];//找到左按钮
+		
+		var btnR = document.getElementsByTagName("button")[1];	//找到右按钮
+		
+		var dot = document.getElementsByTagName("i");//找到小圆点
+		
+		var n = 0;	//定义自变量
+		
+		btnR.onclick = edit;//右按钮调用函数
+		btnL.onclick = function () {
+			n -= 2;
+			edit();
+		};//左按钮调用函数
+		
+		function edit() {
+			n++;
+			if (n > images.length - 1) {
+				n = 0;
+			}
+			if (n < 0) {
+				n = images.length - 1;
+			}
+			
+			for (var i = 0; i < images.length; i++) {//排他
+				dot[i].className = "";
+			}
+			dot[n].className = "active";//排他,改变小圆点颜色
+			
+			
+			imgName.innerHTML = imgNames[n];
+			num.innerHTML = n + 1 + "/4";
+			image.src = images[n];
+		};//封装函数
+		
+		for (var j = 0; j < dot.length; j++) {//循环小圆点
+			dot[j].flag = j;//需要一一下标对应，所以自定义索引
+			dot[j].onclick = function () {
+				
+				image.src = images[this.flag];//改变图片地址
+				imgName.innerHTML = imgNames[this.flag];//改变图片名字
+				num.innerHTML = this.flag + 1 + "/4";//改变图片序号
+				
+				for (var i = 0; i < images.length; i++) {//排他
+					dot[i].className = "";
+				}
+				this.className = "active";//排他
+				
+				n = this.flag;
+			};
+		}
+	
+	
+	</script>
+</body>
+</html>

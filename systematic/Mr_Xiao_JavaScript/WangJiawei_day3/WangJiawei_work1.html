@@ -112,14 +112,17 @@
 		
 		left.onclick = function () {
 			n--;
-			if (flag === 0 && n < 0) {
-				alert("It's the first picture");
-				n = 0;
-				images.src = arr[n];
-			} else if (flag === 1 && n < 0) {
-				n = 3;
-				images.src = arr[n];
+			if (flag === 0) {
+				if (n < 0) {
+					alert("It's the first picture");
+					n = 0;
+				}
+			} else {
+				if (n < 0) {
+					n = 3;
+				}
 			}
+			images.src = arr[n];
 			switch (true) {
 				case n === 0:
 					num.innerHTML = "1/4";
@@ -140,14 +143,18 @@
 		};
 		right.onclick = function () {
 			n++;
-			if (flag === 0 && n > 3) {
-				alert("It's the last picture");
-				n = 3;
-				images.src = arr[n];
-			} else if (flag === 1 && n > 3) {
-				n = 0;
-				images.src = arr[n];
+			if (flag === 0) {
+				if (n > 3) {
+					alert("It's the last picture");
+					n = 3;
+				}
+				
+			} else if (flag === 1) {
+				if (n > 3) {
+					n = 0;
+				}
 			}
+			images.src = arr[n];
 			switch (true) {
 				case n === 0:
 					num.innerHTML = "1/4";

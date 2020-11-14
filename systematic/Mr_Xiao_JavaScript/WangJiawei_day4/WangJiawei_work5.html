@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work5</title>
+</head>
+
+<body>
+	<label>
+		<input type = "text" class = "ipt1">
+	</label>
+	<label>
+		<select>
+			<option value = "+">+</option>
+			<option value = "-">-</option>
+			<option value = "*">*</option>
+			<option value = "/">/</option>
+		</select>
+	</label>
+	<label>
+		<input type = "text" class = "ipt2">
+	</label>
+	<button>=</button>
+	<label>
+		<input type = "text" class = "ipt3">
+	</label>
+	<script>
+		var ipt1 = document.getElementsByClassName("ipt1")[0];
+		var ipt2 = document.getElementsByClassName("ipt2")[0];
+		var ipt3 = document.getElementsByClassName("ipt3")[0];
+		var sel = document.getElementsByTagName("select")[0];
+		var btn = document.getElementsByTagName("button")[0];
+		
+		
+		btn.onclick = function () {
+			
+			if (isNaN(ipt1.value) === true || isNaN(ipt2.value) === true) {
+				alert("请输入数字");
+			}
+			
+			switch (sel.value) {
+				case "+":
+					ipt3.value = Number(ipt1.value) + Number(ipt2.value);
+					break;
+				case "-":
+					ipt3.value = Number(ipt1.value) - Number(ipt2.value);
+					break;
+				case "*":
+					ipt3.value = Number(ipt1.value) * Number(ipt2.value);
+					break;
+				case "/":
+					ipt3.value = Number(ipt1.value) / Number(ipt2.value);
+					break;
+			}
+		};
+	
+	</script>
+</body>
+</html>
