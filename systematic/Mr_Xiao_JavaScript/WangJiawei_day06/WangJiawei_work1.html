@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>跑马图</title>
+	<style>
+		div {
+
+		}
+	</style>
+</head>
+
+<body>
+	<button>Click</button>
+	<div>
+		<img src = "https://tva1.sinaimg.cn/large/0084UQshgy1gkrd178vbsj303301xglg.jpg" alt = "">
+	</div>
+	<script>
+		
+		var btn = document.getElementsByTagName("button")[0];
+		var img = document.getElementsByTagName("img")[0];
+		var images = [
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd178vbsj303301xglg.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd173tj9j303301xglg.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd16p3n3j303301xmx0.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd16k97vj303301xmx0.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd1690naj303301xjr8.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd160cg2j303301xmx0.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd15uvtlj303301xt8k.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd15nbf3j303301xjr8.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd15d7h3j303301xmx0.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd158fm5j303301xq2s.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd153fvlj303301xjr8.jpg",
+			"https://tva1.sinaimg.cn/large/0084UQshgy1gkrd14xqdxj303301xt8k.jpg"
+		];
+		
+		var n = 0;
+		var i = 1;
+		btn.onclick = function () {
+			setInterval(function () {
+				n += i;
+				if (n === 10) {
+					i = -1;
+				} else if (n === 0) {
+					i = 1;
+				}
+				img.src = images[n];
+				
+			}, 50);
+		};
+	
+	
+	</script>
+</body>
+</html>

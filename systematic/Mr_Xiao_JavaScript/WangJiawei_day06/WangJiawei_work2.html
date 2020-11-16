@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>渐变</title>
+	<style>
+		div {
+			width: 500px;
+			height: 500px;
+			background-color: rgba(255, 99, 71, 1);
+		}
+	</style>
+</head>
+
+<body>
+	<div></div>
+	<script>
+		var div = document.getElementsByTagName("div")[0];
+		var n = 1;
+		var timer = null;
+		
+		/*function move() {
+			clearInterval(timer);
+			timer = setInterval(function () {
+				var end = end1;
+				var step = step1;
+				
+				end > start ? step = step : step = -step;
+				start += step;
+				
+				if (step > 0 && start >= end || step < 0 && start <= end) {
+					clearInterval(timer);
+					start = end;
+				}
+				
+				ele.style[style] = start + "px";
+			}, 17);
+		}*/
+		
+		div.onmouseover = function () {
+			clearInterval(timer);
+			timer = setInterval(function () {
+				
+				div.style.backgroundColor = "rgba(255,99,71," + (n -= 0.1) + ")";
+				if (n < 0) {
+					clearInterval(timer);
+					n = 0;
+				}
+			}, 17);
+		};
+		div.onmouseout = function () {
+			clearInterval(timer);
+			timer = setInterval(function () {
+				
+				div.style.backgroundColor = "rgba(255,99,71," + (n += 0.1) + ")";
+				if (n > 1) {
+					clearInterval(timer);
+					n = 1;
+				}
+			}, 17);
+		};
+	</script>
+</body>
+</html>

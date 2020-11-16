@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>圆球</title>
+	<style>
+		div {
+			width: 200px;
+			height: 200px;
+			background-color: tomato;
+			border-radius: 50%;
+			box-shadow: 0 250px 0 #2A4F84;
+			position: absolute;
+			left: 0;
+		}
+	</style>
+</head>
+
+<body>
+	<button>Go</button>
+	<button>Back</button>
+	<div></div>
+	<script>
+		function getStyle(ele, style) {
+			if (ele.currentStyle === undefined) {
+				return getComputedStyle(ele)[style];
+			} else {
+				return ele.currentStyle[style];
+			}
+		}
+		
+		var btn = document.getElementsByTagName("button")[0];
+		var btn1 = document.getElementsByTagName("button")[1];
+		var div = document.getElementsByTagName("div")[0];
+		
+		var timer = null;
+		
+		function move(end1, step1, ele, style) {
+			clearInterval(timer);
+			timer = setInterval(function () {
+				var start = parseInt(getStyle(ele, style));
+				var end = end1;
+				var step = step1;
+				
+				end > start ? step = step : step = -step;
+				start += step;
+				
+				if (step > 0 && start >= end || step < 0 && start <= end) {
+					clearInterval(timer);
+					start = end;
+				}
+				
+				ele.style[style] = start + "px";
+			}, 17);
+		}
+		
+		btn.onclick = function () {
+			move(1000, 1, div, "top");
+		};
+		btn1.onclick = function () {
+			move(31, 1, div, "top");
+		};
+		
+		/*	btn.onclick = function () {
+				var timer = setInterval(function () {
+					var start = parseInt(getStyle(div, "left"));
+					console.log(start);
+					var end = 1000;
+					var step = 1;
+					
+					start += step;
+					if (start >= end) {
+						clearInterval(timer);
+						start = end;
+					}
+					div.style.left = start + "px";
+					
+				}, 17);
+			};
+			btn1.onclick = function () {
+				var timer = setInterval(function () {
+					var start = parseInt(getStyle(div, "left"));
+					console.log(start);
+					var end = 0;
+					var step = 1;
+					
+					start -= step;
+					if (start <= end) {
+						clearInterval(timer);
+						start = end;
+					}
+					div.style.left = start + "px";
+					
+				}, 17);
+			};*/
+	</script>
+</body>
+</html>
