@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+</head>
+
+<body>
+	<h1>wo-ai-chi-xi-hong-shi</h1>
+	<h2 style = "color: tomato"></h2>
+	<h1>I-want-to-say-if-you-get-more-beautiful</h1>
+	<h2 style = "color: tomato"></h2>
+	<script>
+		var str1 = document.getElementsByTagName("h1")[0].innerText;
+		var str2 = document.getElementsByTagName("h1")[1].innerText;
+		var str3 = document.getElementsByTagName("h2");
+		
+		function edit(str) {
+			var test = str.split("-");
+			var test1 = "";
+			
+			for (var i = 0; i < test.length; i++) {
+				test1 += test[i].substr(0, 1).toUpperCase() + test[i].substr(1) + " ";
+			}
+			return test1;
+		}
+		
+		str3[0].innerHTML = edit(str1);
+		str3[1].innerHTML = edit(str2);
+		
+		console.log(edit(str1));
+		console.log(edit(str2));
+	</script>
+</body>
+</html>

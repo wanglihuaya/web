@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>time</title>
+</head>
+
+<body>
+	<h1></h1>
+	<script>
+		/*		var target = new Date(2021, 5, 7, 0, 0, 0);
+				console.log(target);
+				var current = new Date();
+				console.log(current);
+				var timeCha = target - current;
+				timeCha = Math.floor(timeCha / 1000);
+				
+				var d = Math.floor(timeCha / 3600 / 24);*/
+		/*	var title = document.getElementsByTagName("h1")[0];
+			var str;
+			var week = [
+				"星期日",
+				"星期一",
+				"星期二",
+				"星期三",
+				"星期四",
+				"星期五",
+				"星期六"
+			];
+			
+			function clock() {
+				var oDate = new Date();
+				console.log(oDate);
+				
+				var y = oDate.getFullYear();
+				console.log(y);
+				
+				var m = oDate.getMonth() + 1;//获取的月份比实际的少1，用的时候+1
+				console.log(m);
+				
+				var d = oDate.getDate();
+				console.log(d);
+				
+				var w = oDate.getDay();
+				console.log(w);
+				console.log(week[w]);
+				
+				var h = oDate.getHours();
+				console.log(h);
+				h < 10 ? h = "0" + h : h;
+				
+				var mi = oDate.getMinutes();
+				console.log(mi);
+				mi < 10 ? mi = "0" + mi : mi;
+				
+				var s = oDate.getSeconds();
+				console.log(s);
+				console.log(oDate.getTime());
+				s < 10 ? s = "0" + s : s;
+				
+				str = (y + "年 " + m + "月 " + d + "日 " + week[w] + " " + h + ":" + mi + ":" + s);
+				
+				title.innerHTML = str;
+			}
+			
+			clock();//为了不然开始空屏，提前调用
+			var timer = setInterval(clock, 1000);*/
+		
+		var mDate = new Date();
+		console.log(mDate.toString());
+		//Tue Nov 17 2020 20:12:48 GMT+0800 (中國標準時間)
+		
+		console.log(mDate.toLocaleString());
+		//2020/11/17 下午8:12:48
+		
+		console.log(mDate.toDateString());
+		//Tue Nov 17 2020
+		
+		console.log(mDate.toTimeString());
+		//20:12:48 GMT+0800 (中國標準時間)
+		
+		console.log(mDate.toLocaleDateString());
+		//2020/11/17
+		
+		console.log(mDate.toLocaleTimeString());
+		//下午8:12:48
+		
+		console.log(mDate.toUTCString());
+		//Tue, 17 Nov 2020 12:12:48 GMT
+	
+	</script>
+</body>
+</html>
