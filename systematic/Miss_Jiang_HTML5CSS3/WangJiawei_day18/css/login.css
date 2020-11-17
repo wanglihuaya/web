@@ -91,11 +91,13 @@ html {
 }
 
 .bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#feafa1));
   background-image: linear-gradient(to bottom, white, #feafa1);
   width: 100%;
   height: 100vh;
   position: relative;
 }
+
 .bg .container {
   width: 32%;
   height: 76vh;
@@ -106,6 +108,7 @@ html {
   right: 0;
   margin: auto;
 }
+
 .bg .container .logo {
   width: 95.4px;
   height: 90.2px;
@@ -114,6 +117,7 @@ html {
   background-size: cover;
   border-radius: 10px;
 }
+
 .bg .container .content {
   margin-top: 24px;
   height: calc(76vh - 200px);
@@ -121,13 +125,16 @@ html {
   background-color: #fff;
   border-radius: 20px;
 }
+
 .bg .container .content h2 {
   font-size: 30px;
   margin-bottom: 20px;
 }
+
 .bg .container .content form p {
   margin: 2px 0;
 }
+
 .bg .container .content form input {
   display: block;
   width: 100%;
@@ -135,21 +142,25 @@ html {
   border: 1px solid #DDDDDD;
   border-radius: 4px;
 }
+
 .bg .container .content form #rem {
   display: inline;
   text-align: left;
   width: 16px;
 }
+
 .bg .container .content form #login {
   height: 36px;
   color: #fff;
   background-color: orangered;
   font-size: 16px;
 }
+
 .bg .container .content .zhu {
   text-align: center;
   margin: 10px;
 }
+
 .bg .container .content .zhu a {
   margin-left: 10px;
   text-decoration: underline;
@@ -167,14 +178,16 @@ html {
     width: 150px;
     height: 150px;
   }
-  .bg .container .content input:nth-of-type(-3+n),
+  .bg .container .content input:nth-of-type(-3 + n),
   .bg .container .content input:last-of-type {
     width: 150%;
   }
 }
+
 /* 超小屏幕：< 768px */
 @media screen and (max-width: 768px) {
   .bg .container .logo {
     display: none;
   }
 }
+/*# sourceMappingURL=login.css.map */

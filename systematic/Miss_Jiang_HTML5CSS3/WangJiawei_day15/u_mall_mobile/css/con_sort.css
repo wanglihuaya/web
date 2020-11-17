@@ -14,23 +14,34 @@
 .header {
   background-color: #F46929;
 }
+
 .header .wrap {
   height: .88rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header .wrap .left img {
   width: .178rem;
   height: .29rem;
 }
+
 .header .wrap .center {
   color: #FFFFFF;
   font-size: .32rem;
 }
+
 .header .wrap .right {
   height: .12rem;
 }
+
 .header .wrap .right span {
   float: left;
   width: .12rem;
@@ -39,6 +50,7 @@
   border-radius: 50%;
   background-color: #fff;
 }
+
 .header .wrap .right span:last-of-type {
   margin: 0;
 }
@@ -47,23 +59,33 @@
   background-color: #fff;
   border-top: 1px solid #EEEEEE;
 }
+
 .footer .wrap ul {
   height: 1.2rem;
   margin: 0 .5rem;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .footer .wrap ul p {
   margin-top: .12rem;
   font-size: .2rem;
   color: #888;
 }
+
 .footer .wrap ul img {
   width: .51rem;
   height: .51rem;
 }
+
 .footer .wrap ul li:first-of-type p {
   color: orangered;
 }
@@ -156,9 +178,14 @@ strong {
 }
 
 .container .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .container .sideBar {
   background-color: #fff;
   padding-top: .54rem;
@@ -166,13 +193,16 @@ strong {
   overflow: auto;
   height: calc(100vh - .88rem);
 }
+
 .container .sideBar ul {
   width: 1.63rem;
 }
+
 .container .sideBar ul li {
   font-size: .25rem;
   margin-bottom: .88rem;
 }
+
 .container .sideBar ul li::before {
   content: "";
   width: .08rem;
@@ -180,12 +210,15 @@ strong {
   float: left;
   background-color: transparent;
 }
+
 .container .sideBar ul li:hover a {
   color: #EE763F;
 }
+
 .container .sideBar ul li:hover::before {
   background-color: #EE763F;
 }
+
 .container .sideBar ul li a {
   display: inline;
   line-height: .52rem;
@@ -193,24 +226,29 @@ strong {
   color: #777;
   padding-left: .3rem;
 }
+
 .container .section {
   overflow: auto;
   height: calc(100vh - .88rem);
   width: calc(100% - 1.66rem);
   background-color: #fff;
 }
+
 .container .section .title {
   height: .26rem;
   margin: .66rem .56rem 0 .56rem;
   font-size: .26rem;
 }
+
 .container .section .title p {
   float: left;
 }
+
 .container .section .title .more {
   float: right;
   color: #777;
 }
+
 .container .section .title .more .right {
   float: right;
   background: url("../images/order/arrow.jpg") no-repeat;
@@ -218,36 +256,51 @@ strong {
   width: .19rem;
   height: .26rem;
 }
+
 .container .section .section1 .con ul {
   color: #777;
   margin-top: .1rem;
   margin-bottom: 1.15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   text-align: center;
   font-size: .22rem;
 }
+
 .container .section .section1 .con ul li img {
   margin-top: .35rem;
   margin-bottom: .24rem;
   width: 1.54rem;
   height: 1.52rem;
 }
+
 .container .section .section2 .con ul {
   color: #777;
   margin-top: .1rem;
   margin-bottom: 1.15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center;
   font-size: .22rem;
 }
+
 .container .section .section2 .con ul li img {
   margin-top: .35rem;
   margin-bottom: .24rem;
   width: .82rem;
   height: 1.33rem;
 }
+/*# sourceMappingURL=con_sort.css.map */

@@ -95,6 +95,7 @@ header {
   background-color: #fff;
   position: relative;
 }
+
 header h1 {
   float: left;
   font-size: 18px;
@@ -104,6 +105,7 @@ header h1 {
   width: 18%;
   text-align: center;
 }
+
 header .sel {
   width: 35px;
   height: 35px;
@@ -112,23 +114,28 @@ header .sel {
   left: 10px;
   display: none;
 }
+
 header .sel a i {
   font-size: 30px;
 }
+
 header .right {
   padding: 10px;
   float: right;
 }
+
 header .right a {
   font-size: 16px;
   margin-right: 10px;
 }
+
 header .right a img {
   border-radius: 5px;
   width: 30px;
   height: 30px;
   margin-right: 5px;
 }
+
 header .right a i {
   color: #EA957E;
   font-size: 20px;
@@ -138,97 +145,143 @@ header .right a i {
 
 .main {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 .main .menu {
   float: left;
   width: 18%;
 }
+
 .main .menu .parent-menu {
   line-height: 30px;
   margin-left: 10px;
 }
+
 .main .menu .parent-menu .active h3 a {
   color: #EA957E;
 }
+
 .main .menu .parent-menu .active h3 i {
   margin-right: 5px;
 }
+
 .main .menu .parent-menu .active .child-menu {
   margin: 0 0 0 20px;
 }
+
 .main .menu .parent-menu .active .child-menu li {
   line-height: 30px;
 }
+
 .main .menu .parent-menu .active .child-menu li a i {
   padding: 0 5px;
 }
+
 .main .menu .parent-menu .active .child-menu li:hover {
   background-color: #EA957E;
 }
+
 .main .menu .parent-menu .active .child-menu li:hover a {
   color: #fff;
 }
+
 .main .menu .parent-menu li h3 i {
   margin-right: 5px;
 }
+
 .main .content {
   width: 82%;
   float: right;
 }
+
 .main .content .top {
   background-color: #eee;
   padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   line-height: 30px;
   font-size: 10px;
   color: #EA957E;
   border-bottom: 1px solid #aaa;
 }
+
 .main .content .add {
   padding: 0 20px;
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   line-height: 40px;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid #999999;
   margin-bottom: 10px;
 }
+
 .main .content .add .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .main .content .add .left input {
   border: 1px solid #aaa;
   padding: 0 5px;
   background-color: #eee;
 }
+
 .main .content .add .right label span {
   font-size: 16px;
 }
+
 .main .content .add .right label input {
   background-color: #fff;
   border: 1px solid #777;
 }
+
 .main .content .add .right input {
   border: 1px solid #aaa;
   padding: 0 5px;
   background-color: #eee;
 }
+
 .main .content .bottom {
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 0 20px;
 }
+
 .main .content .bottom table {
   width: 100%;
 }
+
 .main .content .bottom table td, .main .content .bottom table th {
   border: 1px solid #999999;
   height: 30px;
@@ -244,6 +297,7 @@ header .right a i {
     display: none;
   }
 }
+
 /* 超小屏幕：< 768px */
 @media screen and (max-width: 768px) {
   header h1 {
@@ -255,7 +309,6 @@ header .right a i {
   header .right a:last-of-type {
     display: none;
   }
-
   .main .menu {
     display: none;
   }
@@ -263,3 +316,4 @@ header .right a i {
     width: 100%;
   }
 }
+/*# sourceMappingURL=proList.css.map */

@@ -101,23 +101,34 @@ strong {
 .header {
   background-color: #F46929;
 }
+
 .header .wrap {
   height: .88rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .header .wrap .left img {
   width: .178rem;
   height: .29rem;
 }
+
 .header .wrap .center {
   color: #FFFFFF;
   font-size: .32rem;
 }
+
 .header .wrap .right {
   height: .12rem;
 }
+
 .header .wrap .right span {
   float: left;
   width: .12rem;
@@ -126,6 +137,7 @@ strong {
   border-radius: 50%;
   background-color: #fff;
 }
+
 .header .wrap .right span:last-of-type {
   margin: 0;
 }
@@ -134,23 +146,33 @@ strong {
   background-color: #fff;
   border-top: 1px solid #EEEEEE;
 }
+
 .footer .wrap ul {
   height: 1.2rem;
   margin: 0 .5rem;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .footer .wrap ul p {
   margin-top: .12rem;
   font-size: .2rem;
   color: #888;
 }
+
 .footer .wrap ul img {
   width: .51rem;
   height: .51rem;
 }
+
 .footer .wrap ul li:first-of-type p {
   color: orangered;
 }
@@ -158,12 +180,20 @@ strong {
 .mine {
   background-color: #F46929;
 }
+
 .mine .wrap {
   height: 2.02rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: start;
-  align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .mine .wrap img {
   width: 1.42rem;
   height: 1.42rem;
@@ -171,16 +201,19 @@ strong {
   border: .05rem solid #fff;
   margin-right: .26rem;
 }
+
 .mine .wrap p:first-of-type {
   font-size: .28rem;
   color: #fff;
   margin-bottom: .24rem;
 }
+
 .mine .wrap p:nth-of-type(2) {
   font-size: .2rem;
   color: #000;
   margin-left: .05rem;
 }
+
 .mine .wrap button {
   width: 1.59rem;
   height: .71rem;
@@ -194,19 +227,28 @@ strong {
 .floor1 {
   background-color: #fff;
 }
+
 .floor1 .wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 1.42rem;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .floor1 .wrap ul li {
   text-align: center;
 }
+
 .floor1 .wrap ul li img {
   width: .34rem;
   height: .34rem;
 }
+
 .floor1 .wrap ul li p {
   font-size: .23rem;
   margin-top: .22rem;
@@ -215,14 +257,17 @@ strong {
 .floor2 {
   background-color: #fff;
 }
+
 .floor2 div {
   height: 1.1rem;
   line-height: 1.1rem;
   border-bottom: .01rem solid #eee;
 }
+
 .floor2 div:first-of-type {
   border-top: .01rem solid #eee;
 }
+
 .floor2 div img:first-of-type {
   float: left;
   width: .36rem;
@@ -230,10 +275,12 @@ strong {
   display: inline-block;
   margin: .35rem .4rem;
 }
+
 .floor2 div span {
   font-size: .26rem;
   margin-left: .25rem;
 }
+
 .floor2 div img:last-of-type {
   float: right;
   width: .19rem;
@@ -246,9 +293,12 @@ strong {
   bottom: 0;
   width: 7.5rem;
 }
+
 .footer .wrap ul li:first-of-type p {
   color: #888;
 }
+
 .footer .wrap ul li:last-of-type p {
   color: orangered;
 }
+/*# sourceMappingURL=mine.css.map */

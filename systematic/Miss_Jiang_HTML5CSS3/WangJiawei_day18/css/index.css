@@ -145,8 +145,12 @@ header .right a i {
 
 .main {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .main .menu {
@@ -198,8 +202,12 @@ header .right a i {
 }
 
 .main .content .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   line-height: 30px;
   font-size: 10px;
   padding: 0 10px;
@@ -208,9 +216,14 @@ header .right a i {
 }
 
 .main .content .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main .content .bottom section {
@@ -226,13 +239,15 @@ header .right a i {
 .main .content .bottom section .word {
   height: 70%;
   margin: 20px 15px -20px 15px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main .content .bottom section .word h2 {
   margin: 0 0 15px 0;
   font-size: 26px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .main .content .bottom section .tro {
@@ -245,7 +260,8 @@ header .right a i {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   color: #fff;
 }
 
@@ -255,11 +271,9 @@ header .right a i {
   header h1 {
     font-size: 14px;
   }
-
   header .right a:last-of-type {
     display: none;
   }
-
   .main .content .bottom section {
     width: 48%;
   }
@@ -270,24 +284,20 @@ header .right a i {
   header h1 {
     display: none;
   }
-
   header .sel {
     display: block;
   }
-
   header .right a:last-of-type {
     display: none;
   }
-
   .main .menu {
     display: none;
   }
-
   .main .content {
     width: 100%;
   }
-
   .main .content .bottom section {
     width: 98%;
   }
 }
+/*# sourceMappingURL=index.css.map */
