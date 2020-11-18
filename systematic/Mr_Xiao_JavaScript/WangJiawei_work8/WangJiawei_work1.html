@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+	<style>
+		div {
+			width: 400px;
+			height: 200px;
+			margin: 100px auto;
+			background-color: tomato;
+			border-radius: 30px;
+			box-shadow: 0 0 20px 5px black inset, 0 0 5px 1px #999999;
+		}
+
+		div p {
+			line-height: 200px;
+			text-align: center;
+			color: white;
+			text-shadow: 2px 0 1px black, -2px 0 1px black, 0 2px 1px black, 0 -2px 1px black;
+			font-size: 30px;
+			position: relative;
+		}
+
+		button {
+			display: block;
+			font-size: 18px;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		#btn1 {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<p id = "name">亲，准备好点名了吗？</p>
+		<button id = "btn">开始点名</button>
+		<button id = "btn1">结束点名</button>
+	</div>
+	
+	<script>
+		var names = [
+			"展特", "艾庆彪", "陈卫", "崔宁", "杜浩", "高健", "高青云", "郭润洁", "黄博", "黄云", "贾婷婷", "李静洋", "李俊慧", "李文玉", "李晓菲", "李晓璐", "李治锽", "李尊", "刘宏", "刘瑞峰", "马涛", "齐凯", "乔志伟", "宋思灼", "苏晨露", "苏耀", "孙瑞良", "孙新琪", "田敬一", "王洪彬", "王欢", "王嘉伟", "王丽平", "王蓉", "王永", "杨梦奇", "姚蓉", "张杰", "张莎", "邹昕航", "赵一名", "赵岳", "郑嘉明", "林本尉"
+		];
+		var p = document.getElementById("name");
+		var btn = document.getElementById("btn");
+		var btn1 = document.getElementById("btn1");
+		var timer;
+		
+		var fn = function () {
+			p.innerHTML = names[Math.floor(Math.random() * 43)];
+		};
+		
+		btn.onclick = function () {
+			timer = setInterval(fn, 50);
+			btn1.style.display = "block";
+		};
+		btn1.onclick = function () {
+			clearInterval(timer);
+			btn1.style.display = "none";
+		};
+	
+	</script>
+</body>
+</html>
