@@ -326,6 +326,7 @@
 		console.log(btn1);
 		btn1.onclick = function () {
 			for (var i = 0; i < ipt.length; i++) {
+				console.log(ipt[i]);
 				ipt[i].checked = true;
 			}
 		};
@@ -337,7 +338,6 @@
 				} else {
 					ipt[i].checked = false;
 				}
-				
 			}
 		};
 		btn3.onclick = function () {

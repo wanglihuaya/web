@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+	<style>
+		table {
+			/*border-collapse: collapse;*/
+			border-spacing: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<button>添加表格</button>
+	<table>
+		<!--<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+			<td>1</td>
+		</tr>-->
+	
+	</table>
+	<script>
+		var btn = document.getElementsByTagName("button")[0];
+		var oTab = document.getElementsByTagName("table")[0];
+		
+		//封装创建元素函数
+		function createEle(ele, content) {
+			var td = document.createElement(ele);
+			td.innerHTML = content;
+			return td;
+		}
+		
+		btn.onclick = function () {
+			//创建节点
+			var tr0 = createEle("tr", "");
+			var tr1 = createEle("tr", "");
+			var tr2 = createEle("tr", "");
+			//将tr添加到table中
+			oTab.appendChild(tr0);
+			oTab.appendChild(tr1);
+			oTab.appendChild(tr2);
+			//将td添加到tr中
+			tr0.appendChild(createEle("td", 1));
+			tr0.appendChild(createEle("td", 1));
+			tr0.appendChild(createEle("td", 1));
+			tr0.appendChild(createEle("td", 1));
+			
+			tr1.appendChild(createEle("td", 1));
+			tr1.appendChild(createEle("td", 1));
+			tr1.appendChild(createEle("td", 1));
+			tr1.appendChild(createEle("td", 1));
+			
+			tr2.appendChild(createEle("td", 1));
+			tr2.appendChild(createEle("td", 1));
+			tr2.appendChild(createEle("td", 1));
+			tr2.appendChild(createEle("td", 1));
+			
+			console.log(oTab);
+		};
+	
+	</script>
+</body>
+</html>

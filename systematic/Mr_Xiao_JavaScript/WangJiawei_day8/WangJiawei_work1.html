@@ -12,7 +12,7 @@
 			margin: 100px auto;
 			background-color: tomato;
 			border-radius: 30px;
-			box-shadow: 0 0 20px 5px black inset, 0 0 5px 1px #999999;
+			box-shadow: 0 0 20px 10px #242424 inset, 0 0 5px 1px #999999;
 		}
 
 		div p {
@@ -55,9 +55,9 @@
 		var timer;
 		
 		var fn = function () {
-			p.innerHTML = names[Math.floor(Math.random() * 43)];
+			p.innerHTML = names[Math.floor(Math.random() * 44)];
 		};
-		
+		console.log(Math.random() * 44);
 		btn.onclick = function () {
 			timer = setInterval(fn, 50);
 			btn1.style.display = "block";

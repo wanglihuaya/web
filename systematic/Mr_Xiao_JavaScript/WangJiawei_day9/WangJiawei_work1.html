@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+	<style>
+		div {
+			width: 400px;
+			margin: 100px auto 0;
+			padding: 10px 20px;
+			border: 1px solid #aaa;
+			overflow: hidden;
+		}
+
+		div button {
+			float: right;
+		}
+
+		label {
+			display: block;
+			margin: 10px;
+		}
+
+		table {
+			border-collapse: collapse;
+		}
+
+		table td, th {
+			text-align: center;
+			border: 1px solid black;
+			width: 100px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id = "input">
+		<label for = "name">
+			请输入姓名：
+			<input type = "text" id = "name">
+		</label>
+		
+		
+		请输入性别：
+		<input type = "radio" name = "sex" value = "男" class = "sex">男
+		<input type = "radio" name = "sex" value = "女" class = "sex">女
+		
+		
+		<label for = "age">
+			请输入年龄：
+			<input type = "text" id = "age">
+		</label>
+		
+		<button id = "inBtn">
+			添加到表格
+		</button>
+	
+	</div>
+	<div id = "output">
+		<table>
+			<thead>
+			<tr>
+				<th>
+					<label for = "every">
+						<input type = "checkbox" id = "every" name = "sel">全选
+					</label>
+				</th>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>年龄</th>
+			</tr>
+			</thead>
+			<tbody>
+			
+			</tbody>
+		</table>
+		<button id = "del">
+			删除所选行
+		</button>
+	</div>
+	
+	<script>
+		var iptName = document.querySelector("#name");
+		
+		//设置性单选框
+		var sex = document.getElementsByClassName("sex");
+		var sexSel;
+		for (var i = 0; i < sex.length; i++) {
+			sex[i].onclick = function () {
+				if (this.checked) {
+					sexSel = this.value;
+				}
+			};
+		}
+		
+		var iptAge = document.querySelector("#age");
+		var inBtn = document.querySelector("#inBtn");
+		var outBtn = document.querySelector("#del");
+		var tab = document.querySelector("table");
+		var eve = document.querySelector("#every");
+		
+		//封装创建元素函数
+		function createEle(ele, content) {
+			var td = document.createElement(ele);
+			td.innerHTML = content;
+			return td;
+		}
+		
+		//添加
+		inBtn.onclick = function () {
+			var tr = createEle("tr", "");
+			
+			//创建td
+			tr.appendChild(createEle("td", "<input type = \"checkbox\" name = \"sel\">"));
+			tr.appendChild(createEle("td", iptName.value));
+			tr.appendChild(createEle("td", sexSel));
+			tr.appendChild(createEle("td", iptAge.value));
+			//并追加
+			tab.tBodies[0].appendChild(tr);
+			
+			iptName.value = "";
+			// sex[1].checked = "false";
+			iptAge.value = "";
+		};
+		
+		//删除
+		outBtn.onclick = function () {
+			var rows = tab.tBodies[0].rows;
+			var len = rows.length;
+			for (var j = len - 1; j >= 0; j--) {
+				eve.length = j;
+				
+				//全选
+				if (eve.checked) {
+					rows[eve.length].cells[0].children[0].checked = true;
+				}
+				if (rows[eve.length].cells[0].children[0].checked) {
+					rows[eve.length].remove();
+				}
+				
+			}
+		};
+	
+	
+	</script>
+</body>
+</html>

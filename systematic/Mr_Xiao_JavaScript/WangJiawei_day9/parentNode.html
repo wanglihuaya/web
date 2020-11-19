@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>parentNode</title>
+</head>
+
+<body>
+	<ul>
+		<li>123456789
+			<button>删除</button>
+		</li>
+		<li>123456789
+			<button>删除</button>
+		</li>
+		<li>123456789
+			<button>删除</button>
+		</li>
+		<li>123456789
+			<button>删除</button>
+		</li>
+	</ul>
+	<script>
+		var btns = document.getElementsByTagName("button");
+		
+		for (var i = 0; i < btns.length; i++) {
+			btns[i].onclick = function () {
+				this.parentNode.style.display = "none";
+			};
+		}
+	</script>
+</body>
+</html>
