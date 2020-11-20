@@ -64,8 +64,7 @@
 			clearInterval(timer);
 			timer = setInterval(function () {
 				for (j = i; j < span.length; j++) {
-					var n = Math.floor(Math.random() * 30);
-					span[j].innerHTML = n;
+					span[j].innerHTML = Math.floor(Math.random() * 30);
 				}
 			}, 50);
 		};

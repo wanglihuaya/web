@@ -73,7 +73,12 @@
 			</tr>
 			</thead>
 			<tbody>
-			
+			<tr>
+				<td><input type = "checkbox" name = "sel"></td>
+				<td>姓名</td>
+				<td>姓名</td>
+				<td>姓名</td>
+			</tr>
 			</tbody>
 		</table>
 		<button id = "del">
@@ -100,6 +105,8 @@
 		var outBtn = document.querySelector("#del");
 		var tab = document.querySelector("table");
 		var eve = document.querySelector("#every");
+		var rows = tab.tBodies[0].rows;
+		
 		
 		//封装创建元素函数
 		function createEle(ele, content) {
@@ -120,6 +127,28 @@
 			//并追加
 			tab.tBodies[0].appendChild(tr);
 			
+			
+			eve.onclick = function () {
+				// rows = tab.tBodies[0].rows;
+				for (var k = rows.length - 1; k >= 0; k--) {
+					rows[k].cells[0].children[0].checked = eve.checked;
+				}
+			};
+			
+			for (var k = rows.length - 1; k >= 0; k--) {
+				rows[k].cells[0].children[0].onclick = function () {
+					// rows = tab.tBodies[0].rows;
+					var flag = true;
+					for (var j = 0; j < rows.length; j++) {
+						if (rows[j].cells[0].children[0].checked === false) {
+							flag = false;
+						}
+					}
+					eve.checked = flag;
+				};
+			}
+			
+			
 			iptName.value = "";
 			// sex[1].checked = "false";
 			iptAge.value = "";
@@ -131,18 +160,33 @@
 			var len = rows.length;
 			for (var j = len - 1; j >= 0; j--) {
 				eve.length = j;
-				
-				//全选
-				if (eve.checked) {
-					rows[eve.length].cells[0].children[0].checked = true;
-				}
 				if (rows[eve.length].cells[0].children[0].checked) {
 					rows[eve.length].remove();
+					eve.checked = false;
 				}
-				
 			}
 		};
-	
+		
+		//全选
+		eve.onclick = function () {
+			// rows = tab.tBodies[0].rows;
+			for (var k = rows.length - 1; k >= 0; k--) {
+				rows[k].cells[0].children[0].checked = eve.checked;
+			}
+		};
+		
+		for (var k = rows.length - 1; k >= 0; k--) {
+			rows[k].cells[0].children[0].onclick = function () {
+				// rows = tab.tBodies[0].rows;
+				var flag = true;
+				for (var j = 0; j < rows.length; j++) {
+					if (rows[j].cells[0].children[0].checked === false) {
+						flag = false;
+					}
+				}
+				eve.checked = flag;
+			};
+		}
 	
 	</script>
 </body>
