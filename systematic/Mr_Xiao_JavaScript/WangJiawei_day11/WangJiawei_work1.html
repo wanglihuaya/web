@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work1</title>
+</head>
+
+<body>
+	<input type = "text">
+	<input type = "text">
+	<input type = "text">
+	<script>
+		
+		//未封装
+		/*		ipt[0].addEventListener("mousewheel", function (event) {
+					var ev = window.event || event;
+					if (ev.wheelDelta < 0) {
+						ipt[0].value--;
+					} else {
+						ipt[0].value++;
+					}
+				});
+				if (ipt[0].addEventListener) {
+					ipt[0].addEventListener("DOMMouseScroll", function (event) {
+						var ev = window.event || event;
+						if (ev.detail > 0) {
+							ipt[0].value--;
+						} else {
+							ipt[0].value++;
+						}
+					});
+				}*/
+		let ipt = document.querySelectorAll("input");
+		
+		//封装
+		function wheel(event) {
+			var ev = window.event || event;//处理（标准 IE）和 火狐的兼容
+			if (ev.wheelDelta) {
+				if (ev.wheelDelta < 0) { //标准
+					this.value--;
+				} else {
+					this.value++;
+				}
+			} else {
+				if (ev.detail < 0) {   //火狐
+					this.value++;
+				} else {
+					this.value--;
+				}
+			}
+		}
+		
+		//判断内核
+		function getBrowser(n) {
+			var ua = navigator.userAgent.toLowerCase(),
+				s,
+				name = "",
+				ver = 0;
+			//探测浏览器
+			(s = ua.match(/msie ([\d.]+)/)) ? _set("ie", _toFixedVersion(s[1])) :
+				(s = ua.match(/firefox\/([\d.]+)/)) ? _set("firefox", _toFixedVersion(s[1])) :
+					(s = ua.match(/chrome\/([\d.]+)/)) ? _set("chrome", _toFixedVersion(s[1])) :
+						(s = ua.match(/opera.([\d.]+)/)) ? _set("opera", _toFixedVersion(s[1])) :
+							(s = ua.match(/version\/([\d.]+).*safari/)) ? _set("safari", _toFixedVersion(s[1])) : 0;
+			
+			function _toFixedVersion(ver, floatLength) {
+				ver = ("" + ver).replace(/_/g, ".");
+				floatLength = floatLength || 1;
+				ver = String(ver).split(".");
+				ver = ver[0] + "." + (ver[1] || "0");
+				ver = Number(ver).toFixed(floatLength);
+				return ver;
+			}
+			
+			function _set(bname, bver) {
+				name = bname;
+				ver = bver;
+			}
+			
+			return (n === "n" ? name : (n === "v" ? ver : name + ver));
+		}
+		
+		//判断浏览器
+		console.log(getBrowser("n"));
+		for (var i = 0; i < ipt.length; i++) {
+			getBrowser("n") === "chrome" ? ipt[i].addEventListener("mousewheel", wheel) : ipt[i].addEventListener("DOMMouseScroll", wheel);
+		}
+	</script>
+</body>
+</html>
