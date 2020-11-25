@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work2</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+		}
+
+		.bg {
+			width: 800px;
+			margin: 200px auto;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.bg div {
+			width: 700px;
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 2px solid tomato;
+			padding: 10px;
+		}
+
+		.bg input {
+			width: 560px;
+			text-align: center;
+			font-size: 18px;
+			border: none;
+			outline: none;
+		}
+
+		button {
+			outline-style: hidden;
+			box-shadow: 0 0 6px #999 inset;
+			outline-offset: 2px;
+			border: none;
+			background-color: transparent;
+		}
+	</style>
+</head>
+
+<body>
+	<div class = "bg">
+		<div class = "one">
+			<input type = "text" value = "Yeah, l'm gonna take my horse to the old town road">
+			<button>Change</button>
+			<button>Delete</button>
+		</div>
+		<div class = "one">
+			<input type = "text" value = "Yeah, l'm gonna take my horse to the old town road">
+			<button>Change</button>
+			<button>Delete</button>
+		</div>
+		<div class = "one">
+			<input type = "text" value = "Yeah, l'm gonna take my horse to the old town road">
+			<button>Change</button>
+			<button>Delete</button>
+		</div>
+	</div>
+	<script>
+		// let div = document.querySelectorAll(".one");
+		let body = document.body;
+		// let ipt = div.querySelector('input');
+		let cDiv = document.creatElement("div");
+		let cIpt = document.creatElement("input");
+		body.appendChild("cDiv");
+		cDiv.appendChild("cIpt");
+		cIpt.innerHTML = "Yeah, l'm gonna take my horse to the old town road";
+	</script>
+</body>
+</html>
