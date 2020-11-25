@@ -1,16 +1,83 @@
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">  
-  <title>$Title$</title>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>封装拖拽</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: teal;
+			border-radius: 50%;
+			box-shadow: 0 0 10px black;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+		img {
+			position: absolute;
+		}
+	</style>
 </head>
 
 <body>
-$END$
-  <script>
-
-  </script>
+	<img src = "https://images.opencollective.com/amp/c8a3b25/logo.png" alt = "">
+	<br>
+	<img src = "https://images.opencollective.com/amp/c8a3b25/logo.png" alt = "">
+	<div>
+	</div>
+	<script>
+		let img = document.querySelector("img");
+		let div = document.querySelector("div");
+		
+		function drag(ele) {
+			ele.onmousedown = function (event) {
+				var ev = window.event || event;
+				//设置全局捕获 消除鬼魂
+				if (ele.setCapture !== undefined) {
+					ele.setCapture();
+				}
+				
+				var disX = ev.clientX + document.documentElement.scrollLeft - ele.offsetLeft;
+				var disY = ev.clientY + document.documentElement.scrollTop - ele.offsetTop;
+				
+				document.onmousemove = function (event) {
+					var ev = window.event || event;
+					var x = ev.clientX + document.documentElement.scrollLeft - disX;
+					var y = ev.clientY + document.documentElement.scrollTop - disY;
+					//在定位之前 限制一下 定位值的范围
+					if (x < 0) {
+						x = 0;
+					}
+					if (y < 0) {
+						y = 0;
+					}
+					if (x > document.documentElement.clientWidth - ele.offsetWidth) {
+						x = document.documentElement.clientWidth - ele.offsetWidth;
+					}
+					if (y > document.documentElement.clientHeight - ele.offsetHeight) {
+						y = document.documentElement.clientHeight - ele.offsetHeight;
+					}
+					//设置图片定位
+					ele.style.left = x + "px";
+					ele.style.top = y + "px";
+				};
+				//在标准浏览器中，我们可以通过阻止鼠标按下时间的默认行为来防止拖拽图片或文字的BUG
+				return false;
+			};
+			ele.onmouseup = function () {
+				document.onmousemove = null;
+				if (ele.releaseCapture !== undefined) {
+					ele.releaseCapture();
+				}
+			};
+		}
+		drag(img);
+		drag(div);
+	</script>
 </body>
 </html>
+

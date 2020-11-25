@@ -34,7 +34,7 @@
 				}*/
 		let ipt = document.querySelectorAll("input");
 		
-		//封装
+		//封装8-=
 		function wheel(event) {
 			var ev = window.event || event;//处理（标准 IE）和 火狐的兼容
 			if (ev.wheelDelta) {
@@ -43,12 +43,12 @@
 				} else {
 					this.value++;
 				}
-			} else {
-				if (ev.detail < 0) {   //火狐
-					this.value++;
-				} else {
-					this.value--;
-				}
+			// } else {
+			// 	if (ev.detail < 0) {   //火狐
+			// 		this.value++;
+			// 	} else {
+			// 		this.value--;
+			// 	}
 			}
 		}
 		

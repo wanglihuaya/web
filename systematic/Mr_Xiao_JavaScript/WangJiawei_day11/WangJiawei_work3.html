@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">  
-  <title>$Title$</title>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>work3</title>
 </head>
 
 <body>
-$END$
-  <script>
-
-  </script>
+	<input type = "text" value = "0">
+	<input type = "text" value = "0">
+	<input type = "text" value = "0">
+	<script>
+		var ipt = document.querySelectorAll("input");
+		
+		// function wheel(event) {
+		// 	console.log(ipt[0].value);
+		// 	console.log(ev);
+			ipt[0].onmousewheel = function () {
+				var ev = window.event || event;
+				if (ev.wheelDelta < 0) {
+					ipt[0].value--;
+				} else {
+					ipt[0].value++;
+				}
+			// };
+		}
+		//TODO 用老师方法再写一遍
+		
+		// wheel();
+	</script>
 </body>
 </html>

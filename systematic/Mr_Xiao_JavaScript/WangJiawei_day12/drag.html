@@ -1,16 +1,62 @@
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">  
-  <title>$Title$</title>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+	<title>drag</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			box-shadow: 0 0 10px black;
+			background-color: coral;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	</style>
 </head>
-
 <body>
-$END$
-  <script>
-
-  </script>
+	<div></div>
+	<script>
+		//函数里出现的变量必须先定义
+		//绑定或者解除绑定事件必须使用封装的函数
+		let div = document.querySelector("div");
+		let img = document.querySelector("img");
+		var disX;
+		var disY;
+		
+		var fun = function (event) {
+			var ev = window.event || event;
+			//html标签，在js中的获取方式：document.documentElement。
+			//clientX 获取当前鼠标，相当于可视窗口的位置
+			//scrollLeft获取元素内容被卷去的宽度
+			var x = ev.clientX + document.documentElement.scrollLeft - disX;
+			var y = ev.clientY + document.documentElement.scrollTop - disY;
+			
+			div.style.left = x + "px";
+			div.style.top = y + "px";
+		};
+		
+		//鼠标按下，添加move事件
+		div.addEventListener("mousedown", function () {
+			ev = window.event || event;
+			//pageX获取当前鼠标，相当于页面顶部和左侧的距离
+			//offsetLeft当前元素的左边，到定位父元素的距离，没有定位父元素，到body的距离
+			disX = event.pageX - div.offsetLeft;
+			disY = event.pageY - div.offsetTop;
+		//使用document鼠标移除div也可以拖拽
+		//将鼠标移动事件 添加给document  从而扩大鼠标移动的范围
+			document.addEventListener("mousemove", fun);
+		});
+		//鼠标抬起，移除move事件
+		div.addEventListener("mouseup", function () {
+		//使用document鼠标移除div也可以拖拽
+			document.removeEventListener("mousemove", fun);
+		});
+		
+	</script>
 </body>
 </html>
