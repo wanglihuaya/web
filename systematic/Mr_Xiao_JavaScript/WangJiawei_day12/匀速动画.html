@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
-	<meta charset = "UTF-8">
-	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-	<meta http-equiv = "X-UA-Compatible" content = "ie=edge">
-	<title>匀速动画</title>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+  <title>匀速动画</title>
+  <style>
+    div {
+      background-color: white;
+    }
+  </style>
 </head>
 
 <body>
-	<div></div>
-	<script>
-		//获取非行内样式
-		function getstyle(ele,style) {
-			if (ele.currentStyle===undefined) {
-				return getComputedStyle(ele)[style]
-			}else {
-			
-			}
-		}
-	</script>
+  <div></div>
+  <script>
+    //获取非行内样式
+    function getStyle(ele, style) {
+      if (ele.currentStyle === undefined) {
+        return getComputedStyle(ele)[style];
+      } else {
+        return ele.currentStyle[style];
+      }
+    }
+  </script>
 </body>
 </html>

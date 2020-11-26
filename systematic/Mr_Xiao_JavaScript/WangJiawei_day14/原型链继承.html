@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="" />
+		<title>原型链继承</title>
+		<style>
+		</style>
+	</head>
+
+	<body>
+		<script>
+			//不能随意改变属性，可以继承到原型链的属性
+			var CreateTeacher = function (name) {
+				this.name = name;
+			};
+			CreateTeacher.prototype.age = 18;
+			CreateTeacher.prototype.gender = "boy";
+			var obj = new CreateTeacher("lihua");
+
+			function Student() {}
+			Student.prototype = obj;
+
+			var obj1 = new Student();
+			console.log(obj1);
+			/* 继承之前
+			Student {}
+				__proto__:
+					constructor: ƒ Student()
+					__proto__: Object 
+			*/
+
+			/* 继承之后 
+			Student {}
+				__proto__: CreateTeacher
+					name: "lihua"
+					__proto__:
+						age: 18
+						gender: "boy"
+						constructor: ƒ (name)
+						__proto__: Object
+			*/
+		</script>
+	</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>面向对象选项卡</title>
+		<style>
+			div {
+				width: 300px;
+				height: 300px;
+				border: 2px solid red;
+				display: none;
+			}
+
+			.active {
+				display: block;
+			}
+		</style>
+	</head>
+
+	<body>
+		<section id="first">
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<div class="active">aaa</div>
+			<div>bbb</div>
+			<div>ccc</div>
+		</section>
+		<section id="first">
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<div class="active">aaa</div>
+			<div>bbb</div>
+			<div>ccc</div>
+		</section>
+
+		<script>
+			//1. 有对象，就用对象，没有对象，创建对象之后，用对象。
+			//2. 创建对象的时候，需要先写构造函数。
+			//3. 分析要创建的对象，有哪些静态特征，有哪些动态行为，将静态特征作为属性，由构造函数绑定给对象，将动态行为作为方法，有原型继承给对象。
+			//4. 调用构造函数，创建对象，并调用对象的方法实现行为。
+
+			function SwitchTab(divs, btns) {
+				//构造函数中的this->创建出来的对象
+				this.divs = divs;
+				this.btns = btns;
+				this.switch();
+				this.s();
+			}
+			SwitchTab.prototype.s = function () {
+        console.log(this.divs);
+        console.log(Object.prototype);
+			};
+			//原型添加
+			SwitchTab.prototype.switch = function () {
+				//方法函数的this -> 调用方法的对象
+				var that = this;
+				console.log(this);
+				for (let i = 0; i < this.btns.length; i++) {
+					this.btns[i].idx = i;
+					this.btns[i].onclick = function () {
+						//that -> this -> SwitchTab {divs: NodeList(6), btns: NodeList(6)}
+						for (let j = 0; j < that.divs.length; j++) {
+							that.divs[j].className = "";
+						}
+						//this -> this.btns[i]
+						that.divs[this.idx].className = "active";
+					};
+				}
+			};
+
+			var divs = document.querySelectorAll("div");
+			var btns = document.querySelectorAll("button");
+			new SwitchTab(divs,btns);
+		</script>
+	</body>
+</html>
