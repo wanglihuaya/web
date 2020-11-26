@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="" />
+		<title>表单</title>
+		<style>
+			.bg {
+				margin: 100px auto;
+				width: 800px;
+				height: 200px;
+				padding: 200px 20px;
+				border: 6px double blueviolet;
+			}
+			.bg input {
+				margin: 10px 0;
+				width: 200px;
+			}
+
+			.bg .ti {
+				width: 120px;
+				display: inline-block;
+				text-shadow: 0 0 20px tomato;
+			}
+			.bg svg {
+				display: none;
+				vertical-align: -5px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="bg">
+			<label for="text" class="ti">请输入账号：</label>
+			<input type="text" id="text" />
+			<label for="text" class="shi">
+				<svg width="24px" height="22px" viewBox="0 0 12 12" class="green1">
+					<g
+						id="页面-1"
+						stroke="none"
+						stroke-width="1"
+						fill="none"
+						fill-rule="evenodd"
+						font-family="SFCompactDisplay-Regular, SF Compact Display"
+						font-size="12"
+						font-weight="normal"
+					>
+						<text id="" fill="green">
+							<tspan x="-1" y="10">􀁢</tspan>
+						</text>
+					</g>
+				</svg>
+				<svg width="24px" height="22px" viewBox="0 0 12 12" class="red1">
+					<g
+						id="页面-1"
+						stroke="none"
+						stroke-width="1"
+						fill="none"
+						fill-rule="evenodd"
+						font-family="SFCompactDisplay-Regular, SF Compact Display"
+						font-size="12"
+						font-weight="normal"
+					>
+						<text id="" fill="red">
+							<tspan x="-1" y="10">􀁐</tspan>
+						</text>
+					</g>
+				</svg>
+				用户名必须以字母开头，必须字母和数字的组合
+			</label>
+			<br />
+			<label for="pwd" class="ti">请输入密码：</label>
+			<input type="password" id="pwd" />
+			<label for="pwd" class="shi">
+				<svg width="24px" height="22px" viewBox="0 0 12 12" class="green2">
+					<g
+						id="页面-1"
+						stroke="none"
+						stroke-width="1"
+						fill="none"
+						fill-rule="evenodd"
+						font-family="SFCompactDisplay-Regular, SF Compact Display"
+						font-size="12"
+						font-weight="normal"
+					>
+						<text id="" fill="green">
+							<tspan x="-1" y="10">􀁢</tspan>
+						</text>
+					</g>
+				</svg>
+				<svg width="24px" height="22px" viewBox="0 0 12 12" class="red2">
+					<g
+						id="页面-1"
+						stroke="none"
+						stroke-width="1"
+						fill="none"
+						fill-rule="evenodd"
+						font-family="SFCompactDisplay-Regular, SF Compact Display"
+						font-size="12"
+						font-weight="normal"
+					>
+						<text id="" fill="red">
+							<tspan x="-1" y="10">􀁐</tspan>
+						</text>
+					</g>
+				</svg>
+				必须字母和数字的组合，5-10位
+			</label>
+			<br />
+			<label for="num" class="ti">请输入手机号：</label>
+			<input type="text" id="num" />
+			<svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+				<g
+					id="页面-1"
+					stroke="none"
+					stroke-width="1"
+					fill="none"
+					fill-rule="evenodd"
+					font-family="SFCompactDisplay-Regular, SF Compact Display"
+					font-size="12"
+					font-weight="normal"
+				>
+					<text id="" fill="green">
+						<tspan x="-1" y="10">􀁢</tspan>
+					</text>
+				</g>
+			</svg>
+			<svg width="24px" height="22px" viewBox="0 0 12 12" class="red3">
+				<g
+					id="页面-1"
+					stroke="none"
+					stroke-width="1"
+					fill="none"
+					fill-rule="evenodd"
+					font-family="SFCompactDisplay-Regular, SF Compact Display"
+					font-size="12"
+					font-weight="normal"
+				>
+					<text id="" fill="red">
+						<tspan x="-1" y="10">􀁐</tspan>
+					</text>
+				</g>
+			</svg>
+			<br />
+			<label for="email" class="ti">请输入邮箱：</label>
+			<input type="email" id="email" />
+			<svg width="24px" height="22px" viewBox="0 0 12 12" class="green4">
+				<g
+					id="页面-1"
+					stroke="none"
+					stroke-width="1"
+					fill="none"
+					fill-rule="evenodd"
+					font-family="SFCompactDisplay-Regular, SF Compact Display"
+					font-size="12"
+					font-weight="normal"
+				>
+					<text id="" fill="green">
+						<tspan x="-1" y="10">􀁢</tspan>
+					</text>
+				</g>
+			</svg>
+			<svg width="24px" height="22px" viewBox="0 0 12 12" class="red4">
+				<g
+					id="页面-1"
+					stroke="none"
+					stroke-width="1"
+					fill="none"
+					fill-rule="evenodd"
+					font-family="SFCompactDisplay-Regular, SF Compact Display"
+					font-size="12"
+					font-weight="normal"
+				>
+					<text id="" fill="red">
+						<tspan x="-1" y="10">􀁐</tspan>
+					</text>
+				</g>
+			</svg>
+			<br />
+			<input type="button" value="提交" />
+
+			<script>
+				let bg = document.querySelector(".bg");
+				let ipt = document.querySelectorAll("input");
+
+				let green1 = document.querySelector(".green1");
+				let red1 = document.querySelector(".red1");
+				let green2 = document.querySelector(".green2");
+				let red2 = document.querySelector(".red2");
+				let green3 = document.querySelector(".green3");
+				let red3 = document.querySelector(".red3");
+				let green4 = document.querySelector(".green4");
+				let red4 = document.querySelector(".red4");
+
+				let textReg = /^[a-zA-Z][a-zA-Z0-9]{4,15}$/;
+				let pwdReg = /^[a-zA-Z0-9]{5,10}$/;
+				let numReg = /^(?:(?:\+|00)86)?1(?:(?:3[\d])|(?:4[5-7|9])|(?:5[0-3|5-9])|(?:6[5-7])|(?:7[0-8])|(?:8[\d])|(?:9[1|8|9]))\d{8}$/;
+				let emailReg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+				var flag = "wu";
+
+				function check(ele, reg, red, green) {
+					ele.onblur = function () {
+						if (!reg.test(ele.value) && ele.value !== "") {
+							red.style.display = "inline";
+							flag = "cuo";
+						} else if (reg.test(ele.value)) {
+							flag = "wu";
+							green.style.display = "inline";
+						}
+					};
+					ele.onfocus = function () {
+						if ((flag = "cuo")) {
+							red.style.display = "none";
+							green.style.display = "none";
+						}
+					};
+				}
+
+				check(ipt[0], textReg, red1, green1);
+				check(ipt[1], pwdReg, red2, green2);
+				check(ipt[2], numReg, red3, green3);
+				check(ipt[3], emailReg, red4, green4);
+
+				ipt[4].onclick = function () {
+					if (
+						green1.style.display === "inline" &&
+						green2.style.display === "inline" &&
+						green3.style.display === "inline" &&
+						green4.style.display === "inline"
+					) {
+						alert("✅✅Yes, submitted successfully✅✅");
+					} else {
+						alert("❌❌No,Submit failed❌❌");
+					}
+				};
+			</script>
+		</div>
+	</body>
+</html>
