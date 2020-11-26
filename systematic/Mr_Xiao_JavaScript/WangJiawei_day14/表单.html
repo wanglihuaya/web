@@ -9,13 +9,14 @@
 		<style>
 			.bg {
 				margin: 100px auto;
-				width: 800px;
+				width: 740px;
 				height: 200px;
 				padding: 200px 20px;
-				border: 6px double blueviolet;
+				background-color: #eee;
+				border-radius: 50px;
 			}
 			.bg input {
-				margin: 10px 0;
+				margin: 10px auto;
 				width: 200px;
 			}
 
@@ -179,7 +180,8 @@
 				</g>
 			</svg>
 			<br />
-			<input type="button" value="提交" />
+			<input type="button" value="Submit" />
+			<input type="button" value="Reset" />
 
 			<script>
 				let bg = document.querySelector(".bg");
@@ -234,6 +236,12 @@
 						alert("✅✅Yes, submitted successfully✅✅");
 					} else {
 						alert("❌❌No,Submit failed❌❌");
+					}
+				};
+				ipt[5].onclick = function () {
+					var r = confirm("Are you sure???");
+					if (r === true) {
+						location.reload();
 					}
 				};
 			</script>
