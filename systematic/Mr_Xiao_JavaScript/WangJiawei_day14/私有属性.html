@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="" />
+		<title>Document</title>
+		<style></style>
+	</head>
+
+	<body>
+		<ul>
+			<li>三亚</li>
+			<li>丽江</li>
+			<li>东京</li>
+			<li>奈良</li>
+			<li>苏黎世</li>
+		</ul>
+		<script>
+			var lis = document.querySelectorAll("li");
+			//这是一个闭包结构
+			for (var i = 0; i < lis.length; i++) {
+				(function (a) {
+					//在闭包的外层函数中声明的变量，会一直存储在内存中，类似全局变量,避免了全局污染。
+					//var a = 0
+					lis[a].onclick = function () {
+						console.log(a); //
+					};
+				})(i);
+			}
+			//i=0  将匿名函数1存入内存 执行  声明a变量  a=0变量是闭包的变量 会永久存储在内存中
+			//i=1  将匿名函数2存入内存 执行  声明a变量
+		</script>
+	</body>
+</html>

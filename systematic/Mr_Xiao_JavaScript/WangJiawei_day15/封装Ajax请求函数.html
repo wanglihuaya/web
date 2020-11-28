@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>封装Ajax</title>
+	</head>
+
+	<body>
+		<script>
+			function ajax(url, data, method, success) {
+				//异步同步
+				var ajax = new XMLHttpRequest();
+				//get 跟 post需要分别不同的代码
+				if (method == "get") {
+					if (data) {
+						//如果有数据，数据跟在url的后面
+						url += "?" + data;
+					}
+					ajax.open(method, url, true);
+					ajax.send(); //send即可
+				} else {
+					ajax.open(method, utl, true);
+					//需要设置请求报文
+					ajax.setRequestHeader(
+						"content-type",
+						"application/x-www-form-urlencoded"
+					);
+					//判断data send 发送数据
+					if (data) {
+						ajax.send(data); //如果有值从send发送
+					} else {
+						ajax.send(); //没有值，直接发送即可
+					}
+				}
+				//注册事件
+				ajax.onreadystatechange = function name(params) {
+					//在事件中获取数据，并修改界面显示
+					if (ajax.readyState == 4 && ajax.status == 200) {
+						success(ajax.responseText);
+					}
+				};
+			}
+			ajax("bendi.txt", "", "get", function name(res) {
+				console.log(res);
+			});
+		</script>
+	</body>
+</html>
