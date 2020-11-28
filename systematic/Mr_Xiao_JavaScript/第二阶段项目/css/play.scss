@@ -1,0 +1,169 @@
+@import "./reset.css";
+
+$orange: #FF451D;
+$black: #666666;
+
+body {
+	width: 1349px;
+	margin: 0 auto;
+	/*导航栏部分*/
+	header {
+		width: 1200px;
+		height: 60px;
+		margin: 0 auto;
+		font-size: 15px;
+		display: flex;
+		align-items: center;
+
+		.hbox {
+			//background-color: #eee;
+			margin: 0 auto;
+			display: flex;
+			justify-content: start;
+			align-items: center;
+
+			.logo {
+				background-image: url(../img/logo_it.jpg);
+				background-position: 220px 32px;
+				width: 220px;
+				height: 32px;
+				margin-right: 20px;
+			}
+
+			ul {
+				color: $black;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				li {
+					margin: 0 12.5px;
+					cursor: pointer;
+				}
+			}
+
+			button {
+				margin-left: 12px;
+				margin-right: 50px;
+				width: 79px;
+				height: 31px;
+				outline: none;
+				border: 1px solid $orange;
+				color: $orange;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+
+			.search {
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				width: 150px;
+				height: 28px;
+				margin-right: 16px;
+				border: 1px solid $black;
+				border-radius: 20px;
+
+				img {
+					margin-left: 5px;
+				}
+
+				input {
+					width: 110px;
+					border: 1px solid $black;
+					height: 28px;
+					margin-left: 11px;
+				}
+			}
+
+			.dlogin {
+				width: 154px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+		}
+	}
+
+	/*视频部分*/
+	.container {
+		width: 1200px;
+		background-color: #2A2929;
+		margin: 0 auto;
+
+		.title {
+			height: 50px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: white;
+
+			h2 {
+				font-size: 14px;
+				margin-right: 587px;
+			}
+
+			.btn {
+				font-size: 12px;
+				width: 86px;
+				height: 24px;
+				border: 1px solid $orange;
+				border-radius: 4px;
+				color: $orange;
+				line-height: 24px;
+				text-align: center;
+			}
+
+			a:last-of-type {
+				color: white;
+			}
+		}
+
+		.live {
+			display: flex;
+			justify-content: space-between;
+
+			video {
+				width: 860px;
+				height: 485px;
+			}
+
+			.right {
+				color: white;
+
+				.top {
+					width: 340px;
+					height: 46px;
+					background-color: #3F3F3F;
+
+					p {
+						width: 113px;
+						height: 46px;
+						background-color: #323232;
+						color: #ccc;
+						line-height: 46px;
+						text-align: center;
+						font-size: 14px;
+					}
+				}
+
+				ul {
+					height: 349px;
+					overflow: overlay;
+
+					li {
+						width: 340px;
+						height: 43px;
+						line-height: 43px;
+
+						a {
+							color: #ccc;
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
