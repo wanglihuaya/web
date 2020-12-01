@@ -1,0 +1,405 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  margin: 0 auto;
+  /*导航栏部分*/
+  /*尾部*/
+}
+body header {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+body header .hbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+body header .hbox .logo {
+  background-image: url(../img/logo_it.jpg);
+  background-position: 220px 32px;
+  width: 220px;
+  height: 32px;
+  margin-right: 20px;
+}
+body header .hbox ul {
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .hbox ul li {
+  margin: 0 12.5px;
+  cursor: pointer;
+}
+body header .hbox ul li:hover {
+  color: #ff6f35;
+}
+body header .hbox button {
+  margin-left: 12px;
+  margin-right: 50px;
+  width: 79px;
+  height: 31px;
+  outline: none;
+  border: 1px solid #ff451d;
+  color: #ff451d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body header .hbox .search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  margin-right: 16px;
+  border: 1px solid #666666;
+  border-radius: 20px;
+}
+body header .hbox .search img {
+  margin-left: 5px;
+}
+body header .hbox .search input {
+  width: 110px;
+  border: 1px solid #666666;
+  height: 24px;
+  margin-left: 11px;
+}
+body header .hbox .dlogin {
+  width: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .hbox .scan {
+  position: relative;
+}
+body header .hbox .scan:hover .scan1 {
+  display: block;
+}
+body header .hbox .scan .scan1 {
+  width: 187px;
+  height: 208px;
+  background-color: #eee;
+  font-size: 14px;
+  position: absolute;
+  top: 37px;
+  left: -91px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: none;
+}
+body header .hbox .scan .scan1:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #eee;
+  position: absolute;
+  top: -20px;
+  left: 90px;
+}
+body header .hbox .scan .scan1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body header .hbox .scan .scan1 p img {
+  width: 69px;
+  height: 69px;
+}
+body header .hbox .scan .scan1 p span {
+  margin-left: 10px;
+}
+body .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+body footer {
+  background-color: #404144;
+}
+body footer .wrap {
+  padding: 34px 0;
+  background-color: #404144;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer .wrap ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+body footer .wrap ul li:hover {
+  color: #ff712b;
+  cursor: pointer;
+}
+body footer .wrap .middle {
+  color: #b2b2b2;
+}
+body footer .wrap .bottom {
+  color: #999;
+}
+body footer .wrap .bottom i:hover {
+  color: #ff712b;
+  cursor: pointer;
+}
+
+body {
+  background-color: #eee;
+}
+body header {
+  background-color: #fff;
+}
+body nav {
+  height: 504px;
+}
+body nav .bg {
+  min-width: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+body nav .bg img {
+  z-index: -1;
+}
+body nav .bg ul li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+  padding: 5px;
+  position: absolute;
+}
+body nav .wrap {
+  height: 504px;
+  position: relative;
+}
+body nav .wrap .left {
+  position: absolute;
+  top: -213px;
+  left: 240px;
+  cursor: pointer;
+}
+body nav .wrap .right {
+  position: absolute;
+  top: -213px;
+  left: 1130px;
+  cursor: pointer;
+}
+body nav .wrap .nav {
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 227px;
+  height: 504px;
+  padding: 20px;
+  overflow: auto;
+  color: white;
+  box-sizing: border-box;
+  position: absolute;
+  top: -393px;
+}
+body nav .wrap .nav::-webkit-scrollbar {
+  width: 2px;
+}
+body nav .wrap .nav::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+body nav .wrap .nav::-webkit-scrollbar-thumb {
+  background-color: yellow;
+}
+body nav .wrap .nav::-webkit-scrollbar-thumb:hover {
+  background-color: yellow;
+}
+body nav .wrap .nav::-webkit-scrollbar-thumb:active {
+  background-color: yellow;
+}
+body nav .wrap .nav h2 {
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+}
+body nav .wrap .nav h2:hover {
+  text-decoration: underline;
+}
+body nav .wrap .nav ul {
+  overflow: hidden;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+body nav .wrap .nav ul li {
+  cursor: pointer;
+  line-height: 24px;
+  float: left;
+  margin-right: 10px;
+}
+body nav .wrap .nav ul li:hover {
+  text-decoration: underline;
+}
+body .live {
+  margin-top: 40px;
+}
+body .live .little {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .live .little h2 {
+  font-size: 24px;
+}
+body .live .little span {
+  font-size: 14px;
+  color: #666666;
+}
+body .live .little span:after {
+  content: url("../img/ujyx_07.jpg");
+}
+body .live .liveL {
+  width: 620px;
+  height: 350px;
+  float: left;
+  background-color: #fff;
+}
+body .live .liveL img {
+  display: none;
+}
+body .live .liveL img:first-of-type {
+  display: block;
+}
+body .live .liveR {
+  overflow: hidden;
+  width: 580px;
+  height: 350px;
+  float: right;
+  padding: 10px 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+body .live .liveR:before {
+  content: "";
+  height: 330px;
+  width: 10px;
+  background: url("http://xue.ujiuye.com/public/it/images/ujyx_24.jpg") repeat-y;
+  position: absolute;
+  top: 10px;
+  left: 72px;
+}
+body .live .liveR li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 66px;
+  line-height: 66px;
+  font-size: 16px;
+}
+body .live .liveR li:hover {
+  background-color: tomato;
+}
+body .live .liveR li span {
+  position: relative;
+  font-size: 12px;
+  display: inline-block;
+  width: 78px;
+  line-height: 20px;
+  vertical-align: middle;
+  color: #666666;
+}
+body .live .liveR li span:before {
+  content: url("../img/ujyx_25.jpg");
+  position: absolute;
+  top: 10px;
+  left: -36px;
+}

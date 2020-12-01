@@ -1,0 +1,70 @@
+{
+	"banner": [
+		"./img/banner-1.jpg",
+		"./img/banner-2.jpg",
+		"./img/banner-3.jpg",
+		"./img/banner-4.jpg",
+		"./img/banner-5.jpg",
+		"./img/banner-6.jpg"
+	],
+	"hot": {
+		"con": [
+			{
+				"express": "搜索营销新形势解读",
+				"src": "./img/cont-1.jpg",
+				"btn": "直播中"
+			},
+			{
+				"express": "Ul第三阶段直播答疑(三)",
+				"src": "./img/cont-2.jpg",
+				"btn": "未开始"
+			},
+			{
+				"express": "JavaWeb开发答疑1",
+				"src": "./img/cont-3.jpg",
+				"btn": "未开始"
+			},
+			{
+				"express": "考前动员和注意事项",
+				"src": "./img/cont-1.jpg",
+				"btn": "未开始"
+			},
+			{
+				"express": "考前动员和注意事项",
+				"src": "./img/cont-2.jpg",
+				"btn": "未开始"
+			},
+			{
+				"express": "考前动员和注意事项",
+				"src": "./img/cont-3.jpg",
+				"btn": "未开始"
+			}
+		],
+		"sele": [
+			{
+				"time": "直播中",
+				"title": "搜索营销新形势解读"
+			},
+			{
+				"time": "2020-12-01 10:00:00",
+				"title": "Ul第三阶段直播答疑(三)"
+			},
+			{
+				"time": "2020-02-05 10:00:00",
+				"title": "JavaWeb开发答疑1"
+			},
+			{
+				"time": "2020-02-05 10:00:00",
+				"title": "考前动员和注意事项"
+			},
+			{
+				"time": "2020-02-05 10:00:00",
+				"title": "考前动员和注意事项"
+			},
+			{
+				"time": "2020-02-05 10:00:00",
+				"title": "天天有好课（每天10-21点直播不间断）"
+			}
+		]
+	}
+}

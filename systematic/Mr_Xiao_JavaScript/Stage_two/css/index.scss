@@ -1,0 +1,196 @@
+@import "common.scss";
+
+body {
+	background-color: #eee;
+	header {
+		background-color: #fff;
+	}
+	nav {
+		height: 504px;
+
+		.bg {
+			min-width: 1200px;
+			overflow: hidden;
+			position: relative;
+
+			img {
+				z-index: -1;
+			}
+
+			ul {
+				li {
+					width: 20px;
+					height: 20px;
+					border-radius: 50%;
+					background-color: #000;
+					padding: 5px;
+					position: absolute;
+				}
+			}
+		}
+
+		.wrap {
+			height: 504px;
+			position: relative;
+
+			.left {
+				position: absolute;
+				top: -213px;
+				left: 240px;
+				cursor: pointer;
+			}
+
+			.right {
+				position: absolute;
+				top: -213px;
+				left: 1130px;
+				cursor: pointer;
+			}
+
+			.nav {
+				background-color: rgba(255, 0, 0, 0.5);
+				width: 227px;
+				height: 504px;
+				padding: 20px;
+				overflow: auto;
+				color: white;
+				box-sizing: border-box;
+				position: absolute;
+				top: -393px;
+
+				&::-webkit-scrollbar {
+					width: 2px;
+				}
+
+				&::-webkit-scrollbar-track {
+					background-color: #ccc;
+				}
+
+				&::-webkit-scrollbar-thumb {
+					background-color: yellow;
+				}
+
+				&::-webkit-scrollbar-thumb:hover {
+					background-color: yellow;
+				}
+
+				&::-webkit-scrollbar-thumb:active {
+					background-color: yellow;
+				}
+
+				h2 {
+					font-size: 18px;
+					line-height: 30px;
+					cursor: pointer;
+
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+
+				ul {
+					overflow: hidden;
+					font-size: 12px;
+					margin-bottom: 20px;
+
+					li {
+						cursor: pointer;
+						line-height: 24px;
+						float: left;
+						margin-right: 10px;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.live {
+		margin-top: 40px;
+		.little {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 30px;
+
+			h2 {
+				font-size: 24px;
+			}
+
+			span {
+				font-size: 14px;
+				color: $black;
+
+				&:after {
+					content: url("../img/ujyx_07.jpg");
+				}
+			}
+		}
+
+		.liveL {
+			width: 620px;
+			height: 350px;
+			float: left;
+			background-color: #fff;
+
+			img {
+				display: none;
+
+				&:first-of-type {
+					display: block;
+				}
+			}
+		}
+
+		.liveR {
+			overflow: hidden;
+			width: 580px;
+			height: 350px;
+			float: right;
+			padding: 10px 100px;
+			box-sizing: border-box;
+			position: relative;
+			&:before {
+				content: "";
+				height: 330px;
+				width: 10px;
+				background: url("http://xue.ujiuye.com/public/it/images/ujyx_24.jpg")
+					repeat-y;
+				position: absolute;
+				top: 10px;
+				left: 72px;
+			}
+
+			li {
+				display: flex;
+				justify-content: start;
+				align-items: center;
+				height: 66px;
+				line-height: 66px;
+				font-size: 16px;
+				&:hover {
+					background-color: tomato;
+				}
+				span {
+					&:before {
+						content: url("../img/ujyx_25.jpg");
+						position: absolute;
+						top: 10px;
+						left: -36px;
+					}
+
+					position: relative;
+					font-size: 12px;
+					display: inline-block;
+					width: 78px;
+					line-height: 20px;
+					vertical-align: middle;
+					color: $black;
+				}
+			}
+		}
+	}
+}
