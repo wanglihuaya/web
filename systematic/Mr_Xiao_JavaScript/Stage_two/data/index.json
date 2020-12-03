@@ -66,5 +66,260 @@
 				"title": "天天有好课（每天10-21点直播不间断）"
 			}
 		]
+	},
+	"video": {
+		"selector": ["互联网营销", "设计", "Web前端", "程序开发", "Office"],
+	"content": {
+		"sale": [
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			}
+		],
+		"design": [
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[design]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			}
+		],
+		"web": [
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[web]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			}
+		],
+		"code": [
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[code]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			}
+		],
+		"office": [
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[office]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			},
+			{
+				"src": "http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8L1477490408DNL.jpg?x-oss-process=image/resize,w_285",
+				"text": "[基础]微信视频号运营技巧短视频赚...",
+				"price": "$999",
+				"time": "99"
+			}
+		]
+		}
 	}
 }

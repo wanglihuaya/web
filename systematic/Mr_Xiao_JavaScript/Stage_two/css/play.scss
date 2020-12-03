@@ -1,10 +1,9 @@
-@import "reset.css","common.css";
+@import "reset.scss", "common.scss";
 
-$orange: #FF451D;
+$orange: #ff451d;
 $black: #666666;
 
 body {
-
 	/*视频部分*/
 	.container {
 		background-color: #292929;
@@ -53,23 +52,28 @@ body {
 				width: 860px;
 				height: 485px;
 				outline: none;
+				// display: none;
 			}
 
 			.right {
 				color: white;
-
 				&::before {
 					content: ">";
 					cursor: pointer;
 					text-align: center;
-					color: #333333;
+					color: #fff;
 					background-color: #292929;
 					width: 12px;
 					height: 50px;
 					line-height: 50px;
 					position: absolute;
-					top: 50%;
+					top: 35%;
 					transform: translateY(-50%);
+				}
+				li {
+					padding: 0 30px;
+					box-sizing: border-box;
+					border-bottom: 1px solid #666;
 				}
 
 				.top {
@@ -94,30 +98,32 @@ body {
 					background-color: #1f1f1f;
 
 					&::-webkit-scrollbar {
-						width: 10px;
+						width: 6px;
 					}
 
 					&::-webkit-scrollbar-track {
-						background-color: $black;
+						background-color: transparent;
 					}
 
 					&::-webkit-scrollbar-thumb {
-						background-color: #ccc;
+						background-color: $black;
 					}
 
 					&::-webkit-scrollbar-thumb:hover {
-						background-color: #ccc
+						background-color: $black;
 					}
 
 					&::-webkit-scrollbar-thumb:active {
-						background-color: #ccc
+						background-color: $black;
 					}
 
 					li {
 						width: 340px;
 						height: 43px;
 						line-height: 43px;
-
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
 						a {
 							color: #ccc;
 							font-size: 12px;
@@ -176,14 +182,18 @@ body {
 					display: flex;
 					flex-direction: column;
 					justify-content: start;
-					background-color: #eee;
-
+					border: 1px solid black;
+					border-radius: 6px;
 					img {
 						width: 200px;
 						height: 112px;
 						margin-bottom: 10px;
 						box-shadow: 0 0 10px black;
-						border-radius: 4px;
+						border-radius: 6px 6px 0 0;
+						-webkit-border-radius: 6px 6px 0 0;
+						-moz-border-radius: 6px 6px 0 0;
+						-ms-border-radius: 6px 6px 0 0;
+						-o-border-radius: 6px 6px 0 0;
 					}
 
 					p {
@@ -193,7 +203,7 @@ body {
 						font-size: 14px;
 
 						i {
-							color: #FF6F35;
+							color: #ff6f35;
 							margin: 0 5px;
 						}
 
@@ -234,7 +244,7 @@ body {
 						outline: none;
 						border-radius: 10px;
 					}
-					p{
+					p {
 						line-height: 20px;
 						text-align: right;
 						font-size: 14px;
@@ -243,7 +253,7 @@ body {
 				button {
 					width: 60px;
 					height: 60px;
-					background-color: #FF712B;
+					background-color: #ff712b;
 					color: white;
 					line-height: 60px;
 					font-size: 16px;
@@ -258,9 +268,51 @@ body {
 				display: block;
 				height: 38px;
 				line-height: 38px;
+				color: #999;
+				input {
+					vertical-align: -2px;
+					// outline: green;
+					border: 1px solid #999;
+				}
+			}
+			.outs{
+				height: 365px;
+				overflow: auto;
+			}
+			.out {
+				padding: 10px 0;
+				img {
+					width: 28px;
+					height: 28px;
+				}
+				.name {
+					font-size: 16px;
+					line-height: 28px;
+					height: 28px;
+				}
+				.word {
+					height: 26px;
+					line-height: 26px;
+					font-size: 14px;
+					margin-left: 34px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+				}
+				.follow {
+					font-size: 12px;
+					height: 18px;
+					margin-left: 34px;
+					line-height: 18px;
+				}
+				.time {
+					height: 28px;
+					line-height: 28px;
+					font-size: 12px;
+					text-align: right;
+					margin-right: 10px;
+				}
 			}
 		}
 	}
-
-
 }

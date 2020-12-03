@@ -1,7 +1,6 @@
 @import "common.scss";
 
 body {
-	background-color: #eee;
 	header {
 		background-color: #fff;
 	}
@@ -136,7 +135,7 @@ body {
 			float: left;
 			background-color: #fff;
 
-			img {
+			li {
 				display: none;
 
 				&:first-of-type {
@@ -150,7 +149,7 @@ body {
 			width: 580px;
 			height: 350px;
 			float: right;
-			padding: 10px 100px;
+			padding: 10px 0;
 			box-sizing: border-box;
 			position: relative;
 			&:before {
@@ -171,24 +170,108 @@ body {
 				height: 66px;
 				line-height: 66px;
 				font-size: 16px;
+				padding: 0 100px;
+				position: relative;
+				&:before {
+					content: url("../img/ujyx_25.jpg");
+					position: absolute;
+					top: 5px;
+					left: 64px;
+				}
 				&:hover {
-					background-color: tomato;
+					background-color: rgba($color: #ff6347, $alpha: 0.3);
+					color: #ff6347;
 				}
 				span {
-					&:before {
-						content: url("../img/ujyx_25.jpg");
-						position: absolute;
-						top: 10px;
-						left: -36px;
-					}
-
-					position: relative;
 					font-size: 12px;
 					display: inline-block;
 					width: 78px;
 					line-height: 20px;
 					vertical-align: middle;
 					color: $black;
+				}
+			}
+		}
+	}
+
+	.video {
+		#videoSel {
+			line-height: 72px;
+			height: 72px;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+			h2 {
+				font-size: 24px;
+			}
+			.videoSel1 {
+				margin-left: -500px;
+				line-height: 40px;
+				ul {
+					font-size: 16px;
+					display: flex;
+					color: #333;
+					justify-content: start;
+					li {
+						margin: 0 20px;
+						&:hover {
+							color: $orange;
+							padding: 0 0 1px 0;
+							border-bottom: 3px solid $orange;
+						}
+					}
+				}
+			}
+			span {
+				font-size: 14px;
+				color: $black;
+
+				&:after {
+					content: url("../img/ujyx_07.jpg");
+				}
+			}
+		}
+		.videoCon1 {
+			ul {
+				display: none;
+				justify-content: space-between;
+				align-items: center;
+				flex-wrap: wrap;
+				&:first-of-type {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex-wrap: wrap;
+				}
+				li {
+					img {
+						border-radius: 11px 11px 0 0;
+}
+					border-radius: 10px;
+					box-shadow: 0 0 10px black;
+					width: 285px;
+					height: 255px;
+					margin: 0 0 22px 0;
+					border: 1px solid black;
+					p {
+						font-size: 14px;
+						margin: 20px 10px;
+					}
+					span:first-of-type {
+						font-size: 20px;
+						line-height: 27px;
+						height: 27px;
+						margin: 20px 20px;
+						color: #ff6347;
+					}
+					span:last-of-type {
+						font-size: 14px;
+						background-color: #ffece5;
+						color: orange;
+						padding: 5px;
+						float: right;
+						margin-right: 20px;
+					}
 				}
 			}
 		}

@@ -239,9 +239,6 @@ body footer .wrap .bottom i:hover {
   cursor: pointer;
 }
 
-body {
-  background-color: #eee;
-}
 body header {
   background-color: #fff;
 }
@@ -353,10 +350,10 @@ body .live .liveL {
   float: left;
   background-color: #fff;
 }
-body .live .liveL img {
+body .live .liveL li {
   display: none;
 }
-body .live .liveL img:first-of-type {
+body .live .liveL li:first-of-type {
   display: block;
 }
 body .live .liveR {
@@ -364,7 +361,7 @@ body .live .liveR {
   width: 580px;
   height: 350px;
   float: right;
-  padding: 10px 100px;
+  padding: 10px 0;
   box-sizing: border-box;
   position: relative;
 }
@@ -384,12 +381,20 @@ body .live .liveR li {
   height: 66px;
   line-height: 66px;
   font-size: 16px;
+  padding: 0 100px;
+  position: relative;
+}
+body .live .liveR li:before {
+  content: url("../img/ujyx_25.jpg");
+  position: absolute;
+  top: 5px;
+  left: 64px;
 }
 body .live .liveR li:hover {
-  background-color: tomato;
+  background-color: rgba(255, 99, 71, 0.3);
+  color: #ff6347;
 }
 body .live .liveR li span {
-  position: relative;
   font-size: 12px;
   display: inline-block;
   width: 78px;
@@ -397,9 +402,80 @@ body .live .liveR li span {
   vertical-align: middle;
   color: #666666;
 }
-body .live .liveR li span:before {
-  content: url("../img/ujyx_25.jpg");
-  position: absolute;
-  top: 10px;
-  left: -36px;
+body .video #videoSel {
+  line-height: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+body .video #videoSel h2 {
+  font-size: 24px;
+}
+body .video #videoSel .videoSel1 {
+  margin-left: -500px;
+  line-height: 40px;
+}
+body .video #videoSel .videoSel1 ul {
+  font-size: 16px;
+  display: flex;
+  color: #333;
+  justify-content: start;
+}
+body .video #videoSel .videoSel1 ul li {
+  margin: 0 20px;
+}
+body .video #videoSel .videoSel1 ul li:hover {
+  color: #ff451d;
+  padding: 0 0 1px 0;
+  border-bottom: 3px solid #ff451d;
+}
+body .video #videoSel span {
+  font-size: 14px;
+  color: #666666;
+}
+body .video #videoSel span:after {
+  content: url("../img/ujyx_07.jpg");
+}
+body .video .videoCon1 ul {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .video .videoCon1 ul:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body .video .videoCon1 ul li {
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  width: 285px;
+  height: 255px;
+  margin: 0 0 22px 0;
+  border: 1px solid black;
+}
+body .video .videoCon1 ul li img {
+  border-radius: 11px 11px 0 0;
+}
+body .video .videoCon1 ul li p {
+  font-size: 14px;
+  margin: 20px 10px;
+}
+body .video .videoCon1 ul li span:first-of-type {
+  font-size: 20px;
+  line-height: 27px;
+  height: 27px;
+  margin: 20px 20px;
+  color: #ff6347;
+}
+body .video .videoCon1 ul li span:last-of-type {
+  font-size: 14px;
+  background-color: #ffece5;
+  color: orange;
+  padding: 5px;
+  float: right;
+  margin-right: 20px;
 }

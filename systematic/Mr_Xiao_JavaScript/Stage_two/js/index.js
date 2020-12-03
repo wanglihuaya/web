@@ -2,90 +2,92 @@
 ajax("./data/index.json", "get", function (res) {
 
   res = JSON.parse(res);
-  console.log(res);
   //动态渲染页面
-/*   for (var i = 0; i < res.banner.length; i++) {
-    //创建li 和 span
-    var li = document.createElement('li');
-    var span = document.createElement("span");
-    li.innerHTML = ' <img src="' + res.banner[i] + '" alt="">';
-    ul.appendChild(li);
-    p.appendChild(span);
-  }
-  var lis = ul.children;
-  var spans = p.children;
+  /*   for (var i = 0; i < res.banner.length; i++) {
+      //创建li 和 span
+      var li = document.createElement('li');
+      var span = document.createElement("span");
+      li.innerHTML = ' <img src="' + res.banner[i] + '" alt="">';
+      ul.appendChild(li);
+      p.appendChild(span);
+    }
+    var lis = ul.children;
+    var spans = p.children;
 
-  //透明度轮播效果
-  //自动轮播
-  var n = 0;
+    //透明度轮播效果
+    //自动轮播
+    var n = 0;
 
-  function auto() {
-    n++;
-    if (n > 5) {
-      n = 0;
-    }
-    if (n < 0) {
-      n = 5
-    }
-    for (var j = 0; j < lis.length; j++) {
-      bufferMove(lis[j], {
-        opacity: 0
-      });
-    }
-    bufferMove(lis[n], {
-      opacity: 1
-    });
-    //序号变色
-    for (var l = 0; l < spans.length; l++) {
-      spans[l].style.backgroundColor = "#fff";
-    }
-    spans[n].style.backgroundColor = "red"
-  }
-  var timer = setInterval(auto, 2000)
-  //鼠标移入父元素 停止自动轮播
-  banner.onmouseover = function () {
-    clearInterval(timer);
-  }
-  banner.onmouseout = function () {
-    timer = setInterval(auto, 2000)
-  }
-  //箭头轮播
-  rightArr.onclick = auto;
-  leftArr.onclick = function () {
-    n -= 2;
-    auto()
-  }
-  //序号轮播
-  for (var k = 0; k < spans.length; k++) {
-    spans[k].idx = k;
-    spans[k].onclick = function () {
-      //点谁谁亮
-      for (var l = 0; l < spans.length; l++) {
-        spans[l].style.backgroundColor = "#fff";
+    function auto() {
+      n++;
+      if (n > 5) {
+        n = 0;
       }
-      this.style.backgroundColor = "red";
-      //切换图片
-      //点击序号 切换图片 其实就是点击哪一个序号 切换对应图片
+      if (n < 0) {
+        n = 5
+      }
       for (var j = 0; j < lis.length; j++) {
         bufferMove(lis[j], {
           opacity: 0
         });
       }
-      bufferMove(lis[this.idx], {
+      bufferMove(lis[n], {
         opacity: 1
       });
-      //关联箭头和自动轮播
-      n = this.idx;
+      //序号变色
+      for (var l = 0; l < spans.length; l++) {
+        spans[l].style.backgroundColor = "#fff";
+      }
+      spans[n].style.backgroundColor = "red"
     }
-  }
- */
+    var timer = setInterval(auto, 2000)
+    //鼠标移入父元素 停止自动轮播
+    banner.onmouseover = function () {
+      clearInterval(timer);
+    }
+    banner.onmouseout = function () {
+      timer = setInterval(auto, 2000)
+    }
+    //箭头轮播
+    rightArr.onclick = auto;
+    leftArr.onclick = function () {
+      n -= 2;
+      auto()
+    }
+    //序号轮播
+    for (var k = 0; k < spans.length; k++) {
+      spans[k].idx = k;
+      spans[k].onclick = function () {
+        //点谁谁亮
+        for (var l = 0; l < spans.length; l++) {
+          spans[l].style.backgroundColor = "#fff";
+        }
+        this.style.backgroundColor = "red";
+        //切换图片
+        //点击序号 切换图片 其实就是点击哪一个序号 切换对应图片
+        for (var j = 0; j < lis.length; j++) {
+          bufferMove(lis[j], {
+            opacity: 0
+          });
+        }
+        bufferMove(lis[this.idx], {
+          opacity: 1
+        });
+        //关联箭头和自动轮播
+        n = this.idx;
+      }
+    }
+   */
 
 
 
   //热门直播部分的js
+  // --------------------------------
+  //获取live里的元素
+  var liveR = document.querySelector(".liveR");
+  var liveL = document.querySelector(".liveL");
   //动态渲染页面
   var hot = res.hot;
-  console.log(hot);
   //使用数据动态渲染页面  使用模板引擎
   //3.初始化模板
   var html = template("sele", hot);
@@ -109,7 +111,36 @@ ajax("./data/index.json", "get", function (res) {
     }
   }
 
+
+
+
+  //video部分里的js
+  // --------------------------------
+  //获取video里的元素
+  var videoSel1 = document.querySelector(".videoSel1");
+  var videoCon1 = document.querySelector(".videoCon1");
+
+  //动态渲染页面
+  var video = res.video;
+
+
+  var html2 = template("videoSel1", video);
+
+  var html3 = template("videoCon1", video);
+
+  videoSel1.innerHTML += html2;
+  videoCon1.innerHTML += html3;
+
+  var videoSelLi = videoSel1.querySelectorAll("li");
+  var videoConUl = videoCon1.querySelectorAll("ul");
+
+  for (var i = 0; i < videoSelLi.length; i++) {
+    videoSelLi[i].idx = i;
+    videoSelLi[i].onmouseover = function () {
+      for (var j = 0; j < videoConUl.length; j++) {
+        videoConUl[j].style.display = "none";
+      }
+      videoConUl[this.idx].style.display = "flex";
+    }
+  }
 })
-//获取live里的元素
-var liveR = document.querySelector(".liveR");
-var liveL = document.querySelector(".liveL");

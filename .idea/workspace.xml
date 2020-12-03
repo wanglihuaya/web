@@ -29,97 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二">
-      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day17/art-Template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day17/art-template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Miss_Jiang_HTML5CSS3/WangJiawei_day14/work/WangJiawei_work1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/.sass-cache/b1a8cc0185524006e05500c9dac9af4bbe561e37/common.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/.sass-cache/b1a8cc0185524006e05500c9dac9af4bbe561e37/index.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/.sass-cache/b1a8cc0185524006e05500c9dac9af4bbe561e37/login.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/.sass-cache/b1a8cc0185524006e05500c9dac9af4bbe561e37/play.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/.sass-cache/b1a8cc0185524006e05500c9dac9af4bbe561e37/register.scssc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/common.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/login.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/play.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/play.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/play.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/register.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/register.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/cts-播放页图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/cts-注册页图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/cts-登录页面图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/cts-首页图片 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/5uieee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ECK360449855TTKM.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/F1A1649225474KBK.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/F231717181069X2I.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/F277810759134RNE.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/banner_wbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/cont-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/cont-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/cont-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/containe-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsf_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsf_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsf_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsh_h_03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsh_h_05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/dsh_h_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/etk_09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/kaifa-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/logo_it.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/office-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/qiuzhi-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/sheji-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/shopbar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/study-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/study-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/study-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/study-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/t.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_18.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/ujyx_50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/vip-tips.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/web-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/zg_shipincz01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/zg_shipincz02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/zg_shipincz03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/zg_shipincz04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/img/zg_shipincz06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/media/1、动画.50.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/media/3、立方体mp4.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/play.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/第二阶段项目/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/index.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/dist/index.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/media/1、动画.50.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/media/3、立方体mp4.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,10 +131,7 @@
       <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.index.html (1)">
-    <configuration name="WangJiawei_work3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/WangJiawei_day11/WangJiawei_work3.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript 调试.play.html (1)">
     <configuration name="drag.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/WangJiawei_day12/drag.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -222,16 +141,19 @@
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/第二阶段项目/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="play.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="play.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/第二阶段项目/play.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.play.html (1)" />
         <item itemvalue="JavaScript 调试.index.html (1)" />
         <item itemvalue="JavaScript 调试.index.html" />
         <item itemvalue="JavaScript 调试.play.html" />
         <item itemvalue="JavaScript 调试.drag.html" />
-        <item itemvalue="JavaScript 调试.WangJiawei_work3.html" />
       </list>
     </recent_temporary>
   </component>
@@ -350,6 +272,7 @@
       <workItem from="1606823446212" duration="124000" />
       <workItem from="1606824155924" duration="176000" />
       <workItem from="1606824937658" duration="129000" />
+      <workItem from="1606919832828" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
@@ -730,89 +653,101 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="637" y="297" key="EnvironmentVariablesDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603962484038" />
-    <state width="931" height="340" key="GridCell.Tab.0.bottom" timestamp="1606825065928">
+    <state width="931" height="340" key="GridCell.Tab.0.bottom" timestamp="1606919891861">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685549" />
     <state width="1891" height="341" key="GridCell.Tab.0.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590652" />
     <state width="931" height="340" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065928" />
+    <state width="931" height="340" key="GridCell.Tab.0.bottom/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891861" />
     <state width="1890" height="340" key="GridCell.Tab.0.bottom/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398385" />
-    <state width="931" height="340" key="GridCell.Tab.0.center" timestamp="1606825065927">
+    <state width="931" height="340" key="GridCell.Tab.0.center" timestamp="1606919891860">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685548" />
     <state width="1891" height="341" key="GridCell.Tab.0.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590651" />
     <state width="931" height="340" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065927" />
+    <state width="931" height="340" key="GridCell.Tab.0.center/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891860" />
     <state width="1890" height="340" key="GridCell.Tab.0.center/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398384" />
-    <state width="931" height="340" key="GridCell.Tab.0.left" timestamp="1606825065926">
+    <state width="931" height="340" key="GridCell.Tab.0.left" timestamp="1606919891860">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685547" />
     <state width="1891" height="341" key="GridCell.Tab.0.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590651" />
     <state width="931" height="340" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065926" />
+    <state width="931" height="340" key="GridCell.Tab.0.left/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891860" />
     <state width="1890" height="340" key="GridCell.Tab.0.left/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398382" />
-    <state width="931" height="340" key="GridCell.Tab.0.right" timestamp="1606825065928">
+    <state width="931" height="340" key="GridCell.Tab.0.right" timestamp="1606919891860">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.0.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685548" />
     <state width="1891" height="341" key="GridCell.Tab.0.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590652" />
     <state width="931" height="340" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065928" />
+    <state width="931" height="340" key="GridCell.Tab.0.right/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891860" />
     <state width="1890" height="340" key="GridCell.Tab.0.right/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398385" />
-    <state width="931" height="340" key="GridCell.Tab.1.bottom" timestamp="1606825065931">
+    <state width="931" height="340" key="GridCell.Tab.1.bottom" timestamp="1606919891862">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685551" />
     <state width="1891" height="341" key="GridCell.Tab.1.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
     <state width="931" height="340" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065931" />
+    <state width="931" height="340" key="GridCell.Tab.1.bottom/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891862" />
     <state width="1890" height="340" key="GridCell.Tab.1.bottom/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398386" />
-    <state width="931" height="340" key="GridCell.Tab.1.center" timestamp="1606825065930">
+    <state width="931" height="340" key="GridCell.Tab.1.center" timestamp="1606919891861">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685550" />
     <state width="1891" height="341" key="GridCell.Tab.1.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590653" />
     <state width="931" height="340" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065930" />
+    <state width="931" height="340" key="GridCell.Tab.1.center/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891861" />
     <state width="1890" height="340" key="GridCell.Tab.1.center/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398386" />
-    <state width="931" height="340" key="GridCell.Tab.1.left" timestamp="1606825065929">
+    <state width="931" height="340" key="GridCell.Tab.1.left" timestamp="1606919891861">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685549" />
     <state width="1891" height="341" key="GridCell.Tab.1.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590653" />
     <state width="931" height="340" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065929" />
+    <state width="931" height="340" key="GridCell.Tab.1.left/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891861" />
     <state width="1890" height="340" key="GridCell.Tab.1.left/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398386" />
-    <state width="931" height="340" key="GridCell.Tab.1.right" timestamp="1606825065930">
+    <state width="931" height="340" key="GridCell.Tab.1.right" timestamp="1606919891861">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.1.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685550" />
     <state width="1891" height="341" key="GridCell.Tab.1.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
     <state width="931" height="340" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065930" />
+    <state width="931" height="340" key="GridCell.Tab.1.right/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891861" />
     <state width="1890" height="340" key="GridCell.Tab.1.right/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398386" />
-    <state width="931" height="340" key="GridCell.Tab.2.bottom" timestamp="1606825065933">
+    <state width="931" height="340" key="GridCell.Tab.2.bottom" timestamp="1606919891863">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.bottom/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685553" />
     <state width="1891" height="341" key="GridCell.Tab.2.bottom/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590656" />
     <state width="931" height="340" key="GridCell.Tab.2.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065933" />
+    <state width="931" height="340" key="GridCell.Tab.2.bottom/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891863" />
     <state width="1890" height="340" key="GridCell.Tab.2.bottom/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398387" />
-    <state width="931" height="340" key="GridCell.Tab.2.center" timestamp="1606825065932">
+    <state width="931" height="340" key="GridCell.Tab.2.center" timestamp="1606919891863">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.center/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685552" />
     <state width="1891" height="341" key="GridCell.Tab.2.center/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590655" />
     <state width="931" height="340" key="GridCell.Tab.2.center/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065932" />
+    <state width="931" height="340" key="GridCell.Tab.2.center/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891863" />
     <state width="1890" height="340" key="GridCell.Tab.2.center/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398387" />
-    <state width="931" height="340" key="GridCell.Tab.2.left" timestamp="1606825065931">
+    <state width="931" height="340" key="GridCell.Tab.2.left" timestamp="1606919891862">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.left/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685552" />
     <state width="1891" height="341" key="GridCell.Tab.2.left/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590654" />
     <state width="931" height="340" key="GridCell.Tab.2.left/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065931" />
+    <state width="931" height="340" key="GridCell.Tab.2.left/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891862" />
     <state width="1890" height="340" key="GridCell.Tab.2.left/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398386" />
-    <state width="931" height="340" key="GridCell.Tab.2.right" timestamp="1606825065932">
+    <state width="931" height="340" key="GridCell.Tab.2.right" timestamp="1606919891863">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="1890" height="340" key="GridCell.Tab.2.right/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604539685553" />
     <state width="1891" height="341" key="GridCell.Tab.2.right/0.1103.1112.811/36.23.1884.1057@36.23.1884.1057" timestamp="1604235590655" />
     <state width="931" height="340" key="GridCell.Tab.2.right/0.23.1920.1057@0.23.1920.1057" timestamp="1606825065932" />
+    <state width="931" height="340" key="GridCell.Tab.2.right/1920.269.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1606919891863" />
     <state width="1890" height="340" key="GridCell.Tab.2.right/393.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1605087398387" />
     <state width="1891" height="341" key="GridCell.Tab.3.bottom" timestamp="1604022800975">
       <screen x="0" y="23" width="1920" height="1057" />

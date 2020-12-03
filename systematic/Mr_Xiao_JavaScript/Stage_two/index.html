@@ -61,7 +61,7 @@
     </div>
   </header>
 
-  <!--轮播图-->
+  <!--轮播图占位-->
   <nav>
     <div class="bg">
       <img src="./img/banner-1.jpg" alt="">
@@ -189,7 +189,7 @@
       </div>
     </div>
   </nav>
-  <!--热门直播-->
+  <!--热门直播占位-->
   <div class="live wrap clearfix">
     <div class="little">
       <h1>热门直播</h1>
@@ -197,36 +197,76 @@
     </div>
 
     <!-- 占位 -->
-    <div class="liveL">
+    <div class="liveL clearfix">
 
     </div>
-    <div class="liveR">
+    <div class="liveR clearfix">
 
     </div>
-
-
-    <!-- 模版内容 -->
-    <script type="text/html" id="con">
-      <ul>
-        {{each con value i}}
-        <li>
-          <img src="{{value.src}}" alt="">
-        </li>
-        {{/each}}
-      </ul>
-    </script>
-
-    <script type="text/html" id="sele">
-      <ul>
-        {{each sele value i}}
-        <li>
-            <span>{{value.time}}</span>
-            {{value.title}}
-        </li>
-        {{/each}}
-      </ul>
-    </script>
   </div>
+  <!-- video视频占位 -->
+  <div class="video wrap">
+    <div id="videoSel">
+      <h2>精品网课</h2>
+      <div class="videoSel1">
+
+      </div>
+      <span>更多</span>
+    </div>
+    <div class="videoCon1">
+
+    </div>
+  </div>
+
+
+  <!-- live视频模版 -->
+  <script type="text/html" id="con">
+    <ul>
+      {{each con value i}}
+      <li>
+        <img src="{{value.src}}" alt="">
+      </li>
+      {{/each}}
+    </ul>
+  </script>
+
+  <script type="text/html" id="sele">
+    <ul>
+      {{each sele value i}}
+      <li>
+        <span>{{value.time}}</span>
+        {{value.title}}
+      </li>
+      {{/each}}
+    </ul>
+  </script>
+
+
+  <!-- video视频模板 -->
+  <script type="text/html" id="videoSel1">
+    <ul>
+      {{each selector value i}}
+      <li>
+        {{value}}
+      </li>
+      {{/each}}
+    </ul>
+  </script>
+  <script type="text/html" id="videoCon1">
+    {{each content value i}}
+    <ul>
+      {{each value item j}}
+      <li>
+        <img src="{{item.src}}" alt="">
+        <p>{{item.text}}</p>
+        <span>{{item.price}}</span>
+        <span>{{item.time}}</span>
+      </li>
+      {{/each}}
+    </ul>
+    {{/each}}
+  </script>
+
   <!--尾部-->
   <footer>
     <div class="wrap">
