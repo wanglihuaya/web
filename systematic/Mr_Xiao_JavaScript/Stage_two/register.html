@@ -1,32 +1,143 @@
 <!DOCTYPE html>
-<html lang = "zh-CN">
+<html lang="zh-CN">
 
 <head>
-  <meta charset = "UTF-8">
-  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-  <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
-  <!-- <link rel="stylesheet" href="./css/rigister.css"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/register.css">
   <title>register</title>
-  <style>
-    .box {
-      width: 1200px;
-    }
-    .box1 {
-      background-color: tomato;
-      width: 100%;
-      height: 100px;
-    }
-  </style>
 </head>
 
 <body>
-  <div class="box">
-    <div class="box1">
-    
+  <!--导航栏部分-->
+  <header>
+    <div class="hbox">
+      <a href="http://xue.ujiuye.com/" class="logo"></a>
+      <ul class="hlist">
+        <li>首页</li>
+        <li>精品课程</li>
+        <li>在线直播</li>
+        <li>IT培训</li>
+        <li>IT培训机构</li>
+        <li>IT问答库</li>
+      </ul>
+      <button class="happ">
+        APP下载
+      </button>
+      <div class="search">
+        <input type="text">
+        <img src="./img/etk_09.jpg" alt="search">
+      </div>
+      <div class="dlogin">
+        <a href="http://xue.ujiuye.com/shopcart/cart_to_shop/" class="shopbar"><img src="./img/shopbar.jpg"
+            alt="shop"></a>
+        <div class="scan">
+          <a href="" class="scan"><img src="./img/ujyx_14.jpg" alt="scan"></a>
+          <div class="scan1">
+            <p>
+              <img src="./img/ujyx_16.jpg" alt="">
+              <span class="word">
+                扫码下载
+                <br>
+                IT优学APP
+              </span>
+            </p>
+            <p>
+              <img src="./img/ujyx_17.jpg" alt="">
+              <span class="word">
+                扫码下载
+                <br>
+                IT优学APP
+              </span>
+            </p>
+          </div>
+
+        </div>
+        <a href="./login.html" class="login">登录</a>
+        <a href="" class="register">注册</a>
+      </div>
     </div>
-  
+  </header>
+
+  <!-- 注册 -->
+  <div class="register">
+    <div class="wrap">
+      <div class="left">
+        <form action="">
+          <div class="phone">
+            <label for="phone">手机 ： </label>
+            <input type="text" placeholder="请输入手机号" name="phone" id="phone" required value="22">
+            <span>账号格式不正确！</span>
+            <i>请输入手机号！</i>
+          </div>
+          <div class="pwd">
+            <label for="pwd">创建密码 ： </label>
+            <input type="text" placeholder="请输入密码" name="pwd" id="pwd" required>
+            <span>密码应该为6-20位之间！</span>
+            <i>请输入密码！</i>
+
+          </div>
+          <div class="pwda">
+            <label for="pwda">确认密码 ： </label>
+            <input type="text" placeholder="请再次输入密码" name="pwda" id="pwda" required>
+            <span>两次密码不一致！</span>
+            <i>请输再次入密码！</i>
+          </div>
+          <div class="vcode"">
+            <label for=" vcode">验证码 ： </label>
+            <input type="text" placeholder="请输入验证码" name="vcode" id="vcode" required>
+            <span>验证码不正确！</span>
+            <i>请输入验证码！</i>
+            <img src="./img/yan1.png" alt="">
+          </div>
+          <div class="pcode">
+            <label for="pcode">短信验证 ： </label>
+            <input type="text" placeholder="请输入验证码" name="pcode" id="pcode" required>
+            <span>验证码不正确！</span>
+            <i>请输入验证码！</i>
+            <em>获取短信</em>
+          </div>
+          <button>登录</button>
+        </form>
+        <p><span><a href="https://commands.top/">找回密码</a></span><span><a href="https://commands.top/">注册</a></span></p>
+      </div>
+      <div class="right">
+        <p>用户专享服务:</p>
+        <p>极致的视频学习体验 </p>
+        <p>丰富的直播课程免费学</p>
+        <p>开课提醒，不错过每一次精彩</p>
+        <p>讲、学、练、考，多种高效学习方式快速提升成绩</p>
+      </div>
+    </div>
   </div>
 
+  <!--尾部-->
+  <footer>
+    <div class="wrap">
+      <ul class="top">
+        <li>关于我们 |&nbsp</li>
+        <li>联系我们 |&nbsp</li>
+        <li>加入我们 |&nbsp</li>
+        <li>品牌荣誉 |&nbsp</li>
+        <li>版权申明 |&nbsp</li>
+        <li>网站地图 |&nbsp</li>
+        <li>支付方式</li>
+      </ul>
+      <div class="middle">
+        Copyright©1999-2020 北京中公教育科技有限公司 .All Rights Reserved
+      </div>
+      <div class="bottom">
+        <i>京ICP备10218183号-88</i>
+        <img src="http://xue.ujiuye.com/public/images/gongbei.png" alt="">
+        京ICP证161188号
+        <i>京公网安备11010802020723号</i>
+        <img src="http://xue.ujiuye.com/uploads_it/2008/QuanGuo/F8K1178241218YGC.png" alt="">
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/register.js"></script>
 </body>
 
 </html>

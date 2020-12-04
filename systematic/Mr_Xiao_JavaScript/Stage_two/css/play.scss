@@ -275,12 +275,16 @@ body {
 					border: 1px solid #999;
 				}
 			}
-			.outs{
+			.outs {
 				height: 365px;
 				overflow: auto;
+				box-sizing: border-box;
+				border: 1px solid #999;
+				padding: 0 10px;
 			}
 			.out {
 				padding: 10px 0;
+				border-bottom: 2px dotted #999;
 				img {
 					width: 28px;
 					height: 28px;
@@ -311,6 +315,30 @@ body {
 					font-size: 12px;
 					text-align: right;
 					margin-right: 10px;
+				}
+			}
+			.click {
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				margin: 6px 0;
+				input {
+					width: 8px;
+					margin-right: 4px;
+					height: 12px;
+					padding: 0 2px;
+					outline: none;
+					border: 1px solid #999;
+					font-size: 12px;
+				}
+				button {
+					margin: 0 10px;
+					height: 20px;
+					line-height: 20px;
+					font-size: 12px;
+					outline: none;
+					border: none;
+					// border: 1px solid #999
 				}
 			}
 		}

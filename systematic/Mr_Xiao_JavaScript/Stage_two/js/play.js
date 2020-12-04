@@ -20,7 +20,6 @@ ajax("./data/play.json", "get", function (res) {
     }
   }
 
-
   /*
    ** 相关课程里的JS 
    */

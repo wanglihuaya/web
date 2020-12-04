@@ -1,1 +1,430 @@
-/* No CSS *//*# sourceMappingURL=register.css.map */
+@charset "UTF-8";
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  margin: 0;
+  font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
+}
+
+p,
+dl,
+dd,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  font-family: inherit;
+  vertical-align: middle;
+  outline: none;
+  /* 去掉输入框点击时出现的轮廓框 */
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+body {
+  margin: 0 auto;
+  /*导航栏部分*/
+  /*尾部*/
+}
+body header {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+body header .hbox {
+  margin: 0 auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+body header .hbox .logo {
+  background-image: url(../img/logo_it.jpg);
+  background-position: 220px 32px;
+  width: 220px;
+  height: 32px;
+  margin-right: 20px;
+}
+body header .hbox ul {
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .hbox ul li {
+  margin: 0 12.5px;
+  cursor: pointer;
+}
+body header .hbox ul li:hover {
+  color: #ff6f35;
+}
+body header .hbox button {
+  margin-left: 12px;
+  margin-right: 50px;
+  width: 79px;
+  height: 31px;
+  outline: none;
+  border: 1px solid #ff451d;
+  color: #ff451d;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body header .hbox .search {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 150px;
+  height: 24px;
+  margin-right: 16px;
+  border: 1px solid #666666;
+  border-radius: 20px;
+}
+body header .hbox .search img {
+  margin-left: 5px;
+}
+body header .hbox .search input {
+  width: 110px;
+  border: 1px solid #666666;
+  height: 24px;
+  margin-left: 11px;
+}
+body header .hbox .dlogin {
+  width: 154px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .hbox .scan {
+  position: relative;
+}
+body header .hbox .scan:hover .scan1 {
+  display: block;
+}
+body header .hbox .scan .scan1 {
+  width: 187px;
+  height: 208px;
+  background-color: #eee;
+  font-size: 14px;
+  position: absolute;
+  top: 37px;
+  left: -91px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: none;
+}
+body header .hbox .scan .scan1:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: #eee;
+  position: absolute;
+  top: -20px;
+  left: 90px;
+}
+body header .hbox .scan .scan1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body header .hbox .scan .scan1 p img {
+  width: 69px;
+  height: 69px;
+}
+body header .hbox .scan .scan1 p span {
+  margin-left: 10px;
+}
+body .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+body footer {
+  background-color: #404144;
+}
+body footer .wrap {
+  padding: 34px 0;
+  background-color: #404144;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+body footer .wrap ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+body footer .wrap ul li:hover {
+  color: #ff712b;
+  cursor: pointer;
+}
+body footer .wrap .middle {
+  color: #b2b2b2;
+}
+body footer .wrap .bottom {
+  color: #999;
+}
+body footer .wrap .bottom i:hover {
+  color: #ff712b;
+  cursor: pointer;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .register {
+  height: 100%;
+}
+body .register .wrap {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+body .register .wrap .left {
+  margin-top: 100px;
+  width: 529px;
+  font-size: 14px;
+  border-right: 1px solid #aaa;
+}
+body .register .wrap .left label {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+}
+body .register .wrap .left input {
+  width: 260px;
+  height: 30px;
+  border: 1px solid #999;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+body .register .wrap .left span {
+  font-size: 12px;
+  color: #ff451d;
+  display: none;
+}
+body .register .wrap .left i {
+  font-size: 12px;
+  color: #999;
+  display: none;
+}
+body .register .wrap .left .vcode {
+  position: relative;
+}
+body .register .wrap .left .vcode img {
+  position: absolute;
+  left: 288px;
+  top: 7px;
+  width: 50px;
+  cursor: pointer;
+}
+body .register .wrap .left .pcode {
+  position: relative;
+}
+body .register .wrap .left .pcode em {
+  position: absolute;
+  left: 280px;
+  top: 8px;
+  cursor: pointer;
+}
+body .register .wrap .left .pcode em:hover {
+  color: #ff451d;
+}
+body .register .wrap .left button {
+  background-color: #ff451d;
+  border: none;
+  outline: none;
+  width: 260px;
+  height: 42px;
+  color: white;
+  line-height: 42px;
+  margin-left: 84px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+body .register .wrap .left div {
+  margin-bottom: 20px;
+}
+body .register .wrap .left p {
+  width: 338px;
+  height: 17px;
+  line-height: 17px;
+  display: flex;
+  justify-content: flex-end;
+}
+body .register .wrap .left p span {
+  font-size: 14px;
+  margin-left: 10px;
+}
+body .register .wrap .right {
+  margin-top: 100px;
+}
+body .register .wrap .right p {
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #999;
+}
+body .register .wrap .right p:first-of-type {
+  font-size: 16px;
+  color: #333;
+}

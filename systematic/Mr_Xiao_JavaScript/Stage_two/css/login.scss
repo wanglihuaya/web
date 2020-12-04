@@ -1,0 +1,99 @@
+@import "reset.scss", "common.scss";
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	.register {
+		height: 100%;
+		.wrap {
+			width: 1000px;
+			// padding: 0 0 calc(100vh - 248px - 278px) 0;
+			display: flex;
+			justify-content: space-between;
+			.left {
+				margin-top: 100px;
+				width: 529px;
+				font-size: 14px;
+				border-right: 1px solid #aaa;
+				input {
+					width: 260px;
+					height: 30px;
+					border: 1px solid #999;
+					padding: 0 5px;
+					box-sizing: border-box;
+				}
+				button {
+					background-color: $orange;
+					border: none;
+					outline: none;
+					width: 260px;
+					height: 42px;
+					color: white;
+					line-height: 42px;
+					margin-left: 50px;
+					margin-bottom: 20px;
+					font-size: 14px;
+				}
+				div {
+					margin-bottom: 20px;
+				}
+				p {
+					width: 308px;
+					height: 17px;
+					line-height: 17px;
+					display: flex;
+					justify-content: flex-end;
+					span {
+						font-size: 14px;
+						margin-left: 10px;
+					}
+				}
+			}
+			.right {
+				margin-top: 100px;
+				p {
+					height: 25px;
+					line-height: 25px;
+					font-size: 14px;
+				}
+				ul {
+					margin: 20px 0;
+					display: flex;
+					justify-content: center;
+					li {
+						margin-right: 50px;
+					}
+					a.one {
+						display: block;
+						width: 45px;
+						height: 45px;
+						background: url("../img/dsf_03.jpg");
+						&:hover {
+							background: url("../img/dsh_h_03.jpg");
+						}
+					}
+					a.two {
+						display: block;
+						width: 45px;
+						height: 45px;
+						background: url("../img/dsf_05.jpg");
+						&:hover {
+							background: url("../img/dsh_h_05.jpg");
+						}
+					}
+					a.three {
+						display: block;
+						width: 45px;
+						height: 45px;
+						background: url("../img/dsf_07.jpg");
+						&:hover {
+							background: url("../img/dsh_h_07.jpg");
+						}
+					}
+				}
+			}
+		}
+	}
+}

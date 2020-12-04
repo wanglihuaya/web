@@ -572,9 +572,13 @@ body .course .right label input {
 body .course .right .outs {
   height: 365px;
   overflow: auto;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: 0 10px;
 }
 body .course .right .out {
   padding: 10px 0;
+  border-bottom: 2px dotted #999;
 }
 body .course .right .out img {
   width: 28px;
@@ -606,4 +610,27 @@ body .course .right .out .time {
   font-size: 12px;
   text-align: right;
   margin-right: 10px;
+}
+body .course .right .click {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 6px 0;
+}
+body .course .right .click input {
+  width: 8px;
+  margin-right: 4px;
+  height: 12px;
+  padding: 0 2px;
+  outline: none;
+  border: 1px solid #999;
+  font-size: 12px;
+}
+body .course .right .click button {
+  margin: 0 10px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  outline: none;
+  border: none;
 }
