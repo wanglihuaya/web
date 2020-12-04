@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>移动端事件</title>
+</head>
+
+<body>
+  <div class="box" style="background-color: #98dbff; width: 200px; height: 200px">
+
+  </div>
+  <script>
+    var box = document.querySelector(".box");
+
+    //按下
+    box.addEventListener("touchstart", function (ev) {
+      //this.innerHTML = ev.touchstart.length;
+      //this.innerHTML = ev.targetTouches.length;
+      this.innerHTML = ev.changedTouches.length;
+
+
+      console.log(ev.changedTouches); //是一个类数组
+      var touch = ev.changedTouches[0];
+      console.log(touch);
+      console.log(touch.identifier); // 标识符
+      console.log(touch.target);// 目标源
+      console.log(touch.screenX, touch.screenY);// 到显示器左上角的位置
+      console.log(touch.clientX, touch.clientY);// 到可视区左上角的位置
+      console.log(touch.pageX, touch.pageY);// 到页面左上角的位置
+      console.log(touch.radiusX, touch.radiusY);// 半径
+      console.log(touch.rotationAngle); //旋转角度
+      console.log(touch.force);// 压力大小
+    });
+  </script>
+</body>
+
+</html>

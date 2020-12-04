@@ -29,19 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/index.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/index.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/dist/index.dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/media/1、动画.50.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/media/3、立方体mp4.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day17/art-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day17/art-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day18/form.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,6 +263,7 @@
       <workItem from="1606824155924" duration="176000" />
       <workItem from="1606824937658" duration="129000" />
       <workItem from="1606919832828" duration="60000" />
+      <workItem from="1607094718945" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
