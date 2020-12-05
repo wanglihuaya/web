@@ -345,6 +345,9 @@ body .register .wrap .left {
   font-size: 14px;
   border-right: 1px solid #aaa;
 }
+body .register .wrap .left .phone span {
+  color: red;
+}
 body .register .wrap .left input {
   width: 260px;
   height: 30px;

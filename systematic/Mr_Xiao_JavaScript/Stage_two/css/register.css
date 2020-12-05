@@ -345,6 +345,10 @@ body .register .wrap .left {
   font-size: 14px;
   border-right: 1px solid #aaa;
 }
+body .register .wrap .left div {
+  display: flex;
+  align-items: center;
+}
 body .register .wrap .left label {
   display: inline-block;
   width: 80px;
@@ -361,11 +365,17 @@ body .register .wrap .left span {
   font-size: 12px;
   color: #ff451d;
   display: none;
+  margin-left: 10px;
 }
 body .register .wrap .left i {
   font-size: 12px;
   color: #999;
   display: none;
+  margin-left: 10px;
+}
+body .register .wrap .left svg {
+  display: none;
+  margin-left: 10px;
 }
 body .register .wrap .left .vcode {
   position: relative;

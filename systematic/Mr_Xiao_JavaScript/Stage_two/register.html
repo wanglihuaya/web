@@ -64,42 +64,82 @@
   <div class="register">
     <div class="wrap">
       <div class="left">
-        <form action="">
-          <div class="phone">
-            <label for="phone">手机 ： </label>
-            <input type="text" placeholder="请输入手机号" name="phone" id="phone" required value="22">
-            <span>账号格式不正确！</span>
-            <i>请输入手机号！</i>
-          </div>
-          <div class="pwd">
-            <label for="pwd">创建密码 ： </label>
-            <input type="text" placeholder="请输入密码" name="pwd" id="pwd" required>
-            <span>密码应该为6-20位之间！</span>
-            <i>请输入密码！</i>
-
-          </div>
-          <div class="pwda">
-            <label for="pwda">确认密码 ： </label>
-            <input type="text" placeholder="请再次输入密码" name="pwda" id="pwda" required>
-            <span>两次密码不一致！</span>
-            <i>请输再次入密码！</i>
-          </div>
-          <div class="vcode"">
+        <!-- <form action=""> -->
+        <div class="phone">
+          <label for="phone">手机 ： </label>
+          <input type="text" placeholder="请输入手机号" name="phone" id="phone" required maxlength="11">
+          <span>账号格式不正确！</span>
+          <i>请输入手机号！</i>
+          <svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+              font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="12" font-weight="normal">
+              <text id="" fill="green">
+                <tspan x="-1" y="10">􀁢</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div class="pwd">
+          <label for="pwd">创建密码 ： </label>
+          <input type="password" placeholder="请输入密码" name="pwd" id="pwd" required maxlength="20">
+          <span>密码应该为5-20位之间！</span>
+          <i>请输入密码！</i>
+          <svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+              font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="12" font-weight="normal">
+              <text id="" fill="green">
+                <tspan x="-1" y="10">􀁢</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div class="pwda">
+          <label for="pwda">确认密码 ： </label>
+          <input type="password" placeholder="请再次输入密码" name="pwda" id="pwda" required>
+          <span>两次密码不一致！</span>
+          <i>请确认密码！</i>
+          <span>请先创建密码！</span>
+          <svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+              font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="12" font-weight="normal">
+              <text id="" fill="green">
+                <tspan x="-1" y="10">􀁢</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div class="vcode"">
             <label for=" vcode">验证码 ： </label>
-            <input type="text" placeholder="请输入验证码" name="vcode" id="vcode" required>
-            <span>验证码不正确！</span>
-            <i>请输入验证码！</i>
-            <img src="./img/yan1.png" alt="">
-          </div>
-          <div class="pcode">
-            <label for="pcode">短信验证 ： </label>
-            <input type="text" placeholder="请输入验证码" name="pcode" id="pcode" required>
-            <span>验证码不正确！</span>
-            <i>请输入验证码！</i>
-            <em>获取短信</em>
-          </div>
-          <button>登录</button>
-        </form>
+          <input type="text" placeholder="请输入验证码" name="vcode" id="vcode" required maxlength="5" autocomplete="off">
+          <span>验证码不正确！</span>
+          <i>请输入验证码！</i>
+          <svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+              font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="12" font-weight="normal">
+              <text id="" fill="green">
+                <tspan x="-1" y="10">􀁢</tspan>
+              </text>
+            </g>
+          </svg>
+          <img src="" alt="">
+        </div>
+        <div class="pcode">
+          <label for="pcode">短信验证 ： </label>
+          <input type="text" placeholder="请输入验证码" name="pcode" id="pcode" required maxlength="5" autocomplete="off">
+          <span>验证码不正确！</span>
+          <i>请输入5位验证码！</i>
+          <svg width="24px" height="22px" viewBox="0 0 12 12" class="green3">
+            <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+              font-family="SFCompactDisplay-Regular, SF Compact Display" font-size="12" font-weight="normal">
+              <text id="" fill="green">
+                <tspan x="-1" y="10">􀁢</tspan>
+              </text>
+            </g>
+          </svg>
+          <em>获取短信</em>
+        </div>
+        <button class="submit">注册</button>
+        <!-- </form> -->
         <p><span><a href="https://commands.top/">找回密码</a></span><span><a href="https://commands.top/">注册</a></span></p>
       </div>
       <div class="right">

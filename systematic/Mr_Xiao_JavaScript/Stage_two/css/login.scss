@@ -17,6 +17,11 @@ body {
 				width: 529px;
 				font-size: 14px;
 				border-right: 1px solid #aaa;
+				.phone {
+					span {
+						color: red;
+					}
+				}
 				input {
 					width: 260px;
 					height: 30px;

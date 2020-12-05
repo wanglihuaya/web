@@ -16,51 +16,61 @@ body {
 				margin-top: 100px;
 				width: 529px;
 				font-size: 14px;
-        border-right: 1px solid #aaa;
-        label {
-          display: inline-block;
-          width: 80px;
-          text-align: right;
-        }
+				border-right: 1px solid #aaa;
+				div {
+					display: flex;
+					align-items: center;
+				}
+				label {
+					display: inline-block;
+					width: 80px;
+					text-align: right;
+				}
 				input {
 					width: 260px;
 					height: 30px;
 					border: 1px solid #999;
 					padding: 0 5px;
 					box-sizing: border-box;
-        }
-        span {
-          font-size: 12px;
-          color: $orange;
-          display: none;
-        }
-        i {
-          font-size: 12px;
-          color: #999;
-          display: none;
-        }
-        .vcode {
-          position: relative;
-          img {
-            position: absolute;
-            left: 288px;
-            top: 7px;
-            width: 50px;
-            cursor: pointer;
-          }
-        }
-        .pcode {
-          position: relative;
-          em {
-            position: absolute;
-            left: 280px;
-            top: 8px;
-            cursor: pointer;
-            &:hover {
-              color: $orange;
-            }
-          }
-        }
+				}
+				span {
+					font-size: 12px;
+					color: $orange;
+					display: none;
+					margin-left: 10px;
+				}
+				i {
+					font-size: 12px;
+					color: #999;
+					display: none;
+					margin-left: 10px;
+				}
+				svg {
+					display: none;
+					margin-left: 10px;
+				}
+				.vcode {
+					position: relative;
+					img {
+						position: absolute;
+						left: 288px;
+						top: 7px;
+						width: 50px;
+						cursor: pointer;
+					}
+				}
+				.pcode {
+					position: relative;
+					em {
+						position: absolute;
+						left: 280px;
+						top: 8px;
+						cursor: pointer;
+						&:hover {
+							color: $orange;
+						}
+					}
+				}
 				button {
 					background-color: $orange;
 					border: none;
@@ -93,14 +103,13 @@ body {
 				p {
 					height: 35px;
 					line-height: 35px;
-          font-size: 14px;
-          color: #999;
-          &:first-of-type {
-            font-size: 16px;
-            color: #333;
-          }
+					font-size: 14px;
+					color: #999;
+					&:first-of-type {
+						font-size: 16px;
+						color: #333;
+					}
 				}
-
 			}
 		}
 	}
