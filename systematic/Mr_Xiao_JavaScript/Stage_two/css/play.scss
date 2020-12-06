@@ -276,18 +276,22 @@ body {
 				}
 			}
 			.outs {
-				height: 365px;
+				height: 320px;
 				overflow: auto;
 				box-sizing: border-box;
-				border: 1px solid #999;
+				// border: 1px solid #999;
 				padding: 0 10px;
 			}
 			.out {
 				padding: 10px 0;
 				border-bottom: 2px dotted #999;
+				&:last-of-type {
+					border: none;
+				}
 				img {
 					width: 28px;
 					height: 28px;
+					border-radius: 50%;
 				}
 				.name {
 					font-size: 16px;
@@ -321,7 +325,7 @@ body {
 				display: flex;
 				justify-content: flex-start;
 				align-items: center;
-				margin: 6px 0;
+				margin: 6px 0 0 100px;
 				input {
 					width: 8px;
 					margin-right: 4px;
@@ -338,7 +342,17 @@ body {
 					font-size: 12px;
 					outline: none;
 					border: none;
+					cursor: pointer;
+					&:hover {
+						color: $orange;
+					}
 					// border: 1px solid #999
+				}
+				span {
+					cursor: pointer;
+					&:hover {
+						color: $orange;
+					}
 				}
 			}
 		}

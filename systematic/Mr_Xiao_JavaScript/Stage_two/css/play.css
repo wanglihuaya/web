@@ -570,19 +570,22 @@ body .course .right label input {
   border: 1px solid #999;
 }
 body .course .right .outs {
-  height: 365px;
+  height: 320px;
   overflow: auto;
   box-sizing: border-box;
-  border: 1px solid #999;
   padding: 0 10px;
 }
 body .course .right .out {
   padding: 10px 0;
   border-bottom: 2px dotted #999;
 }
+body .course .right .out:last-of-type {
+  border: none;
+}
 body .course .right .out img {
   width: 28px;
   height: 28px;
+  border-radius: 50%;
 }
 body .course .right .out .name {
   font-size: 16px;
@@ -615,7 +618,7 @@ body .course .right .click {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin: 6px 0;
+  margin: 6px 0 0 100px;
 }
 body .course .right .click input {
   width: 8px;
@@ -633,4 +636,14 @@ body .course .right .click button {
   font-size: 12px;
   outline: none;
   border: none;
+  cursor: pointer;
+}
+body .course .right .click button:hover {
+  color: #ff451d;
+}
+body .course .right .click span {
+  cursor: pointer;
+}
+body .course .right .click span:hover {
+  color: #ff451d;
 }
