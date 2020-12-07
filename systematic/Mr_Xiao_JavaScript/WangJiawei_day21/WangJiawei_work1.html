@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>work2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .bg {
+      width: 800px;
+      margin: 100px auto;
+    }
+
+    .bg #box1 {
+      border: 1px solid black;
+      /*width: 800px;*/
+      height: 500px;
+      position: relative;
+    }
+
+    .bg #box1 #box2 {
+      width: 400px;
+      height: 200px;
+      border: 1px solid black;
+      margin: 20px 0 20px 20px;
+    }
+
+    .bg #box1 input {
+      margin-left: 20px;
+    }
+
+    .bg #box1 #box3 {
+      position: absolute;
+      width: 800px;
+      height: 500px;
+      background-color: rgba(0, 0, 0, .5);
+      top: 0;
+      left: 0;
+      display: none;
+    }
+
+    .bg #box1 #box3 #box4 {
+      width: 200px;
+      margin: 20px;
+      float: right;
+      background-color: #fff;
+      padding: 10px;
+    }
+
+    .bg #box1 #box3 #box4 p {
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px 5px;
+      width: 78px;
+    }
+
+    .bg #box1 #box3 #box4 h2 {
+      margin-left: 5px;
+    }
+
+    .bg #box1 #box3 #box4 button {
+      margin-left: 5px;
+    }
+
+    .bg #box1 #box3 #box4 .box5 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: center;
+
+    }
+
+    .bg #box1 #box3 #box4 .box6 {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg">
+    <div id="box1">
+      <div id="box2"></div>
+      <input type="button" value="点击显示div样式" id="btn1">
+      <div id="box3">
+        <div id="box4">
+
+          <h2>大小</h2>
+          <div class="box5">
+            <p id="p1">300*300</p>
+            <p id="p2">200*300</p>
+            <p id="p3">300*200</p>
+            <p id="p4">100*300</p>
+          </div>
+          <h2>颜色</h2>
+          <div class="box6">
+            <p id="p5">红色</p>
+            <p id="p6">蓝色</p>
+            <p id="p7">绿色</p>
+            <p id="p8">蓝绿</p>
+          </div>
+
+          <br>
+          <button id="btn2">确定</button>
+          <button id="btn3">取消</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./jquery.js"></script>
+  <script>
+    var box2 = $("#box2");
+    var btn2 = $("#btn2");
+    var btn3 = $("#btn3");
+    var box3 = $("#box3");
+    var p2 = $("#p2");
+    var p3 = $("#p3");
+    var p4 = $("#p4");
+    var p5 = $("#p5");
+    var p6 = $("#p6");
+    var p7 = $("#p7");
+    var p8 = $("#p8");
+    console.log($("#btn1"));
+    // btn1.onclick = function () {
+    //   box3.style.display = "block";
+    // };
+    // $("#p1").onmouseover = function () {
+    //   box2.style.width = "300px";
+    //   box2.style.height = "300px";
+    // };
+    p2.onmouseover = function () {
+      box2.style.width = "300px";
+      box2.style.height = "200px";
+    };
+    p3.onmouseover = function () {
+      box2.style.width = "200px";
+      box2.style.height = "300px";
+    };
+    p4.onmouseover = function () {
+      box2.style.width = "100px";
+      box2.style.height = "300px";
+    };
+    p5.onmouseover = function () {
+      box2.style.backgroundColor = "tomato";
+    };
+    p6.onmouseover = function () {
+      box2.style.backgroundColor = "cornflowerblue";
+    };
+    p7.onmouseover = function () {
+      box2.style.backgroundColor = "teal";
+    };
+    p8.onmouseover = function () {
+      box2.style.backgroundColor = "slateblue";
+    };
+
+
+
+
+    btn2.onclick = function () {
+      box3.style.display = "none";
+      box2.style.backgroundColor = "box2.style.backgroundColor";
+    };
+    btn3.onclick = function () {
+      box3.style.display = "none";
+      box2.style.cssText = "";
+
+    };
+  </script>
+</body>
+
+</html>
