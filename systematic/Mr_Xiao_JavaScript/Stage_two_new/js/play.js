@@ -7,15 +7,19 @@ ajax("./data/play.json", "get", function (res) {
   /*  
    ** 相关直播列表的Js
    */
+  var liveVideo = document.querySelector(".videoV iframe")
   var live = document.querySelector(".live .bottom");
-  var liveLi = live.querySelectorAll("li");
-  var lives = document.querySelector("video");
-  var html1 = template("videoList", res);
+  var html1 = template("videoList",res);
   live.innerHTML += html1;
-
-  for (let i = 0; i < liveLi.length; i++) {
+  var liveLi = live.querySelectorAll("li");
+  // console.log(liveVideo.src);
+  // console.log(liveLi);
+  // console.log(res.video[0].src);
+  
+  for (var i = 0; i < liveLi.length; i++) {
+    liveLi[i].idx = i
     liveLi[i].onclick = function () {
-      lives.src = res.video[i].src;
+      liveVideo.src = res.video[this.idx].src;
     }
   }
 
@@ -93,8 +97,4 @@ ajax("./data/play.json", "get", function (res) {
     }
   }
 
-
-  /* 
-   ** 
-   */
 })

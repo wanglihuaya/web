@@ -338,6 +338,10 @@ body .container {
   background-color: #292929;
   margin: 0 auto;
 }
+body .container iframe {
+  width: 860px;
+  height: 100%;
+}
 body .container .title {
   background-color: #292929;
   width: 100%;

@@ -7,8 +7,11 @@ body {
 	/*视频部分*/
 	.container {
 		background-color: #292929;
-		margin: 0 auto;
-
+		margin: 0 auto; 
+iframe {
+	width: 860px;
+	height: 100%;
+}
 		.title {
 			background-color: #292929;
 			width: 100%;

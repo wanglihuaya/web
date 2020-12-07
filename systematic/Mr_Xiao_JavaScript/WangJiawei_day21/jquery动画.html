@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>jquery动画</title>
+  <style>
+    div.ok {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      background-color: rgb(0, 98, 132);
+      top: 0;
+      left: 0;
+    }
+  </style>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <p>When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+    $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</p>
+  <p>
+    When
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>a</mi>
+      <mo>&#x2260;</mo>
+      <mn>0</mn>
+    </math>,
+    there are two solutions to
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mi>a</mi>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mi>b</mi>
+      <mi>x</mi>
+      <mo>+</mo>
+      <mi>c</mi>
+      <mo>=</mo>
+      <mn>0</mn>
+    </math>
+    and they are
+    <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+      <mi>x</mi>
+      <mo>=</mo>
+      <mrow>
+        <mfrac>
+          <mrow>
+            <mo>&#x2212;</mo>
+            <mi>b</mi>
+            <mo>&#x00B1;</mo>
+            <msqrt>
+              <msup>
+                <mi>b</mi>
+                <mn>2</mn>
+              </msup>
+              <mo>&#x2212;</mo>
+              <mn>4</mn>
+              <mi>a</mi>
+              <mi>c</mi>
+            </msqrt>
+          </mrow>
+          <mrow>
+            <mn>2</mn>
+            <mi>a</mi>
+          </mrow>
+        </mfrac>
+      </mrow>
+      <mtext>.</mtext>
+    </math>
+  </p>
+  <div class="ok"></div>
+  <script src="./jquery.js"></script>
+  <script>
+    $(document).on("keypress", function () {
+
+      // $(this).toggle(4000, "swing", function () {
+      //   console.log("hahahaha!")
+      // });
+
+      // $("div").fadeToggle(20);
+
+      // $("div").slideToggle(200);
+
+      // $("div").animate({
+      //   width: 800
+      // }, 1000, "swing", function () {
+      //   alert("我到头了!!")
+      // });
+
+      // $(".ko").animate({
+      //   width: "+=10",
+      //   height: "+=10"
+      // }, 17, "swing");
+
+      // $("div").animate({
+      //   width: 100,
+      //   height: 100
+      // }, {
+      //   duration: 3000,
+      //   complete: function () {
+      //     $("div").css("background-color", "red");
+      //   }
+      // });
+
+      $("div")
+        .animate({
+          left: "+=10"
+        }, 6)
+        .animate({
+          left: "-=9"
+        }, 6)
+        .animate({
+          left: "+=11"
+        }, 6)
+        .animate({
+          top: "+=10"
+        }, 6)
+        .animate({
+          top: "-=9"
+        }, 6)
+        .animate({
+          top: "+=11"
+        }, 6);
+
+
+    })
+  </script>
+</body>
+
+</html>
