@@ -174,7 +174,6 @@ strong {
 body {
   margin: 0 auto;
   /*导航栏部分*/
-  /*尾部*/
 }
 body header {
   width: 1200px;
@@ -246,13 +245,13 @@ body header .hbox .dlogin {
   justify-content: space-between;
   align-items: center;
 }
-body header .hbox .scan {
+body header .hbox .dlogin .scan {
   position: relative;
 }
-body header .hbox .scan:hover .scan1 {
+body header .hbox .dlogin .scan:hover .scan1 {
   display: block;
 }
-body header .hbox .scan .scan1 {
+body header .hbox .dlogin .scan .scan1 {
   width: 187px;
   height: 208px;
   background-color: #eee;
@@ -265,7 +264,7 @@ body header .hbox .scan .scan1 {
   border-radius: 5px;
   display: none;
 }
-body header .hbox .scan .scan1:before {
+body header .hbox .dlogin .scan .scan1:before {
   content: "";
   width: 0;
   height: 0;
@@ -275,27 +274,33 @@ body header .hbox .scan .scan1:before {
   top: -20px;
   left: 90px;
 }
-body header .hbox .scan .scan1 p {
+body header .hbox .dlogin .scan .scan1 p {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-body header .hbox .scan .scan1 p img {
+body header .hbox .dlogin .scan .scan1 p img {
   width: 69px;
   height: 69px;
 }
-body header .hbox .scan .scan1 p span {
+body header .hbox .dlogin .scan .scan1 p span {
   margin-left: 10px;
 }
-body .wrap {
+body header .hbox .dlogin a:hover {
+  color: #ff451d;
+}
+
+.wrap {
   width: 1200px;
   margin: 0 auto;
 }
-body footer {
+
+/*尾部*/
+footer {
   background-color: #404144;
 }
-body footer .wrap {
+footer .wrap {
   padding: 34px 0;
   background-color: #404144;
   height: 120px;
@@ -304,23 +309,23 @@ body footer .wrap {
   justify-content: space-around;
   align-items: center;
 }
-body footer .wrap ul {
+footer .wrap ul {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #999;
 }
-body footer .wrap ul li:hover {
+footer .wrap ul li:hover {
   color: #ff712b;
   cursor: pointer;
 }
-body footer .wrap .middle {
+footer .wrap .middle {
   color: #b2b2b2;
 }
-body footer .wrap .bottom {
+footer .wrap .bottom {
   color: #999;
 }
-body footer .wrap .bottom i:hover {
+footer .wrap .bottom i:hover {
   color: #ff712b;
   cursor: pointer;
 }

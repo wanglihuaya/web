@@ -2,83 +2,74 @@
 ajax("./data/index.json", "get", function (res) {
 
   res = JSON.parse(res);
-  //动态渲染页面
-  /*   for (var i = 0; i < res.banner.length; i++) {
-      //创建li 和 span
-      var li = document.createElement('li');
-      var span = document.createElement("span");
-      li.innerHTML = ' <img src="' + res.banner[i] + '" alt="">';
-      ul.appendChild(li);
-      p.appendChild(span);
+
+  //轮播图
+
+  var bannerContent = template("banner", res)
+  banner.innerHTML += bannerContent;
+  var bgImg = banner.querySelectorAll("img");
+  var dots = document.querySelectorAll(".bg ul li div");
+  var n = 0;
+  //图片自动轮播
+  function autoMove() {
+    n++;
+    if (n > 5) {
+      n = 0;
     }
-    var lis = ul.children;
-    var spans = p.children;
+    if (n < 0) {
+      n = 5;
+    }
+    for (var i = 0; i < bgImg.length; i++) {
+      bufferMove(bgImg[i], {
+        opacity: 0
+      });
+    }
+    bufferMove(bgImg[n], {
+      opacity: 1
+    });
+    //dots变色
+    for (var j = 0; j < dots.length; j++) {
+      dots[j].style.backgroundColor = "#fff";
+    }
+    dots[n].style.backgroundColor = "tomato";
+  }
 
-    //透明度轮播效果
-    //自动轮播
-    var n = 0;
+  var timer = setInterval(autoMove, 2000);
+  //移入停止
+  banner.onmouseover = function () {
+    clearInterval(timer);
+  }
+  banner.onmouseout = function () {
+    timer = setInterval(autoMove, 2000);
+  }
+  //点击箭头
+  bannerRight.onclick = function () {
+    autoMove();
+  }
+  bannerLeft.onclick = function () {
+    n -= 2;
+    autoMove();
+  }
+  //序号轮播
+  for (var k = 0; k < dots.length; k++) {
+    dots[k].idx = k;
+    dots[k].onclick = function () {
+      for (var l = 0; l < dots.length; l++) {
+        dots[l].style.backgroundColor = "#fff";
+      }
+      this.style.backgroundColor = "tomato";
 
-    function auto() {
-      n++;
-      if (n > 5) {
-        n = 0;
-      }
-      if (n < 0) {
-        n = 5
-      }
-      for (var j = 0; j < lis.length; j++) {
-        bufferMove(lis[j], {
+      for (var j = 0; j < dots.length; j++) {
+        bufferMove(bgImg[j], {
           opacity: 0
         });
       }
-      bufferMove(lis[n], {
+      bufferMove(bgImg[this.idx], {
         opacity: 1
       });
-      //序号变色
-      for (var l = 0; l < spans.length; l++) {
-        spans[l].style.backgroundColor = "#fff";
-      }
-      spans[n].style.backgroundColor = "red"
+      n = this.idx;
     }
-    var timer = setInterval(auto, 2000)
-    //鼠标移入父元素 停止自动轮播
-    banner.onmouseover = function () {
-      clearInterval(timer);
-    }
-    banner.onmouseout = function () {
-      timer = setInterval(auto, 2000)
-    }
-    //箭头轮播
-    rightArr.onclick = auto;
-    leftArr.onclick = function () {
-      n -= 2;
-      auto()
-    }
-    //序号轮播
-    for (var k = 0; k < spans.length; k++) {
-      spans[k].idx = k;
-      spans[k].onclick = function () {
-        //点谁谁亮
-        for (var l = 0; l < spans.length; l++) {
-          spans[l].style.backgroundColor = "#fff";
-        }
-        this.style.backgroundColor = "red";
-        //切换图片
-        //点击序号 切换图片 其实就是点击哪一个序号 切换对应图片
-        for (var j = 0; j < lis.length; j++) {
-          bufferMove(lis[j], {
-            opacity: 0
-          });
-        }
-        bufferMove(lis[this.idx], {
-          opacity: 1
-        });
-        //关联箭头和自动轮播
-        n = this.idx;
-      }
-    }
-   */
-
+  }
 
 
   //热门直播部分的js
@@ -144,3 +135,6 @@ ajax("./data/index.json", "get", function (res) {
     }
   }
 })
+var banner = document.querySelector(".bg");
+var bannerLeft = document.querySelector(".banner_left");
+var bannerRight = document.querySelector(".banner_right");

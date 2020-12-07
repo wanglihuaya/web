@@ -17,7 +17,6 @@ body {
 		align-items: center;
 
 		.hbox {
-			//background-color: #eee;
 			margin: 0 auto;
 			display: flex;
 			justify-content: start;
@@ -85,49 +84,55 @@ body {
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
-			}
-			.scan {
-				position: relative;
-				&:hover {
+				.scan {
+					position: relative;
+					&:hover {
+						.scan1 {
+							display: block;
+						}
+					}
 					.scan1 {
-						display: block;
+						width: 187px;
+						height: 208px;
+						background-color: #eee;
+						font-size: 14px;
+						position: absolute;
+						top: 37px;
+						left: -91px;
+						padding: 20px;
+						box-sizing: border-box;
+						border-radius: 5px;
+						display: none;
+						&:before {
+							content: "";
+							width: 0;
+							height: 0;
+							border: 10px solid transparent;
+							border-bottom-color: #eee;
+							position: absolute;
+							top: -20px;
+							left: 90px;
+						}
+						p {
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							margin-bottom: 30px;
+							img {
+								width: 69px;
+								height: 69px;
+							}
+							span {
+								margin-left: 10px;
+							}
+						}
 					}
 				}
-				.scan1 {
-					width: 187px;
-					height: 208px;
-					background-color: #eee;
-					font-size: 14px;
-					position: absolute;
-					top: 37px;
-					left: -91px;
-					padding: 20px;
-					box-sizing: border-box;
-					border-radius: 5px;
-					display: none;
-					&:before {
-						content: "";
-						width: 0;
-						height: 0;
-						border: 10px solid transparent;
-						border-bottom-color: #eee;
-						position: absolute;
-						top: -20px;
-						left: 90px;
+				a {
+					&:hover {
+						color: $orange;
 					}
-					p {
-						display: flex;
-						justify-content: center;
-						align-items: center;
-						margin-bottom: 30px;
-						img {
-							width: 69px;
-							height: 69px;
-						}
-						span {
-							margin-left: 10px;
-						}
-					}
+				}
 				}
 			}
 		}
@@ -177,4 +182,4 @@ body {
 			}
 		}
 	}
-}
+

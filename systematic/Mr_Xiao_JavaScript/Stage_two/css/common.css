@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   margin: 0;
   font: 12px/1 "Microsoft YaHei", Tahoma, Arial, Helvetica, sans-serif;
@@ -90,6 +91,7 @@ body {
   /*导航栏部分*/
   /*尾部*/
 }
+
 body header {
   width: 1200px;
   height: 60px;
@@ -98,12 +100,14 @@ body header {
   display: flex;
   align-items: center;
 }
+
 body header .hbox {
   margin: 0 auto;
   display: flex;
   justify-content: start;
   align-items: center;
 }
+
 body header .hbox .logo {
   background-image: url(../img/logo_it.jpg);
   background-position: 220px 32px;
@@ -111,19 +115,23 @@ body header .hbox .logo {
   height: 32px;
   margin-right: 20px;
 }
+
 body header .hbox ul {
   color: #666666;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 body header .hbox ul li {
   margin: 0 12.5px;
   cursor: pointer;
 }
+
 body header .hbox ul li:hover {
   color: #ff6f35;
 }
+
 body header .hbox button {
   margin-left: 12px;
   margin-right: 50px;
@@ -135,6 +143,7 @@ body header .hbox button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 body header .hbox .search {
   display: flex;
   justify-content: start;
@@ -145,28 +154,34 @@ body header .hbox .search {
   border: 1px solid #666666;
   border-radius: 20px;
 }
+
 body header .hbox .search img {
   margin-left: 5px;
 }
+
 body header .hbox .search input {
   width: 110px;
   border: 1px solid #666666;
   height: 24px;
   margin-left: 11px;
 }
+
 body header .hbox .dlogin {
   width: 154px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-body header .hbox .scan {
+
+body header .hbox .dlogin .scan {
   position: relative;
 }
-body header .hbox .scan:hover .scan1 {
+
+body header .hbox .dlogin .scan:hover .scan1 {
   display: block;
 }
-body header .hbox .scan .scan1 {
+
+body header .hbox .dlogin .scan .scan1 {
   width: 187px;
   height: 208px;
   background-color: #eee;
@@ -179,7 +194,8 @@ body header .hbox .scan .scan1 {
   border-radius: 5px;
   display: none;
 }
-body header .hbox .scan .scan1:before {
+
+body header .hbox .dlogin .scan .scan1:before {
   content: "";
   width: 0;
   height: 0;
@@ -189,26 +205,36 @@ body header .hbox .scan .scan1:before {
   top: -20px;
   left: 90px;
 }
-body header .hbox .scan .scan1 p {
+
+body header .hbox .dlogin .scan .scan1 p {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-body header .hbox .scan .scan1 p img {
+
+body header .hbox .dlogin .scan .scan1 p img {
   width: 69px;
   height: 69px;
 }
-body header .hbox .scan .scan1 p span {
+
+body header .hbox .dlogin .scan .scan1 p span {
   margin-left: 10px;
 }
+
+body header .hbox .dlogin a:hover {
+  color: #ff451d;
+}
+
 body .wrap {
   width: 1200px;
   margin: 0 auto;
 }
+
 body footer {
   background-color: #404144;
 }
+
 body footer .wrap {
   padding: 34px 0;
   background-color: #404144;
@@ -218,22 +244,27 @@ body footer .wrap {
   justify-content: space-around;
   align-items: center;
 }
+
 body footer .wrap ul {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #999;
 }
+
 body footer .wrap ul li:hover {
   color: #ff712b;
   cursor: pointer;
 }
+
 body footer .wrap .middle {
   color: #b2b2b2;
 }
+
 body footer .wrap .bottom {
   color: #999;
 }
+
 body footer .wrap .bottom i:hover {
   color: #ff712b;
   cursor: pointer;
