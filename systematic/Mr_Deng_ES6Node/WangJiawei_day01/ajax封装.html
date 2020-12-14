@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>ajax</title>
+</head>
+
+<body>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script>
+    function getData({
+      type = "get",
+      url = "",
+      data = "null",
+      dataType = "json"
+    }) {
+      $.ajax({
+        type,
+        url,
+        data,
+        dataType,
+        beforeSend: function () {
+          //ajax发送前
+        },
+        success: function (response) {
+          //ajax成功后
+          console.log(response);
+        },
+        error: function (err) {
+          //ajax失败后
+        }
+      });
+    }
+    getData({
+      type: "post",
+      url: "http://api.shenzhou888.com.cn/v2/ecapi.banner.list"
+    });
+  </script>
+</body>
+
+</html>
