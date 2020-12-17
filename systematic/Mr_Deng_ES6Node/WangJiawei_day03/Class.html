@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>Class</title>
+</head>
+
+<body>
+
+  <script>
+    /*  function Person(name) {
+      console.log("!");
+      this.name = name;
+    }
+    Person.prototype.say = function () {
+      console.log(this.name + "说明");
+    }
+    var p1 = new Person("Ming");
+    p1.say(); */
+
+    //Class写法
+    class Person {
+      a = 1;
+      //调用类的构造函数
+      constructor(name, age) {
+        this.name = name;
+        this.age = age;
+      }
+
+      //定义一般的方法
+      showName() {
+        console.log(this.name, this.age);
+      }
+    }
+    let person = new Person("Ming", 10);
+    console.log(person,person.showName(),person.a);
+  </script>
+</body>
+
+</html>

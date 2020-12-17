@@ -10,28 +10,22 @@
   <title>Ajax轮播图</title>
   <style>
     .swiper-slide {
+      width: 100px;
       height: 600px;
     }
 
     #swiper1 {
-      background-color: teal;
+      /* background-color: teal; */
     }
 
     #swiper2 {
-      background-color: tomato;
-    }
-
-    #swiper3 {
-      background-color: rgb(92, 143, 238);
-    }
-    #swiper4 {
-      background-color: rgb(255, 153, 0)
-      ;
+      /* background-color: tomato; */
     }
   </style>
 </head>
 
 <body>
+
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide" id="swiper1"></div>
@@ -44,31 +38,52 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 
+    <script src="work_1.js"></script>
     <script src="swiper-bundle.js"></script>
     <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-    <script src="work_1.js"></script>
+
     <script>
-      var mySwiper = new Swiper('.swiper-container', {
-        direction: 'horizontal',
-        loop: true, // 循环模式选项
-        autoplay: true, //可选选项，自动滑动
-        grabCursor: true,
-        // 如果需要分页器
-        pagination: {
-          el: '.swiper-pagination',
-        },
+      getData({
+        type: "post",
+        url: "http://api.shenzhou888.com.cn/v2/ecapi.banner.list"
+      }, function (data) {
+        let pic = data;
+        let pics = [];
+        let {
+          banners
+        } = pic;
+        for (let i = 0; i < banners.length; i++) {
+          pics.push(banners[i].photo.thumb);
+        }
 
-        // 如果需要前进后退按钮
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
+        console.log(`${pics[0]}`);
+        $("#swiper1").css('background-image', "url(" + pics[0] + ")");
+        $("#swiper2").css({
+          "background-image": `url(${pics[1]})`
+        });
+        var mySwiper = new Swiper('.swiper-container', {
+          keyboard : true,
+          autoplay: {
+            delay: 1000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+          },
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
 
-        // 如果需要滚动条
-        scrollbar: {
-          el: '.swiper-scrollbar',
-        },
-      })
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },
+
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }
+        })
+      });
+    
     </script>
 
 </body>

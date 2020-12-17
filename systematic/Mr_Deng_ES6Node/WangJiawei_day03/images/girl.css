@@ -1,0 +1,12 @@
+			.girl{
+				width: 79px;height: 108px;
+				background:url(images/aisidier.png);
+				background-position: 0px -216px;
+				position: absolute;
+				left: 0;
+				top: 100px;
+				text-align: center;
+			}
+			#info span{
+				font-size: 24px;color: red;
+			}

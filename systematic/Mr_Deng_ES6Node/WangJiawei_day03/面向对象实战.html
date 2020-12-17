@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./images/girl.css">
+  <title>面向对象实战</title>
+</head>
+
+<body>
+  <script>
+    class Person {
+      constructor() {
+        this.posX = 50;
+        this.posY = Person.randomNumber(500, 20);
+        this.speed = Person.randomNumber(5, 1); //速度，一个时间周期内，移动多少像素
+        this.step = 0; //控制背景图片,0~7
+        this.addBody();
+      }
+      //静态函数
+      static randomNumber(max, min) {
+        return Math.floor(Math.random() * (max - min) + min)
+      }
+      //成员函数
+      addBody() {
+        this.body = document.createElement('div');
+        this.body.setAttribute('class', 'girl');
+        this.body.style.top = this.posY + "px";
+        this.body.style.left = this.posX + "px";
+        document.body.appendChild(this.body);
+      }
+      //成员函数
+      go() {
+        if (this.step > 7) {
+          this.step = 0;
+        }
+        this.step++;
+        this.body.style.backgroundPositionX = -this.step *79 + "px";
+        this.posX += this.speed;
+        this.body.style.left = this.posX + "px";
+      }
+      stop() {
+       
+          this.body.style.backgroundPositionX = "0px";
+      }
+    }
+
+    //子类
+    class Girl extends Person {
+      constructor(name) {
+        super();
+        this.name = name;
+        this.setName();
+      }
+      setName() {
+        this.body.innerHTML = this.name;
+      }
+    }
+
+    let girlArr = []; //设置小人个数
+    girlArr.push(new Girl("👮🏻‍♀️"));
+    girlArr.push(new Girl("👩🏻‍🍳"));
+    girlArr.push(new Girl("👩🏻‍🎓"));
+    // for (let i = 0; i < 4; i++) {
+    //   girlArr.push(new Person());
+    // }
+    let girlScore = [];
+    setInterval(function () {
+      for (let item of girlArr) {
+        if (item.posX >= 300) {
+          item.stop();
+          girlScore.push(item.name);
+          let girlScoreZ = new Set(girlScore);
+        } else {
+          item.go();
+        }
+      }
+    }, 50);
+  </script>
+</body>
+</html>

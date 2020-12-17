@@ -1,0 +1,96 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"result": [
+		{
+			"id": 397,
+			"name": "迎江区",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246000",
+			"depth": 3
+		},
+		{
+			"id": 398,
+			"name": "大观区",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246000",
+			"depth": 3
+		},
+		{
+			"id": 399,
+			"name": "宜秀区",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246000",
+			"depth": 3
+		},
+		{
+			"id": 400,
+			"name": "桐城市",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "231400",
+			"depth": 3
+		},
+		{
+			"id": 401,
+			"name": "怀宁县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246100",
+			"depth": 3
+		},
+		{
+			"id": 403,
+			"name": "潜山县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246300",
+			"depth": 3
+		},
+		{
+			"id": 404,
+			"name": "太湖县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246400",
+			"depth": 3
+		},
+		{
+			"id": 405,
+			"name": "宿松县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246500",
+			"depth": 3
+		},
+		{
+			"id": 406,
+			"name": "望江县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246200",
+			"depth": 3
+		},
+		{
+			"id": 407,
+			"name": "岳西县",
+			"parentid": 35,
+			"parentname": "安庆",
+			"areacode": "0556",
+			"zipcode": "246600",
+			"depth": 3
+		}
+	]
+}

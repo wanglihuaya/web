@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <title>async...await</title>
+</head>
+
+<body>
+
+  <script>
+    //声明 async函数
+    async function fn() {
+      // console.log(a)
+      return "Hello World"
+    }
+    let a = fn();
+    // console.log(a);
+    //async函数返回的promise状态是自动的，不需要像promise一样手动的调用resolve()和reject()方法
+    //async函数调用结果返回一个promise实例对象，因此也可用then()和catch()
+    a.then((data) => {
+      console.log(data)
+    }).catch((error) => {
+      console.log(error)
+    })
+  </script>
+
+</body>
+
+</html>

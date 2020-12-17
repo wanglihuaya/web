@@ -1,0 +1,150 @@
+{
+	"status": 0,
+	"msg": "ok",
+	"result": [
+		{
+			"id": 35,
+			"name": "安庆",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0556",
+			"zipcode": "246000",
+			"depth": 2
+		},
+		{
+			"id": 36,
+			"name": "蚌埠",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0552",
+			"zipcode": "233000",
+			"depth": 2
+		},
+		{
+			"id": 38,
+			"name": "池州",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0566",
+			"zipcode": "247100",
+			"depth": 2
+		},
+		{
+			"id": 39,
+			"name": "滁州",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0550",
+			"zipcode": "239000",
+			"depth": 2
+		},
+		{
+			"id": 40,
+			"name": "阜阳",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0558",
+			"zipcode": "236000",
+			"depth": 2
+		},
+		{
+			"id": 41,
+			"name": "淮北",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0561",
+			"zipcode": "235000",
+			"depth": 2
+		},
+		{
+			"id": 42,
+			"name": "淮南",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0554",
+			"zipcode": "232000",
+			"depth": 2
+		},
+		{
+			"id": 43,
+			"name": "黄山",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0559",
+			"zipcode": "245000",
+			"depth": 2
+		},
+		{
+			"id": 44,
+			"name": "六安",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0564",
+			"zipcode": "237000",
+			"depth": 2
+		},
+		{
+			"id": 45,
+			"name": "马鞍山",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0555",
+			"zipcode": "243000",
+			"depth": 2
+		},
+		{
+			"id": 46,
+			"name": "宿州",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0557",
+			"zipcode": "234000",
+			"depth": 2
+		},
+		{
+			"id": 47,
+			"name": "铜陵",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0562",
+			"zipcode": "244100",
+			"depth": 2
+		},
+		{
+			"id": 48,
+			"name": "芜湖",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0553",
+			"zipcode": "241100",
+			"depth": 2
+		},
+		{
+			"id": 49,
+			"name": "宣城",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0563",
+			"zipcode": "242000",
+			"depth": 2
+		},
+		{
+			"id": 50,
+			"name": "亳州",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0558",
+			"zipcode": "236000",
+			"depth": 2
+		},
+		{
+			"id": 3400,
+			"name": "合肥",
+			"parentid": 2,
+			"parentname": "安徽",
+			"areacode": "0551",
+			"zipcode": "230000",
+			"depth": 2
+		}
+	]
+}

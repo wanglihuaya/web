@@ -3,7 +3,7 @@
       url = "",
       data = "null",
       dataType = "json"
-    }) {
+    }, callback) {
       $.ajax({
         type,
         url,
@@ -14,26 +14,11 @@
         },
         success: function (response) {
           //ajax成功后
-          let pic = response;
-          let {
-            banners: [{
-              photo: {
-                thumb: a
-              }
-            }, {
-              photo: {
-                thumb: b
-              }
-            }]
-          } = pic;
-          console.log(a);
+          callback(response);
         },
         error: function (err) {
           //ajax失败后
         }
       });
     }
-    getData({
-      type: "post",
-      url: "http://api.shenzhou888.com.cn/v2/ecapi.banner.list"
-    });
+    
