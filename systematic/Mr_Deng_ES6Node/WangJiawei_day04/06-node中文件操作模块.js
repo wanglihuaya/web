@@ -35,4 +35,3 @@ fs.unlink('./hello.text', (err) => {b
     console.log('删除成功');
   }
 }) 
-console.log(node_modules.paths);

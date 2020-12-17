@@ -12,6 +12,7 @@
   "author": "Command_S",
   "license": "ISC",
   "dependencies": {
+    "chinese-lunar": "^0.1.4",
     "num2capital": "^1.0.5",
     "nzh": "^1.0.4"
   }

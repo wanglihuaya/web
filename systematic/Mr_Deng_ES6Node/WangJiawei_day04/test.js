@@ -7,16 +7,11 @@ function fn() {
 
 class Person {
   constructor() {
-    this.name = "张三"
+    this.name = "lihua"
   }
   say() {
-    console.log(`我是${this.name}`);
+    console.log(`I am ${this.name}`);
   }
 }
 
-//向外暴露 exports 可以理解为是一个 {}
-module.exports = {
-  a,
-  fn,
-  Person
-}
+module.exports = Person;
