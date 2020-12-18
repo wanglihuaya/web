@@ -28,20 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/play.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/.sass-cache/5d67c8cd3cb01a9ddc81b0cb40b7128bd9b1b1e3/play.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/css/play.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/cts-播放页图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/cts-注册页图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/cts-登录页面图片.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/cts-首页图片 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/play.json" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/data/play.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/ds.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/play.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/js/play.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Stage_two/play.html" afterDir="false" />
-    </list>
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -275,6 +262,7 @@
       <workItem from="1607094718945" duration="5000" />
       <workItem from="1607259854316" duration="335000" />
       <workItem from="1607341085664" duration="109000" />
+      <workItem from="1608250734132" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
