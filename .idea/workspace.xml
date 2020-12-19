@@ -28,7 +28,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二" />
+    <list default="true" id="c28cf773-7a9b-4e3e-a9d9-00014944bd45" name="默认的" comment="项目二">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day04/06-node中文件操作模块.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day04/06-node中文件操作模块.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/y异步读取目录文件.js" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/y异步读取目录文件.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/创建的目录/aaa.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/创建的目录/ok.text" beforeDir="false" afterPath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/创建的目录/ok.text" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systematic/Mr_Deng_ES6Node/WangJiawei_day05/创建的目录/敢杀我的马.mp3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,10 +106,16 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Wangjiawei_work7" />
+      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/images" />
+      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css" />
+      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei.day17" />
       <recent name="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/WangJiawei_day06" />
@@ -110,14 +123,8 @@
       <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css" />
       <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/images" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/systematic/Mr_Xiao_JavaScript/Wangjiawei_work7" />
-      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/images" />
-      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day18/css" />
-      <recent name="$PROJECT_DIR$/systematic/miss_Jiang_HTML5CSS3/WangJiawei_day15/u_mall_mobile/css" />
-    </key>
   </component>
-  <component name="RunManager" selected="JavaScript 调试.index.html (1)">
+  <component name="RunManager" selected="JavaScript 调试.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/Stage_two/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -133,15 +140,6 @@
     <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web/systematic/Mr_Xiao_JavaScript/Stage_two/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript 调试.index.html (1)" />
-        <item itemvalue="JavaScript 调试.register.html" />
-        <item itemvalue="JavaScript 调试.play.html (1)" />
-        <item itemvalue="JavaScript 调试.index.html" />
-        <item itemvalue="JavaScript 调试.play.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -263,6 +261,10 @@
       <workItem from="1607259854316" duration="335000" />
       <workItem from="1607341085664" duration="109000" />
       <workItem from="1608250734132" duration="11000" />
+      <workItem from="1608344261625" duration="281000" />
+      <workItem from="1608344608182" duration="236000" />
+      <workItem from="1608345189274" duration="246000" />
+      <workItem from="1608345464390" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="b">
       <created>1603964590253</created>
@@ -601,10 +603,10 @@
     </state>
     <state x="545" y="57" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604495936301" />
     <state x="545" y="57" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1605491244400" />
-    <state x="1124" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606782450101">
+    <state x="1124" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1608344286037">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1124" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1606782450101" />
+    <state x="1124" y="284" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1608344286037" />
     <state x="1111" y="246" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606824286868">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -768,11 +770,11 @@
     </state>
     <state x="1086" y="89" key="RollbackChangesDialog/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603971803871" />
     <state x="1086" y="89" key="RollbackChangesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1605491062583" />
-    <state x="697" y="108" key="SettingsEditor" timestamp="1606823495136">
+    <state x="290" y="100" key="SettingsEditor" timestamp="1608345608906">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="486" y="118" key="SettingsEditor/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604041213786" />
-    <state x="697" y="108" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1606823495136" />
+    <state x="290" y="100" key="SettingsEditor/0.23.1920.1057@0.23.1920.1057" timestamp="1608345608906" />
     <state x="621" y="227" width="675" height="655" key="StructurePopup" timestamp="1603960431582">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -804,10 +806,11 @@
     </state>
     <state x="136" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1604301912016" />
     <state x="136" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1920.1057@0.23.1920.1057" timestamp="1604036971575" />
-    <state x="1210" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603964566643">
+    <state x="1210" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608345206629">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1210" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603964566643" />
+    <state x="1210" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1057@0.23.1920.1057" timestamp="1608345206629" />
     <state x="0" y="23" width="960" height="1057" key="dock-window-1" timestamp="1606824264382">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
@@ -821,11 +824,11 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="1001" y="208" width="875" height="663" key="recent.locations.popup/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603964176250" />
-    <state x="540" y="251" key="run.anything.popup" timestamp="1606785575518">
+    <state x="540" y="251" key="run.anything.popup" timestamp="1608345330841">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="540" y="251" key="run.anything.popup/0.1103.1112.811/0.23.1920.1057@0.23.1920.1057" timestamp="1603953116425" />
-    <state x="540" y="251" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1606785575518" />
+    <state x="540" y="251" key="run.anything.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1608345330841" />
     <state x="1019" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1606745947414">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>

@@ -1,16 +1,28 @@
 let fs = require('fs');
 
 fs.readdir('./创建的目录', async (err, files) => {
-  console.log(files);
-  if (files.isDirectory()) {
-
+  //if error,log err
+  if (err) {
+    return console.log(err);
+    ;
+  } else {
     console.log(files);
     let poem = "like a poem:";
-    console.log(poem);
+    //Loop through each files
     for (const file of files) {
-      poem += await readF("./创建的目录" + file);
+      //Sync view file information
+      let stat = fs.statSync("./创建的目录/" + file);
+      if (stat.isFile()) {
+        // No error and is file
+        poem += await readF("./创建的目录/" + file);
+      }
     }
+    console.log(poem);
+    
+    // }
   }
+  // })
+  // }
 });
 
 function readF(url) {
