@@ -29,33 +29,31 @@
         });
       });
     }
-  
+    
     //promise的链式语法
     //如果在then()方法的最后return新的promise实例对象，可采用链式语法，即层层嵌套的写法
-    getJson({
-      url: "./data/province.json"
-    })
-      .then((data) => {
-        //省
-        console.log(data);
-        return getJson({
-          url: "./data/city.json"
-        });
-      })
-      .then((data) => {
-        //市
-        console.log(data);
-        return getJson({
-          url: "./data/town.json"
-        });
-      })
-      .then((data) => {
-        //县、区
-        console.log(data);
-      })
-      .catch((error) => {
-        console.log(error);
+    getJson({url: "./data/province.json"})
+    .then((data) => {
+      //省™
+      console.log(data);
+      return getJson({
+        url: "./data/city.json"
       });
+    })
+    .then((data) => {
+      //市
+      console.log(data);
+      return getJson({
+        url: "./data/town.json"
+      });
+    })
+    .then((data) => {
+      //县、区
+      console.log(data);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
   </script>
 </body>
 
