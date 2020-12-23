@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>form</title>
+  </head>
+
+  <body>
+    <form action="/signUp" method="post" enctype="multipart/form-data">
+      <label for="name">Name:</label>
+      <input
+        type="text"
+        name="uName"
+        id="name"
+        placeholder="please enter your name"
+      />
+      <br />
+      <label for="age"> A g e:</label>
+      <input
+        type="text"
+        name="age"
+        id="age"
+        placeholder="please enter your age"
+      />
+      <br />
+      <label for="hPhoto">Head_image:</label>
+      <input
+        type="file"
+        name="hPhoto"
+        id="hPhoto"
+        placeholder="please enter your hPhoto"
+      />
+      <br />
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+</html>
