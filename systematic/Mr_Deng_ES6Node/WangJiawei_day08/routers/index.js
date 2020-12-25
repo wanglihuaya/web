@@ -1,6 +1,9 @@
 let express = require("express");
+let path = require("path");
+let router = express.Router();
+let fs = require("fs");
+const formidable = require("formidable");
 let captcha = require("svg-captcha");
-const router = express.Router();
 
 router.get("/", (req, res) => {
   let uName = req.signedCookies.uName || "";
@@ -31,9 +34,6 @@ router.get("/", (req, res) => {
     }
   }
 });
-router.get("/hello", (req, res) => {
-  res.write("<h1>Hello world</h1>");
-});
 
 router.get("/log", (req, res) => {
   res.cookie("uName", "lihua", {
@@ -46,15 +46,15 @@ router.get("/log", (req, res) => {
   //{expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365 * 1000)}
   res.send("cookie set completed");
 });
-
+//captcha
 router.get("/vcode", (req, res) => {
   let option = {
     size: 4,
     width: 200,
-    height: 100,
-    background: "#cccccc",
-    noise: 3,
-    fontSize: 62,
+    height: 60,
+    background: "#999999",
+    noise: 0,
+    fontSize: 72,
     ignoreChars: "0o1iO", //排除字符
     color: true,
   };
@@ -68,7 +68,7 @@ router.get("/vcode", (req, res) => {
 
 router.get("/home", (req, res) => {
   let data = {
-    title: "ejs template home",
+    title: "EJS template home",
     students: [
       {
         name: "Alex",
@@ -86,9 +86,39 @@ router.get("/home", (req, res) => {
         age: 23,
       },
     ],
+    result: ["spring", "summer", "autumn", "winter"],
   };
   //Render Json using EJS template
   res.render("home.ejs", data);
 });
 
+//add data and upload
+router.post("/signUp", (req, res) => {
+  const form = formidable({ multiples: true });
+  form.uploadDir = "./upload"; //相对路径
+  // console.log(typeof dressDir);
+
+  form.parse(req, (err, fields, files) => {
+    if (err) throw err;
+    res.set("Content-Type", "application/json;charset=utf8");
+    // res.send(JSON.stringify({ fields, files }));
+    let { uName, sex } = fields;
+    let oldFile = files.hPhoto.path;
+    let newFile = "upload/" + files.hPhoto.name;
+    fs.rename(oldFile, newFile, (err) => {
+      if (err) throw err;
+      console.log("rename success!");
+      let words = { uName, sex, hPhoto: newFile };
+      fs.appendFile(
+        "./data/" + uName + ".txt",
+        JSON.stringify(words),
+        (err) => {
+          if (err) throw err;
+          console.log("sign up success!");
+          res.send("sign up success!");
+        }
+      );
+    });
+  });
+});
 module.exports = router;

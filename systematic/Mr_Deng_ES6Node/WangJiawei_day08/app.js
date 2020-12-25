@@ -28,12 +28,18 @@ app.set("views engine", ejs);
 //----------------------------------------
 
 //introduce static
-app.use(express.static("./public"));
+app.use(express.static("./public"),{index:"form.html"});
 
 //----------------------------------------
 //router
 app.use("/", routerIndex);
 
+//----------------------------------------
+//404
+app.use((request, response) => {
+  response.status(404);
+  response.send("对不起，找不到您要的资源");
+});
 app.listen(port, (err) => {
   if (err) throw err;
   console.log(

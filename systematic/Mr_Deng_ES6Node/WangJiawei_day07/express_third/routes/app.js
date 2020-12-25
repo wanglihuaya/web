@@ -1,7 +1,7 @@
 let express = require("express");
 let path = require("path");
 let router = express.Router();
-const fs = require("fs");
+let fs = require("fs");
 const formidable = require("formidable");
 
 router.post("/signUp", (req, res) => {
@@ -13,7 +13,6 @@ router.post("/signUp", (req, res) => {
     if (err) throw err;
     res.set("Content-Type", "application/json;charset=utf8");
     // res.send(JSON.stringify({ fields, files }));
-    console.log(JSON.stringify({ fields, files }));
     let { uName, sex } = fields;
     // let extName = path.extname(name);
     let oldFile = files.hPhoto.path;
