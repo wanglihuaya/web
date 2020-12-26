@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello world!</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- zui -->
+    <link href="dist/css/zui.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <%- include("head.ejs") %>
+      <div class="row">
+        <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+          <%- include("left_menu.ejs") %>
+        </div>
+        <div class="col-xs-6 col-sm-8 col-md-9 col-lg-9">
+          <ol class="breadcrumb">
+            <li>
+              <a href="index.html"><i class="icon icon-home"></i>首页</a>
+            </li>
+            <li><a href="#">录入信息</a></li>
+            <li class="active">课程录入</li>
+          </ol>
+          <hr />
+          <table class="table table-bordered">
+            <tr>
+              <td>序号</td>
+              <td>班号</td>
+              <td>班长</td>
+              <td>班主任</td>
+              <td>教室</td>
+              <td>修改</td>
+            </tr>
+            <!--    <tr>
+                <td>1</td>
+                <td>1904B</td>
+                <td>斛晓强</td>
+                <td>侯老师</td>
+                <td>412</td>
+                <td><a href="#" class="btn btn-sm btn-danger">删除</a></td>
+              </tr> -->
+            <% for(let item of result){ %>
+            <tr>
+              <td><%= item.id %></td>
+              <td><%= item.班号 %></td>
+              <td><%= item.班长 %></td>
+              <td><%= item.班主任 %></td>
+              <td><%= item.教室 %></td>
+              <td>
+                <a href="/del/<%= item.id %>" class="btn btn-sm btn-danger"
+                  >删除</a
+                >
+              </td>
+            </tr>
+            <% } %>
+          </table>
+          <ul
+            id="myPager"
+            class="pager"
+            data-ride="pager"
+            data-page="<%= page %>"
+            data-rec-per-page="<%= pageSize %>"
+            data-rec-total="<%= all_total %>"
+          ></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
+    <script src="dist/js/jquery.min.js"></script>
+    <!-- ZUI Javascript组件 -->
+    <script src="dist/js/zui.min.js"></script>
+    <script>
+      // 手动通过点击模拟高亮菜单项
+      $("#treeMenu").on("click", "a", function () {
+        $("#treeMenu li.active").removeClass("active");
+        $(this).closest("li").addClass("active");
+      });
+
+      $("#myPager").on("onPageChange", function (e, state, oldState) {
+        if (state.page !== oldState.page) {
+          console.log("页码从", oldState.page, "变更为", state.page);
+          window.location.href = "/class_list?page=" + state.page;
+        }
+      });
+    </script>
+  </body>
+</html>
