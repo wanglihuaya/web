@@ -1,0 +1,8 @@
+$width: 100px;
+$height: 100px + $width;
+
+#box {
+  width: $width;
+  height: $height;
+  background-color: teal;
+}

@@ -1,0 +1,9 @@
+body {
+  background-color: tomato;
+}
+div {
+  width: 960px;
+  height: 540px;
+  background-image: url("./img/img0_3840x2160.jpg");
+  background-size: 960px 540px;
+}
