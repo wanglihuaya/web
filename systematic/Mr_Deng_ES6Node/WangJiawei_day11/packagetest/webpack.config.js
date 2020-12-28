@@ -12,16 +12,18 @@ module.exports = {
     publicPath: "./",
     path: path.join(__dirname, "public"), //输出文件路径
   },
-  // mode: "development",
+  //开发者模式（development）：有注释，体积大；生产模式（production）：无注释，体积小
+  mode: "production",
 
   module: {
     rules: [
       {
         //处理.css文件
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ["style-loader", "css-loader"], //从右向左解析。css解析css文件，style是将css以内部样式表的形式嵌入到html中
       },
       {
+        //处理图片
         test: /\.(png|jpg|gif)$/i,
         use: [
           {
@@ -29,13 +31,12 @@ module.exports = {
             options: {
               outputPath: "images/",
               limit: 8192, // 小于 8k 的图片自动转成 base64 格式
-              esModule: false,
+              esModule: false, //关闭url-loader的ES6的模块化解析
             },
           },
         ],
       },
       {
-        //处理图片
         test: /\.(htm|html)$/i,
         loader: "html-withimg-loader",
       },
@@ -65,4 +66,13 @@ module.exports = {
       jQuery: "jquery",
     }),
   ],
+  //热更新
+  devServer: {
+    contentBase: path.resolve(__dirname, "public"),
+    //启动gzip压缩
+    compress: true,
+    port: 3000,
+    //自动打开浏览器
+    open: true,
+  },
 };
