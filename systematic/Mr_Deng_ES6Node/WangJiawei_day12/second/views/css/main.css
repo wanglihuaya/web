@@ -1,0 +1,12 @@
+/* 自定义的css写到这里，为了区分加上dbs_ 前缀 */
+.dbs_header{
+	width: 100%;
+	height: 90px;
+	background-color: #ddd;
+}
+.dbs_header h1{
+	margin: 0;
+	padding:0 0 0 20px;
+	height: 90px;
+	line-height: 90px;
+}

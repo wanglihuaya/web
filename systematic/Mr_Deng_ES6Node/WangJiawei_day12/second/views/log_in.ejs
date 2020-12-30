@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>log_in</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- zui -->
+    <link href="dist/css/zui.min.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="rows">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <h1 style="height: 100px; line-height: 100px; text-align: center">
+            用户登录
+          </h1>
+          <form>
+            <div class="form-group">
+              <label for="account">账号</label>
+              <input
+                type="text"
+                class="form-control"
+                id="account"
+                placeholder="电子邮件/手机号/用户名"
+              />
+            </div>
+            <div class="form-group">
+              <label for="pwd">密码</label>
+              <input
+                type="password"
+                class="form-control"
+                id="pwd"
+                placeholder=""
+              />
+            </div>
+            <button type="button" id="btn" class="btn btn-primary">登录</button>
+          </form>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (ZUI中的Javascript组件依赖于jQuery) -->
+    <script src="dist/js/jquery.min.js"></script>
+    <!-- ZUI Javascript组件 -->
+    <script src="dist/js/zui.min.js"></script>
+    <script>
+      let btn = document.getElementById("btn");
+      btn.onclick = function () {
+        $.ajax({
+          type: "post",
+          url: "/login",
+          data: { account: $("#account").val(), pwd: $("#pwd").val() },
+          dataType: "json",
+          beforeSend() {},
+          success: function (response) {
+            console.log(response);
+            if (response.code == 200) {
+              alert(response.msg);
+              window.location.href = "http://127.0.0.1:3000/";
+            } else {
+              alert(response.msg);
+            }
+          },
+        });
+      };
+    </script>
+  </body>
+</html>
