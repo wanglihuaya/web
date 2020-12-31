@@ -27,6 +27,7 @@ router.get("/first", async (req, res) => {
     res.json({ code: 201, data: null, message: "Failed to get data!!" });
   }
 });
+/* ------------------------------------------------------ */
 
 /* GET category_second page.*/
 router.get("/second/:first_id", async (req, res) => {
@@ -54,6 +55,7 @@ router.get("/second/:first_id", async (req, res) => {
     return;
   }
 });
+/* ------------------------------------------------------ */
 
 /* GET category_third page.*/
 router.get("/third/:second_id", async (req, res) => {
@@ -81,6 +83,7 @@ router.get("/third/:second_id", async (req, res) => {
     return;
   }
 });
+/* ------------------------------------------------------ */
 
 /* Get product details according to the category_third_id */
 router.get("/goods", async (req, res) => {
@@ -126,4 +129,6 @@ router.get("/goods", async (req, res) => {
     return;
   }
 });
+/* ------------------------------------------------------ */
+
 module.exports = router;

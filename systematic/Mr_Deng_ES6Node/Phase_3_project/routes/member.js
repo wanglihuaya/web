@@ -6,6 +6,8 @@ let uuid = require("uuid");
 let crypto = require("crypto");
 let jwt = require("../tools/jwt");
 
+/* ------------------------------------------------------ */
+
 router.put("/user", async (req, res) => {
   console.log(req.body);
   let { username, password } = req.body;
@@ -26,6 +28,7 @@ router.put("/user", async (req, res) => {
     return;
   }
 });
+/* ------------------------------------------------------ */
 
 /* Member Login */
 router.post("/login", async (req, res) => {
