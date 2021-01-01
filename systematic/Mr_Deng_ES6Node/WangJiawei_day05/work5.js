@@ -1,5 +1,5 @@
-let fs = require('fs');
-console.log('Delete a non-empty directory using recursion!');
+let fs = require("fs");
+console.log("Delete a non-empty directory using recursion!");
 
 //Package
 function fn(url) {
@@ -20,13 +20,13 @@ function fn(url) {
             if (err) {
               console.log(err);
             }
-          })
+          });
         } else {
           fn(`${url}/${file}`);
         }
       }
     }
-  })
+  });
 }
 
 function readD(url) {
@@ -37,8 +37,6 @@ function readD(url) {
       } else {
         resolve(files);
       }
-    })
-  })
+    });
+  });
 }
-
-fn('./workDir');

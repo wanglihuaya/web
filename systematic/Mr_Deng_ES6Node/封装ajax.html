@@ -985,6 +985,7 @@
         success: function (response) {
           //ajax成功后
           console.log(response);
+          console.log();
         },
         error: function (error) {
           //ajax失败后
@@ -994,13 +995,11 @@
         }
       });
     }
-    
     getData({
       type: "post",
       url: "http://api.shenzhou888.com.cn/v2/ecapi.banner.list"
     });
-  
-  
   </script>
 </body>
 </html>
+
