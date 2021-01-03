@@ -39,6 +39,7 @@ connection.connect((err) => {
     return;
   }
   console.log("connection successfully!!!" + connection.threadId);
+  console.log("http://localhost:3000");
 });
 //------------------------------------------------------------
 
