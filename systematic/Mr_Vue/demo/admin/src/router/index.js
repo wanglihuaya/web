@@ -5,7 +5,6 @@ import Main from "../views/Main.vue";
 import CategoryEdit from "../views/CategoryEdit.vue";
 
 Vue.use(VueRouter);
-console.log(sad);
 
 const routes = [
   {

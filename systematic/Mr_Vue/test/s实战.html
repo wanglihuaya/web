@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>实战</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .item {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        height: 200px;
+        list-style: none;
+        border: 1px solid #ccc;
+      }
+      .itemInfo {
+        display: inline-block;
+      }
+      h3 {
+        text-align: left;
+      }
+      .singer {
+        color: #999;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <ul>
+        <li class="item" v-for="item in topList">
+          <div class="itemInfo">
+            <h3>{{item.title}}</h3>
+            <p v-for="(list,index) in item.list">
+              {{index+1}}.{{list.sings}}-
+              <span class="singer">{{list.singer}}</span>
+            </p>
+          </div>
+          <img :src="item.img" alt="" />
+        </li>
+      </ul>
+    </div>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          topList: [
+            {
+              id: 1,
+              title: "飙升榜",
+              img:
+                "http://p2.music.126.net/TUaApxrV8FQohukfxx25xQ==/109951165579602758.jpg?imageView=1&thumbnail=40x0",
+              list: [
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+              ],
+            },
+            {
+              id: 1,
+              title: "飙升榜",
+              img:
+                "http://p2.music.126.net/TUaApxrV8FQohukfxx25xQ==/109951165579602758.jpg?imageView=1&thumbnail=40x0",
+              list: [
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+              ],
+            },
+            {
+              id: 2,
+              title: "飙升榜",
+              img:
+                "http://p2.music.126.net/TUaApxrV8FQohukfxx25xQ==/109951165579602758.jpg?imageView=1&thumbnail=40x0",
+              list: [
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+              ],
+            },
+            {
+              id: 3,
+              title: "飙升榜",
+              img:
+                "http://p2.music.126.net/TUaApxrV8FQohukfxx25xQ==/109951165579602758.jpg?imageView=1&thumbnail=40x0",
+              list: [
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+              ],
+            },
+            {
+              id: 2,
+              title: "飙升榜",
+              img:
+                "http://p2.music.126.net/TUaApxrV8FQohukfxx25xQ==/109951165579602758.jpg?imageView=1&thumbnail=40x0",
+              list: [
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+                { sings: "德于以了，你严", singer: "lihua" },
+              ],
+            },
+          ],
+        },
+      });
+    </script>
+  </body>
+</html>
