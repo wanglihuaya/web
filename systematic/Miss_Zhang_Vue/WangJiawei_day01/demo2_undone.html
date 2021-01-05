@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>demo2</title>
+    <link
+      rel="stylesheet"
+      href="./test/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+        <h2 class="text-center text-primary">输入表</h2>
+        <form
+          class="d-flex justify-content-center align-items-center flex-column"
+        >
+          <div class="form-group">
+            <label for="exampleInputEmail1">姓名</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              v-model="infoForm.name"
+            />
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">年龄</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputPassword1"
+              v-model="infoForm.age"
+            />
+          </div>
+          <div class="btn">
+            <button @click="add" type="button" class="btn btn-primary">
+              添加
+            </button>
+            <button @click="reset" type="button" class="btn btn-info">
+              重置
+            </button>
+          </div>
+        </form>
+        <h2 class="text-center text-primary">信息表</h2>
+        <table class="table table-striped table-bordered w-75 m-auto">
+          <thead>
+            <tr>
+              <th scope="col">序号</th>
+              <th scope="col">姓名</th>
+              <th scope="col">年龄</th>
+              <th scope="col">操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(item, index) in items">
+              <th scope="row">{{index>8?index+1:"0"+(index+1)}}</th>
+              <td>{{item.name}}</td>
+              <td>{{item.age}}</td>
+              <td>
+                <button @click="del" type="button" class="btn btn-danger">
+                  删除
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <button @click="del_all" type="button" class="btn btn-danger">
+                  全部删除
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./test/node_modules/vue/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          infoForm: {
+            name: "",
+            age: "",
+          },
+          /* 如果本地存储里有就从本地存储里拿，没有则重新从data里拿 */
+          items: localStorage.getItem("dataList")
+            ? JSON.parse(localStorage.getItem("dataList"))
+            : [
+                {
+                  name: "Mark",
+                  age: "18",
+                },
+                {
+                  name: "Alex",
+                  age: "18",
+                },
+              ],
+        },
+        methods: {
+          add() {
+            console.log(this.infoForm);
+            if (this.infoForm.name === "" && this.infoForm.age !== "") {
+              alert("姓名不能为空！");
+            } else if (this.infoForm.age === "" && this.infoForm.name !== "") {
+              alert("年龄不能为空！");
+            } else if (this.infoForm.name === "" && this.infoForm.age === "") {
+              alert("姓名年龄都不能为空！");
+            }
+            /* 添加到数组末尾 */
+            this.items.push(this.infoForm);
+            /* 添加缓存
+             * 必须转为字符串形式 */
+            localStorage.setItem("dataList", JSON.stringify(this.items));
+            this.reset();
+          },
+          reset() {
+            this.infoForm = {
+              name: "",
+              age: "",
+            };
+          },
+          del(i) {
+            this.items.splice(i, 1);
+            /* 更新本地存储 */
+            localStorage.setItem("dataList", JSON.stringify(this.items));
+          },
+          del_all() {
+            this.items.length = 0;
+            /* 更新本地存储 */
+            localStorage.setItem("dataList", JSON.stringify(this.items));
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

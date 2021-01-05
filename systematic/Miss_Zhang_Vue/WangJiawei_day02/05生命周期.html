@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>生命周期</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">aag
+      <input type="text" v-model="d">
+      {{d}}
+    </div>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          d:'',
+        },
+        beforeCreate() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          
+          console.log("beforeCreate");
+        },
+        created() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("Created");
+        },
+        beforeMount() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("beforeMount");
+        },
+        mounted() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("Mounted");
+        },
+        beforeUpdate() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("beforeUpdate");
+        },
+        updated() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("updated");
+        },
+        beforeDestroy() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("beforeDestroy");
+        },
+        destroyed() {
+          console.log('el元素',this.$el);
+          console.log('数据对象',this.$data);
+          console.log("destroyed");
+        },
+      });
+    </script>
+  </body>
+</html>

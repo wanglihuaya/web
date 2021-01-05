@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>day02_1</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <form action="" method="get">
+        <div>Name: <input type="text" v-model="regList.name" /></div>
+        <div>
+          Password: <input type="password" v-model="regList.password" />
+        </div>
+        <div>
+          Sex:
+          <input type="radio" name="sex" value="0" v-model="regList.sex" />male
+          <input
+            type="radio"
+            name="sex"
+            value="1"
+            v-model="regList.sex"
+          />female
+        </div>
+        <div>
+          Hobby:
+          <input type="checkbox" value="Study" v-model="regList.hobby" />Study
+          <input type="checkbox" value="Sleep" v-model="regList.hobby" />Sleep
+        </div>
+        <div>
+          Job Categories:
+          <select v-model="regList.job">
+            <option value="请选择" disabled>Please select</option>
+            <option value="web">Web</option>
+            <option value="java">Java</option>
+          </select>
+        </div>
+        <div>
+          Do you agree to this agreement？
+          <input
+            type="checkbox"
+            value="false"
+            v-model="checkbox"
+          />{{regList.isGreen}}
+        </div>
+      </form>
+      <button @click="register">Register</button>
+    </div>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          regList: {
+            name: "",
+            password: "",
+            sex: 0,
+            hobby: [],
+            job: "",
+            isGreen: false,
+          },
+        },
+        methods: {
+          register() {
+            console.log(this.regList);
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

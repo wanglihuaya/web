@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>demo1</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+      #app {
+        text-align: center;
+        margin: 100px 0;
+      }
+      .content {
+        margin: 30px 0;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+      }
+      ul {
+        color: #fff;
+        width: 190px;
+        padding: 40px 40px 150px 40px;
+        position: relative;
+        margin: 0 10px;
+        white-space: nowrap; /* 文本不换行 */
+        overflow: hidden; /* 盒子内容溢出隐藏 */
+        text-overflow: ellipsis; /* 文本溢出显示省略号 */
+      }
+      ul p {
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .singsKind {
+        font-size: 26px;
+        margin-bottom: 100px;
+        font-weight: bold;
+      }
+      ul::after {
+        content: "";
+        width: 36px;
+        height: 2px;
+        background-color: white;
+        left: 120px;
+        top: 140px;
+        position: absolute;
+      }
+      .list {
+        text-align: left;
+      }
+      .singer {
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1 class="title">{{title}}</h1>
+      <div class="content">
+        <ul
+          class="subtitle"
+          v-for="item in content"
+          :style="{backgroundColor:item.bgColor}"
+        >
+          <p>{{item.contentTit}}</p>
+          <li class="singsKind">{{item.singsKind}}</li>
+          <div class="list" v-for="(val,index) in item.sings">
+            <li class="sing" v-for="(singer,sing) in val">
+              <span>{{index+1}}&nbsp;&nbsp;</span>{{sing}}
+            </li>
+            <li class="singer" v-for="(singer,sing) in val">
+              <span> &nbsp; &nbsp;&nbsp;</span>{{singer}}
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <script src="./test/node_modules/vue/dist/vue.js"></script>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          title: "排 行 榜",
+          content: [
+            {
+              contentTit: "巅峰榜",
+              singsKind: "热歌",
+              sings: [
+                { 世界那么大还是遇见你: "程响" },
+                { 麻雀: "李荣浩" },
+                { 处处吻: "杨千嬅" },
+              ],
+              bgColor: "#DB7C93",
+            },
+            {
+              contentTit: "巅峰榜",
+              singsKind: "新歌",
+              sings: [
+                { 会好的: "张艺兴" },
+                { "Amazing（迷人的你）": "林世民" },
+                { "Only The Young(Fe...)": "Taylor Swift" },
+              ],
+              bgColor: "#699AB0",
+            },
+            {
+              contentTit: "巅峰榜",
+              singsKind: "流行指数",
+              sings: [
+                { "黎明前的黑暗（Live）": "张韵涵/王晰" },
+                { 想见你想见你想见你: "八三天乐团" },
+                { "我爱你（Cover卢广仲）": "程jiajia" },
+              ],
+              bgColor: "#68BCB4",
+            },
+            {
+              contentTit: "巅峰榜",
+              singsKind: "欧美",
+              sings: [
+                { "The Man(Live From...": "Taylor Swift" },
+                { "Only The Young(Fe...": "Taylor Swift" },
+                { "No Time To Die": "Billie Eilish" },
+              ],
+              bgColor: "#4E8D91",
+            },
+            {
+              contentTit: "巅峰榜",
+              singsKind: "韩国",
+              sings: [
+                { FIESTA: "IZ*ONE (아이즈원)" },
+                { EYES: "IZ*ONE (아이즈원)" },
+                { "달이태양을가릴때(...": "玟星(문별)" },
+              ],
+              bgColor: "#EF9E77",
+            },
+          ],
+        },
+      });
+    </script>
+  </body>
+</html>
