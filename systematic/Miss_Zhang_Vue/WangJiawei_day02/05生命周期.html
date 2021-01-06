@@ -10,59 +10,68 @@
   </head>
 
   <body>
-    <div id="app">aag
-      <input type="text" v-model="d">
+    <div id="app">
+      aag
+      <input type="text" v-model="d" />
       {{d}}
     </div>
+    <button>点击我销毁</button>
     <script src="./node_modules/vue/dist/vue.js"></script>
     <script>
-      new Vue({
+      let vm = new Vue({
         el: "#app",
         data: {
-          d:'',
+          d: "",
         },
         beforeCreate() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
-          
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
+
           console.log("beforeCreate");
         },
         created() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("Created");
         },
         beforeMount() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("beforeMount");
         },
         mounted() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("Mounted");
         },
         beforeUpdate() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("beforeUpdate");
         },
         updated() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("updated");
         },
         beforeDestroy() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("beforeDestroy");
         },
         destroyed() {
-          console.log('el元素',this.$el);
-          console.log('数据对象',this.$data);
+          console.log("el元素", this.$el);
+          console.log("数据对象", this.$data);
           console.log("destroyed");
         },
       });
+
+      let btn = document.querySelector("button");
+      btn.onclick = function () {
+        console.log("准备销毁");
+        /* 执行销毁 */
+        vm.$destroy();
+      };
     </script>
   </body>
 </html>

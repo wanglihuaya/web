@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>login</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="./js/remScale.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #ff9733;
+        color: #fff;
+        height: 1.4rem;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-self: start;
+        font-size: 0.4rem;
+        list-style: none;
+        padding: 0.7rem 0.3rem 0 0.3rem;
+      }
+      .arrow {
+        display: inline;
+        vertical-align: -10px;
+        position: relative;
+        height: 0;
+        border: 0.2rem solid transparent;
+        border-right-color: #fff;
+        left: -0.2rem;
+        top: 0.05rem;
+      }
+
+      .arrow::after {
+        content: "";
+        position: absolute;
+        left: -0.13rem;
+        top: -0.195rem;
+        width: 0px;
+        height: 0px;
+        border: 0.2rem solid transparent;
+        border-right-color: #ff9733;
+      }
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+      #app {
+        font-size: 0.35rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0.6rem 0 1rem;
+      }
+      #app label {
+        color: #555;
+      }
+      #app div {
+        border-bottom: 1px solid #999;
+        padding: 0.35rem 0;
+      }
+      #app input {
+        outline: none;
+        border: none;
+        font-size: 0.35rem;
+        color: #555;
+      }
+      #app p {
+        text-align: right;
+        font-size: 0.2rem;
+        color: #999;
+        padding: 0.35rem;
+      }
+      #app button {
+        outline: none;
+        border: none;
+        background-color: #ff9733;
+        color: #ffffff;
+        height: 1rem;
+        font-size: 0.42rem;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li class="arrow"></li>
+        <li>登录</li>
+        <li><a href="./day02_sign_up.html">注册</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <div action="" method="get" id="app">
+        <div class="phoneNum">
+          <label for="phoneNum">📱&nbsp手机号:</label>
+          <input
+            type="number"
+            id="phoneNum"
+            v-model="infoForm.phoneNum"
+            autocomplete="new-password"
+          />
+        </div>
+        <div class="password">
+          <label for="password" @click="">🔑&nbsp密&nbsp&nbsp 码:</label>
+          <input type="password" id="password" v-model="infoForm.password" />
+        </div>
+        <p @click="forget">忘记密码</p>
+        <button @click="login">登录</button>
+      </div>
+    </div>
+
+    <!-- ********************************************************* -->
+
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          infoForm: {
+            phoneNum: "",
+            password: "",
+          },
+        },
+        methods: {
+          login() {
+            if (
+              this.infoForm.phoneNum === "" ||
+              this.infoForm.password === ""
+            ) {
+              alert("手机号密码都不能为空！");
+              this.infoForm = {
+                phoneNum: "",
+                password: "",
+              };
+              return;
+            }
+            signUpData = JSON.parse(localStorage.getItem("dataList"));
+
+            for (const item of signUpData) {
+              if (
+                item.phoneNum !== this.infoForm.phoneNum &&
+                item.password !== this.infoForm.password
+              ) {
+                alert("淦，你不会忘记密码了吧,不会吧不会吧不会吧🤷🏻‍♂️");
+                return;
+              }
+              alert("恭喜你，开启了进入新世界的大门🙋🏻‍♂️");
+              this.infoForm = {
+                phoneNum: "",
+                password: "",
+              };
+              window.location.href = "https://cn.vuejs.org/";
+              return;
+            }
+          },
+          forget() {
+            confirm("活该🤣");
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>sign_up</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="./js/remScale.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #ff9733;
+        color: #fff;
+        height: 1.4rem;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-self: start;
+        font-size: 0.4rem;
+        list-style: none;
+        padding: 0.7rem 0.3rem 0 0.3rem;
+      }
+      .arrow {
+        display: inline;
+        vertical-align: -10px;
+        position: relative;
+        height: 0;
+        border: 0.2rem solid transparent;
+        border-right-color: #fff;
+        left: -0.2rem;
+        top: 0.05rem;
+      }
+
+      .arrow::after {
+        content: "";
+        position: absolute;
+        left: -0.13rem;
+        top: -0.195rem;
+        width: 0px;
+        height: 0px;
+        border: 0.2rem solid transparent;
+        border-right-color: #ff9733;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+      form {
+        font-size: 0.35rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem 0.6rem 0 1rem;
+      }
+      form label {
+        color: #555;
+      }
+      form div {
+        border-bottom: 1px solid #999;
+        padding: 0.35rem 0;
+      }
+      form input {
+        outline: none;
+        border: none;
+        font-size: 0.35rem;
+        color: #555;
+      }
+      form button {
+        outline: none;
+        border: none;
+        background-color: #ff9733;
+        color: #ffffff;
+        height: 1rem;
+        font-size: 0.42rem;
+        border-radius: 6px;
+        margin: 0.5rem 0 0 0;
+      }
+      p {
+        font-size: 0.2rem;
+        margin-top: 0.3rem;
+      }
+      #treaty {
+        vertical-align: -2px;
+      }
+      label a {
+        text-decoration: none;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li class="arrow"></li>
+        <li>注册</li>
+        <li><a href="./day02_log_in.html">登录</a></li>
+      </ul>
+    </header>
+    <div class="container">
+      <form action="" method="get" id="app">
+        <div class="name">
+          <label for="name">🤡&nbsp昵 &nbsp&nbsp称:</label>
+          <input type="name" id="name" v-model="infoForm.name" />
+        </div>
+        <div class="phoneNum">
+          <label for="phoneNum">📱&nbsp手机号:</label>
+          <input
+            type="number"
+            id="phoneNum"
+            v-model="infoForm.phoneNum"
+            autocomplete="new-password"
+          />
+        </div>
+        <div class="password">
+          <label for="password">🔑&nbsp密&nbsp&nbsp 码:</label>
+          <input type="password" id="password" v-model="infoForm.password" />
+        </div>
+        <div class="word">
+          <label for="word">🌚&nbsp验证码:</label>
+          <input type="word" id="word" v-model="infoForm.word" />
+        </div>
+        <button @click.prevent="login">下一步</button>
+        <p>
+          <input type="checkbox" id="treaty" v-model="infoForm.treaty" />
+          <label for="treaty"
+            >我已阅读并同意使用<strong
+              ><a href="https://www.baidu.com">条款与隐私政策</a></strong
+            ></label
+          >
+        </p>
+      </form>
+    </div>
+
+    <!-- ********************************************************* -->
+
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          infoForm: {
+            name: "",
+            phoneNum: "",
+            password: "",
+            word: "",
+            treaty: false,
+          },
+          items: localStorage.getItem("dataList")
+            ? JSON.parse(localStorage.getItem("dataList"))
+            : [],
+        },
+        methods: {
+          login() {
+            if (
+              this.infoForm.phoneNum === "" ||
+              this.infoForm.password === "" ||
+              this.infoForm.name === "" ||
+              this.infoForm.word === ""
+            ) {
+              alert("昵称、手机号、密码、验证码都不能为空！");
+              return;
+            } else if (this.infoForm.treaty === false) {
+              alert("很抱歉，没有阅读并且同意使用条款与隐私政策不能注册");
+              this.infoForm = {
+                name: "",
+                phoneNum: "",
+                password: "",
+                word: "",
+                treaty: false,
+              };
+              return;
+            }
+            signUpData = JSON.parse(localStorage.getItem("dataList"));
+            for (const item of signUpData) {
+              console.log(item.phoneNum);
+              console.log(this.infoForm.phoneNum);
+
+              if (item.phoneNum === this.infoForm.phoneNum) {
+                alert("你来迟啦，换个昵称吧🤡");
+                return;
+              }
+            }
+            this.items.push(this.infoForm);
+            localStorage.setItem("dataList", JSON.stringify(this.items));
+
+            alert("恭喜🎉，注册成功");
+            window.location.href = "./day02_log_in.html";
+            return;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
