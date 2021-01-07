@@ -23,8 +23,7 @@
       </ul>
     </div>
     <script>
-      Vue.filter("toTime", (timer,type) => {
-
+      Vue.filter("toTime", (timer, type) => {
         /* 实例化时间函数 */
         let date = new Date(timer);
 
@@ -61,7 +60,7 @@
             {
               id: 1,
               title: "孔文派，孔由场，向。",
-              pTime: dayjs().locale('es').format(),
+              pTime: dayjs().locale("es").format(),
             },
             {
               id: 2,
