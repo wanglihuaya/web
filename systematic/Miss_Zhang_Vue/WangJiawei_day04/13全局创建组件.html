@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>分离template属性</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <g-com></g-com>
+    </div>
+    <div id="box">
+      <g-com></g-com>
+    </div>
+
+    <template id="gCom">
+      <div>
+        <h1>且和量老保导都见，为。</h1>
+      </div>
+    </template>
+    <script>
+      Vue.component("gCom", {
+        template: "#gCom",
+      });
+
+      new Vue({
+        el: "#app",
+      });
+
+      new Vue({
+        el: "#box",
+      })
+    </script>
+  </body>
+</html>

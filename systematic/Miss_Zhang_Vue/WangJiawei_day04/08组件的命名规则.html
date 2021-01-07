@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>组件的命名规则</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <my-Header></my-Header>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        data: {},
+        components: {
+          myHeader: {
+            template:
+              "<h1>韦尘越了非，太时弟害吞系同，憾仍李对得友彷，会牙韦，里磊。</h1>",
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

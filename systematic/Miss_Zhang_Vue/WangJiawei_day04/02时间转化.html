@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>时间转化</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script src="./node_modules/dayjs/dayjs.min.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <ul>
+        <li v-for="item in newsList">
+          <p>新闻标题：{{item.title}}</p>
+          <p>发表时间：{{item.pTime | toTime("yyyy-MM-dd HH:mm:ss")}}</p>
+          <p>发表时间：{{item.pTime | toTime("yyyy/MM/dd HH:mm:ss")}}</p>
+          <p>发表时间：{{item.pTime | toTime("yyyy.MM.dd HH:mm:ss")}}</p>
+        </li>
+      </ul>
+    </div>
+    <script>
+      Vue.filter("toTime", (timer,type) => {
+
+        /* 实例化时间函数 */
+        let date = new Date(timer);
+
+        /* 年 */
+        let year = date.getFullYear();
+        /* 月 */
+
+        /* 字符串补位的方法， */
+        let month = (date.getMonth() + 1 + "").padStart(2, "0");
+
+        /* 日 */
+        let day = (date.getDate() + "").padStart(2, "0");
+
+        /* 时 */
+        let hours = (date.getHours() + "").padStart(2, "0");
+
+        /* 分 */
+        let minutes = (date.getMinutes() + "").padStart(2, "0");
+
+        /* 秒 */
+        let seconds = (date.getSeconds() + "").padStart(2, "0");
+        if (type == "yyyy-MM-dd HH:mm:ss") {
+          return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+        } else if (type == "yyyy/MM/dd HH:mm:ss") {
+          return `${year}/${month}/${day} ${hours}:${minutes}:${seconds}`;
+        } else if (type == "yyyy.MM.dd HH:mm:ss") {
+          return `${year}.${month}.${day} ${hours}:${minutes}:${seconds}`;
+        }
+      });
+      new Vue({
+        el: "#app",
+        data: {
+          newsList: [
+            {
+              id: 1,
+              title: "孔文派，孔由场，向。",
+              pTime: dayjs().locale('es').format(),
+            },
+            {
+              id: 2,
+              title: "烦责亡井许新夹变，上无。",
+              pTime: Date(),
+            },
+            {
+              id: 3,
+              title: "是竟无被，有为便娘，降倒病。",
+              pTime: Date(),
+            },
+            {
+              id: 4,
+              title: "非重平憾密资己区我韩，谓韩娟流。",
+              pTime: Date(),
+            },
+            {
+              id: 5,
+              title: "生助一应千量争联明远游绝举若，、贤。",
+              pTime: Date(),
+            },
+          ],
+        },
+      });
+    </script>
+  </body>
+</html>

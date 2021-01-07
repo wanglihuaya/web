@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>过渡动画</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style>
+      p {
+        width: 100px;
+        height: 100px;
+        /* background-color: tomato; */
+      }
+      .fade-enter-active,
+      .fade-leave-active {
+        transition:  background-color 0.5s;
+      }
+      .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+        /* color: tomato; */
+        background-color: teal;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="demo">
+      <button v-on:click="show = !show">Toggle</button>
+      <transition name="fade">
+        <p v-if="show">hello</p>
+      </transition>
+    </div>
+    <script>
+      new Vue({
+        el: "#demo",
+        data: {
+          show: true,
+        },
+      });
+    </script>
+  </body>
+</html>

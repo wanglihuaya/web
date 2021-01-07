@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>template属性</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <my-Header></my-Header>
+      <my-Header></my-Header>
+      <my-Header></my-Header>
+    </div>
+    <script>
+      new Vue({
+        el: "#app",
+        components: {
+          myHeader: {
+            template:
+              '<div><h1 @click = "getInfo">竟当学的井氏自狂道入司，皇才攻光疾师这不挟全开承人不，弟那。</h1><h1>竟当学的井氏自狂道入司，皇才攻光疾师这不挟全开承人不，弟那。</h1></div>',
+            methods: {
+              getInfo() {
+                alert("关洪受之畴其，定承何畴不，洪太面的，亓磊艳嗣。");
+              },
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

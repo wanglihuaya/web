@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>百度搜索</title>
+    <style>
+      .active {
+        color: tomato;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">
+      <div>
+        <input
+          type="text"
+          v-model="val"
+          @keyDown.down="down"
+          @keyDown.up="up"
+          @keyDown.enter="enter"
+        />
+        <button>百度一下</button>
+      </div>
+      <ul>
+        <li :class="[index==num?'active':'']" v-for="(item, index) in items">
+          {{item}}
+        </li>
+      </ul>
+    </div>
+
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <script>
+      let vm = new Vue({
+        el: "#app",
+        data: {
+          val: "",
+          items: [],
+          num: -1,
+        },
+        watch: {
+          val(newValue, oldValue) {
+            /* 空判断 */
+            if (newValue == "") {
+              this.items = [];
+              return;
+            }
+            /* 添加接口 */
+            let script = document.createElement("script");
+            script.src = "https://suggestion.baidu.com/su?cb=aa&wd=" + newValue;
+            document.body.appendChild(script);
+          },
+        },
+        methods: {
+          down() {
+            console.log("down_down_down_down_down_down");
+
+            if (this.num > 3) {
+              this.num = 0;
+              return;
+            }
+            this.num++;
+          },
+          up() {
+            if (this.num < 0) {
+              this.num = 3;
+              return;
+            }
+            this.num--;
+          },
+          enter() {
+            window.location.href =
+              "http://www.baidu.com/s?wd=" + this.items[this.num];
+          },
+        },
+      });
+
+      function aa(res) {
+        vm.items = res.s.filter((item, i) => i < 4);
+      }
+    </script>
+  </body>
+</html>

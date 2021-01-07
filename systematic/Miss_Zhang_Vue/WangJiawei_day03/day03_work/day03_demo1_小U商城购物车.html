@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>login</title>
+    <script src="../node_modules/vue/dist/vue.js"></script>
+    <script src="./js/remScale.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li class="arrow"></li>
+        <li>购物车</li>
+        <li>
+          <span class="dots"></span>
+          <span class="dots"></span>
+          <span class="dots"></span>
+        </li>
+      </ul>
+    </header>
+    <div class="container">
+      <div id="app">
+        <ul>
+          <li v-for="(item,index) in items">
+            <img src="" alt="" />
+            <img
+              class="radio"
+              :src="[item.checked?'./img/true.jpg':'./img/false.jpg']"
+              @click="item.checked=!item.checked"
+            />
+            <img class="shopImg" :src="item.shopImg" />
+            <div class="shopDet">
+              <p>{{item.shopDet.shopName}}</p>
+              <p>规格：{{item.shopDet.shopSize}}</p>
+              <p>￥{{item.shopDet.shopPrice.toFixed(2)}}</p>
+            </div>
+            <div class="shopNum">
+              <span @click="sub(index)"> - </span>
+              <span>{{item.shopNum}}</span>
+              <span @click="add(index)"> + </span>
+            </div>
+          </li>
+        </ul>
+        <div class="sum">
+          <span>
+            <img
+              class="radio"
+              :src="[allCheck?'./img/true.jpg':'./img/false.jpg']"
+              @change="checkAll"
+              @click="checkAll1"
+            />
+            全选
+          </span>
+          <div class="priceSum">
+            <p>总计：<span v-if="items.length>0">{{allPrice}}</span></p>
+            <p>不含运费，已优惠￥0.00</p>
+          </div>
+          <div class="goBuy">去结算({{sum}}件)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********************************************************* -->
+
+    <script>
+      new Vue({
+        el: "#app",
+        data: {
+          allCheck: false,
+          checkModel: [],
+          status: ["./img/true.jpg", "./img/false.jpg"],
+          items: [
+            {
+              shopImg: "./img/shop2.jpg",
+              shopDet: {
+                shopName: "欧莱雅面霜",
+                shopSize: "50g",
+                shopPrice: 123,
+              },
+              shopNum: 1,
+              checked: false,
+            },
+            {
+              shopImg: "./img/shop1.jpg",
+              shopDet: {
+                shopName: "雅诗兰黛护手霜",
+                shopSize: "50g",
+                shopPrice: 26,
+              },
+              shopNum: 1,
+              checked: false,
+            },
+            {
+              shopImg: "./img/shop3.jpg",
+              shopDet: {
+                shopName: "雅诗兰黛素颜霜",
+                shopSize: "50g",
+                shopPrice: 226,
+              },
+              shopNum: 1,
+              checked: false,
+            },
+          ],
+        },
+        computed: {
+          allPrice() {
+            let sum = 0;
+            this.items.map((item) => {
+              //选中才累加
+              if (item.checked) {
+                sum += item.shopDet.shopPrice * item.shopNum;
+              }
+            });
+            return sum.toFixed(2);
+          },
+          sum() {
+            let sum = 0;
+            this.items.map((item) => {
+              if (item.checked) {
+                sum += item.shopNum;
+              }
+            });
+            return sum;
+          },
+        },
+        watch: {
+          items: {
+            deep: true,
+            handler() {
+              this.allCheck = this.items.every((item) => item.checked);
+            },
+          },
+        },
+        methods: {
+          checkAll() {
+            this.items.forEach((item) => {
+              item.checked = this.allCheck;
+            });
+          },
+          checkAll1() {
+            this.allCheck = !this.allCheck;
+            if (this.allCheck) {
+              this.items.forEach((item) => {
+                item.checked = true;
+              });
+            } else {
+              this.items.forEach((item) => {
+                item.checked = false;
+              });
+            }
+          },
+          sub(i) {
+            if (this.items[i].shopNum <= 1) {
+              return;
+            }
+            this.items[i].shopNum--;
+          },
+          add(i) {
+            if (this.items[i].shopNum > 9) {
+              return;
+            }
+            this.items[i].shopNum++;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

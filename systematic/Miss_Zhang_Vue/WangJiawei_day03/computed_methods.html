@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>computed_methods</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <button @click="num++">🤡</button>
+      <h2>By methods:****{{allPrice()}}****{{allPrice()}}****{{allPrice()}}</h2>
+      <h2>By computed:****{{allSum}}****{{allSum}}****{{allSum}}</h2>
+    </div>
+
+    <script>
+      let aa = new Vue({
+        el: "#app",
+        data: {
+          num: 1,
+          price: 10,
+        },
+        methods: {
+          allPrice() {
+            console.log("this is methods");
+            return this.num * this.price;
+          },
+        },
+        computed: {
+          allSum() {
+            console.log("this is computed");
+            return this.num * this.price;
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

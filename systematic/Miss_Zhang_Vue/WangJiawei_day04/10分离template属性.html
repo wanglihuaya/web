@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>分离template属性</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <my-Header></my-Header>
+      <one></one>
+      <one></one>
+    </div>
+
+    <template id="content">
+      <div>
+        <h1>胆世光者徒我恶爱重冈韩人，尝为作收，第。</h1>
+        <input type="password" v-model="message" />
+        {{message}}
+        <button @click="hello">下魂皇他，下花竟死。</button>
+      </div>
+    </template>
+    <script>
+      const one = {
+        template: "#content",
+        data() {
+          return {
+            message: "",
+          };
+        },
+        methods: {
+          hello() {
+            console.log("hello world!");
+          },
+        },
+      };
+      new Vue({
+        el: "#app",
+        components: {
+          one,
+          myHeader: {
+            template: "#content",
+            data() {
+              return {
+                message: "",
+              };
+            },
+            methods: {
+              hello() {
+                console.log("hello world!");
+              },
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

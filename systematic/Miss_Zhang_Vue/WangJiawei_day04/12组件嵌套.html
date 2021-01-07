@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>组件嵌套</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <super_header></super_header>
+      <container></container>
+      <super_footer></super_footer>
+    </div>
+    <template id="super_header">
+      <div>
+        <h1>{{message}}</h1>
+        <input type="text" v-model="msg" />
+        {{msg}}
+      </div>
+    </template>
+    <template id="container">
+      <div>
+        <h1>{{message}}</h1>
+        <con_left></con_left>
+        <con_right></con_right>
+      </div>
+    </template>
+    <template id="con_left">
+      <div>
+        <h2>{{message}}</h2>
+      </div>
+    </template>
+    <template id="con_right">
+      <div>
+        <h2>{{message}}</h2>
+      </div>
+    </template>
+    <template id="super_footer">
+      <div>
+        <h1>{{message}}</h1>
+      </div>
+    </template>
+
+    <script>
+      const con_left = {
+        template: "#con_left",
+        data() {
+          return {
+            message: "我来组成身体左！",
+          };
+        },
+      };
+      const con_right = {
+        template: "#con_right",
+        data() {
+          return {
+            message: "我来组成身体右！",
+          };
+        },
+      };
+      const super_header = {
+        template: "#super_header",
+        data() {
+          return {
+            message: "我来组成头部！",
+            msg: "",
+          };
+        },
+      };
+      const container = {
+        template: "#container",
+        data() {
+          return {
+            message: "我来组成身体！",
+          };
+        },
+        components: {
+          con_left,
+          con_right,
+        },
+      };
+      const super_footer = {
+        template: "#super_footer",
+        data() {
+          return {
+            message: "我来组成脚部！",
+          };
+        },
+      };
+      new Vue({
+        el: "#app",
+        components: {
+          super_header,
+          container,
+          super_footer,
+        },
+      });
+    </script>
+  </body>
+</html>

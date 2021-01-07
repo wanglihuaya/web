@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>Document</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <con></con>
+    </div>
+
+    <template id="con">
+      <div>
+        <input type="text" v-model="msg" />
+        <h1>想总感打十嗣身将降一骂弟量欲国哥愿相，化逃。</h1>
+        {{msg}}
+      </div>
+    </template>
+    <script>
+      Vue.component("con", {
+        template: "#con",
+        data() {
+          return {
+            msg: "",
+          };
+        },
+      });
+
+      new Vue({
+        el: "#app",
+      });
+    </script>
+  </body>
+</html>

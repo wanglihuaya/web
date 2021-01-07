@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ff9733;
+  color: #fff;
+  height: 1.4rem;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+  align-self: start;
+  font-size: 0.4rem;
+  list-style: none;
+  padding: 0.7rem 0 0 0;
+}
+.arrow {
+  display: inline;
+  vertical-align: -10px;
+  position: relative;
+  left: -0.13rem;
+  height: 0;
+  border: 0.2rem solid transparent;
+  border-right-color: #fff;
+  top: 0.05rem;
+}
+
+.arrow::after {
+  width: 0.6rem;
+  content: "";
+  position: absolute;
+  left: -0.15rem;
+  top: -0.2rem;
+  width: 0px;
+  height: 0px;
+  border: 0.2rem solid transparent;
+  border-right-color: #ff9733;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+header li:nth-of-type(2) {
+  padding: 0 2.4rem;
+}
+header li:last-of-type {
+  display: flex;
+  width: 0.6rem;
+  justify-content: space-between;
+  align-self: center;
+}
+.dots {
+  background-color: #fff;
+  width: 0.12rem;
+  height: 0.12rem;
+  border-radius: 50%;
+}
+.container ul {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.3rem;
+}
+.container li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 2rem;
+  margin-bottom: 0.3rem;
+  box-shadow: 0 0 10px #eee;
+  padding: 0 0.25rem 0 0;
+}
+.container .radio {
+  width: 0.34rem;
+  height: 0.34rem;
+  margin: 0 0.2rem;
+}
+.container .shopImg {
+  width: 1.13rem;
+  height: 1.1rem;
+  margin: 0 0.2rem;
+}
+.shopDet {
+  margin: 0 0.2rem;
+  color: #444;
+  width: 2.5rem;
+}
+.shopDet p:first-of-type {
+  font-size: 0.3rem;
+}
+.shopDet p:nth-of-type(2) {
+  font-size: 0.28rem;
+  color: #888;
+  margin: 0.2rem 0;
+}
+.shopDet p:last-of-type {
+  font-size: 0.3rem;
+  color: #b3251d;
+}
+.shopNum {
+  font-size: 0.3rem;
+  border: 1px solid #aaa;
+  height: 0.57rem;
+  line-height: 0.57rem;
+  border-radius: 0.08rem;
+}
+.shopNum span:first-of-type {
+  width: 0.52rem;
+  display: inline-block;
+  text-align: center;
+}
+.shopNum span:nth-of-type(2) {
+  display: inline-block;
+  text-align: center;
+  width: 0.76rem;
+  border-right: 1px solid #aaa;
+  border-left: 1px solid #aaa;
+}
+.shopNum span:last-of-type {
+  display: inline-block;
+  text-align: center;
+  width: 0.52rem;
+}
+
+.sum {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.26rem;
+  height: 1.2rem;
+  border-top: 1px solid #eee;
+}
+
+.sum+span {
+  display:flex;
+  display: inline-block;
+  justify-content:start;
+  align-items: center;
+  width: 1.4rem;
+  color: #777;
+}
+.sum img {
+  margin: 0 0 0 .2rem!important;
+  vertical-align: middle;
+}
+.sum .priceSum {
+  width: 2.6rem;
+  font-size: 0.26rem;
+}
+.sum .priceSum p:first-of-type {
+  font-size: 0.3rem;
+  text-align: right;
+}
+.sum .priceSum p:first-of-type span {
+  color: #b3251d;
+}
+.sum .priceSum p:last-of-type {
+  font-size: 0.2rem;
+  color: #777;
+  text-align: right;
+}
+.sum .goBuy {
+  background-color: #f46929;
+  line-height: 1.2rem;
+  color: #fff;
+  width: 2.4rem;
+  text-align: center;
+}

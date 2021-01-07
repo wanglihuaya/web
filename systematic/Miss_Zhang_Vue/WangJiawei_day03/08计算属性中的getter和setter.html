@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="" />
+    <title>计算属性中的getter和setter</title>
+    <script src="./node_modules/vue/dist/vue.js"></script>
+    <style></style>
+  </head>
+
+  <body>
+    <div id="app">
+      <p>计算结果为:{{allSum}}</p>
+      <h2>get result by 'get':{{allPrice}}</h2>
+    </div>
+    <script>
+      let vm = new Vue({
+        el: "#app",
+        data: {
+          a: 1,
+          b: 2,
+        },
+        methods: {},
+        computed: {
+          allSum() {
+            return this.a * this.b;
+          },
+          allPrice: {
+            get() {
+              return this.a * this.b;
+            },
+            set(index) {
+              console.log(index);
+              this.a = index;
+            },
+          },
+        },
+      });
+      vm.allPrice = 5;
+    </script>
+  </body>
+</html>
