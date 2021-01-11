@@ -1,0 +1,395 @@
+.body {
+  background-color: #eee;
+  overflow: auto;
+  height: calc(100vh - 0.83rem);
+}
+header {
+  height: 0.44rem;
+  line-height: 0.44rem;
+  background: #ff6040;
+  position: relative;
+  .arrow {
+    position: absolute;
+    height: 0rem;
+    border: 0.08rem solid transparent;
+    border-right-color: white;
+    top: 0.14rem;
+    left: 0.1rem;
+  }
+  .arrow::after {
+    content: "";
+    position: absolute;
+    left: -0.04rem;
+    top: -0.065rem;
+    width: 0px;
+    height: 0px;
+    border: 0.06rem solid transparent;
+    border-right-color: #ff6040;
+  }
+  .shRight {
+    width: 0.87rem;
+    height: 0.32rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    right: 0.14rem;
+    top: 0.05rem;
+    border-radius: 0.2rem;
+  }
+  p {
+    text-align: center;
+    color: #fff;
+    font-size: 0.17rem;
+  }
+}
+
+.headerList {
+  display: flex;
+  height: 0.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #ff6040, #ff8a80);
+  .headerListTop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.48rem;
+    .map {
+      width: 0.19rem;
+      height: 0.22rem;
+      background: linear-gradient(
+        45deg,
+        #fb3 25%,
+        #58a 0,
+        #58a 50%,
+        #fb3 0,
+        #fb3 75%,
+        #58a 0
+      );
+      background-size: 0.1rem 0.1rem;
+      border-radius: 3px;
+    }
+    .logo {
+      background: url("../img/pic/logo/white.png");
+      background-size: 0.91rem, 0.24rem;
+      width: 0.91rem;
+      height: 0.24rem;
+    }
+    .search {
+      width: 1.7rem;
+      height: 0.32rem;
+      border-radius: 3px;
+      background-color: #fff;
+      position: relative;
+      span {
+        width: 0.16rem;
+        height: 0.16rem;
+        position: absolute;
+        left: 0.1rem;
+        top: 0.08rem;
+        display: inline-block;
+        background: linear-gradient(
+          45deg,
+          #fb3 25%,
+          #58a 0,
+          #58a 50%,
+          #fb3 0,
+          #fb3 75%,
+          #58a 0
+        );
+        background-size: 0.1rem 0.1rem;
+        border-radius: 3px;
+      }
+      input {
+        height: 0.22rem;
+        line-height: 0.22rem;
+        position: absolute;
+        top: 0.05rem;
+        left: 0.35rem;
+      }
+    }
+    .shopLogo {
+      width: 0.2rem;
+      height: 0.2rem;
+      background: linear-gradient(
+        45deg,
+        #fb3 25%,
+        #58a 0,
+        #58a 50%,
+        #fb3 0,
+        #fb3 75%,
+        #58a 0
+      );
+      background-size: 0.1rem 0.1rem;
+      border-radius: 3px;
+    }
+  }
+  .headerListBottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.14rem;
+    color: #fff;
+  }
+  ul {
+    line-height: 0.32rem;
+    height: 0.32rem;
+    display: flex;
+    justify-content: space-around;
+    width: calc(100% - 0.32rem);
+    li {
+      position: relative;
+      &:hover {
+        &::after {
+          content: " ";
+          position: absolute;
+          width: 0.2rem;
+          height: 0.02rem;
+          background-color: #fff;
+          bottom: 0;
+          left: 0.04rem;
+        }
+      }
+    }
+  }
+  .classify {
+    height: 0.32rem;
+    line-height: 0.32rem;
+    text-align: center;
+    width: 0.65rem;
+    box-shadow: -5px 2px 10px -5px #e63d2e;
+    .hamburg {
+      display: inline-block;
+      width: 0.12rem;
+      height: 0.14rem;
+      background: linear-gradient(#fff 30%, #ff8a80 0);
+      background-size: 100% 0.05rem;
+      vertical-align: middle;
+    }
+  }
+}
+
+.banner {
+  background-color: #fff;
+  width: 100%;
+  height: 3rem;
+  .bannerCon {
+    padding: 0.12rem 0 0.06rem 0;
+    height: 2.15rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    swiper-slide {
+      margin: 0 auto;
+      height: 1.95rem;
+    }
+    .swiper-pagination {
+      position: absolute;
+      bottom: 0.4rem;
+    }
+  }
+  .bannerList {
+    ul {
+      display: flex;
+      justify-content: space-around;
+      height: 0.73rem;
+      li {
+        width: 0.4rem;
+        height: 0.47rem;
+      }
+      img {
+        display: block;
+        width: 0.32rem;
+        height: 0.32rem;
+        margin-left: 0.06rem;
+      }
+      span {
+        color: #666;
+        margin: 0.04rem 0;
+        font-size: 0.12rem;
+        display: block;
+        -webkit-transform: scale(0.84, 0.84);
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+.container {
+  margin: 0.1rem;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fff;
+  .conLeft {
+    background: url("../../assets/img/pic/plate/index/kingkong/big.png");
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 0.05rem;
+    .kill {
+      margin: 0.1rem 0 0 0.1rem;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      .left {
+        font-size: 0.16rem;
+        color: #85a642;
+        margin-right: 0.32rem;
+      }
+      .right {
+        color: #666;
+        font-size: 0.12rem;
+        -webkit-transform: scale(0.84, 0.84);
+      }
+    }
+    .time {
+      position: relative;
+      p {
+        position: absolute;
+        left: -0.1rem;
+        display: inline-block;
+        text-align: left;
+        margin: 0.1rem 0 0 0.1rem;
+        color: #b1cc7a;
+        font-size: 0.12rem;
+        -webkit-transform: scale(0.84, 0.84);
+      }
+      .count {
+        span {
+          display: flex;
+          justify-content: start;
+        }
+
+        i {
+          display: block;
+          text-align: center;
+          font-size: 0.14rem;
+          color: #fff;
+          width: 0.16rem;
+          height: 0.18rem;
+          line-height: 0.18rem;
+          background: linear-gradient(180deg, #85a642 0%, #b1cc7a 100%);
+          &:first-of-type {
+          margin: 0 0 0 0.1rem;
+          }
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .conRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    p {
+      font-size: 0.16rem;
+      margin: 0.1rem 0 0.1rem 0.1rem;
+    }
+    i {
+      display: block;
+      font-style: normal;
+      font-size: 0.12rem;
+      -webkit-transform: scale(0.84, 0.84);
+      margin-left: -0.02rem;
+      margin-bottom: 0.01rem;
+    }
+    span {
+      display: block;
+      color: #fff;
+      width: 0.6rem;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      border-radius: 0.02rem 0.12rem 0.12rem 0.02rem;
+      font-size: 0.12rem;
+      padding: 0.02rem 0.04rem;
+      -webkit-transform: scale(0.84, 0.84);
+      margin-left: 0.07rem;
+      white-space: nowrap;
+    }
+    .conRT {
+      background: url("../../assets/img/pic/plate/index/kingkong/small.png");
+      width: 1.75rem;
+      height: 0.85rem;
+      p {
+        color: #ff6040;
+      }
+      i {
+        color: #ff9580;
+      }
+      span {
+        background: linear-gradient(to bottom, #ff6040, #ff9580);
+      }
+    }
+    .conRB {
+      background: url("../../assets/img/pic/plate/index/kingkong/small/02.png");
+      width: 1.75rem;
+      height: 0.85rem;
+      p {
+        color: #af40ff;
+      }
+      i {
+        color: #ca80ff;
+      }
+      span {
+        background: linear-gradient(to bottom, #af40ff, #f58cff);
+      }
+    }
+  }
+}
+
+.shopList {
+  margin: 0 0.1rem;
+  background-color: #fff;
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .left {
+    font-size: 0.14rem;
+    color: #999999;
+    margin: 0.1rem 0 0.58rem;
+  }
+  .right {
+    font-size: 0.14rem;
+    color: #999999;
+    margin: 0.12rem 0.58rem 0 0;
+  }
+  .active {
+    font-weight: bold;
+    font-size: 0.16rem;
+    color: #ff6040;
+    text-align: center;
+    margin: 0.1rem 0 0.16rem 0.46rem;
+  }
+  .shopImg {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 0.8rem;
+      height: 0.83rem;
+    }
+  }
+}
+
+footer {
+  box-shadow: -1px 0 5px 2px #eee;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 0.83rem;
+  background-color: #fff;
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  img {
+    width: 0.18rem;
+    height: 0.2rem;
+    margin: 0.07rem;
+  }
+  p {
+    text-align: center;
+    color: #666;
+    font-size: 0.12rem;
+    -webkit-transform: scale(0.84, 0.84);
+  }
+}
