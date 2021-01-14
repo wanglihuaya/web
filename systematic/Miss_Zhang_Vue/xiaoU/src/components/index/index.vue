@@ -265,9 +265,7 @@ export default {
           clickable: true
         },
         slidesPerView: 1.05,
-        centeredSlides: true,
-        spaceBetween: '-4%',
-        slidesOffsetBefore: 10
+        centeredSlides: true
       }
     }
   },
