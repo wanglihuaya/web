@@ -84,7 +84,7 @@ export default {
           id
         })
           .then(res => {
-            console.log(res.data);
+            console.log(res);
             if (res.data.code === 200) {
               this.$message.success(res.data.msg)
               /* 删除之后要重新调取列表 */
