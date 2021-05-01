@@ -1,6 +1,11 @@
 import Vue from "vue";
 import Router from "vue-router";
+import Store from "../store";
 
+function hasUrl(url) {
+  return Store.getters.getUserInfo.menus_url.some(item => item == url);
+}
+ Zq
 Vue.use(Router);
 /* 设定二级路由配置项 */
 export const indexRoutes = [
@@ -38,6 +43,21 @@ export const indexRoutes = [
     path: "/specs",
     name: "商品规格",
     component: () => import("@/views/specs/specs")
+  },
+  {
+    path: "/banner",
+    name: "轮播图管理",
+    component: () => import("@/views/banner/banner")
+  },
+  {
+    path: "/seckill",
+    name: "秒杀管理",
+    component: () => import("@/views/seckill/seckill")
+  },
+  {
+    path: "/member",
+    name: "会员管理",
+    component: () => import("@/views/member/member")
   }
 ];
 
@@ -48,8 +68,8 @@ const router = new Router({
       redirect: "/index"
     },
     {
-      path: '/login',
-      component: () => import ('@/pages/login')
+      path: "/login",
+      component: () => import("@/pages/login")
     },
     {
       path: "/index",
@@ -66,15 +86,15 @@ const router = new Router({
 });
 /* 全局登录拦截 */
 router.beforeEach((to, from, next) => {
-  if (to.path === '/login') {
-    next()
-    return
+  if (to.path === "/login") {
+    next();
+    return;
   }
-  if (sessionStorage.getItem('loginInfo')) {
-    next()
-    return
+  if (sessionStorage.getItem("loginInfo")) {
+    next();
+    return;
   }
-  next('/login')
-})
+  next("/login");
+});
 
-export default router
+export default router;

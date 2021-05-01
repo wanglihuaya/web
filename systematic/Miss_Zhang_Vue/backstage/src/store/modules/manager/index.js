@@ -37,11 +37,11 @@ const actions = {
       page: payload.state.page
     }).then(res => {
       if (res.data.code === 200) {
-        let list = res.data.list ? res.data.list:[]
+        let list = res.data.list ? res.data.list : [];
         payload.commit("req_managerList", list);
         if (payload.state.page != 1 && list.length == 0) {
-          payload.dispatch('changePageAction', payload.state.page - 1)
-          return
+          payload.dispatch("changePageAction", payload.state.page - 1);
+          return;
         }
       }
     });

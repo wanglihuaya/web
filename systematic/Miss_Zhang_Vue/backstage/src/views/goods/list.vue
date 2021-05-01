@@ -1,14 +1,42 @@
 <template>
   <div>
-    <el-table :data="getSpecsList" border style="width: 100%">
-      <el-table-column prop="id" label="规格编号" width="180">
+    <el-table :data="getGoodsList" border style="width: 100%">
+      <el-table-column prop="id" label="商品编号" width="180">
       </el-table-column>
-      <el-table-column prop="specsname" label="规格名称" width="180">
+      <el-table-column prop="goodsname" label="商品名称" width="180">
       </el-table-column>
-      <el-table-column label="规格属性" width="180">
+      <el-table-column prop="price" label="商品价格" width="180">
+      </el-table-column>
+      <el-table-column prop="market_price" label="市场价格" width="180">
+      </el-table-column>
+      <el-table-column label="图片">
         <template slot-scope="item">
           <div>
-            <el-tag v-for="attr in item.row.attrs"  type="info" :key='attr'>{{attr}}</el-tag>
+            <img
+              class="img"
+              :src="
+                item.row.img
+                  ? $imgUrl + item.row.img
+                  : 'http://qmczoap40.hb-bkt.clouddn.com/uPic/MsT3r2/2021/01/20/22:30:46'
+              "
+              alt=""
+            />
+          </div>
+        </template>
+      </el-table-column>
+      <el-table-column label="是否新品">
+        <template slot-scope="item">
+          <div>
+            <el-tag v-if="item.row.isnew == 1" type="success">是</el-tag>
+            <el-tag v-else type="danger">否</el-tag>
+          </div>
+        </template>
+      </el-table-column>
+      <el-table-column label="是否热卖">
+        <template slot-scope="item">
+          <div>
+            <el-tag v-if="item.row.ishot == 1" type="success">是</el-tag>
+            <el-tag v-else type="danger">否</el-tag>
           </div>
         </template>
       </el-table-column>
@@ -33,38 +61,44 @@
         </template>
       </el-table-column>
     </el-table>
-    <el-pagination :page-size='getSpecsSize' background layout="prev, pager, next" :total="getCountNum" @current-change='changePage'>
+    <el-pagination
+      :page-size="getGoodsSize"
+      background
+      layout="prev, pager, next"
+      :total="getCountNum"
+      @current-change="changePage"
+    >
     </el-pagination>
   </div>
 </template>
 
 <script>
 import { mapGetters, mapActions } from "vuex";
-import { getSpecsDelete } from "../../tools/axios";
+import { getGoodsDelete } from "../../tools/axios";
 export default {
   data() {
     return {};
   },
   mounted() {
-    this.getSpecsListAction();
-    this.getCountAction()
+    this.getGoodsListAction();
+    this.getCountAction();
   },
   computed: {
     ...mapGetters({
-      getSpecsList: "specs/getSpecsList",
-      getSpecsSize:'specs/getSpecsSize',
-      getCountNum:'specs/getCountNum'
+      getGoodsList: "goods/getGoodsList",
+      getGoodsSize: "goods/getGoodsSize",
+      getCountNum: "goods/getCountNum"
     })
   },
   methods: {
     ...mapActions({
-      getSpecsListAction: "specs/getSpecsListAction",
-      getCountAction:'specs/getCountAction',
-      changePageAction:'specs/changePageAction'
+      getGoodsListAction: "goods/getGoodsListAction",
+      getCountAction: "goods/getCountAction",
+      changePageAction: "goods/changePageAction"
     }),
-    changePage(n){
-      console.log(n,'当前页码数');
-      this.changePageAction(n)
+    changePage(n) {
+      console.log(n, "当前页码数");
+      this.changePageAction(n);
     },
     edit(id) {
       this.$emit("edit", id);
@@ -76,14 +110,13 @@ export default {
         type: "warning"
       })
         .then(() => {
-          //调取删除接口
-          getSpecsDelete({
+          getGoodsDelete({
             id
           }).then(res => {
             if (res.data.code === 200) {
               this.$message.success(res.data.msg);
-              this.getSpecsListAction();
-              this.getCountAction()
+              this.getGoodsListAction();
+              this.getCountAction();
             } else {
               this.$message.error(res.data.msg);
             }
@@ -101,7 +134,8 @@ export default {
 </script>
 
 <style lang="" scoped>
-.el-pagination{
+.el-pagination {
   float: right;
   margin: 20px 35px 0 0;
-}</style>
+}
+</style>

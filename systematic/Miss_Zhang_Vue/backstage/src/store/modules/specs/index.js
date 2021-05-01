@@ -31,7 +31,7 @@ const mutations = {
 };
 
 const actions = {
-  //封装一个获取规格列表的行动
+  //获取规格列表
   getSpecsListAction(payload) {
     getSpecsList({
       size: payload.state.size,

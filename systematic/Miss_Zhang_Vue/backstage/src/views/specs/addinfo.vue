@@ -15,7 +15,6 @@
       :before-close="cancel"
       :title="addInfo.dialogEditVisible ? '添加规格' : '编辑规格'"
       :visible.sync="addInfo.dialogFormVisible"
-      @opened="createEditor"
     >
       <el-form :model="specsForm" :rules="rules" ref="ruleForm">
         <el-form-item
@@ -25,8 +24,23 @@
         >
           <el-input v-model="specsForm.specsname" autocomplete="off"></el-input>
         </el-form-item>
-        <el-form-item label="商品描述" :label-width="formLabelWidth">
-          <div id="editor"></div>
+        <el-form-item
+          v-for="(item, index) in attrArr"
+          :key="index"
+          label="规格属性"
+          :label-width="formLabelWidth"
+        >
+          <el-input
+            class="inpClass"
+            v-model="item.value"
+            autocomplete="off"
+          ></el-input>
+          <el-button v-if="index === 0" @click="addAttr" type="primary"
+            >新增规格属性</el-button
+          >
+          <el-button @click="delAttr(item)" v-else type="danger"
+            >删除</el-button
+          >
         </el-form-item>
         <el-form-item label="状态" :label-width="formLabelWidth">
           <el-switch
@@ -41,7 +55,7 @@
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="cancel">取 消</el-button>
-        <el-button v-if="addInfo.dialogFormVisible" @click="add('ruleForm')" type="primary"
+        <el-button v-if="addInfo.dialogEditVisible" @click="add('ruleForm')" type="primary"
           >确 定</el-button
         >
         <el-button v-else type="primary" @click="update('ruleForm')"
@@ -53,14 +67,12 @@
 </template>
 
 <script>
-import E from "wangeditor";
 import { mapActions } from "vuex";
 import { getSpecsAdd, getSpecsEdit, getSpecsInfo } from "../../tools/axios";
 export default {
-  data () {
+  data() {
     return {
-      editor: null,
-      des: '',//商品描述
+      //动态表单项
       attrArr: [
         {
           value: ""
@@ -81,16 +93,12 @@ export default {
     };
   },
   props: ["addInfo"],
-  mounted () { },
   methods: {
-    createEditor () {
-      console.log(new E("#editor"), "插件的配置项");
-      this.editor = new E("#editor");
-      this.editor.create();
-      this.editor.txt.html(this.des)
-    },
-    addAttr () {
+    //封装一个动态添加表单项
+    addAttr() {
+      //最多只能添加6次
       if (this.attrArr.length <= 6) {
+        //给attrArr 动态添加数据
         this.attrArr.push({
           value: ""
         });
@@ -98,7 +106,8 @@ export default {
         this.$message.warning("最多只能添加6个输入框");
       }
     },
-    delAttr (item) {
+    //删除动态表单项
+    delAttr(item) {
       var index = this.attrArr.indexOf(item);
       if (index !== -1) {
         this.attrArr.splice(index, 1);
@@ -108,19 +117,23 @@ export default {
       getSpecsListAction: "specs/getSpecsListAction",
       getCountAction: "specs/getCountAction"
     }),
-    cancel () {
+    //封装一个取消事件
+    cancel() {
       this.$emit("cancel", {
         dialogFormVisible: false,
-        dialogEditVisible: this.addInfo.isAdd
+        dialogEditVisible: this.addInfo.dialogEditVisible
       });
+      //调用重置事件
       this.reset();
     },
-    reset () {
+    //封装一个重置事件
+    reset() {
       this.specsForm = {
         specsname: "", //规格名称
         attrs: "", //商品规格属性值
         status: 1 //1是正常2禁用
       };
+      //重置规则验证
       this.$refs["ruleForm"].resetFields();
       this.attrArr = [
         {
@@ -128,16 +141,20 @@ export default {
         }
       ];
     },
-    add (formName) {
+    //封装一个添加事件
+    add(formName) {
+      //添加方法执行，触发validate验证器
       this.$refs[formName].validate(valid => {
         if (valid) {
           this.specsForm.attrs = this.attrArr.map(item => item.value).join(",");
-          console.log(this.specsForm, "规则对象");
           getSpecsAdd(this.specsForm).then(res => {
             if (res.data.code == 200) {
               this.$message.success(res.data.msg);
+              //关闭弹框并重置
               this.cancel();
+              //重新获取列表
               this.getSpecsListAction();
+              //重新调取下总数（当你添加成功，分页也要跟着变化，只有总数变化之后，分页才能跟着变化）
               this.getCountAction();
             } else {
               this.$message.error(res.data.msg);
@@ -149,7 +166,9 @@ export default {
         }
       });
     },
-    lookInfo (id) {
+    //封装一个查询一条数据事件
+    lookInfo(id) {
+      //调取查询接口
       getSpecsInfo({ id }).then(res => {
         console.log(res, "查询规格一条数据结果");
         if (res.data.code === 200) {
@@ -157,7 +176,7 @@ export default {
           this.specsForm.id = id;
           this.specsForm.attrs.map((item, index) => {
             if (index == 0) {
-              this.attrArr[0].value = item;
+              this.attrArr[0].value = item
             } else {
               this.attrArr.push({
                 value: item
@@ -169,14 +188,15 @@ export default {
         }
       });
     },
-    update (formName) {
+    //封装一个修改事件
+    update(formName) {
       this.$refs[formName].validate(valid => {
         if (valid) {
-          editManger(this.specsForm).then(res => {
+          getSpecsEdit(this.specsForm).then(res => {
             if (res.data.code == 200) {
               this.$message.success(res.data.msg);
-              this.cancel();
-              this.getManagerListAction();
+              this.cancel();             
+              this.getManagerListAction();             
               this.getCountAction();
             } else {
               this.$message.error(res.data.msg);
@@ -196,6 +216,7 @@ export default {
 .inpClass {
   width: 75%;
 }
+
 .el-button {
   margin: 20px 0;
 }

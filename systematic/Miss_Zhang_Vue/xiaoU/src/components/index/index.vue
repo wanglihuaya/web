@@ -254,18 +254,19 @@ export default {
       // swiper 初始化
       swiperOption: {
         loop: true,
-        // autoplay: {
-        //   delay: 3000,
-        //   stopOnLastSlide: false,
-        //   disableOnInteraction: false
-        // },
+        autoplay: {
+          delay: 3000,
+          stopOnLastSlide: true,
+          disableOnInteraction: true
+        },
         // 显示分页
         pagination: {
           el: '.swiper-pagination',
           clickable: true
         },
         slidesPerView: 1.05,
-        centeredSlides: true
+        centeredSlides: true,
+        spaceBetween: -10
       }
     }
   },

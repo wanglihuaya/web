@@ -19,8 +19,6 @@
               :src="item.row.img ? $imgUrl + item.row.img : 'http://qmczoap40.hb-bkt.clouddn.com/uPic/MsT3r2/2021/01/20/22:30:46'"
               alt=""
             />
-            <el-tag v-if="item.row.status == 1" type="success">启用</el-tag>
-            <el-tag v-else type="danger">禁用</el-tag>
           </div>
         </template>
       </el-table-column>

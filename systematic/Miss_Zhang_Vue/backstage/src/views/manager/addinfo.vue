@@ -46,7 +46,7 @@
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button @click="addInfo.dialogFormVisible = true">取 消</el-button>
+        <el-button @click="cancel">取 消</el-button>
         <el-button
           v-if="addInfo.dialogEditVisible"
           @click="add('ruleForm')"
@@ -61,11 +61,11 @@
   </div>
 </template>
 <script>
-import { addManager, editManager, managerInfo } from '../../tools/axios'
-import { mapActions, mapGetters } from 'vuex'
+import { addManager, editManager, managerInfo } from "../../tools/axios";
+import { mapActions, mapGetters } from "vuex";
 
 export default {
-  data () {
+  data() {
     return {
       manager: {
         roleid: "", //角色编号
@@ -90,9 +90,9 @@ export default {
       getRoleList: "role/getRoleList"
     })
   },
-  mounted () {
+  mounted() {
     //用户列表一触发就调用角色列表
-    this.getRoleListAction()
+    this.getRoleListAction();
   },
   props: ["addInfo"],
   methods: {
@@ -101,25 +101,33 @@ export default {
       getManagerListAction: "manager/getManagerListAction",
       getCountAction: "manager/getCountAction"
     }),
-
-    reset () {
+    cancel() {
+      this.$emit("cancel", {
+        dialogFormVisible: false,
+        dialogEditVisible: this.addInfo.dialogEditVisible
+      });
+      this.addInfo.dialogFormVisible = false
+      //调用重置事件
+      this.reset();
+    },
+    reset() {
       this.manager = {
         roleid: "",
         username: "",
         password: "",
         status: 1
-      }
+      };
+      this.$refs["ruleForm"].resetFields();
     },
     //封装一个添加事件
-    add (formName) {
-      //添加方法执行，触发validate验证器
+    add(formName) {
       this.$refs[formName].validate(valid => {
         if (valid) {
           addManager(this.manager).then(res => {
             if (res.data.code == 200) {
               this.$message.success(res.data.msg);
               this.addInfo.dialogFormVisible = false;
-              this.reset()
+              this.reset();
               this.getManagerListAction();
               this.getCountAction();
             } else {
@@ -132,7 +140,7 @@ export default {
         }
       });
     },
-    lookInfo (id) {
+    lookInfo(id) {
       managerInfo({ uid: id }).then(res => {
         console.log(res, "查询用户一条数据结果");
         if (res.data.code === 200) {
@@ -143,7 +151,7 @@ export default {
         }
       });
     },
-    update (formName) {
+    update(formName) {
       //当前密码如果修改就是重新赋值即可，如果为空就是上一次的密码
       //修改方法执行，触发validate验证器
       this.$refs[formName].validate(valid => {
@@ -152,7 +160,7 @@ export default {
             if (res.data.code == 200) {
               this.$message.success(res.data.msg);
               this.addInfo.dialogFormVisible = false;
-              this.reset()
+              this.reset();
               this.getManagerListAction();
               this.getCountAction();
             } else {

@@ -4,7 +4,6 @@ import router from '../../router'
 let http = axios.create({
   baseURL: '/api'
 })
-/* axios 拦截器 */
 
 /* 请求拦截 */
 http.interceptors.request.use(request => {

@@ -23,7 +23,7 @@
           :label-width="formLabelWidth"
         >
           <el-select v-model="sort.pid" placeholder="请选择">
-            <!-- <el-option label="顶级分类" :value="0"></el-option> -->
+            <el-option label="顶级分类" :value="0"></el-option>
             <el-option
               v-for="item in getSortList"
               :key="item.id"
@@ -191,6 +191,8 @@ export default {
     },
     lookInfo (id) {
       getSortInfo({ id }).then(res => {
+        console.log(res, "查询规格一条数据结果");
+
         if (res.data.code === 200) {
           this.sort = res.data.list;
           this.sort.id = id;
